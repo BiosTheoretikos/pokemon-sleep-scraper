@@ -1,6 +1,6 @@
 import os
 
-file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\DBGroups"
+file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\HomeBuiltin"
 
 
 def main():

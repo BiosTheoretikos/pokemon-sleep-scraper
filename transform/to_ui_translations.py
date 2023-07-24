@@ -1,63 +1,73 @@
 import json
 
+# HomeMenuBuiltin
+# - HomeMenuScene_HomeMenuView_MapButton
+# - HomeMenuScene_HomeMenuView_PokedexButton
+
 DIRECTORIES = {
     "Berry": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Berries",
-    "PokemonType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\PokemonType",
-    "MainSkill": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Skills",
-    "SleepType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepType",
-    "Ingredient": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingFood",
     "Field": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Fields",
+    "Ingredient": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingFood",
+    "MainSkill": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Skills",
+    "PokemonType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\PokemonType",
+    "PokemonName": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Pokemons",
     "RankTitle": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SnorlaxRank",
+    "SleepType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepType",
 }
 
 PREFIXES = {
     "Berry": "md_berries_name_",
-    "PokemonType": "md_pokemon_types_name_",
-    "MainSkill": "md_pokemon_main_skills_name_",
-    "SleepType": "SleepType_",
-    "Ingredient": "md_cooking_foods_name_",
     "Field": "md_fields_name_",
+    "Ingredient": "md_cooking_foods_name_",
+    "MainSkill": "md_pokemon_main_skills_name_",
+    "PokemonType": "md_pokemon_types_name_",
+    "PokemonName": "md_pokemons_name_",
     "RankTitle": "SnorlaxRank_Main_",
+    "SleepType": "SleepType_",
 }
 
 FILE_EN = {
     "Berry": "MD_berries_9.bytes.json",
-    "PokemonType": "MD_pokemon_types_0.bytes.json",
-    "MainSkill": "MD_pokemon_main_skills_2.bytes.json",
-    "SleepType": "SleepType_12.bytes.json",
-    "Ingredient": "MD_cooking_foods_0.bytes.json",
     "Field": "MD_fields_12.bytes.json",
+    "Ingredient": "MD_cooking_foods_0.bytes.json",
+    "MainSkill": "MD_pokemon_main_skills_2.bytes.json",
+    "PokemonType": "MD_pokemon_types_0.bytes.json",
+    "PokemonName": "MD_pokemons_0.bytes.json",
     "RankTitle": "SnorlaxRank_Main_1.bytes.json",
+    "SleepType": "SleepType_12.bytes.json",
 }
 
 FILE_ZH = {
     "Berry": "MD_berries_2.bytes.json",
-    "PokemonType": "MD_pokemon_types_9.bytes.json",
-    "MainSkill": "MD_pokemon_main_skills_3.bytes.json",
-    "SleepType": "SleepType_5.bytes.json",
-    "Ingredient": "MD_cooking_foods_2.bytes.json",
     "Field": "MD_fields_2.bytes.json",
+    "Ingredient": "MD_cooking_foods_2.bytes.json",
+    "MainSkill": "MD_pokemon_main_skills_3.bytes.json",
+    "PokemonType": "MD_pokemon_types_9.bytes.json",
+    "PokemonName": "MD_pokemons_8.bytes.json",
     "RankTitle": "SnorlaxRank_Main_4.bytes.json",
+    "SleepType": "SleepType_5.bytes.json",
 }
 
 FILE_JP = {
     "Berry": "MD_berries_14.bytes.json",
-    "PokemonType": "MD_pokemon_types_17.bytes.json",
-    "MainSkill": "MD_pokemon_main_skills_11.bytes.json",
-    "SleepType": "SleepType_12.bytes.json",
-    "Ingredient": "MD_cooking_foods_4.bytes.json",
     "Field": "MD_fields_5.bytes.json",
+    "Ingredient": "MD_cooking_foods_4.bytes.json",
+    "MainSkill": "MD_pokemon_main_skills_11.bytes.json",
+    "PokemonType": "MD_pokemon_types_17.bytes.json",
+    "PokemonName": "MD_pokemons_11.bytes.json",
     "RankTitle": "SnorlaxRank_Main_8.bytes.json",
+    "SleepType": "SleepType_12.bytes.json",
 }
 
 FILE_KR = {
     "Berry": "MD_berries_6.bytes.json",
-    "PokemonType": "MD_pokemon_types_3.bytes.json",
-    "MainSkill": "MD_pokemon_main_skills_9.bytes.json",
-    "SleepType": "SleepType_2.bytes.json",
-    "Ingredient": "MD_cooking_foods_6.bytes.json",
     "Field": "MD_fields_1.bytes.json",
+    "Ingredient": "MD_cooking_foods_6.bytes.json",
+    "MainSkill": "MD_pokemon_main_skills_9.bytes.json",
+    "PokemonType": "MD_pokemon_types_3.bytes.json",
+    "PokemonName": "MD_pokemons_4.bytes.json",
     "RankTitle": "SnorlaxRank_Main_0.bytes.json",
+    "SleepType": "SleepType_2.bytes.json",
 }
 
 FILE_OF_LOCALE = {
@@ -86,7 +96,7 @@ def main():
             for namespace, file_name in file_path_map.items()
         }
 
-        with open(f"../data/{locale}-game.json", "w+", encoding="utf-8") as f:
+        with open(f"../data/game-{locale}.json", "w+", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
         print(f"Processed {locale}")
