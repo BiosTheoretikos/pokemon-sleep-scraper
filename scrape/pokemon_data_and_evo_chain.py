@@ -1,5 +1,4 @@
 import json
-import os
 from collections import defaultdict
 
 import grequests
@@ -125,14 +124,14 @@ with open("transformed/sleep_strings.json", "r", encoding="utf-8") as f:
         if key == "onSnorlax":
             continue
 
-        pokemon_id, style_type = key.split("-")
-        pokemon_id = int(pokemon_id)
-        style_type = int(style_type)
+        _pokemon_id, _style_type = key.split("-")
+        _pokemon_id = int(_pokemon_id)
+        _style_type = int(_style_type)
 
-        if pokemon_id not in MAP_OF_TO_SLEEP_STYLE_ID:
-            MAP_OF_TO_SLEEP_STYLE_ID[pokemon_id] = {}
+        if _pokemon_id not in MAP_OF_TO_SLEEP_STYLE_ID:
+            MAP_OF_TO_SLEEP_STYLE_ID[_pokemon_id] = {}
 
-        MAP_OF_TO_SLEEP_STYLE_ID[pokemon_id][value] = style_type
+        MAP_OF_TO_SLEEP_STYLE_ID[_pokemon_id][value] = _style_type
 
 
 def get_sleep_style_id(poke, name):
@@ -148,15 +147,9 @@ def send_requests(urls):
     return grequests.map(reqs, size=10)
 
 
-def download_to_images(urls, output_dir):
-    for file_name, response in zip(urls.keys(), send_requests(urls.values())):
-        with open(os.path.join(output_dir, f"{file_name}.png"), "w+") as f:
-            f.write(response.content)
-
-
 def to_json(data, filename):
-    with open(f"data/{filename}.json", "w+") as f:
-        json.dump(data, f, indent=4)
+    with open(f"data/{filename}.json", "w+") as f_json:
+        json.dump(data, f_json, indent=4)
 
 
 def get_main_skill_id(name, desc):
@@ -191,7 +184,7 @@ def transform_stats(stats):
 
 
 def main():
-    pokemon_data = {}
+    pokemon_data = []
     pokemon_evo_chain: defaultdict[int, defaultdict[int, list]] = defaultdict(lambda: defaultdict(list))
 
     req = send_requests([INDEX_URL])[0]
@@ -245,8 +238,9 @@ def main():
             if idx_stats == 0:
                 continue
 
-            value = _stats_row.find("td", class_="fooinfo").text
-            stats[_stats_row.find("td", class_="fooblack").text] = value if ":" in value else int(value)
+            stat_key = _stats_row.find("td", class_="fooblack").text
+            stat_value = _stats_row.find("td", class_="fooinfo").text
+            stats[stat_key] = stat_value if ":" in stat_value else int(stat_value)
         stats = transform_stats(stats)
 
         _rows_of_berry_ingredients = _tabs[6].find_all("tr")
@@ -344,7 +338,7 @@ def main():
                     sleeps.append(_sleep_2)
                     _sleep_2 = {}
 
-        pokemon_data[pokemon_id] = {
+        pokemon_data.append({
             "id": pokemon_id,
             "name": name,
             "type": type_id,
@@ -357,7 +351,7 @@ def main():
             "ingredients": ingredients,
             "skill": main_skill,
             "sleepStyle": sleeps
-        }
+        })
 
     to_json(pokemon_data, "pokemon_data")
     to_json(pokemon_evo_chain, "pokemon_evo_chain")
