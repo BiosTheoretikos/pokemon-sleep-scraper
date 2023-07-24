@@ -31,7 +31,7 @@ MAP_BERRY = {
 }
 
 # Confirmed in text asset
-MAP_TYPE = {
+MAP_POKEMON_TYPE = {
     "Normal": 1,
     "Fire": 2,
     "Water": 3,
@@ -50,13 +50,6 @@ MAP_TYPE = {
     "Dark": 16,
     "Steel": 17,
     "Fairy": 18,
-}
-
-MAP_KEYWORD_TO_SLEEP_TYPE = {
-    "drowse": "drowse",
-    "sleep": "normal",
-    "extra": "unreleased_1",
-    "drowsy": "unreleased_2",
 }
 
 # Confirmed in text asset
@@ -200,7 +193,7 @@ def main():
         _pokemon_link_element = _index_children[1].find("a")
         _pokemon_link = _pokemon_link_element["href"]
         name = _pokemon_link_element.find("u").text
-        type_id = MAP_TYPE[_index_children[2].text]
+        type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
         pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
 
