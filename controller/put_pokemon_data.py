@@ -20,7 +20,7 @@ def main():
     col_info.create_index("id", unique=True)
     col_sleep_style.drop()
     col_sleep_style.create_index(
-        [("pokemonId", pymongo.ASCENDING), ("locationId", pymongo.ASCENDING), ("style", pymongo.ASCENDING)],
+        [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING), ("style", pymongo.ASCENDING)],
         unique=True
     )
 
@@ -35,7 +35,7 @@ def main():
             for sleep_style_location in pokemon_sleep_style["location"]:
                 data_sleep_style.append({
                     "pokemonId": pokemon_id,
-                    "locationId": sleep_style_location["id"],
+                    "mapId": sleep_style_location["id"],
                     "rank": sleep_style_location["rank"],
                     "style": pokemon_sleep_style["style"],
                     "rewards": pokemon_sleep_style["rewards"]
