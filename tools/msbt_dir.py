@@ -1,6 +1,6 @@
 import os
 
-file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\HomeBuiltin"
+file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\HomeMenu"
 
 
 def main():

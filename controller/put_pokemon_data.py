@@ -28,7 +28,7 @@ def main():
     data_sleep_style = []
 
     for pokemon in pokemon_data:
-        data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle"]})
+        data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
 
         pokemon_id = pokemon["id"]
         for pokemon_sleep_style in pokemon["sleepStyle"]:

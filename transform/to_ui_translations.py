@@ -1,13 +1,18 @@
 import json
 
 # HomeMenuBuiltin
-# - HomeMenuScene_HomeMenuView_MapButton
-# - HomeMenuScene_HomeMenuView_PokedexButton
+# - Map: HomeMenuScene_HomeMenuView_MapButton
+# - Pokedex: HomeMenuScene_HomeMenuView_PokedexButton
+# Tutorial
+# - Sleep Type: md_tutorial_stories_message_4_1
+# - Pokemon Type: md_tutorial_stories_message_9_5
+# - Berry: md_tutorial_stories_message_17_2
+# - Skill: PokemonNature_Text_1
 
 DIRECTORIES = {
     "Berry": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Berries",
     "Field": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Fields",
-    "Ingredient": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingFood",
+    "Food": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingFood",
     "MainSkill": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Skills",
     "PokemonType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\PokemonType",
     "PokemonName": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Pokemons",
@@ -18,7 +23,7 @@ DIRECTORIES = {
 PREFIXES = {
     "Berry": "md_berries_name_",
     "Field": "md_fields_name_",
-    "Ingredient": "md_cooking_foods_name_",
+    "Food": "md_cooking_foods_name_",
     "MainSkill": "md_pokemon_main_skills_name_",
     "PokemonType": "md_pokemon_types_name_",
     "PokemonName": "md_pokemons_name_",
@@ -29,7 +34,7 @@ PREFIXES = {
 FILE_EN = {
     "Berry": "MD_berries_9.bytes.json",
     "Field": "MD_fields_12.bytes.json",
-    "Ingredient": "MD_cooking_foods_0.bytes.json",
+    "Food": "MD_cooking_foods_0.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_2.bytes.json",
     "PokemonType": "MD_pokemon_types_0.bytes.json",
     "PokemonName": "MD_pokemons_0.bytes.json",
@@ -40,7 +45,7 @@ FILE_EN = {
 FILE_ZH = {
     "Berry": "MD_berries_2.bytes.json",
     "Field": "MD_fields_2.bytes.json",
-    "Ingredient": "MD_cooking_foods_2.bytes.json",
+    "Food": "MD_cooking_foods_2.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_3.bytes.json",
     "PokemonType": "MD_pokemon_types_9.bytes.json",
     "PokemonName": "MD_pokemons_8.bytes.json",
@@ -51,7 +56,7 @@ FILE_ZH = {
 FILE_JP = {
     "Berry": "MD_berries_14.bytes.json",
     "Field": "MD_fields_5.bytes.json",
-    "Ingredient": "MD_cooking_foods_4.bytes.json",
+    "Food": "MD_cooking_foods_4.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_11.bytes.json",
     "PokemonType": "MD_pokemon_types_17.bytes.json",
     "PokemonName": "MD_pokemons_11.bytes.json",
@@ -62,7 +67,7 @@ FILE_JP = {
 FILE_KR = {
     "Berry": "MD_berries_6.bytes.json",
     "Field": "MD_fields_1.bytes.json",
-    "Ingredient": "MD_cooking_foods_6.bytes.json",
+    "Food": "MD_cooking_foods_6.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_9.bytes.json",
     "PokemonType": "MD_pokemon_types_3.bytes.json",
     "PokemonName": "MD_pokemons_4.bytes.json",
@@ -96,7 +101,7 @@ def main():
             for namespace, file_name in file_path_map.items()
         }
 
-        with open(f"../data/game-{locale}.json", "w+", encoding="utf-8") as f:
+        with open(f"../data/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
         print(f"Processed {locale}")
