@@ -99,6 +99,7 @@ UNICODE_REPLACE = [
     ("\u000e\t\u0000\u0006mmm\u0001", " {?} "),
     ("\u000e\t\f\bmmmm\u0001", " {?} "),
     ("\u000e\t\u0006mmm\u0001", " {?} "),
+    ("\u000e\t \u0006mmm\u0001", " {?} "),
     ("\u000e\u00010\u0014ingredient\u0016", ""),
     # Remove unwanted string
     ("\u000e\u0001\u001c Shard\f", ""),
@@ -115,7 +116,7 @@ UNICODE_REPLACE = [
 
 
 def values_to_string(locale, values):
-    string = "\u0000".join(values).replace("\n", " " if locale == "en" else "")
+    string = "\u0000".join(values).replace("\n", " " if locale in ("en", "kr") else "")
 
     for replace_old, replace_new in UNICODE_REPLACE:
         string = string.replace(replace_old, replace_new)
@@ -123,10 +124,19 @@ def values_to_string(locale, values):
     return string
 
 
-def fix_string_by_key(key, string):
+def fix_string_by_key(locale, key, string):
     if key == "md_pokemon_main_skills_name_1":
         # Charge Strength S (#)
         return f"{string} (#)"
+
+    if locale == "ja" and key == "SleepType_0":
+        return f"ぐっすり"
+
+    if locale == "ja" and key == "SleepType_1":
+        return f"すやすや"
+
+    if locale == "ja" and key == "SleepType_4":
+        return f"うとうと"
 
     if key == "md_pokemon_main_skills_name_5":
         # Charge Strength S (#1 ~ #2)
@@ -152,7 +162,7 @@ def load_string_map_from_data(data, locale, prefix):
         if not key.startswith(prefix):
             continue
 
-        data_ret[key.replace(prefix, "")] = fix_string_by_key(key, values_to_string(locale, values))
+        data_ret[key.replace(prefix, "")] = fix_string_by_key(locale, key, values_to_string(locale, values))
 
     return data_ret
 
