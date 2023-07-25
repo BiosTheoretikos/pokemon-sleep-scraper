@@ -1,25 +1,26 @@
 import os
 
-rename_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\Picked\candy"
+RENAME_DIR = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-ui\public\images\dishes\icons"
+PREFIX = "cooking_food_"
 
 
 def main():
-    for filename in os.listdir(rename_dir):
+    for filename in os.listdir(RENAME_DIR):
         if filename.endswith(".png.png"):
             os.rename(
-                rf"{rename_dir}\{filename}",
-                rf"{rename_dir}\{filename.replace('.png.png', '.png')}"
+                rf"{RENAME_DIR}\{filename}",
+                rf"{RENAME_DIR}\{filename.replace('.png.png', '.png')}"
             )
             continue
 
         if len(filename) < 8:
             continue
 
-        file_2nd_half = filename.split("candy_", 1)[1]
-        pokemon_id = file_2nd_half.split("_", 1)[0].split(".", 1)[0]
+        file_2nd_half = filename.split(PREFIX, 1)[1]
+        item_id = file_2nd_half.split("_", 1)[0].split(".", 1)[0]
         os.rename(
-            rf"{rename_dir}\{filename}",
-            rf"{rename_dir}\{int(pokemon_id)}.png"
+            rf"{RENAME_DIR}\{filename}",
+            rf"{RENAME_DIR}\{int(item_id)}.png"
         )
 
 
