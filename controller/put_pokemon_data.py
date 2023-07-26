@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 import pymongo
 from pymongo import MongoClient
@@ -20,7 +21,7 @@ def main():
     col_info.create_index("id", unique=True)
     col_sleep_style.drop()
     col_sleep_style.create_index(
-        [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING), ("style", pymongo.ASCENDING)],
+        [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING)],
         unique=True
     )
 
@@ -31,15 +32,21 @@ def main():
         data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
 
         pokemon_id = pokemon["id"]
+        pokemon_sleep_style_at_location = defaultdict(list)
         for pokemon_sleep_style in pokemon["sleepStyle"]:
             for sleep_style_location in pokemon_sleep_style["location"]:
-                data_sleep_style.append({
-                    "pokemonId": pokemon_id,
-                    "mapId": sleep_style_location["id"],
-                    "rank": sleep_style_location["rank"],
+                pokemon_sleep_style_at_location[sleep_style_location["id"]].append({
                     "style": pokemon_sleep_style["style"],
+                    "rank": sleep_style_location["rank"],
                     "rewards": pokemon_sleep_style["rewards"]
                 })
+
+        for location_id, sleep_styles in pokemon_sleep_style_at_location.items():
+            data_sleep_style.append({
+                "pokemonId": pokemon_id,
+                "mapId": location_id,
+                "styles": sleep_styles
+            })
 
     col_info.insert_many(data_info)
     col_sleep_style.insert_many(data_sleep_style)

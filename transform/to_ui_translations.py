@@ -174,7 +174,7 @@ def get_value(key, values, namespace, locale):
     if namespace == "SleepFace":
         if "-" not in key:
             # Likely onSnorlax
-            return {"default": value}
+            return {"Default": value}
 
         sleep_face_id = key.split("-")[1]
 
