@@ -17,6 +17,7 @@ DIRECTORIES = {
     "PokemonType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\PokemonType",
     "PokemonName": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Pokemons",
     "RankTitle": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SnorlaxRank",
+    "SleepFace": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepingFaces",
     "SleepType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepType",
 }
 
@@ -31,6 +32,7 @@ PREFIXES = {
     "PokemonType": "md_pokemon_types_name_",
     "PokemonName": "md_pokemons_name_",
     "RankTitle": "SnorlaxRank_Main_",
+    "SleepFace": "md_sleeping_faces_name_",
     "SleepType": "SleepType_",
 }
 
@@ -42,6 +44,7 @@ FILE_EN = {
     "PokemonType": "MD_pokemon_types_0.bytes.json",
     "PokemonName": "MD_pokemons_0.bytes.json",
     "RankTitle": "SnorlaxRank_Main_1.bytes.json",
+    "SleepFace": "MD_sleeping_faces_15.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
 }
 
@@ -53,6 +56,7 @@ FILE_ZH = {
     "PokemonType": "MD_pokemon_types_9.bytes.json",
     "PokemonName": "MD_pokemons_8.bytes.json",
     "RankTitle": "SnorlaxRank_Main_4.bytes.json",
+    "SleepFace": "MD_sleeping_faces_14.bytes.json",
     "SleepType": "SleepType_5.bytes.json",
 }
 
@@ -64,6 +68,7 @@ FILE_JP = {
     "PokemonType": "MD_pokemon_types_17.bytes.json",
     "PokemonName": "MD_pokemons_11.bytes.json",
     "RankTitle": "SnorlaxRank_Main_8.bytes.json",
+    "SleepFace": "MD_sleeping_faces_9.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
 }
 
@@ -75,6 +80,7 @@ FILE_KR = {
     "PokemonType": "MD_pokemon_types_3.bytes.json",
     "PokemonName": "MD_pokemons_4.bytes.json",
     "RankTitle": "SnorlaxRank_Main_0.bytes.json",
+    "SleepFace": "MD_sleeping_faces_10.bytes.json",
     "SleepType": "SleepType_2.bytes.json",
 }
 
@@ -82,7 +88,7 @@ FILE_OF_LOCALE = {
     "en": FILE_EN,
     "zh": FILE_ZH,
     "ja": FILE_JP,
-    "kr": FILE_KR
+    "kr": FILE_KR,
 }
 
 UNICODE_REPLACE = [
@@ -153,32 +159,72 @@ def fix_string_by_key(locale, key, string):
     return string
 
 
-def load_string_map_from_data(data, locale, prefix):
+def fix_key(key, namespace, prefix):
+    key = key.replace(prefix, "")
+
+    if namespace == "SleepFace":
+        key = key.split("-")[0]
+
+    return key
+
+
+def get_value(key, values, namespace, locale):
+    value = values_to_string(locale, values)
+
+    if namespace == "SleepFace":
+        if "-" not in key:
+            # Likely onSnorlax
+            return {"default": value}
+
+        sleep_face_id = key.split("-")[1]
+
+        return {sleep_face_id: value}
+
+    return fix_string_by_key(locale, key, value)
+
+
+def load_string_map_from_data(data, locale, prefix, namespace):
     if isinstance(prefix, dict):
-        return {key: load_string_map_from_data(data, locale, value) for key, value in prefix.items()}
+        return {key: load_string_map_from_data(data, locale, value, namespace) for key, value in prefix.items()}
 
     data_ret = {}
     for key, values in data["strings"].items():
         if not key.startswith(prefix):
             continue
 
-        data_ret[key.replace(prefix, "")] = fix_string_by_key(locale, key, values_to_string(locale, values))
+        # Value goes first because `get_value()` depends on the original key
+        value = get_value(key, values, namespace, locale)
+        key = fix_key(key, namespace, prefix)
+        original_value = data_ret.get(key)
+
+        if isinstance(original_value, dict) and isinstance(value, dict):
+            value |= original_value
+        elif original_value:
+            print(f"Key {key} has value to return ({original_value}), skipped overwriting ({value})")
+            continue
+
+        data_ret[key] = value
 
     return data_ret
 
 
-def load_string_map(file_path, locale, prefix):
+def load_string_map(namespace, file_path, locale, prefix):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    return load_string_map_from_data(data, locale, prefix)
+    return load_string_map_from_data(data, locale, prefix, namespace)
 
 
 def main():
     for locale, file_path_map in FILE_OF_LOCALE.items():
         print(f"Processing {locale}...")
         data = {
-            namespace: load_string_map(rf"{DIRECTORIES[namespace]}\{file_name}", locale, PREFIXES[namespace])
+            namespace: load_string_map(
+                namespace,
+                rf"{DIRECTORIES[namespace]}\{file_name}",
+                locale,
+                PREFIXES[namespace]
+            )
             for namespace, file_name in file_path_map.items()
         }
 
