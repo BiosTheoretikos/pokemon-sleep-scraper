@@ -35,7 +35,7 @@ def main():
 
     _meal_tables = soup.find_all("table", class_="dextable")[1:4]
 
-    for _meal_table in _meal_tables:
+    for _meal_idx, _meal_table in enumerate(_meal_tables, start=1):
         for idx, index_row in enumerate(_meal_table.find_all("tr")):
             if idx == 0:
                 continue
@@ -89,6 +89,7 @@ def main():
 
             meal_data.append({
                 "id": int(dish_id),
+                "type": _meal_idx,
                 "ingredients": ingredients,
                 "levels": levels,
             })
