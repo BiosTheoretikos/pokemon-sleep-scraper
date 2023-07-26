@@ -13,7 +13,7 @@ with open("../data/dish_data.json") as f:
 def main():
     client = MongoClient(CONNECTION_STRING)
     db = client.get_database("food")
-    col_info = db.get_collection("dish")
+    col_info = db.get_collection("meal")
 
     col_info.drop()
     col_info.create_index(
