@@ -1,6 +1,6 @@
 import os
 
-file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Pokemon"
+file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Common"
 
 
 def main():
@@ -10,6 +10,8 @@ def main():
 
         source_path = rf"{file_dir}\{filename}"
         output = rf"{file_dir}\{filename}.json"
+
+        print(f"{source_path} -> {output}")
 
         os.system(f"py msbt.py \"{source_path}\" -x -j \"{output}\"")
 
