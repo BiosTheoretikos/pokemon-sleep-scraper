@@ -1,6 +1,6 @@
 import os
 
-file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Common"
+file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\TextAll"
 
 
 def main():
@@ -16,5 +16,5 @@ def main():
         os.system(f"py msbt.py \"{source_path}\" -x -j \"{output}\"")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

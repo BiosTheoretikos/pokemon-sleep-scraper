@@ -16,6 +16,9 @@ INDEX_URL = "https://www.serebii.net/pokemonsleep/dishes.shtml"
 DISH_URL_PREFIX = "https://www.serebii.net"
 
 
+# _meal_idx confirmed in CookingGenre text asset
+
+
 def send_requests(urls):
     reqs = [grequests.get(url) for url in urls]
 
