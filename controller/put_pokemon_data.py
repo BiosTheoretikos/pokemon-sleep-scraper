@@ -19,6 +19,7 @@ def main():
 
     col_info.drop()
     col_info.create_index("id", unique=True)
+    col_info.create_index("ingredients")
     col_sleep_style.drop()
     col_sleep_style.create_index(
         [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING)],
