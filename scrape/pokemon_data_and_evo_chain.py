@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 INDEX_URL = "https://www.serebii.net/pokemonsleep/pokemon.shtml"
 
-POKEMON_URL_PREFIX = "https://www.serebii.net/pokemonsleep/"
+POKEMON_URL_PREFIX = "https://www.serebii.net/"
 
 # Confirmed in text asset
 MAP_BERRY = {
