@@ -249,6 +249,9 @@ def main():
 
             ingredients.append(MAP_INGREDIENT_TO_ID[_ingredient_name])
 
+            if idx_ingredient >= 1:
+                break
+
         _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
         main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
 
