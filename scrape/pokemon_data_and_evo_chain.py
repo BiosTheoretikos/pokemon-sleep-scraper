@@ -249,7 +249,7 @@ def main():
 
             ingredients.append(MAP_INGREDIENT_TO_ID[_ingredient_name])
 
-            if idx_ingredient >= 1:
+            if idx_ingredient >= 0:
                 break
 
         _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
