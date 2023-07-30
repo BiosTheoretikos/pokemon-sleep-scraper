@@ -19,7 +19,8 @@ def main():
 
     col_info.drop()
     col_info.create_index("id", unique=True)
-    col_info.create_index("ingredients")
+    col_info.create_index("ingredients.fixed")
+    col_info.create_index("ingredients.random")
     col_sleep_style.drop()
     col_sleep_style.create_index("mapId")
     col_sleep_style.create_index(

@@ -242,15 +242,20 @@ def main():
         berry_id = MAP_BERRY[_berry_img["alt"]]
         berry_qty = int(_row_berry[3].text)
 
-        ingredients = []
+        ingredients = {}
         for idx_ingredient, _row_ingredient in enumerate(_rows_of_berry_ingredients[2:]):
             _ingredient_img = _row_ingredient.find_all("td")[1 if idx_ingredient == 0 else 0].find("a").find("img")
             _ingredient_name = _ingredient_img["alt"]
+            _ingredient_id = MAP_INGREDIENT_TO_ID[_ingredient_name]
 
-            ingredients.append(MAP_INGREDIENT_TO_ID[_ingredient_name])
+            if idx_ingredient == 0:
+                ingredients["fixed"] = _ingredient_id
+                continue
 
-            if idx_ingredient >= 0:
-                break
+            if "random" not in ingredients:
+                ingredients["random"] = []
+
+            ingredients["random"].append(_ingredient_id)
 
         _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
         main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
