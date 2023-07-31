@@ -111,6 +111,19 @@ MAP_TITLE_TO_ID = {
 }
 
 
+CUSTOM_FIXED_INGREDIENT = {
+    287: 12  # Discord @bagel_fox
+}
+
+
+CUSTOM_RANDOM_INGREDIENT = {
+    54: [5],  # Discord @bagel_fox
+    155: [10],  # Discord @bagel_fox
+    287: [9],  # Discord @bagel_fox
+    333: [5]  # Discord @bagel_fox
+}
+
+
 with open("transformed/sleep_strings.json", "r", encoding="utf-8") as f:
     MAP_OF_TO_SLEEP_STYLE_ID = {}
     for key, value in json.load(f).items():
@@ -253,7 +266,7 @@ def main():
                 continue
 
             if "random" not in ingredients:
-                ingredients["random"] = []
+                ingredients["random"] = CUSTOM_RANDOM_INGREDIENT.get(pokemon_id, [])
 
             ingredients["random"].append(_ingredient_id)
 
@@ -338,6 +351,12 @@ def main():
                 if _sleep_2:
                     sleeps.append(_sleep_2)
                     _sleep_2 = {}
+
+        if "fixed" not in ingredients and pokemon_id in CUSTOM_FIXED_INGREDIENT:
+            ingredients["fixed"] = CUSTOM_FIXED_INGREDIENT[pokemon_id]
+
+        if "random" not in ingredients and pokemon_id in CUSTOM_RANDOM_INGREDIENT:
+            ingredients["random"] = CUSTOM_RANDOM_INGREDIENT[pokemon_id]
 
         pokemon_data.append({
             "id": pokemon_id,
