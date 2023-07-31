@@ -112,6 +112,14 @@ MAP_TITLE_TO_ID = {
 }
 
 
+MAP_SPECIALTY_TO_NAME = {
+    "Ingredients": "ingredient",
+    "Skills": "skill",
+    "Berries": "berry",
+    "": None,
+}
+
+
 CUSTOM_FIXED_INGREDIENT = {
     287: 12  # Discord @bagel_fox
 }
@@ -121,7 +129,8 @@ CUSTOM_RANDOM_INGREDIENT = {
     54: [5],  # Discord @bagel_fox
     155: [10],  # Discord @bagel_fox
     287: [9],  # Discord @bagel_fox
-    333: [5]  # Discord @bagel_fox
+    333: [5],  # Discord @bagel_fox
+    74: [4],  # https://forum.gamer.com.tw/C.php?bsn=36685&snA=93&tnum=6
 }
 
 
@@ -209,6 +218,7 @@ def main():
         name = _pokemon_link_element.find("u").text
         type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
+        specialty = MAP_SPECIALTY_TO_NAME[_index_children[4].text]
         pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
 
         print(f"Adding pokemon #{pokemon_id} ({name})")
@@ -369,6 +379,7 @@ def main():
             "id": pokemon_id,
             "name": name,
             "type": type_id,
+            "specialty": specialty,
             "sleepType": sleep_type_id,
             "stats": stats,
             "berry": {
