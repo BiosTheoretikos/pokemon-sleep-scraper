@@ -1,4 +1,5 @@
 import json
+import warnings
 from collections import defaultdict
 
 import grequests
@@ -319,6 +320,12 @@ def main():
                                     "number": int(number),
                                 }
                             })
+
+                    if not _locations and idx_sleep < 4:
+                        warnings.warn(
+                            f"Pokemon #{pokemon_id} ({name}) does not have location of sleep style - "
+                            f"possibly available only through incense"
+                        )
 
                     if _idx_location_cell == 0:
                         _sleep_1["location"] = _locations
