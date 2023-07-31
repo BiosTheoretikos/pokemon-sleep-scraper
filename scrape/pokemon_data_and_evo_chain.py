@@ -112,10 +112,11 @@ MAP_TITLE_TO_ID = {
 }
 
 
-MAP_SPECIALTY_TO_NAME = {
-    "Ingredients": "ingredient",
-    "Skills": "skill",
-    "Berries": "berry",
+# Confirm in text asset (Formation tag)
+MAP_SPECIALTY_TO_ID = {
+    "Berries": 1,
+    "Ingredients": 2,
+    "Skills": 3,
     "": None,
 }
 
@@ -218,7 +219,7 @@ def main():
         name = _pokemon_link_element.find("u").text
         type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
-        specialty = MAP_SPECIALTY_TO_NAME[_index_children[4].text]
+        specialty = MAP_SPECIALTY_TO_ID[_index_children[4].text]
         pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
 
         print(f"Adding pokemon #{pokemon_id} ({name})")
