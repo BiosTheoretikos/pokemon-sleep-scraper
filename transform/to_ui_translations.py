@@ -1,26 +1,6 @@
 import json
 
-# HomeMenuBuiltin
-# - Map: HomeMenuScene_HomeMenuView_MapButton
-# - Pokedex: HomeMenuScene_HomeMenuView_PokedexButton
-# Tutorial
-# - Sleep Type: md_tutorial_stories_message_4_1
-# - Pokemon Type: md_tutorial_stories_message_9_5
-# - Berry: md_tutorial_stories_message_17_2
-# - Skill: PokemonNature_Text_1
-
-DIRECTORIES = {
-    "Berry": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Berries",
-    "Field": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Fields",
-    "Food": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingFood",
-    "MainSkill": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Skills",
-    "MealType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\CookingNonMD",
-    "PokemonType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\PokemonType",
-    "PokemonName": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\Pokemons",
-    "RankTitle": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SnorlaxRank",
-    "SleepFace": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepingFaces",
-    "SleepType": r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\Texts\SleepType",
-}
+DIRECTORY = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\TextAll"
 
 PREFIXES = {
     "Berry": "md_berries_name_",
@@ -36,6 +16,7 @@ PREFIXES = {
     "RankTitle": "SnorlaxRank_Main_",
     "SleepFace": "md_sleeping_faces_name_",
     "SleepType": "SleepType_",
+    "Specialty": "FormationTag_",
 }
 
 FILE_EN = {
@@ -49,6 +30,7 @@ FILE_EN = {
     "RankTitle": "SnorlaxRank_Main_1.bytes.json",
     "SleepFace": "MD_sleeping_faces_15.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
+    "Specialty": "FormationTag_6.bytes.json",
 }
 
 FILE_ZH = {
@@ -62,6 +44,7 @@ FILE_ZH = {
     "RankTitle": "SnorlaxRank_Main_4.bytes.json",
     "SleepFace": "MD_sleeping_faces_14.bytes.json",
     "SleepType": "SleepType_5.bytes.json",
+    "Specialty": "FormationTag_13.bytes.json",
 }
 
 FILE_JP = {
@@ -75,6 +58,7 @@ FILE_JP = {
     "RankTitle": "SnorlaxRank_Main_8.bytes.json",
     "SleepFace": "MD_sleeping_faces_9.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
+    "Specialty": "FormationTag_15.bytes.json",
 }
 
 FILE_KR = {
@@ -88,6 +72,7 @@ FILE_KR = {
     "RankTitle": "SnorlaxRank_Main_0.bytes.json",
     "SleepFace": "MD_sleeping_faces_10.bytes.json",
     "SleepType": "SleepType_2.bytes.json",
+    "Specialty": "FormationTag_1.bytes.json",
 }
 
 FILE_OF_LOCALE = {
@@ -227,7 +212,7 @@ def main():
         data = {
             namespace: load_string_map(
                 namespace,
-                rf"{DIRECTORIES[namespace]}\{file_name}",
+                rf"{DIRECTORY}\{file_name}",
                 locale,
                 PREFIXES[namespace]
             )
