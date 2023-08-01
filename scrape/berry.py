@@ -1,7 +1,6 @@
-import json
-
-import grequests
 from bs4 import BeautifulSoup
+
+from _functions import *
 
 with open("../data/game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
@@ -14,17 +13,6 @@ ITEM_TO_ID = {
 INDEX_URL = "https://www.serebii.net/pokemonsleep/ingredients.shtml"
 
 DISH_URL_PREFIX = "https://www.serebii.net"
-
-
-def send_requests(urls):
-    reqs = [grequests.get(url) for url in urls]
-
-    return grequests.map(reqs, size=10)
-
-
-def to_json(data, filename):
-    with open(f"../data/{filename}.json", "w+") as f_json:
-        json.dump(data, f_json, indent=4)
 
 
 def main():
