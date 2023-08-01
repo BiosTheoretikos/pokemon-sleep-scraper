@@ -6,7 +6,7 @@ from pymongo import MongoClient
 CONNECTION_STRING = "mongodb://localhost:23015"
 
 
-with open("../data/berry_data.json") as f:
+with open("berry_data.json") as f:
     data = json.load(f)
 
 

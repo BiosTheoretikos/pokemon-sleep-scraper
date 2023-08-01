@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 from _functions import *
 
-with open("../data/game-en.json", "r", encoding="utf-8") as f:
+with open("game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
 
 FOOD_TO_ID = {

@@ -10,5 +10,5 @@ def send_requests(urls):
 
 
 def to_json(data, filename):
-    with open(f"../data/{filename}.json", "w+") as f_json:
+    with open(f"{filename}.json", "w+") as f_json:
         json.dump(data, f_json, indent=4)
