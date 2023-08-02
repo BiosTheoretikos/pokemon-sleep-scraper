@@ -3,6 +3,14 @@ import json
 import grequests
 
 
+class JsonEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+
+        return json.JSONEncoder.default(self, obj)
+
+
 def send_requests(urls):
     reqs = [grequests.get(url) for url in urls]
 
@@ -11,4 +19,4 @@ def send_requests(urls):
 
 def to_json(data, filename):
     with open(f"{filename}.json", "w+") as f_json:
-        json.dump(data, f_json, indent=4)
+        json.dump(data, f_json, indent=4, cls=JsonEncoder)

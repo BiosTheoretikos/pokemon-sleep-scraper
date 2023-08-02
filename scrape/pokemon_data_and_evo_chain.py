@@ -142,9 +142,9 @@ def main():
                 continue
 
             if "random" not in ingredients:
-                ingredients["random"] = CUSTOM_RANDOM_INGREDIENT.get(pokemon_id, [])
+                ingredients["random"] = CUSTOM_RANDOM_INGREDIENT.get(pokemon_id, set())
 
-            ingredients["random"].append(_ingredient_id)
+            ingredients["random"].add(_ingredient_id)
 
         _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
         main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
