@@ -118,6 +118,6 @@ CUSTOM_FIXED_INGREDIENT = {
 CUSTOM_RANDOM_INGREDIENT = {
     54: {5},  # Discord @bagel_fox
     155: {10},  # Discord @bagel_fox
-    287: {9},  # Discord @bagel_fox
+    287: {9, 5},  # Discord @bagel_fox (9) / @pop1224
     333: {5},  # Discord @bagel_fox
 }
