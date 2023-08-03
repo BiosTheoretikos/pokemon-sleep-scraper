@@ -240,6 +240,12 @@ def main():
         if "random" not in ingredients and pokemon_id in CUSTOM_RANDOM_INGREDIENT:
             ingredients["random"] = CUSTOM_RANDOM_INGREDIENT[pokemon_id]
 
+        if "random" in ingredients:
+            # Random should always contain fixed
+            ingredients["random"].add(ingredients["fixed"])
+        elif "fixed" in ingredients:
+            ingredients["random"] = {ingredients["fixed"]}
+
         pokemon_data.append({
             "id": pokemon_id,
             "name": name,
