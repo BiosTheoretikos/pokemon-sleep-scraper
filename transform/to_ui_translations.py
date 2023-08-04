@@ -6,6 +6,8 @@ PREFIXES = {
     "Berry": "md_berries_name_",
     "Field": "md_fields_name_",
     "Food": "md_cooking_foods_name_",
+    "Nature": "md_pokemon_nature_name_",
+    "NatureEffect": "PokemonNature_Text_",
     "MainSkill": {
         "Name": "md_pokemon_main_skills_name_",
         "Description": "md_pokemon_main_skills_desc_",
@@ -17,6 +19,7 @@ PREFIXES = {
     "SleepFace": "md_sleeping_faces_name_",
     "SleepType": "SleepType_",
     "Specialty": "FormationTag_",
+    "SubSkill": "md_pokemon_rankup_bonus_name_",
 }
 
 FILE_EN = {
@@ -25,12 +28,15 @@ FILE_EN = {
     "Food": "MD_cooking_foods_0.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_2.bytes.json",
     "MealType": "CookingGenre_11.bytes.json",
+    "Nature": "MD_pokemon_nature_15.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP_0.bytes.json",
     "PokemonType": "MD_pokemon_types_0.bytes.json",
     "PokemonName": "MD_pokemons_0.bytes.json",
     "RankTitle": "SnorlaxRank_Main_1.bytes.json",
     "SleepFace": "MD_sleeping_faces_15.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
     "Specialty": "FormationTag_6.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_12.bytes.json",
 }
 
 FILE_ZH = {
@@ -39,12 +45,15 @@ FILE_ZH = {
     "Food": "MD_cooking_foods_2.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_5.bytes.json",
     "MealType": "CookingGenre_12.bytes.json",
+    "Nature": "MD_pokemon_nature_7.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP_15.bytes.json",
     "PokemonType": "MD_pokemon_types_9.bytes.json",
     "PokemonName": "MD_pokemons_8.bytes.json",
     "RankTitle": "SnorlaxRank_Main_4.bytes.json",
     "SleepFace": "MD_sleeping_faces_14.bytes.json",
     "SleepType": "SleepType_5.bytes.json",
     "Specialty": "FormationTag_13.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_5.bytes.json",
 }
 
 FILE_JP = {
@@ -53,12 +62,15 @@ FILE_JP = {
     "Food": "MD_cooking_foods_4.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_11.bytes.json",
     "MealType": "CookingGenre_15.bytes.json",
+    "Nature": "MD_pokemon_nature_1.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP_13.bytes.json",
     "PokemonType": "MD_pokemon_types_17.bytes.json",
     "PokemonName": "MD_pokemons_11.bytes.json",
     "RankTitle": "SnorlaxRank_Main_8.bytes.json",
     "SleepFace": "MD_sleeping_faces_9.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
     "Specialty": "FormationTag_15.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_4.bytes.json",
 }
 
 FILE_KR = {
@@ -67,12 +79,15 @@ FILE_KR = {
     "Food": "MD_cooking_foods_6.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_9.bytes.json",
     "MealType": "CookingGenre_2.bytes.json",
+    "Nature": "MD_pokemon_nature_13.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP_7.bytes.json",
     "PokemonType": "MD_pokemon_types_3.bytes.json",
     "PokemonName": "MD_pokemons_4.bytes.json",
     "RankTitle": "SnorlaxRank_Main_0.bytes.json",
     "SleepFace": "MD_sleeping_faces_10.bytes.json",
     "SleepType": "SleepType_2.bytes.json",
     "Specialty": "FormationTag_1.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_11.bytes.json",
 }
 
 FILE_OF_LOCALE = {
