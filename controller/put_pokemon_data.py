@@ -6,27 +6,31 @@ from pymongo import MongoClient
 
 CONNECTION_STRING = "mongodb://localhost:23015"
 
-
-with open("pokemon_data.json") as f:
+with open("data/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
+client = MongoClient(CONNECTION_STRING)
+db_pokemon = client.get_database("pokemon")
+col_info = db_pokemon.get_collection("info")
+col_sleep_style = db_pokemon.get_collection("sleepStyle")
 
-def main():
-    client = MongoClient(CONNECTION_STRING)
-    db_pokemon = client.get_database("pokemon")
-    col_info = db_pokemon.get_collection("info")
-    col_sleep_style = db_pokemon.get_collection("sleepStyle")
 
-    col_info.drop()
+def index():
     col_info.create_index("id", unique=True)
     col_info.create_index("ingredients.fixed")
     col_info.create_index("ingredients.random")
-    col_sleep_style.drop()
     col_sleep_style.create_index("mapId")
     col_sleep_style.create_index(
         [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING)],
         unique=True
     )
+
+
+def main():
+    index()
+
+    col_info.delete_many({})
+    col_sleep_style.delete_many({})
 
     data_info = []
     data_sleep_style = []

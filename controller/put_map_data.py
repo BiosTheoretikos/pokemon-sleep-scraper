@@ -1,5 +1,3 @@
-import json
-
 import pymongo
 from pymongo import MongoClient
 
@@ -49,18 +47,22 @@ data = [
     }
 ]
 
+client = MongoClient(CONNECTION_STRING)
+db = client.get_database("map")
+col_info = db.get_collection("meta")
 
-def main():
-    client = MongoClient(CONNECTION_STRING)
-    db = client.get_database("map")
-    col_info = db.get_collection("meta")
 
-    col_info.drop()
+def index():
     col_info.create_index(
         [("mapId", pymongo.ASCENDING)],
         unique=True
     )
 
+
+def main():
+    index()
+
+    col_info.delete_many({})
     col_info.insert_many(data)
 
 

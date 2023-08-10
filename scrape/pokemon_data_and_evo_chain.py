@@ -10,7 +10,7 @@ INDEX_URL = "https://www.serebii.net/pokemonsleep/pokemon.shtml"
 
 POKEMON_URL_PREFIX = "https://www.serebii.net/"
 
-with open("../transformed/sleep_strings.json", "r", encoding="utf-8") as f:
+with open("transformed/sleep_strings.json", "r", encoding="utf-8") as f:
     MAP_OF_TO_SLEEP_STYLE_ID = {}
     for key, value in json.load(f).items():
         if key == "onSnorlax":

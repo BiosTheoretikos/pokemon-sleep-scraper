@@ -1,0 +1,889 @@
+{
+    "Berry": {
+        "1": "Persim Berry",
+        "10": "Pamtre Berry",
+        "11": "Mago Berry",
+        "12": "Lum Berry",
+        "13": "Sitrus Berry",
+        "14": "Bluk Berry",
+        "15": "Yache Berry",
+        "16": "Wiki Berry",
+        "17": "Belue Berry",
+        "18": "Pecha Berry",
+        "2": "Leppa Berry",
+        "3": "Oran Berry",
+        "4": "Grepa Berry",
+        "5": "Durin Berry",
+        "6": "Rawst Berry",
+        "7": "Cheri Berry",
+        "8": "Chesto Berry",
+        "9": "Figy Berry"
+    },
+    "Field": {
+        "1": "Greengrass Isle",
+        "2": "Cyan Beach",
+        "3": "Taupe Hollow",
+        "4": "Snowdrop Tundra",
+        "6": "Carmine Volcano",
+        "7": "Lapis Lakeside",
+        "indirect_1": "Greengrass Isle",
+        "indirect_2": "Cyan Beach",
+        "indirect_3": "Taupe Hollow",
+        "indirect_4": "Snowdrop Tundra",
+        "indirect_6": "Carmine Volcano",
+        "indirect_7": "Lapis Lakeside"
+    },
+    "Food": {
+        "1": "Large Leek",
+        "10": "Pure Oil",
+        "1000": "Mixed Curry",
+        "1001": "Fancy Apple Curry",
+        "1002": "Grilled Tail Curry",
+        "1003": "“Solar Power” Tomato Curry",
+        "1004": "“Dream Eater” Butter Curry",
+        "1005": "Spicy Leek Curry",
+        "1006": "“Spore” Mushroom Curry",
+        "1007": "“Egg Bomb” Curry",
+        "1008": "Hearty Cheeseburger Curry",
+        "1009": "Soft Potato Chowder",
+        "1010": "Simple Chowder",
+        "1011": "Beanburger Curry",
+        "1012": "Mild Honey Curry",
+        "1013": "Ninja Curry",
+        "1014": "“Drought” Katsu Curry",
+        "1015": "Melty Omelette Curry",
+        "1016": "“Bulk Up” Bean Curry",
+        "11": "Warming Ginger",
+        "12": "Snoozy Tomato",
+        "13": "Soothing Cacao",
+        "14": "Slowpoke Tail",
+        "15": "Greengrass Soybeans",
+        "2": "Tasty Mushroom",
+        "2000": "Mixed Salad",
+        "2001": "Slowpoke Tail Pepper Salad",
+        "2002": "“Spore” Mushroom Salad",
+        "2003": "“Snow Cloak” Caesar Salad",
+        "2004": "“Gluttony” Potato Salad",
+        "2005": "“Water Veil” Tofu Salad",
+        "2006": "“Superpower” Extreme Salad",
+        "2007": "Bean Ham Salad",
+        "2008": "Snoozy Tomato Salad",
+        "2009": "Moomoo Caprese Salad",
+        "2010": "“Contrary” Chocolate Meat Salad",
+        "2011": "“Overheat” Ginger Salad",
+        "2012": "Fancy Apple Salad",
+        "2013": "“Immunity” Leek Salad",
+        "2014": "“Dazzling” Apple Cheese Salad",
+        "2015": "Ninja Salad",
+        "2016": "“Heat Wave” Tofu Salad",
+        "3": "Fancy Egg",
+        "3000": "Mixed Juice",
+        "3001": "“Fluffy” Sweet Potatoes",
+        "3002": "“Steadfast” Ginger Cookies",
+        "3003": "Fancy Apple Juice",
+        "3004": "Craft Soda Pop",
+        "3005": "“Ember” Ginger Tea",
+        "3006": "Jigglypuff’s Fruity Flan",
+        "3007": "“Lovely Kiss” Smoothie",
+        "3008": "“Lucky Chant” Apple Pie",
+        "3009": "Neroli’s Restorative Tea",
+        "3010": "“Sweet Scent” Chocolate Cake",
+        "3011": "Warm Moomoo Milk",
+        "3012": "“Cloud Nine” Soy Cake",
+        "3013": "“Hustle” Protein Smoothie",
+        "3014": "“Stalwart” Vegetable Juice",
+        "3015": "Big Malasada",
+        "3016": "“Huge Power” Soy Donuts",
+        "4": "Soft Potato",
+        "5": "Fancy Apple",
+        "5_update_test": "とくせんりんごテスト",
+        "6": "Fiery Herb",
+        "7": "Bean Sausage",
+        "8": "Moomoo Milk",
+        "9": "Honey"
+    },
+    "MainSkill": {
+        "Name": {
+            "1": "Charge Strength S (#)",
+            "10": "Ingredient Magnet S",
+            "11": "Cooking Power-Up S",
+            "12": "Type Boost S",
+            "13": "Metronome",
+            "2": "Charge Strength M",
+            "3": "Dream Shard Magnet S (#)",
+            "4": "Energizing Cheer S",
+            "5": "Charge Strength S (#1 ~ #2)",
+            "6": "Dream Shard Magnet S (#1 ~ #2)",
+            "7": "Charge Energy S",
+            "8": "Energy for Everyone S",
+            "9": "Extra Helpful S"
+        },
+        "Description": {
+            "1": "Increases Snorlax’s Strength by '{#1'}",
+            "10": "Gets you '{#1'} ingredients chosen at random.",
+            "11": "Gives your pot room for '{#1'} more ingredients next time you cook.",
+            "12": "Speeds up help from '{Element'} -type helper Pokémon on your team by '{?'}",
+            "13": "Uses one randomly chosen main skill.",
+            "2": "Increases Snorlax’s Strength by '{#1'}",
+            "3": "Obtain '{#1'} Dream Shards",
+            "4": "Restores '{#1'} Energy to another Pokémon chosen at random.",
+            "5": "Increases Snorlax’s Strength by anywhere from '{#1'} to '{#2'}",
+            "6": "Obtain '{#1'} to '{#2'} Dream Shards.",
+            "7": "Restores '{#1'} Energy to the user.",
+            "8": "Restores '{#1'} Energy to each helper Pokémon on your team.",
+            "9": "Instantly gets you × '{#1'} the usual help from a helper Pokémon."
+        }
+    },
+    "MealType": {
+        "1": "Curries / Stews",
+        "2": "Salads",
+        "3": "Desserts / Drinks"
+    },
+    "Nature": {
+        "1": "Lonely",
+        "10": "Mild",
+        "11": "Rash",
+        "12": "Quiet",
+        "13": "Calm",
+        "14": "Gentle",
+        "15": "Careful",
+        "16": "Sassy",
+        "17": "Timid",
+        "18": "Hasty",
+        "19": "Jolly",
+        "2": "Adamant",
+        "20": "Naive",
+        "21": "Bashful",
+        "22": "Hardy",
+        "23": "Docile",
+        "24": "Quirky",
+        "25": "Serious",
+        "3": "Naughty",
+        "4": "Brave",
+        "5": "Bold",
+        "6": "Impish",
+        "7": "Lax",
+        "8": "Relaxed",
+        "9": "Modest"
+    },
+    "NatureEffect": {
+        "1": "Main skill chance",
+        "2": "EXP gains",
+        "3": "Energy recovery",
+        "4": "Ingredient finding",
+        "5": "Speed of help"
+    },
+    "PokemonType": {
+        "1": "Normal",
+        "10": "Flying",
+        "11": "Psychic",
+        "12": "Bug",
+        "13": "Rock",
+        "14": "Ghost",
+        "15": "Dragon",
+        "16": "Dark",
+        "17": "Steel",
+        "18": "Fairy",
+        "2": "Fire",
+        "3": "Water",
+        "4": "Electric",
+        "5": "Grass",
+        "6": "Ice",
+        "7": "Fighting",
+        "8": "Poison",
+        "9": "Ground"
+    },
+    "PokemonName": {
+        "1": "Bulbasaur",
+        "10": "Caterpie",
+        "104": "Cubone",
+        "105": "Marowak",
+        "11": "Metapod",
+        "115": "Kangaskhan",
+        "12": "Butterfree",
+        "127": "Pinsir",
+        "132": "Ditto",
+        "133": "Eevee",
+        "134": "Vaporeon",
+        "135": "Jolteon",
+        "136": "Flareon",
+        "147": "Dratini",
+        "148": "Dragonair",
+        "149": "Dragonite",
+        "152": "Chikorita",
+        "153": "Bayleef",
+        "154": "Meganium",
+        "155": "Cyndaquil",
+        "156": "Quilava",
+        "157": "Typhlosion",
+        "158": "Totodile",
+        "159": "Croconaw",
+        "160": "Feraligatr",
+        "172": "Pichu",
+        "174": "Igglybuff",
+        "175": "Togepi",
+        "176": "Togetic",
+        "179": "Mareep",
+        "180": "Flaaffy",
+        "181": "Ampharos",
+        "185": "Sudowoodo",
+        "19": "Rattata",
+        "196": "Espeon",
+        "197": "Umbreon",
+        "199": "Slowking",
+        "2": "Ivysaur",
+        "20": "Raticate",
+        "202": "Wobbuffet",
+        "214": "Heracross",
+        "228": "Houndour",
+        "229": "Houndoom",
+        "23": "Ekans",
+        "24": "Arbok",
+        "246": "Larvitar",
+        "247": "Pupitar",
+        "248": "Tyranitar",
+        "25": "Pikachu",
+        "26": "Raichu",
+        "287": "Slakoth",
+        "288": "Vigoroth",
+        "289": "Slaking",
+        "3": "Venusaur",
+        "302": "Sableye",
+        "316": "Gulpin",
+        "317": "Swalot",
+        "333": "Swablu",
+        "334": "Altaria",
+        "359": "Absol",
+        "360": "Wynaut",
+        "363": "Spheal",
+        "364": "Sealeo",
+        "365": "Walrein",
+        "39": "Jigglypuff",
+        "4": "Charmander",
+        "40": "Wigglytuff",
+        "438": "Bonsly",
+        "447": "Riolu",
+        "448": "Lucario",
+        "453": "Croagunk",
+        "454": "Toxicroak",
+        "462": "Magnezone",
+        "468": "Togekiss",
+        "470": "Leafeon",
+        "471": "Glaceon",
+        "5": "Charmeleon",
+        "50": "Diglett",
+        "51": "Dugtrio",
+        "52": "Meowth",
+        "53": "Persian",
+        "54": "Psyduck",
+        "55": "Golduck",
+        "56": "Mankey",
+        "57": "Primeape",
+        "58": "Growlithe",
+        "59": "Arcanine",
+        "6": "Charizard",
+        "69": "Bellsprout",
+        "7": "Squirtle",
+        "70": "Weepinbell",
+        "700": "Sylveon",
+        "71": "Victreebel",
+        "74": "Geodude",
+        "75": "Graveler",
+        "76": "Golem",
+        "79": "Slowpoke",
+        "8": "Wartortle",
+        "80": "Slowbro",
+        "81": "Magnemite",
+        "82": "Magneton",
+        "84": "Doduo",
+        "85": "Dodrio",
+        "9": "Blastoise",
+        "92": "Gastly",
+        "93": "Haunter",
+        "94": "Gengar"
+    },
+    "RankTitle": {
+        "1": "Basic",
+        "2": "Great",
+        "3": "Ultra",
+        "4": "Master"
+    },
+    "SleepFace": {
+        "1": {
+            "3": "Vines-Out Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Sunbathing Sleep"
+        },
+        "10": {
+            "3": "String-Shot Sleep",
+            "2": "Droopy-Headed Sleep",
+            "1": "Sprawled Sleep"
+        },
+        "104": {
+            "3": "Pillow-Bone Sleep",
+            "2": "Scratchy-Bone Sleep",
+            "1": "Weepy Sleep"
+        },
+        "105": {
+            "3": "Pillow-Bone Sleep",
+            "2": "Scratchy-Bone Sleep",
+            "1": "Huggy-Bone Sleep"
+        },
+        "11": {
+            "3": "Hardened Sleep",
+            "2": "Wobbling Sleep",
+            "1": "Placid Sleep"
+        },
+        "115": {
+            "3": "Early-Rising Sleep",
+            "2": "Synchronized Sleep",
+            "1": "Parental-Bond Sleep"
+        },
+        "12": {
+            "3": "Scale-Scattering Sleep",
+            "2": "Floating Sleep",
+            "1": "Air-Sitting Sleep"
+        },
+        "127": {
+            "3": "Burrowing Sleep",
+            "2": "Upright Sleep",
+            "1": "Fearless Sleep"
+        },
+        "132": {
+            "7": "Squirtle Sleep",
+            "6": "Charmander Sleep",
+            "5": "Bulbasaur Sleep",
+            "3": "Pikachu Sleep",
+            "2": "As-Is Sleep",
+            "12": "Glaceon Sleep",
+            "11": "Larvitar Sleep",
+            "10": "Dragonite Sleep",
+            "1": "Rock-Formed Sleep"
+        },
+        "133": {
+            "3": "Energetic Sleep",
+            "2": "Droopy-Eared Sleep",
+            "1": "Roly-Poly Sleep"
+        },
+        "134": {
+            "3": "Sprawled Sleep",
+            "2": "Sitting Sleep",
+            "1": "Tail-Wagging Sleep"
+        },
+        "135": {
+            "3": "Dream-Sprint Sleep",
+            "2": "Sitting Sleep",
+            "1": "Lying-Down Sleep"
+        },
+        "136": {
+            "3": "Tail-Wrapped Sleep",
+            "2": "Snug Sleep",
+            "1": "Tail-Swinging Sleep"
+        },
+        "147": {
+            "3": "Uncoiled Sleep",
+            "2": "Wriggly Sleep",
+            "1": "Coiled Sleep"
+        },
+        "148": {
+            "3": "Uncoiled Sleep",
+            "2": "Wriggly Sleep",
+            "1": "Coiled Sleep"
+        },
+        "149": {
+            "3": "Tummy-Up Sleep",
+            "2": "Seated Sleep",
+            "1": "Roly-Poly Sleep"
+        },
+        "152": {
+            "3": "Belly-Up Sleep",
+            "2": "Droopy-Leaf Sleep",
+            "1": "Leaf-Twirling Sleep"
+        },
+        "153": {
+            "3": "Aroma-Wafting Sleep",
+            "2": "Bud-Shaking Sleep",
+            "1": "Stretching Sleep"
+        },
+        "154": {
+            "3": "Bloom-Filled Sleep",
+            "2": "Head-Bobbing Sleep",
+            "1": "Peaceful Sleep"
+        },
+        "155": {
+            "3": "Flame-Spouting Sleep",
+            "2": "Hunched Sleep",
+            "1": "Sprawled Sleep"
+        },
+        "156": {
+            "3": "Flame-Spouting Sleep",
+            "2": "Flattened Sleep",
+            "1": "Arm-Pillow Sleep"
+        },
+        "157": {
+            "3": "Flame-Spouting Sleep",
+            "2": "Self-Grooming Sleep",
+            "1": "Arm-Pillow Sleep"
+        },
+        "158": {
+            "3": "Gaping-Mouth Sleep",
+            "2": "Bitey Sleep",
+            "1": "One-Eyed Sleep"
+        },
+        "159": {
+            "3": "Gaping-Mouth Sleep",
+            "2": "Fangs-Out Sleep",
+            "1": "One-Eyed Sleep"
+        },
+        "160": {
+            "3": "Gaping-Mouth Sleep",
+            "2": "Intimidating Sleep",
+            "1": "One-Eyed Sleep"
+        },
+        "172": {
+            "3": "Electrifying Sleep",
+            "2": "Seated Sleep",
+            "1": "Peaceful Sleep"
+        },
+        "174": {
+            "3": "Singing Sleep",
+            "2": "Dopey Sleep",
+            "1": "Bouncy Sleep"
+        },
+        "175": {
+            "3": "Shell-Tucked Sleep",
+            "2": "Overturned Sleep",
+            "1": "Rocking Sleep"
+        },
+        "176": {
+            "3": "Floating-Flutter Sleep",
+            "2": "Upright-Flutter Sleep",
+            "1": "Sitting-Flutter Sleep"
+        },
+        "179": {
+            "3": "Blinking-Tail Sleep",
+            "2": "Pawing Sleep",
+            "1": "Fluffy Sleep"
+        },
+        "180": {
+            "3": "Blinking-Tail Sleep",
+            "2": "Fluffy Sleep",
+            "1": "Sprawled Sleep"
+        },
+        "181": {
+            "3": "Glowing-Tail Sleep",
+            "2": "Head-Bobbing Sleep",
+            "1": "Tail-Scratching Sleep"
+        },
+        "185": {
+            "3": "Seriously-Slacking Sleep",
+            "2": "Psuedo-Slacking Sleep",
+            "1": "Psuedo-Wood Sleep"
+        },
+        "19": {
+            "3": "Fang-Filing Sleep",
+            "2": "Head-Tilted Sleep",
+            "1": "Face-Scratching Sleep"
+        },
+        "196": {
+            "3": "Belly-Up Sleep",
+            "2": "Sitting Sleep",
+            "1": "Foreseeing Sleep"
+        },
+        "197": {
+            "3": "Belly-Up Sleep",
+            "2": "Sitting Sleep",
+            "1": "Crescent Sleep"
+        },
+        "199": {
+            "3": "Eureka Sleep",
+            "2": "Sage Sleep",
+            "1": "Loafing Sleep"
+        },
+        "2": {
+            "3": "Vines-Out Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Sunbathing Sleep"
+        },
+        "20": {
+            "3": "Fang-Filing Sleep",
+            "2": "Upright Sleep",
+            "1": "Teeth-Grinding Sleep"
+        },
+        "202": {
+            "3": "Signature-Pose Sleep",
+            "2": "Biding Sleep",
+            "1": "Tail-Hiding Sleep"
+        },
+        "214": {
+            "3": "Sap-Licking Sleep",
+            "2": "Upright Sleep",
+            "1": "Horn-Shaking Sleep"
+        },
+        "228": {
+            "3": "Belly-Up Sleep",
+            "2": "Stretching Sleep",
+            "1": "Howling Sleep"
+        },
+        "229": {
+            "3": "Flame-Blowing Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Lying-Down Sleep"
+        },
+        "23": {
+            "3": "Uncoiled Sleep",
+            "2": "Springy Sleep",
+            "1": "Coiled Sleep"
+        },
+        "24": {
+            "3": "Uncoiled Sleep",
+            "2": "Leaning Sleep",
+            "1": "Coiled Sleep"
+        },
+        "246": {
+            "3": "Earth-Eating Sleep",
+            "2": "Face-Rubbing Sleep",
+            "1": "Stretching Sleep"
+        },
+        "247": {
+            "3": "Gas-Venting Sleep",
+            "2": "Shivering Sleep",
+            "1": "Falling-Over Sleep"
+        },
+        "248": {
+            "3": "Spread-Out Sleep",
+            "2": "Imposing Sleep",
+            "1": "Stomach Sleep"
+        },
+        "25": {
+            "3": "Electrifying Sleep",
+            "2": "Droopy-Eared Sleep",
+            "1": "Roly-Poly Sleep"
+        },
+        "26": {
+            "3": "Grounded-Tail Sleep",
+            "2": "Seated Sleep",
+            "1": "Tail-Waving Sleep"
+        },
+        "287": {
+            "3": "Snacking Sleep",
+            "2": "Self-Grooming Sleep",
+            "1": "Slacking Sleep"
+        },
+        "288": {
+            "3": "Slacking Sleep",
+            "2": "Exercising Sleep",
+            "1": "Impatient Sleep"
+        },
+        "289": {
+            "3": "Snacking Sleep",
+            "2": "Loafing Sleep",
+            "1": "Spread-Out Sleep"
+        },
+        "3": {
+            "3": "Vines-Out Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Sunbathing Sleep"
+        },
+        "302": {
+            "3": "Jewel-Eating Sleep",
+            "2": "Jerky Sleep",
+            "1": "Spread-Out Sleep"
+        },
+        "316": {
+            "3": "Gaping-Mouth Sleep",
+            "2": "Nodding Sleep",
+            "1": "Balloon Sleep"
+        },
+        "317": {
+            "3": "Gaping-Mouth Sleep",
+            "2": "Nodding Sleep",
+            "1": "Toppling-Over Sleep"
+        },
+        "333": {
+            "3": "Cotton-Cloud Sleep",
+            "2": "Flapping Sleep",
+            "1": "Roosting Sleep"
+        },
+        "334": {
+            "3": "Cotton-Cloud Sleep",
+            "2": "Roosting Sleep",
+            "1": "Feather-Nestled Sleep"
+        },
+        "359": {
+            "3": "Belly-Up Sleep",
+            "2": "Danger-Sensing Sleep",
+            "1": "Snug Sleep"
+        },
+        "360": {
+            "3": "Signature-Pose Sleep",
+            "2": "Biding Sleep",
+            "1": "Tail-Shifting Sleep"
+        },
+        "363": {
+            "3": "Clapping Sleep",
+            "2": "Big-Yawn Sleep",
+            "1": "Flopped Sleep"
+        },
+        "364": {
+            "3": "Overturned Sleep",
+            "2": "Big-Yawn Sleep",
+            "1": "Ground-Tapping Sleep"
+        },
+        "365": {
+            "3": "Fang-Lodged Sleep",
+            "2": "Majestic Sleep",
+            "1": "Loafing Sleep"
+        },
+        "39": {
+            "3": "Singing Sleep",
+            "2": "Dopey Sleep",
+            "1": "Seated Sleep"
+        },
+        "4": {
+            "3": "Tummy-Up Sleep",
+            "2": "Tummy-Rub Sleep",
+            "1": "Crackling Sleep"
+        },
+        "40": {
+            "3": "Puffed-Up Sleep",
+            "2": "Startled Sleep",
+            "1": "Smiley Sleep"
+        },
+        "438": {
+            "3": "Watery-Eyed Sleep",
+            "2": "Upright Sleep",
+            "1": "Flopped Sleep"
+        },
+        "447": {
+            "3": "Knee-Up Sleep",
+            "2": "Mid-Training Sleep",
+            "1": "Knee-Hugging Sleep"
+        },
+        "448": {
+            "3": "Training-Break Sleep",
+            "2": "Mid-Training Sleep",
+            "1": "Knee-Up Sleep"
+        },
+        "453": {
+            "3": "Straightened Sleep",
+            "2": "Cheek-Inflating Sleep",
+            "1": "Loafing Sleep"
+        },
+        "454": {
+            "3": "Poison-Sac Sleep",
+            "2": "Throat-Inflating Sleep",
+            "1": "Loafing Sleep"
+        },
+        "462": {
+            "3": "Upside-Down Sleep",
+            "2": "Watchful Sleep",
+            "1": "Swinging Sleep"
+        },
+        "468": {
+            "3": "Acrobatic-Flight Sleep",
+            "2": "Upright-Flutter Sleep",
+            "1": "Free-Flight Sleep"
+        },
+        "470": {
+            "3": "Leaf-Grabbing Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Tail-Swinging Sleep"
+        },
+        "471": {
+            "3": "Sprawled Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Arm-Pillow Sleep"
+        },
+        "5": {
+            "3": "Loafing Sleep",
+            "2": "Seated Sleep",
+            "1": "Arm-Pillow Sleep"
+        },
+        "50": {
+            "3": "Mid-Dig Sleep",
+            "2": "Aboveground Sleep",
+            "1": "Underground Sleep"
+        },
+        "51": {
+            "3": "Cozy-Trio Sleep",
+            "2": "Aboveground Sleep",
+            "1": "Underground Sleep"
+        },
+        "52": {
+            "3": "Pay Day Sleep",
+            "2": "Seated Sleep",
+            "1": "Roly-Poly Sleep"
+        },
+        "53": {
+            "3": "Apologetic Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Elegant Sleep"
+        },
+        "54": {
+            "3": "Tantrum Sleep",
+            "2": "Big-Yawn Sleep",
+            "1": "Headache Sleep"
+        },
+        "55": {
+            "3": "Swimming Sleep",
+            "2": "Rear-Scratching Sleep",
+            "1": "Arm-Pillow Sleep"
+        },
+        "56": {
+            "3": "Peaceful Sleep",
+            "2": "Upright Sleep",
+            "1": "Angry Sleep"
+        },
+        "57": {
+            "3": "Peaceful Sleep",
+            "2": "Stomping Sleep",
+            "1": "Angry Sleep"
+        },
+        "58": {
+            "3": "Belly-Up Sleep",
+            "2": "Sitting Sleep",
+            "1": "Stretching Sleep"
+        },
+        "59": {
+            "3": "Belly-Up Sleep",
+            "2": "Sitting Sleep",
+            "1": "Lying-Down Sleep"
+        },
+        "6": {
+            "3": "Tummy-Up Sleep",
+            "2": "Arms-Crossed Sleep",
+            "1": "Stomach Sleep"
+        },
+        "69": {
+            "3": "Rooted Sleep",
+            "2": "Acid-Dripping Sleep",
+            "1": "Stretched-Out Sleep"
+        },
+        "7": {
+            "3": "Overturned Sleep",
+            "2": "Unsheltered Sleep",
+            "1": "Sheltered Sleep"
+        },
+        "70": {
+            "3": "Suction Sleep",
+            "2": "Floating Sleep",
+            "1": "Acid-Dripping Sleep"
+        },
+        "700": {
+            "3": "Ribbon-Tangled Sleep",
+            "2": "Sturdy Sleep",
+            "1": "Roly-Poly Sleep"
+        },
+        "71": {
+            "3": "Overturned Sleep",
+            "2": "Vine-Held Sleep",
+            "1": "Shuddering Sleep"
+        },
+        "74": {
+            "3": "Buried Sleep",
+            "2": "Biding Sleep",
+            "1": "Arms-Crossed Sleep"
+        },
+        "75": {
+            "3": "Rolling Sleep",
+            "2": "Hearty Sleep",
+            "1": "Lounging Sleep"
+        },
+        "76": {
+            "3": "Rolling Sleep",
+            "2": "Imposing Sleep",
+            "1": "Robust Sleep"
+        },
+        "79": {
+            "3": "Goofy Sleep",
+            "2": "Dazed Sleep",
+            "1": "Zonked Sleep"
+        },
+        "8": {
+            "3": "Flattened Sleep",
+            "2": "Unsheltered Sleep",
+            "1": "Sheltered Sleep"
+        },
+        "80": {
+            "3": "Tail-Gnawing Sleep",
+            "2": "Drooling Sleep",
+            "1": "Cozy-Duo Sleep"
+        },
+        "81": {
+            "3": "Upside-Down Sleep",
+            "2": "Magnet-Rise Sleep",
+            "1": "Droopy-Float Sleep"
+        },
+        "82": {
+            "3": "Unlinked Sleep",
+            "2": "Near-Falling Sleep",
+            "1": "Linked Sleep"
+        },
+        "84": {
+            "3": "Duo Sleep",
+            "2": "Lazy-Lookout Sleep",
+            "1": "Lookout Sleep"
+        },
+        "85": {
+            "3": "Trio Sleep",
+            "2": "Lazy-Lookout Sleep",
+            "1": "Lookout Sleep"
+        },
+        "9": {
+            "3": "Overturned Sleep",
+            "2": "Unsheltered Sleep",
+            "1": "Sheltered Sleep"
+        },
+        "92": {
+            "3": "Tongue-Out Sleep",
+            "2": "Floaty-Gas Sleep",
+            "1": "Snickering Sleep"
+        },
+        "93": {
+            "3": "Tongue-Out Sleep",
+            "2": "Floaty-Gas Sleep",
+            "1": "Head-Tilted Sleep"
+        },
+        "94": {
+            "3": "Tongue-Out Sleep",
+            "2": "Smirking Sleep",
+            "1": "Mischievous Sleep"
+        },
+        "onSnorlax": {
+            "Default": "Atop-Belly Sleep"
+        }
+    },
+    "SleepType": {
+        "0": "Slumbering",
+        "1": "Snoozing",
+        "4": "Dozing",
+        "99": "Balanced"
+    },
+    "Specialty": {
+        "1": "Berries",
+        "2": "Ingredients",
+        "3": "Skills"
+    },
+    "SubSkill": {
+        "1": "Sleep EXP Bonus",
+        "10": "Inventory Up M",
+        "11": "Skill Level Up S",
+        "12": "Ingredient Finder S",
+        "13": "Ingredient Finder M",
+        "14": "Skill Trigger S",
+        "15": "Skill Trigger M",
+        "16": "Energy Recovery S",
+        "17": "Energy Recovery M",
+        "18": "Skill Level Up M",
+        "19": "Inventory Up L",
+        "2": "Helping Bonus",
+        "3": "Energy Recovery Bonus",
+        "4": "Dream Shard Bonus",
+        "5": "Research EXP Bonus",
+        "6": "Helping Speed S",
+        "7": "Helping Speed M",
+        "8": "Berry Finding S",
+        "9": "Inventory Up S"
+    }
+}
