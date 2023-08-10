@@ -20,7 +20,7 @@ data = [
         ],
         "unlock": {
             "type": "sleepStyle",
-            "value": 20,
+            "count": 20,
         }
     },
     {
@@ -32,7 +32,7 @@ data = [
         ],
         "unlock": {
             "type": "sleepStyle",
-            "value": 70,
+            "count": 70,
         }
     },
     {
@@ -44,7 +44,7 @@ data = [
         ],
         "unlock": {
             "type": "sleepStyle",
-            "value": 150,
+            "count": 150,
         }
     }
 ]
