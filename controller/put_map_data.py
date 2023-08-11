@@ -13,8 +13,8 @@ data = [
         "mapId": 2,
         "berry": [
             3,
-            8,
-            10
+            10,
+            18,
         ],
         "unlock": {
             "type": "sleepStyle",
@@ -26,7 +26,7 @@ data = [
         "berry": [
             2,
             9,
-            13
+            13,
         ],
         "unlock": {
             "type": "sleepStyle",
