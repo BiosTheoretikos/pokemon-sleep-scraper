@@ -11,7 +11,7 @@ with open("transformed/game-en.json", "r", encoding="utf-8") as f:
 
 SUBSKILL_TO_ID = {
     name: int(subskill_id)
-    for subskill_id, name in game_data["SubSkill"].items()
+    for subskill_id, name in game_data["SubSkill"]["Name"].items()
 }
 
 
@@ -26,25 +26,25 @@ MAP_RARITY_TO_ID = {
 # https://www.serebii.net/pokemonsleep/skills.shtml
 MAP_SUBSKILL_BONUS = {
     1: {
-        "exp": 0.14,
+        "exp": 14,
     },
     2: {
-        "helper": 0.05,
+        "helper": 5,
     },
     3: {
-        "stamina": 0.12,
+        "stamina": 1.12,
     },
     4: {
-        "shard": 0.06,
+        "shard": 6,
     },
     5: {
-        "research": 0.06,
+        "research": 6,
     },
     6: {
-        "frequency": 0.07,
+        "frequency": 7,
     },
     7: {
-        "frequency": 0.14,
+        "frequency": 14,
     },
     8: {
         "berryCount": 1,
@@ -59,16 +59,16 @@ MAP_SUBSKILL_BONUS = {
         "skillLevel": 1,
     },
     12: {
-        "ingredientProbability": 0.18,
+        "ingredientProbability": 18,
     },
     13: {
-        "ingredientProbability": 0.36,
+        "ingredientProbability": 36,
     },
     14: {
-        "mainSkillProbability": 0.18,
+        "mainSkillProbability": 18,
     },
     15: {
-        "mainSkillProbability": 0.36,
+        "mainSkillProbability": 36,
     },
     16: {},
     17: {},
