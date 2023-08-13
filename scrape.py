@@ -9,6 +9,7 @@ SCRIPTS_SCRAPER = [
     "scrape/pokemon_by_incense.py",
     "scrape/pokemon_data_and_evo_chain.py",
     "scrape/snorlax.py",
+    "scrape/subskill.py",
 ]
 
 SCRIPTS_UPDATE = [
@@ -18,6 +19,7 @@ SCRIPTS_UPDATE = [
     "controller/put_meal_data.py",
     "controller/put_pokemon_data.py",
     "controller/put_snorlax_data.py",
+    "controller/put_subskill_data.py",
 ]
 
 
