@@ -19,7 +19,10 @@ PREFIXES = {
     "SleepFace": "md_sleeping_faces_name_",
     "SleepType": "SleepType_",
     "Specialty": "FormationTag_",
-    "SubSkill": "md_pokemon_rankup_bonus_name_",
+    "SubSkill": {
+        "Name": "md_pokemon_rankup_bonus_name_",
+        "Description": "md_pokemon_rankup_bonus_desc_",
+    },
 }
 
 FILE_EN = {
@@ -53,7 +56,7 @@ FILE_ZH = {
     "SleepFace": "MD_sleeping_faces_14.bytes.json",
     "SleepType": "SleepType_5.bytes.json",
     "Specialty": "FormationTag_13.bytes.json",
-    "SubSkill": "MD_pokemon_rankup_bonus_5.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_3.bytes.json",
 }
 
 FILE_JP = {
@@ -97,40 +100,44 @@ FILE_OF_LOCALE = {
     "kr": FILE_KR,
 }
 
-UNICODE_REPLACE = [
+UNICODE_REPLACE = {
     # Number
-    ("\u000e\u0002\u0006\u0004\u0000촁", " {#1} "),
-    ("\u000e\u0002\u0006\u0004\u0001촁", " {#2} "),
-    ("\u000e\u0002\u0006\u0004\u0000촂", " {#1} "),
-    ("\u000e\u0002\u0006\u0004\u0001촂", " {#2} "),
+    "\u000e\u0002\u0006\u0004\u0000촁": " {#1} ",
+    "\u000e\u0002\u0006\u0004\u0001촁": " {#2} ",
+    "\u000e\u0002\u0006\u0004\u0000촂": " {#1} ",
+    "\u000e\u0002\u0006\u0004\u0001촂": " {#2} ",
     # Pokemon type
-    ("\u000e\u0003\u0002\u0002촀", " {Element} "),
+    "\u000e\u0003\u0002\u0002촀": " {Element} ",
     # Placeholders
-    ("\u0000", ""),
+    "\u0000": "",
     # Direct replace
-    ("\u000e\t\u0000\u0006mmm\u0001", " {?} "),
-    ("\u000e\t\f\bmmmm\u0001", " {?} "),
-    ("\u000e\t\u0006mmm\u0001", " {?} "),
-    ("\u000e\t \u0006mmm\u0001", " {?} "),
-    ("\u000e\u00010\u0014ingredient\u0016", ""),
+    "\u000e\t\u0000\u0006mmm\u0001": " {?} ",
+    "\u000e\t\f\bmmmm\u0001": " {?} ",
+    "\u000e\t\u0006mmm\u0001": " {?} ",
+    "\u000e\t \u0006mmm\u0001": " {?} ",
+    "\u000e\u00010\u0014ingredient\u0016": "",
     # Remove unwanted string
-    ("\u000e\u0001\u001c Shard\f", ""),
-    ("촀.", ""),
-    ("촀 ", " "),
-    ("  ", " "),
-    (" .", ""),
-    (" 。", ""),
+    "\u000e\u0001\u001c Shard\f": "",
+    "촀.": "",
+    "촀 ": " ",
+    "  ": " ",
+    " .": "",
+    " 。": "",
     # next-intl escape
     # https://next-intl-docs.vercel.app/docs/usage/messages#rendering-messages
-    ("{", "'{"),
-    ("}", "'}"),
-]
+    "{": "'{",
+    "}": "'}",
+    # Direct replace (no next-intl escape)
+    # --- For subskill bonus
+    "\u000e\u0002\u0001\u0002": "{bonus}",
+    "\u000e\u0002\u0003\u0004촁": "{bonus}",
+}
 
 
 def values_to_string(locale, values):
     string = "\u0000".join(values).replace("\n", " " if locale in ("en", "kr") else "")
 
-    for replace_old, replace_new in UNICODE_REPLACE:
+    for replace_old, replace_new in UNICODE_REPLACE.items():
         string = string.replace(replace_old, replace_new)
 
     return string
