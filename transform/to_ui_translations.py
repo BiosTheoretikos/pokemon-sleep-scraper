@@ -56,7 +56,7 @@ FILE_ZH = {
     "SleepFace": "MD_sleeping_faces_14.bytes.json",
     "SleepType": "SleepType_5.bytes.json",
     "Specialty": "FormationTag_13.bytes.json",
-    "SubSkill": "MD_pokemon_rankup_bonus_3.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_5.bytes.json",
 }
 
 FILE_JP = {
