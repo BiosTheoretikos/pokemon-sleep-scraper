@@ -121,4 +121,5 @@ CUSTOM_RANDOM_INGREDIENT = {
     287: {9, 5},  # Discord @bagel_fox (9) / @pop1224
     288: {9},  # Discord @bagel_fox
     333: {5},  # Discord @bagel_fox
+    359: {5},  # NGA via Discord @calpistori
 }
