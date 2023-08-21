@@ -96,7 +96,6 @@ def main():
         _tabs = _pokemon_soup.find("main").find_all("table", class_="tab")
 
         _table_of_evolution_chain = _pokemon_soup.find("table", class_="evochain")
-        _evo_chain_is_1st_pokemon = False
         _evo_chain_origin_id = -1
         _evo_chain_conditions = []
         for _evo_chain_row in _table_of_evolution_chain.find_all("tr"):
@@ -263,7 +262,8 @@ def main():
         })
 
     to_json(pokemon_data, "pokemon_data")
-    to_json(pokemon_evo_chain, "pokemon_evo_chain")
+    # This file is not being used now - a copy of this is stored in `unprocessed`, therefore not storing it
+    # to_json(pokemon_evo_chain, "pokemon_evo_chain")
 
 
 if __name__ == "__main__":
