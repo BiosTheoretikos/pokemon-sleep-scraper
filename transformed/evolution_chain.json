@@ -1,0 +1,1501 @@
+[
+  {
+    "pokemon": 115,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 132,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 214,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 359,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 302,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 127,
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 1,
+    "next": [
+      {
+        "id": 2,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 2,
+    "next": [
+      {
+        "id": 3,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 24
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 1
+  },
+  {
+    "pokemon": 3,
+    "next": [],
+    "stage": 3,
+    "previous": 2
+  },
+  {
+    "pokemon": 4,
+    "next": [
+      {
+        "id": 5,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 5,
+    "next": [
+      {
+        "id": 6,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 27
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 4
+  },
+  {
+    "pokemon": 6,
+    "next": [],
+    "stage": 3,
+    "previous": 5
+  },
+  {
+    "pokemon": 7,
+    "next": [
+      {
+        "id": 8,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 8,
+    "next": [
+      {
+        "id": 9,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 27
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 7
+  },
+  {
+    "pokemon": 9,
+    "next": [],
+    "stage": 3,
+    "previous": 8
+  },
+  {
+    "pokemon": 10,
+    "next": [
+      {
+        "id": 11,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 5
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 11,
+    "next": [
+      {
+        "id": 12,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 8
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 10
+  },
+  {
+    "pokemon": 12,
+    "next": [],
+    "stage": 3,
+    "previous": 11
+  },
+  {
+    "pokemon": 19,
+    "next": [
+      {
+        "id": 20,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 15
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 20,
+    "next": [],
+    "stage": 2,
+    "previous": 19
+  },
+  {
+    "pokemon": 23,
+    "next": [
+      {
+        "id": 24,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 17
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 24,
+    "next": [],
+    "stage": 2,
+    "previous": 23
+  },
+  {
+    "pokemon": 172,
+    "next": [
+      {
+        "id": 25,
+        "conditions": [
+          {
+            "type": "sleepTime",
+            "hours": 50
+          },
+          {
+            "type": "candy",
+            "count": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 25,
+    "next": [
+      {
+        "id": 26,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 24
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 172
+  },
+  {
+    "pokemon": 26,
+    "next": [],
+    "stage": 3,
+    "previous": 25
+  },
+  {
+    "pokemon": 174,
+    "next": [
+      {
+        "id": 39,
+        "conditions": [
+          {
+            "type": "sleepTime",
+            "hours": 50
+          },
+          {
+            "type": "candy",
+            "count": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 39,
+    "next": [
+      {
+        "id": 40,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 27
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 174
+  },
+  {
+    "pokemon": 40,
+    "next": [],
+    "stage": 3,
+    "previous": 39
+  },
+  {
+    "pokemon": 50,
+    "next": [
+      {
+        "id": 51,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 51,
+    "next": [],
+    "stage": 2,
+    "previous": 50
+  },
+  {
+    "pokemon": 52,
+    "next": [
+      {
+        "id": 53,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 21
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 53,
+    "next": [],
+    "stage": 2,
+    "previous": 52
+  },
+  {
+    "pokemon": 54,
+    "next": [
+      {
+        "id": 55,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 25
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 55,
+    "next": [],
+    "stage": 2,
+    "previous": 54
+  },
+  {
+    "pokemon": 56,
+    "next": [
+      {
+        "id": 57,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 21
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 57,
+    "next": [],
+    "stage": 2,
+    "previous": 56
+  },
+  {
+    "pokemon": 58,
+    "next": [
+      {
+        "id": 59,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 22
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 59,
+    "next": [],
+    "stage": 2,
+    "previous": 58
+  },
+  {
+    "pokemon": 69,
+    "next": [
+      {
+        "id": 70,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 16
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 70,
+    "next": [
+      {
+        "id": 71,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 25
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 69
+  },
+  {
+    "pokemon": 71,
+    "next": [],
+    "stage": 3,
+    "previous": 70
+  },
+  {
+    "pokemon": 74,
+    "next": [
+      {
+        "id": 75,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 19
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 75,
+    "next": [
+      {
+        "id": 76,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 21
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 74
+  },
+  {
+    "pokemon": 76,
+    "next": [],
+    "stage": 3,
+    "previous": 75
+  },
+  {
+    "pokemon": 80,
+    "next": [],
+    "stage": 2,
+    "previous": 79
+  },
+  {
+    "pokemon": 199,
+    "next": [],
+    "stage": 2,
+    "previous": 79
+  },
+  {
+    "pokemon": 79,
+    "next": [
+      {
+        "id": 80,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 28
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      },
+      {
+        "id": 199,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 21
+          },
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 31
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 81,
+    "next": [
+      {
+        "id": 82,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 23
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 82,
+    "next": [
+      {
+        "id": 462,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 24
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 81
+  },
+  {
+    "pokemon": 462,
+    "next": [],
+    "stage": 3,
+    "previous": 82
+  },
+  {
+    "pokemon": 84,
+    "next": [
+      {
+        "id": 85,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 23
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 85,
+    "next": [],
+    "stage": 2,
+    "previous": 84
+  },
+  {
+    "pokemon": 92,
+    "next": [
+      {
+        "id": 93,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 19
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 93,
+    "next": [
+      {
+        "id": 94,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 21
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 92
+  },
+  {
+    "pokemon": 94,
+    "next": [],
+    "stage": 3,
+    "previous": 93
+  },
+  {
+    "pokemon": 104,
+    "next": [
+      {
+        "id": 105,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 21
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 105,
+    "next": [],
+    "stage": 2,
+    "previous": 104
+  },
+  {
+    "pokemon": 134,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 135,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 136,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 196,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 197,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 470,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 471,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 700,
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  {
+    "pokemon": 133,
+    "next": [
+      {
+        "id": 134,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 24
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 24
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 22
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "conditions": [
+          {
+            "type": "timing",
+            "startHour": 6,
+            "endHour": 18
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "conditions": [
+          {
+            "type": "timing",
+            "startHour": 18,
+            "endHour": 6
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 470,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 25
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 471,
+        "conditions": [
+          {
+            "type": "item",
+            "item": 26
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "id": 700,
+        "conditions": [
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 152,
+    "next": [
+      {
+        "id": 153,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 153,
+    "next": [
+      {
+        "id": 154,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 24
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 152
+  },
+  {
+    "pokemon": 154,
+    "next": [],
+    "stage": 3,
+    "previous": 153
+  },
+  {
+    "pokemon": 155,
+    "next": [
+      {
+        "id": 156,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 11
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 156,
+    "next": [
+      {
+        "id": 157,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 27
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 155
+  },
+  {
+    "pokemon": 157,
+    "next": [],
+    "stage": 3,
+    "previous": 156
+  },
+  {
+    "pokemon": 158,
+    "next": [
+      {
+        "id": 159,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 14
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 159,
+    "next": [
+      {
+        "id": 160,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 23
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 158
+  },
+  {
+    "pokemon": 160,
+    "next": [],
+    "stage": 3,
+    "previous": 159
+  },
+  {
+    "pokemon": 175,
+    "next": [
+      {
+        "id": 176,
+        "conditions": [
+          {
+            "type": "sleepTime",
+            "hours": 50
+          },
+          {
+            "type": "candy",
+            "count": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 176,
+    "next": [
+      {
+        "id": 468,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 28
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 175
+  },
+  {
+    "pokemon": 468,
+    "next": [],
+    "stage": 3,
+    "previous": 176
+  },
+  {
+    "pokemon": 179,
+    "next": [
+      {
+        "id": 180,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 11
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 180,
+    "next": [
+      {
+        "id": 181,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 23
+          },
+          {
+            "type": "candy",
+            "count": 80
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 179
+  },
+  {
+    "pokemon": 181,
+    "next": [],
+    "stage": 3,
+    "previous": 180
+  },
+  {
+    "pokemon": 438,
+    "next": [
+      {
+        "id": 185,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 185,
+    "next": [],
+    "stage": 2,
+    "previous": 438
+  },
+  {
+    "pokemon": 360,
+    "next": [
+      {
+        "id": 202,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 11
+          },
+          {
+            "type": "candy",
+            "count": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 202,
+    "next": [],
+    "stage": 2,
+    "previous": 360
+  },
+  {
+    "pokemon": 228,
+    "next": [
+      {
+        "id": 229,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 18
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 229,
+    "next": [],
+    "stage": 2,
+    "previous": 228
+  },
+  {
+    "pokemon": 246,
+    "next": [
+      {
+        "id": 247,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 23
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 247,
+    "next": [
+      {
+        "id": 248,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 41
+          },
+          {
+            "type": "candy",
+            "count": 100
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 246
+  },
+  {
+    "pokemon": 248,
+    "next": [],
+    "stage": 3,
+    "previous": 247
+  },
+  {
+    "pokemon": 287,
+    "next": [
+      {
+        "id": 288,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 14
+          },
+          {
+            "type": "candy",
+            "count": 40
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 288,
+    "next": [
+      {
+        "id": 289,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "level",
+            "level": 27
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 287
+  },
+  {
+    "pokemon": 289,
+    "next": [],
+    "stage": 3,
+    "previous": 288
+  },
+  {
+    "pokemon": 316,
+    "next": [
+      {
+        "id": 317,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 20
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 317,
+    "next": [],
+    "stage": 2,
+    "previous": 316
+  },
+  {
+    "pokemon": 333,
+    "next": [
+      {
+        "id": 334,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 26
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 334,
+    "next": [],
+    "stage": 2,
+    "previous": 333
+  },
+  {
+    "pokemon": 363,
+    "next": [
+      {
+        "id": 364,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 24
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 364,
+    "next": [
+      {
+        "id": 365,
+        "conditions": [
+          {
+            "type": "level",
+            "level": 33
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 363
+  },
+  {
+    "pokemon": 365,
+    "next": [],
+    "stage": 3,
+    "previous": 364
+  },
+  {
+    "pokemon": 447,
+    "next": [
+      {
+        "id": 448,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "timing",
+            "startHour": 6,
+            "endHour": 18
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 448,
+    "next": [],
+    "stage": 2,
+    "previous": 447
+  },
+  {
+    "pokemon": 453,
+    "next": [
+      {
+        "id": 454,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 28
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  {
+    "pokemon": 454,
+    "next": [],
+    "stage": 2,
+    "previous": 453
+  }
+]

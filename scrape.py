@@ -20,6 +20,7 @@ SCRIPTS_UPDATE = [
     "controller/put_pokemon_data.py",
     "controller/put_snorlax_data.py",
     "controller/put_subskill_data.py",
+    "controller/put_evolution_chain_data.py",
 ]
 
 
