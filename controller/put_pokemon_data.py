@@ -9,6 +9,11 @@ CONNECTION_STRING = "mongodb://localhost:23015"
 with open("data/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
+with open("transformed/ingredient_chain_of_pokemon.json") as f:
+    ingredient_chain_dict = json.load(f)
+
+ingredient_chain_dict = {int(pokemon_id): chain_id for pokemon_id, chain_id in ingredient_chain_dict.items()}
+
 client = MongoClient(CONNECTION_STRING)
 db_pokemon = client.get_database("pokemon")
 col_info = db_pokemon.get_collection("info")
@@ -36,9 +41,11 @@ def main():
     data_sleep_style = []
 
     for pokemon in pokemon_data:
+        pokemon_id = pokemon["id"]
+
+        pokemon["ingredientChain"] = ingredient_chain_dict[pokemon_id]
         data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
 
-        pokemon_id = pokemon["id"]
         pokemon_sleep_style_at_location = defaultdict(list)
         for pokemon_sleep_style in pokemon["sleepStyle"]:
             for sleep_style_location in pokemon_sleep_style["location"]:
