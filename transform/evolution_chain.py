@@ -72,21 +72,19 @@ def transform_evolution_condition(evolution):
 
 
 def main():
-    evo_chain_list = [
-        {
-            "pokemon": pokemon_id,
+    evo_chain_dict = {
+        pokemon_id: {
             "next": [],
             "stage": 1,
             "previous": None
         }
         for pokemon_id in POKEMON_WITHOUT_EVO_CHAIN
-    ]
+    }
 
     for initial_id, evolutions in evo_chain_data.items():
         initial_id = int(initial_id)
 
         initial = {
-            "pokemon": initial_id,
             "next": [],
             "stage": 1,
             "previous": None
@@ -95,29 +93,28 @@ def main():
         if initial_id in (ID_EEVEE, ID_SLOWPOKE):
             for evolution in evolutions:
                 current = {
-                    "pokemon": int(evolution["id"]),
                     "next": [],
                     "stage": initial["stage"] + 1,
-                    "previous": initial["pokemon"]
+                    "previous": initial_id
                 }
                 initial["next"].append(transform_evolution_condition(evolution))
-                evo_chain_list.append(current)
+                evo_chain_dict[int(evolution["id"])] = current
         else:
             for evolution in evolutions:
                 initial["next"].append(transform_evolution_condition(evolution))
                 current = {
-                    "pokemon": int(evolution["id"]),
                     "next": [],
                     "stage": initial["stage"] + 1,
-                    "previous": initial["pokemon"]
+                    "previous": initial_id
                 }
-                evo_chain_list.append(initial)
+                evo_chain_dict[initial_id] = initial
                 initial = current
+                initial_id = int(evolution["id"])
 
-        evo_chain_list.append(initial)
+        evo_chain_dict[initial_id] = initial
 
     with open(f"transformed/evolution_chain.json", "w+", encoding="utf-8", newline="\n") as f:
-        json.dump(evo_chain_list, f, indent=2, ensure_ascii=False)
+        json.dump(evo_chain_dict, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":

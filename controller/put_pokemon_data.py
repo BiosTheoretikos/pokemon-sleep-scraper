@@ -14,6 +14,9 @@ with open("transformed/ingredient_chain_of_pokemon.json") as f:
 
 ingredient_chain_dict = {int(pokemon_id): chain_id for pokemon_id, chain_id in ingredient_chain_dict.items()}
 
+with open("transformed/evolution_chain.json") as f:
+    evolution_chain_dict = json.load(f)
+
 client = MongoClient(CONNECTION_STRING)
 db_pokemon = client.get_database("pokemon")
 col_info = db_pokemon.get_collection("info")
@@ -44,6 +47,8 @@ def main():
         pokemon_id = pokemon["id"]
 
         pokemon["ingredientChain"] = ingredient_chain_dict[pokemon_id]
+        pokemon["evolution"] = evolution_chain_dict[str(pokemon_id)]
+
         data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
 
         pokemon_sleep_style_at_location = defaultdict(list)
