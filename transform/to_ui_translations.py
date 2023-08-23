@@ -1,6 +1,8 @@
 import json
 
 DIRECTORY = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\TextAll"
+# Directory from BronzeMaster5000
+#DIRECTORY = r"C:\Users\Anwender\Documents\Pokemon Sleep Stuff\TextAll"
 
 PREFIXES = {
     "Berry": "md_berries_name_",
@@ -140,13 +142,16 @@ UNICODE_REPLACE = {
     "\u000e\t\u0006mmm\u0001": " {?} ",
     "\u000e\t \u0006mmm\u0001": " {?} ",
     "\u000e\u00010\u0014ingredient\u0016": "",
+    "\u000e\u0006\u001e Zutat\u000e": "",
     # Remove unwanted string
     "\u000e\u0001\u001c Shard\f": "",
     "촀.": "",
     "촀 ": " ",
+    "촀": " ",
     "  ": " ",
     " .": "",
     " 。": "",
+    "- ": "-",
     # next-intl escape
     # https://next-intl-docs.vercel.app/docs/usage/messages#rendering-messages
     "{": "'{",
@@ -159,7 +164,7 @@ UNICODE_REPLACE = {
 
 
 def values_to_string(locale, values):
-    string = "\u0000".join(values).replace("\n", " " if locale in ("en", "kr") else "")
+    string = "\u0000".join(values).replace("\n", " " if locale in ("en", "kr", "de") else "")
 
     for replace_old, replace_new in UNICODE_REPLACE.items():
         string = string.replace(replace_old, replace_new)
