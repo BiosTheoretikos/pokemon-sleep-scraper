@@ -103,7 +103,7 @@ FILE_KR = {
 FILE_DE = {
     "Berry": "MD_berries_1.bytes.json",
     "Field": "MD_fields_8.bytes.json",
-    "Food": "MD_cooking_foods_8.bytes.json",
+    "Food": "MD_cooking_foods_9.bytes.json",
     "Item": "MD_item_name_data_0.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_0.bytes.json",
     "MealType": "CookingGenre_7.bytes.json",
