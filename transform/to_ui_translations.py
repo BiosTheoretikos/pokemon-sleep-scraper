@@ -108,14 +108,15 @@ FILE_DE = {
     "MainSkill": "MD_pokemon_main_skills_0.bytes.json",
     "MealType": "CookingGenre_7.bytes.json",
     "Nature": "MD_pokemon_nature_2.bytes.json",
-    "NatureEffect": "MasterDataModels_GROUP_5.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP.bytes.json",
     "PokemonType": "MD_pokemon_types_2.bytes.json",
     "PokemonName": "MD_pokemons_9.bytes.json",
     "RankTitle": "SnorlaxRank_Main_2.bytes.json",
     "SleepFace": "MD_sleeping_faces_5.bytes.json",
     "SleepType": "SleepType_1.bytes.json",
     "Specialty": "FormationTag_9.bytes.json",
-    "SubSkill": "MD_pokemon_rankup_bonus_0.bytes.json",
+    "SubSkill": "MD_pokemon_rankup_bonus_6.bytes.json",
+    #"SubSkillDescription": "MD_pokemon_rankup_bonus_0.bytes.json",
 }
 
 FILE_OF_LOCALE = {

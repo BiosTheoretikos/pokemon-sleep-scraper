@@ -203,7 +203,7 @@
         "9": "Mäßig"
     },
     "NatureEffect": {
-        "1": "Talent-Rate",
+        "1": "Haupttalent-Chance",
         "2": "EP-Gewinn",
         "3": "Energieaufladung",
         "4": "Zutatenfund",
@@ -915,7 +915,7 @@
             "18": "Talent-Levelaufstieg M",
             "19": "Inventar-Ausbau L",
             "2": "Helferbonus",
-            "3": "Team-Erholungsbonus",
+            "3": "Energieaufladebonus",
             "4": "Traumsplitter-Bonus",
             "5": "Forschungspunkte-Bonus",
             "6": "Hilfstempo S",
@@ -925,24 +925,24 @@
         },
         "Description": {
             "1": "Erhöht die vom Team erhaltenen EP nach dem Schlaf um {bonus} %.",
-            "10": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
+            "10": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann um {bonus}.",
             "11": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
             "12": "Erhöht leicht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
             "13": "Erhöht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
             "14": "Erhöht leicht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
             "15": "Erhöht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
-            "16": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
-            "17": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
+            "16": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert um {bonus} %.",
+            "17": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert um {bonus} %.",
             "18": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
-            "19": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
-            "2": "Reduziert die Zeit, die Teammitglieder zum Aushelfen benötigen, um {bonus} %.",
+            "19": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann um {bonus}.",
+            "2": "Reduziert die Zeit, die ein Team zum Helfen braucht um {bonus} %.",
             "3": "Multipliziert die Energie, die das Team beim Schlafen regeneriert mit {bonus}.",
             "4": "Erhöht die Anzahl der Traumsplitter, die du bei Schlafforschung erhältst um {bonus} %.",
             "5": "Erhöht die Forschungspunkte, die du durch Schlafforschung erhältst um {bonus} %.",
-            "6": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
-            "7": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
-            "8": "Erhöht die Anzahl der Beeren, die dieses Pokémon findet, einmalig um {bonus}.",
-            "9": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}."
+            "6": "Reduziert die Zeit, die dieses Pokémon zum Helfen braucht um {bonus} %.",
+            "7": "Reduziert die Zeit, die dieses Pokémon zum Helfen braucht um {bonus} %.",
+            "8": "Erhöht die Anzahl der Beeren, die dieses Pokémon findet um {bonus}.",
+            "9": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann um {bonus}."
         }
     }
 }
