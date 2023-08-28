@@ -3,7 +3,7 @@ import json
 import pymongo
 from pymongo import MongoClient
 
-CONNECTION_STRING = "mongodb://localhost:23015"
+from _const import *
 
 with open("transformed/ingredient_chain.json") as f:
     data = json.load(f)

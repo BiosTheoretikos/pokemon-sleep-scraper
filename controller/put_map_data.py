@@ -1,7 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
-CONNECTION_STRING = "mongodb://localhost:23015"
+from _const import *
 
 data = [
     {
