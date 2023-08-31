@@ -5,6 +5,7 @@ from datetime import datetime
 SCRIPTS_SCRAPER = [
     "scrape/berry.py",
     "scrape/ingredient.py",
+    "scrape/mainskill.py",
     "scrape/meals.py",
     "scrape/pokemon_by_incense.py",
     "scrape/pokemon_data_and_evo_chain.py",
@@ -17,6 +18,7 @@ SCRIPTS_UPDATE = [
     "controller/put_berry_data.py",
     "controller/put_ingredient_data.py",
     "controller/put_map_data.py",
+    "controller/put_mainskill_data.py",
     "controller/put_meal_data.py",
     "controller/put_pokemon_data.py",
     "controller/put_snorlax_data.py",
