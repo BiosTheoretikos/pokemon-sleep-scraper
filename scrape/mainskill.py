@@ -77,7 +77,7 @@ MAINSKILL_EFFECT_CONVERTER = {
     7: to_stamina_recovery_effect("self"),
     8: to_stamina_recovery_effect("team"),
     9: to_instant_help_effect,
-    10: to_cooking_effect("ingredient"),
+    10: to_cooking_effect("ingredients"),
     11: to_cooking_effect("capacity"),
     13: to_metronome_effect,
 }
