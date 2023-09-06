@@ -16,7 +16,11 @@ def main():
         if idx < 2:
             continue
 
-        rank, _, _, _, _, _, _, shards = index_row.find_all("td")
+        cells = index_row.find_all("td")
+
+        rank = cells[0]
+        shards = cells[-1]
+
         _rank_title, _rank_number = rank.text.split(" ")
         rank = {
             "title": MAP_TITLE_TO_ID[_rank_title],
