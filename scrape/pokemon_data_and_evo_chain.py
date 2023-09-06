@@ -30,7 +30,10 @@ def get_sleep_style_id(poke, name):
     if name == "Atop-Belly Sleep":
         return "onSnorlax"
 
-    return MAP_OF_TO_SLEEP_STYLE_ID[poke][name]
+    try:
+        return MAP_OF_TO_SLEEP_STYLE_ID[poke][name]
+    except KeyError:
+        raise RuntimeError(f"{poke} ({name})")
 
 
 def get_main_skill_id(name, desc):

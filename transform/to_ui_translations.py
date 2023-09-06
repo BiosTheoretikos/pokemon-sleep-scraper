@@ -40,7 +40,7 @@ FILE_EN = {
     "PokemonType": "MD_pokemon_types_0.bytes.json",
     "PokemonName": "MD_pokemons_0.bytes.json",
     "RankTitle": "SnorlaxRank_Main_1.bytes.json",
-    "SleepFace": "MD_sleeping_faces_15.bytes.json",
+    "SleepFace": "MD_sleeping_faces.bytes.json",
     "SleepType": "SleepType_12.bytes.json",
     "Specialty": "FormationTag_6.bytes.json",
     "SubSkill": "MD_pokemon_rankup_bonus_12.bytes.json",
