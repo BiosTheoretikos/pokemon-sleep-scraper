@@ -39,6 +39,12 @@ def run_script(script_type, script_path):
             f.write(c)
             f.flush()
 
+        process.wait()
+        exit_code = process.returncode
+        if exit_code:
+            print(f"Exit code non-0 for {script_type} - {script_path} ({exit_code})", file=sys.stderr)
+            sys.exit(exit_code)
+
 
 def main():
     for scraper in SCRIPTS_SCRAPER:
