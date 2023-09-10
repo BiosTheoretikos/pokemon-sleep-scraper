@@ -31,8 +31,14 @@ def index():
 def main():
     index()
 
+    data_xp_with_total = []
+    total_gained = 0
+    for data_xp_single in data_xp:
+        data_xp_with_total.append(data_xp_single | {"totalGained": total_gained})
+        total_gained += data_xp_single["toNext"]
+
     col_xp.delete_many({})
-    col_xp.insert_many(data_xp)
+    col_xp.insert_many(data_xp_with_total)
     col_xp_mult.delete_many({})
     col_xp_mult.insert_many(data_mult)
 
