@@ -1,960 +1,960 @@
 {
-    "Berry": {
-        "1": "Persimbeere",
-        "10": "Pallmbeere",
-        "11": "Magobeere",
-        "12": "Prunusbeere",
-        "13": "Tsitrubeere",
-        "14": "Morbbeere",
-        "15": "Kiroyabeere",
-        "16": "Wikibeere",
-        "17": "Myrtilbeere",
-        "18": "Pirsifbeere",
-        "2": "Jonagobeere",
-        "3": "Sinelbeere",
-        "4": "Labrusbeere",
-        "5": "Durinbeere",
-        "6": "Fragiabeere",
-        "7": "Amrenabeere",
-        "8": "Maronbeere",
-        "9": "Giefebeere"
+  "Berry": {
+    "1": "Persimbeere",
+    "10": "Pallmbeere",
+    "11": "Magobeere",
+    "12": "Prunusbeere",
+    "13": "Tsitrubeere",
+    "14": "Morbbeere",
+    "15": "Kiroyabeere",
+    "16": "Wikibeere",
+    "17": "Myrtilbeere",
+    "18": "Pirsifbeere",
+    "2": "Jonagobeere",
+    "3": "Sinelbeere",
+    "4": "Labrusbeere",
+    "5": "Durinbeere",
+    "6": "Fragiabeere",
+    "7": "Amrenabeere",
+    "8": "Maronbeere",
+    "9": "Giefebeere"
+  },
+  "Field": {
+    "1": "Grasgrün-Insel",
+    "2": "Cyan-Strand",
+    "3": "Taupe-Höhle",
+    "4": "Schneeweiß-Tundra",
+    "6": "Karmin-Vulkan",
+    "7": "Lapislazuli-See",
+    "indirect_1": "Grasgrün-Insel",
+    "indirect_2": "Cyan-Strand",
+    "indirect_3": "Taupe-Höhle",
+    "indirect_4": "Schneeweiß-Tundra",
+    "indirect_6": "Karmin-Vulkan",
+    "indirect_7": "Lapislazuli-See"
+  },
+  "Food": {
+    "1": "Dicker Lauch",
+    "10": "Reines Öl",
+    "1000": "Gemischtes Curry",
+    "1001": "Luxusapfel-Curry",
+    "1002": "Rutencurry",
+    "1003": "Tomatencurry „Solarkraft“",
+    "1004": "Buttercurry „Hypnose“",
+    "1005": "Scharfes Lauchcurry",
+    "1006": "Curry „Pilzspore“",
+    "1007": "Curry „Eierbombe“",
+    "1008": "Käse-Bulettencurry",
+    "1009": "Kartoffel-Suppe",
+    "1010": "Einfache Cremesuppe",
+    "1011": "Buletten-Curry",
+    "1012": "Mildes Honigcurry",
+    "1013": "Ninja-Curry",
+    "1014": "Schnitzelcurry „Dürre“",
+    "1015": "Cremiges Omelettcurry",
+    "1016": "Bohnencurry „Protzer“",
+    "11": "Wärmender Ingwer",
+    "12": "Schlaftomate",
+    "13": "Ruhekakao",
+    "14": "Flegmon-Rute",
+    "15": "Grasgrün-Sojabohnen",
+    "2": "Schlemmerpilz",
+    "2000": "Gemischter Salat",
+    "2001": "Pfeffriger Salat mit Flegmon-Rute",
+    "2002": "Salat „Pilzspore“",
+    "2003": "Käsesalat „Blizzard“",
+    "2004": "Kartoffelsalat „Völlerei“",
+    "2005": "Tofusalat „Aquahülle“",
+    "2006": "Maxi-Salat „Kraftschub“",
+    "2007": "Salat mit Bohnenwurst",
+    "2008": "Tomatensalat",
+    "2009": "Kuhmuh-Tomatensalat",
+    "2010": "Schokolade-Fleisch-Salat „Umkehrung“",
+    "2011": "Ingwersalat „Hitzekoller“",
+    "2012": "Luxusapfel-Salat",
+    "2013": "Lauchsalat „Immunität“",
+    "2014": "Apfel-Käse-Salat „Buntkörper“",
+    "2015": "Ninja-Salat",
+    "2016": "Tofusalat „Hitzewelle“",
+    "3": "Luxus-Ei",
+    "3000": "Saftmix",
+    "3001": "Süßkartoffeln „Wollflaum“",
+    "3002": "Ingwerkekse „Felsenfest“",
+    "3003": "Luxusapfel-Saft",
+    "3004": "Extrasprudel",
+    "3005": "Ingwertee „Glut“",
+    "3006": "Fruchtpudding à la Pummeluff",
+    "3007": "Smoothie „Charme“",
+    "3008": "Apfelkuchen „Honigmaul“",
+    "3009": "Nerolis Erholungstee",
+    "3010": "Schokokuchen „Lockduft“",
+    "3011": "Warme Kuhmuh-Milch",
+    "3012": "Sojakuchen „Entlastung“",
+    "3013": "Protein-Smoothie „Übereifer“",
+    "3014": "Gemüsesaft „Stahlprofi“",
+    "3015": "Maxi-Malasada",
+    "3016": "Soja-Donuts „Kraftkoloss“",
+    "4": "Kartoffel",
+    "5": "Luxusapfel",
+    "5_update_test": "とくせんりんごテスト",
+    "6": "Feuriges Kraut",
+    "7": "Bohnenwurst",
+    "8": "Kuhmuh-Milch",
+    "9": "Honig"
+  },
+  "Item": {
+    "1": "Fokusrauch",
+    "10": "Superkeks",
+    "11": "Meisterkeks",
+    "12": "Universalbonbon S",
+    "13": "Universalbonbon M",
+    "14": "Universalbonbon L",
+    "15": "Zutaten-Ticket S",
+    "16": "Zutaten-Ticket M",
+    "17": "Zutaten-Ticket L",
+    "18": "Traumbrocken S",
+    "19": "Traumbrocken M",
+    "2": "Glücksrauch",
+    "20": "Traumbrocken L",
+    "21": "Verbindungsschnur",
+    "22": "Feuerstein",
+    "23": "Wasserstein",
+    "24": "Donnerstein",
+    "25": "Blattstein",
+    "26": "Eisstein",
+    "27": "Mondstein",
+    "28": "Leuchtstein",
+    "29": "Metallmantel",
+    "3": "EP-Rauch",
+    "30": "Ovaler Stein",
+    "31": "King-Stein",
+    "32": "Haupttalentsamen",
+    "33": "Nebentalentsamen",
+    "34": "Freundesrauch",
+    "4": "Erholungsrauch",
+    "5": "Energiekissen",
+    "6": "Helferpfeife",
+    "7": "Schlaftaxi-Ticket",
+    "8": "Profi-Camping-Ticket",
+    "9": "Pokékeks"
+  },
+  "MainSkill": {
+    "Name": {
+      "1": "Stärkezufuhr S (#)",
+      "10": "Zutaten-Magnet S",
+      "11": "Kochgeschick S",
+      "12": "Typen-Boost S",
+      "13": "Metronom",
+      "2": "Stärkezufuhr M",
+      "3": "Traumsplitter-Magnet S (#)",
+      "4": "Energisches Anfeuern S",
+      "5": "Stärkezufuhr S (#1 ~ #2)",
+      "6": "Traumsplitter-Magnet S (#1 ~ #2)",
+      "7": "Energiezufuhr S",
+      "8": "Rundum-Energie S",
+      "9": "Extra-Hilfe S"
     },
-    "Field": {
-        "1": "Grasgrün-Insel",
-        "2": "Cyan-Strand",
-        "3": "Taupe-Höhle",
-        "4": "Schneeweiß-Tundra",
-        "6": "Karmin-Vulkan",
-        "7": "Lapislazuli-See",
-        "indirect_1": "Grasgrün-Insel",
-        "indirect_2": "Cyan-Strand",
-        "indirect_3": "Taupe-Höhle",
-        "indirect_4": "Schneeweiß-Tundra",
-        "indirect_6": "Karmin-Vulkan",
-        "indirect_7": "Lapislazuli-See"
-    },
-    "Food": {
-        "1": "Dicker Lauch",
-        "10": "Reines Öl",
-        "1000": "Gemischtes Curry",
-        "1001": "Luxusapfel-Curry",
-        "1002": "Rutencurry",
-        "1003": "Tomatencurry „Solarkraft“",
-        "1004": "Buttercurry „Hypnose“",
-        "1005": "Scharfes Lauchcurry",
-        "1006": "Curry „Pilzspore“",
-        "1007": "Curry „Eierbombe“",
-        "1008": "Käse-Bulettencurry",
-        "1009": "Kartoffel-Suppe",
-        "1010": "Einfache Cremesuppe",
-        "1011": "Buletten-Curry",
-        "1012": "Mildes Honigcurry",
-        "1013": "Ninja-Curry",
-        "1014": "Schnitzelcurry „Dürre“",
-        "1015": "Cremiges Omelettcurry",
-        "1016": "Bohnencurry „Protzer“",
-        "11": "Wärmender Ingwer",
-        "12": "Schlaftomate",
-        "13": "Ruhekakao",
-        "14": "Flegmon-Rute",
-        "15": "Grasgrün-Sojabohnen",
-        "2": "Schlemmerpilz",
-        "2000": "Gemischter Salat",
-        "2001": "Pfeffriger Salat mit Flegmon-Rute",
-        "2002": "Salat „Pilzspore“",
-        "2003": "Käsesalat „Blizzard“",
-        "2004": "Kartoffelsalat „Völlerei“",
-        "2005": "Tofusalat „Aquahülle“",
-        "2006": "Maxi-Salat „Kraftschub“",
-        "2007": "Salat mit Bohnenwurst",
-        "2008": "Tomatensalat",
-        "2009": "Kuhmuh-Tomatensalat",
-        "2010": "Schokolade-Fleisch-Salat „Umkehrung“",
-        "2011": "Ingwersalat „Hitzekoller“",
-        "2012": "Luxusapfel-Salat",
-        "2013": "Lauchsalat „Immunität“",
-        "2014": "Apfel-Käse-Salat „Buntkörper“",
-        "2015": "Ninja-Salat",
-        "2016": "Tofusalat „Hitzewelle“",
-        "3": "Luxus-Ei",
-        "3000": "Saftmix",
-        "3001": "Süßkartoffeln „Wollflaum“",
-        "3002": "Ingwerkekse „Felsenfest“",
-        "3003": "Luxusapfel-Saft",
-        "3004": "Extrasprudel",
-        "3005": "Ingwertee „Glut“",
-        "3006": "Fruchtpudding à la Pummeluff",
-        "3007": "Smoothie „Charme“",
-        "3008": "Apfelkuchen „Honigmaul“",
-        "3009": "Nerolis Erholungstee",
-        "3010": "Schokokuchen „Lockduft“",
-        "3011": "Warme Kuhmuh-Milch",
-        "3012": "Sojakuchen „Entlastung“",
-        "3013": "Protein-Smoothie „Übereifer“",
-        "3014": "Gemüsesaft „Stahlprofi“",
-        "3015": "Maxi-Malasada",
-        "3016": "Soja-Donuts „Kraftkoloss“",
-        "4": "Kartoffel",
-        "5": "Luxusapfel",
-        "5_update_test": "とくせんりんごテスト",
-        "6": "Feuriges Kraut",
-        "7": "Bohnenwurst",
-        "8": "Kuhmuh-Milch",
-        "9": "Honig"
-    },
-    "Item": {
-        "1": "Fokusrauch",
-        "10": "Superkeks",
-        "11": "Meisterkeks",
-        "12": "Universalbonbon S",
-        "13": "Universalbonbon M",
-        "14": "Universalbonbon L",
-        "15": "Zutaten-Ticket S",
-        "16": "Zutaten-Ticket M",
-        "17": "Zutaten-Ticket L",
-        "18": "Traumbrocken S",
-        "19": "Traumbrocken M",
-        "2": "Glücksrauch",
-        "20": "Traumbrocken L",
-        "21": "Verbindungsschnur",
-        "22": "Feuerstein",
-        "23": "Wasserstein",
-        "24": "Donnerstein",
-        "25": "Blattstein",
-        "26": "Eisstein",
-        "27": "Mondstein",
-        "28": "Leuchtstein",
-        "29": "Metallmantel",
-        "3": "EP-Rauch",
-        "30": "Ovaler Stein",
-        "31": "King-Stein",
-        "32": "Haupttalentsamen",
-        "33": "Nebentalentsamen",
-        "34": "Freundesrauch",
-        "4": "Erholungsrauch",
-        "5": "Energiekissen",
-        "6": "Helferpfeife",
-        "7": "Schlaftaxi-Ticket",
-        "8": "Profi-Camping-Ticket",
-        "9": "Pokékeks"
-    },
-    "MainSkill": {
-        "Name": {
-            "1": "Stärkezufuhr S (#)",
-            "10": "Zutaten-Magnet S",
-            "11": "Kochgeschick S",
-            "12": "Typen-Boost S",
-            "13": "Metronom",
-            "2": "Stärkezufuhr M",
-            "3": "Traumsplitter-Magnet S (#)",
-            "4": "Energisches Anfeuern S",
-            "5": "Stärkezufuhr S (#1 ~ #2)",
-            "6": "Traumsplitter-Magnet S (#1 ~ #2)",
-            "7": "Energiezufuhr S",
-            "8": "Rundum-Energie S",
-            "9": "Extra-Hilfe S"
-        },
-        "Description": {
-            "1": "Erhöht Relaxos Stärke um '{#1'}",
-            "10": "Du erhältst '{#1'} zufällige Zutaten",
-            "11": "Der Topf enthält '{#1'} Zutaten mehr beim nächsten Mal Kochen.",
-            "12": "Beschleunigt die Hilfe von Pokémon vom Typ '{Element'} um '{?'} ",
-            "13": "Setzt ein zufälliges Haupttalent ein.",
-            "2": "Erhöht Relaxos Stärke um '{#1'}",
-            "3": "Du erhältst '{#1'} Traumsplitter.",
-            "4": "Füllt die Energie eines zufälligen anderen Pokémon um '{#1'} auf.",
-            "5": "Erhöht Relaxos Stärke um einen Wert von '{#1'} bis '{#2'}",
-            "6": "Du erhältst zwischen '{#1'} und '{#2'} Traumsplitter.",
-            "7": "Füllt die Energie des Pokémon um '{#1'} auf.",
-            "8": "Füllt die Energie aller Pokémon deines Teams um '{#1'} auf.",
-            "9": "Die Hilfe eines Pokémon wird auf der Stelle '{#1'} Mal durchgeführt."
-        }
-    },
-    "MealType": {
-        "1": "Currys und Eintöpfe",
-        "2": "Salate",
-        "3": "Desserts und Getränke"
-    },
-    "Nature": {
-        "1": "Solo",
-        "10": "Mild",
-        "11": "Hitzig",
-        "12": "Ruhig",
-        "13": "Still",
-        "14": "Zart",
-        "15": "Sacht",
-        "16": "Forsch",
-        "17": "Scheu",
-        "18": "Hastig",
-        "19": "Froh",
-        "2": "Hart",
-        "20": "Naiv",
-        "21": "Zaghaft",
-        "22": "Robust",
-        "23": "Sanft",
-        "24": "Kauzig",
-        "25": "Ernst",
-        "3": "Frech",
-        "4": "Mutig",
-        "5": "Kühn",
-        "6": "Pfiffig",
-        "7": "Lasch",
-        "8": "Locker",
-        "9": "Mäßig"
-    },
-    "NatureEffect": {
-        "1": "Talent-Rate",
-        "2": "EP-Gewinn",
-        "3": "Energieaufladung",
-        "4": "Zutatenfund",
-        "5": "Helfertempo"
-    },
-    "PokemonType": {
-        "1": "Normal",
-        "10": "Flug",
-        "11": "Psycho",
-        "12": "Käfer",
-        "13": "Gestein",
-        "14": "Geist",
-        "15": "Drache",
-        "16": "Unlicht",
-        "17": "Stahl",
-        "18": "Fee",
-        "2": "Feuer",
-        "3": "Wasser",
-        "4": "Elektro",
-        "5": "Pflanze",
-        "6": "Eis",
-        "7": "Kampf",
-        "8": "Gift",
-        "9": "Boden"
-    },
-    "PokemonName": {
-        "1": "Bisasam",
-        "10": "Raupy",
-        "104": "Tragosso",
-        "105": "Knogga",
-        "11": "Safcon",
-        "115": "Kangama",
-        "12": "Smettbo",
-        "122": "Pantimos",
-        "127": "Pinsir",
-        "132": "Ditto",
-        "133": "Evoli",
-        "134": "Aquana",
-        "135": "Blitza",
-        "136": "Flamara",
-        "147": "Dratini",
-        "148": "Dragonir",
-        "149": "Dragoran",
-        "152": "Endivie",
-        "153": "Lorblatt",
-        "154": "Meganie",
-        "155": "Feurigel",
-        "156": "Igelavar",
-        "157": "Tornupto",
-        "158": "Karnimani",
-        "159": "Tyracroc",
-        "160": "Impergator",
-        "172": "Pichu",
-        "174": "Fluffeluff",
-        "175": "Togepi",
-        "176": "Togetic",
-        "179": "Voltilamm",
-        "180": "Waaty",
-        "181": "Ampharos",
-        "185": "Mogelbaum",
-        "19": "Rattfratz",
-        "196": "Psiana",
-        "197": "Nachtara",
-        "199": "Laschoking",
-        "2": "Bisaknosp",
-        "20": "Rattikarl",
-        "202": "Woingenau",
-        "214": "Skaraborn",
-        "228": "Hunduster",
-        "229": "Hundemon",
-        "23": "Rettan",
-        "24": "Arbok",
-        "246": "Larvitar",
-        "247": "Pupitar",
-        "248": "Despotar",
-        "25": "Pikachu",
-        "26": "Raichu",
-        "287": "Bummelz",
-        "288": "Muntier",
-        "289": "Letarking",
-        "3": "Bisaflor",
-        "302": "Zobiris",
-        "316": "Schluppuck",
-        "317": "Schlukwech",
-        "333": "Wablu",
-        "334": "Altaria",
-        "359": "Absol",
-        "360": "Isso",
-        "363": "Seemops",
-        "364": "Seejong",
-        "365": "Walraisa",
-        "39": "Pummeluff",
-        "4": "Glumanda",
-        "40": "Knuddeluff",
-        "438": "Mobai",
-        "439": "Pantimimi",
-        "447": "Riolu",
-        "448": "Lucario",
-        "453": "Glibunkel",
-        "454": "Toxiquak",
-        "462": "Magnezone",
-        "468": "Togekiss",
-        "470": "Folipurba",
-        "471": "Glaziola",
-        "5": "Glutexo",
-        "50": "Digda",
-        "51": "Digdri",
-        "52": "Mauzi",
-        "53": "Snobilikat",
-        "54": "Enton",
-        "55": "Entoron",
-        "56": "Menki",
-        "57": "Rasaff",
-        "58": "Fukano",
-        "59": "Arkani",
-        "6": "Glurak",
-        "69": "Knofensa",
-        "7": "Schiggy",
-        "70": "Ultrigaria",
-        "700": "Feelinara",
-        "71": "Sarzenia",
-        "74": "Kleinstein",
-        "75": "Georok",
-        "76": "Geowaz",
-        "79": "Flegmon",
-        "8": "Schillok",
-        "80": "Lahmus",
-        "81": "Magnetilo",
-        "82": "Magneton",
-        "84": "Dodu",
-        "85": "Dodri",
-        "9": "Turtok",
-        "92": "Nebulak",
-        "93": "Alpollo",
-        "94": "Gengar"
-    },
-    "RankTitle": {
-        "1": "Standard",
-        "2": "Super",
-        "3": "Hyper",
-        "4": "Meister"
-    },
-    "SleepFace": {
-        "1": {
-            "3": "Rankenpose",
-            "2": "Standhaftpose",
-            "1": "Sonnenbadpose"
-        },
-        "10": {
-            "3": "Fadenschusspose",
-            "2": "Kopfschaukelpose",
-            "1": "Komfortpose"
-        },
-        "104": {
-            "3": "Knochenkissen-pose",
-            "2": "Knochenkratzpose",
-            "1": "Kummerpose"
-        },
-        "105": {
-            "3": "Knochenkissen-pose",
-            "2": "Knochenkratzpose",
-            "1": "Schmuseknochen-pose"
-        },
-        "11": {
-            "3": "Härtnerpose",
-            "2": "Wackelpose",
-            "1": "Friedlichpose"
-        },
-        "115": {
-            "3": "Frühaufsteher-pose",
-            "2": "Synchronpose",
-            "1": "Familienbandepose"
-        },
-        "12": {
-            "3": "Streupose",
-            "2": "Schwebepose",
-            "1": "Schwebesitzpose"
-        },
-        "122": {
-            "3": "Barrierebettpose",
-            "2": "Kieselwurfpose",
-            "1": "Barrierepose"
-        },
-        "127": {
-            "3": "Verbuddelpose",
-            "2": "Aufrechtpose",
-            "1": "Furchtlospose"
-        },
-        "132": {
-            "7": "Schiggy-Pose",
-            "6": "Glumanda-Pose",
-            "5": "Bisasam-Pose",
-            "3": "Pikachu-Pose",
-            "2": "Ausgangsform-pose",
-            "12": "Glaziola-Pose",
-            "11": "Larvitar-Pose",
-            "10": "Dragoran-Pose",
-            "1": "Steinformpose"
-        },
-        "133": {
-            "3": "Fidelpose",
-            "2": "Hängeohrenpose",
-            "1": "Einkugelpose"
-        },
-        "134": {
-            "3": "Komfortpose",
-            "2": "Sitzpose",
-            "1": "Flossenwedelpose"
-        },
-        "135": {
-            "3": "Traumsprintpose",
-            "2": "Sitzpose",
-            "1": "Liegepose"
-        },
-        "136": {
-            "3": "Schweifumhüll-pose",
-            "2": "Kauerpose",
-            "1": "Schweifwedelpose"
-        },
-        "147": {
-            "3": "Entrollpose",
-            "2": "Windepose",
-            "1": "Einrollpose"
-        },
-        "148": {
-            "3": "Entrollpose",
-            "2": "Windepose",
-            "1": "Einrollpose"
-        },
-        "149": {
-            "3": "Bäuchleinpose",
-            "2": "Päuschenpose",
-            "1": "Einkugelpose"
-        },
-        "152": {
-            "3": "Bauchhochpose",
-            "2": "Hängeblattpose",
-            "1": "Blattdrehpose"
-        },
-        "153": {
-            "3": "Aromapose",
-            "2": "Knospenschüttel-pose",
-            "1": "Streckpose"
-        },
-        "154": {
-            "3": "Blumenmeerpose",
-            "2": "Kopfnickpose",
-            "1": "Sorglospose"
-        },
-        "155": {
-            "3": "Feuersprühpose",
-            "2": "Beugepose",
-            "1": "Komfortpose"
-        },
-        "156": {
-            "3": "Feuersprühpose",
-            "2": "Flachpose",
-            "1": "Armkissenpose"
-        },
-        "157": {
-            "3": "Feuersprühpose",
-            "2": "Putzpose",
-            "1": "Armkissenpose"
-        },
-        "158": {
-            "3": "Maulaufsperrpose",
-            "2": "Knabberpose",
-            "1": "Einaugenpose"
-        },
-        "159": {
-            "3": "Maulaufsperrpose",
-            "2": "Zahnbleckpose",
-            "1": "Einaugenpose"
-        },
-        "160": {
-            "3": "Maulaufsperrpose",
-            "2": "Bedroherpose",
-            "1": "Einaugenpose"
-        },
-        "172": {
-            "3": "Ladepose",
-            "2": "Päuschenpose",
-            "1": "Sorglospose"
-        },
-        "174": {
-            "3": "Gesangspose",
-            "2": "Döspose",
-            "1": "Sprungpose"
-        },
-        "175": {
-            "3": "Schalenpose",
-            "2": "Andersrumpose",
-            "1": "Wiegepose"
-        },
-        "176": {
-            "3": "Flugflatterpose",
-            "2": "Stehflatterpose",
-            "1": "Sitzflatterpose"
-        },
-        "179": {
-            "3": "Lichtschweifpose",
-            "2": "Scharrpose",
-            "1": "Flauschpose"
-        },
-        "180": {
-            "3": "Lichtschweifpose",
-            "2": "Flauschpose",
-            "1": "Komfortpose"
-        },
-        "181": {
-            "3": "Glühschweifpose",
-            "2": "Kopfnickpose",
-            "1": "Schweifkratzpose"
-        },
-        "185": {
-            "3": "Nichtstuerpose",
-            "2": "Trägbaumpose",
-            "1": "Täuschbaumpose"
-        },
-        "19": {
-            "3": "Nagepose",
-            "2": "Pendelpose",
-            "1": "Kopfkratzpose"
-        },
-        "196": {
-            "3": "Bauchhochpose",
-            "2": "Sitzpose",
-            "1": "Hellsehpose"
-        },
-        "197": {
-            "3": "Bauchhochpose",
-            "2": "Sitzpose",
-            "1": "Halbmondpose"
-        },
-        "199": {
-            "3": "Geistesblitzpose",
-            "2": "Weisheitspose",
-            "1": "Fläzpose"
-        },
-        "2": {
-            "3": "Rankenpose",
-            "2": "Standhaftpose",
-            "1": "Sonnenbadpose"
-        },
-        "20": {
-            "3": "Nagepose",
-            "2": "Aufrechtpose",
-            "1": "Zahnknirschpose"
-        },
-        "202": {
-            "3": "Markenzeichen-pose",
-            "2": "Geduldspose",
-            "1": "Schweifversteck-pose"
-        },
-        "214": {
-            "3": "Harznaschpose",
-            "2": "Aufrechtpose",
-            "1": "Hornschüttelpose"
-        },
-        "228": {
-            "3": "Bauchhochpose",
-            "2": "Streckpose",
-            "1": "Jaulerpose"
-        },
-        "229": {
-            "3": "Feueratempose",
-            "2": "Standhaftpose",
-            "1": "Liegepose"
-        },
-        "23": {
-            "3": "Entrollpose",
-            "2": "Sprungfederpose",
-            "1": "Einrollpose"
-        },
-        "24": {
-            "3": "Entrollpose",
-            "2": "Neigepose",
-            "1": "Einrollpose"
-        },
-        "246": {
-            "3": "Erdmampfpose",
-            "2": "Gesichtrubbelpose",
-            "1": "Streckpose"
-        },
-        "247": {
-            "3": "Gasausstoßpose",
-            "2": "Zitterpose",
-            "1": "Umstürzpose"
-        },
-        "248": {
-            "3": "Breitmachpose",
-            "2": "Imposanzpose",
-            "1": "Bauchpose"
-        },
-        "25": {
-            "3": "Ladepose",
-            "2": "Hängeohrenpose",
-            "1": "Einkugelpose"
-        },
-        "26": {
-            "3": "Erdungspose",
-            "2": "Päuschenpose",
-            "1": "Schweifwogepose"
-        },
-        "287": {
-            "3": "Häppchenpose",
-            "2": "Putzpose",
-            "1": "Tagediebpose"
-        },
-        "288": {
-            "3": "Tagediebpose",
-            "2": "Gymnastikpose",
-            "1": "Ungeduldspose"
-        },
-        "289": {
-            "3": "Häppchenpose",
-            "2": "Fläzpose",
-            "1": "Breitmachpose"
-        },
-        "3": {
-            "3": "Rankenpose",
-            "2": "Standhaftpose",
-            "1": "Sonnenbadpose"
-        },
-        "302": {
-            "3": "Edelsteinmampf-pose",
-            "2": "Zuckpose",
-            "1": "Breitmachpose"
-        },
-        "316": {
-            "3": "Maulaufsperrpose",
-            "2": "Einnickpose",
-            "1": "Ballonpose"
-        },
-        "317": {
-            "3": "Maulaufsperrpose",
-            "2": "Einnickpose",
-            "1": "Umfallpose"
-        },
-        "333": {
-            "3": "Wölkchenpose",
-            "2": "Flatterpose",
-            "1": "Ruhepose"
-        },
-        "334": {
-            "3": "Wölkchenpose",
-            "2": "Ruhepose",
-            "1": "Federnestpose"
-        },
-        "359": {
-            "3": "Bauchhochpose",
-            "2": "Gefahrenspürpose",
-            "1": "Kauerpose"
-        },
-        "360": {
-            "3": "Markenzeichen-pose",
-            "2": "Geduldspose",
-            "1": "Schweifwackel-pose"
-        },
-        "363": {
-            "3": "Applauspose",
-            "2": "Gähnpose",
-            "1": "Plumpspose"
-        },
-        "364": {
-            "3": "Andersrumpose",
-            "2": "Gähnpose",
-            "1": "Bodenklatschpose"
-        },
-        "365": {
-            "3": "Zahnfeststeck-pose",
-            "2": "Majestätspose",
-            "1": "Fläzpose"
-        },
-        "39": {
-            "3": "Gesangspose",
-            "2": "Döspose",
-            "1": "Päuschenpose"
-        },
-        "4": {
-            "3": "Bäuchleinpose",
-            "2": "Bauchrubbelpose",
-            "1": "Knisterpose"
-        },
-        "40": {
-            "3": "Aufbauschpose",
-            "2": "Erstauntpose",
-            "1": "Lächelpose"
-        },
-        "438": {
-            "3": "Tränaugenpose",
-            "2": "Aufrechtpose",
-            "1": "Plumpspose"
-        },
-        "439": {
-            "3": "Barrierebettpose",
-            "2": "Aufrechtpose",
-            "1": "Armstreckpose"
-        },
-        "447": {
-            "3": "Kniehochpose",
-            "2": "Trainingspose",
-            "1": "Knieklammerpose"
-        },
-        "448": {
-            "3": "Trainingspausen-pose",
-            "2": "Trainingspose",
-            "1": "Kniehochpose"
-        },
-        "453": {
-            "3": "Geradlinienpose",
-            "2": "Pausbackenpose",
-            "1": "Fläzpose"
-        },
-        "454": {
-            "3": "Giftbeutelpose",
-            "2": "Kehlblähpose",
-            "1": "Fläzpose"
-        },
-        "462": {
-            "3": "Kopfüberpose",
-            "2": "Wachsampose",
-            "1": "Schaukelpose"
-        },
-        "468": {
-            "3": "Akrobatikflug-pose",
-            "2": "Stehflatterpose",
-            "1": "Freiflugpose"
-        },
-        "470": {
-            "3": "Blattkuschelpose",
-            "2": "Standhaftpose",
-            "1": "Schweifwedelpose"
-        },
-        "471": {
-            "3": "Komfortpose",
-            "2": "Standhaftpose",
-            "1": "Armkissenpose"
-        },
-        "5": {
-            "3": "Fläzpose",
-            "2": "Päuschenpose",
-            "1": "Armkissenpose"
-        },
-        "50": {
-            "3": "Halbschauflerpose",
-            "2": "Übererdpose",
-            "1": "Untererdpose"
-        },
-        "51": {
-            "3": "Kuscheltriopose",
-            "2": "Übererdpose",
-            "1": "Untererdpose"
-        },
-        "52": {
-            "3": "Zahltagpose",
-            "2": "Päuschenpose",
-            "1": "Einkugelpose"
-        },
-        "53": {
-            "3": "Versteckpose",
-            "2": "Standhaftpose",
-            "1": "Eleganzpose"
-        },
-        "54": {
-            "3": "Trotzpose",
-            "2": "Gähnpose",
-            "1": "Kopfwehpose"
-        },
-        "55": {
-            "3": "Schwimmpose",
-            "2": "Hinterteilkratz-pose",
-            "1": "Armkissenpose"
-        },
-        "56": {
-            "3": "Sorglospose",
-            "2": "Aufrechtpose",
-            "1": "Wutpose"
-        },
-        "57": {
-            "3": "Sorglospose",
-            "2": "Fruststampfer-pose",
-            "1": "Wutpose"
-        },
-        "58": {
-            "3": "Bauchhochpose",
-            "2": "Sitzpose",
-            "1": "Streckpose"
-        },
-        "59": {
-            "3": "Bauchhochpose",
-            "2": "Sitzpose",
-            "1": "Liegepose"
-        },
-        "6": {
-            "3": "Bäuchleinpose",
-            "2": "Armkreuzpose",
-            "1": "Bauchpose"
-        },
-        "69": {
-            "3": "Einwurzelpose",
-            "2": "Säurepose",
-            "1": "Räkelpose"
-        },
-        "7": {
-            "3": "Andersrumpose",
-            "2": "Schutzlospose",
-            "1": "Rückzugspose"
-        },
-        "70": {
-            "3": "Saugpose",
-            "2": "Schwebepose",
-            "1": "Säurepose"
-        },
-        "700": {
-            "3": "Wirrwarrpose",
-            "2": "Standhaftpose",
-            "1": "Einkugelpose"
-        },
-        "71": {
-            "3": "Andersrumpose",
-            "2": "Rankenstützpose",
-            "1": "Schauderpose"
-        },
-        "74": {
-            "3": "Kuhlenpose",
-            "2": "Geduldspose",
-            "1": "Armkreuzpose"
-        },
-        "75": {
-            "3": "Rollpose",
-            "2": "Innigpose",
-            "1": "Faulenzpose"
-        },
-        "76": {
-            "3": "Rollpose",
-            "2": "Imposanzpose",
-            "1": "Robustpose"
-        },
-        "79": {
-            "3": "Einfältigpose",
-            "2": "Dämmerschlafpose",
-            "1": "Fix-und-Fertig-Pose"
-        },
-        "8": {
-            "3": "Flachpose",
-            "2": "Schutzlospose",
-            "1": "Rückzugspose"
-        },
-        "80": {
-            "3": "Schweifbisspose",
-            "2": "Sabberpose",
-            "1": "Kuschelduopose"
-        },
-        "81": {
-            "3": "Kopfüberpose",
-            "2": "Magnetflugpose",
-            "1": "Sinkflugpose"
-        },
-        "82": {
-            "3": "Abkoppelpose",
-            "2": "Herabschwebepose",
-            "1": "Koppelpose"
-        },
-        "84": {
-            "3": "Duopose",
-            "2": "Achtlospose",
-            "1": "Achtsampose"
-        },
-        "85": {
-            "3": "Triopose",
-            "2": "Achtlospose",
-            "1": "Achtsampose"
-        },
-        "9": {
-            "3": "Andersrumpose",
-            "2": "Schutzlospose",
-            "1": "Rückzugspose"
-        },
-        "92": {
-            "3": "Zunge-Raus-Pose",
-            "2": "Schwebegaspose",
-            "1": "Kicherpose"
-        },
-        "93": {
-            "3": "Zunge-Raus-Pose",
-            "2": "Schwebegaspose",
-            "1": "Pendelpose"
-        },
-        "94": {
-            "3": "Zunge-Raus-Pose",
-            "2": "Grinsepose",
-            "1": "Schabernackpose"
-        },
-        "onSnorlax": {
-            "Default": "Bauchkissenpose"
-        }
-    },
-    "SleepType": {
-        "0": "Tiefschlaf",
-        "1": "Leichtschlaf",
-        "4": "Halbschlaf",
-        "99": "Unbestimmt"
-    },
-    "Specialty": {
-        "1": "Beeren",
-        "2": "Zutaten",
-        "3": "Talente"
-    },
-    "SubSkill": {
-        "Name": {
-            "1": "Schlaf-EP-Bonus",
-            "10": "Inventar-Ausbau M",
-            "11": "Talent-Levelaufstieg S",
-            "12": "Zutatensucher S",
-            "13": "Zutatensucher M",
-            "14": "Talentauslöser S",
-            "15": "Talentauslöser M",
-            "16": "Energie-Erholung S",
-            "17": "Energie-Erholung M",
-            "18": "Talent-Levelaufstieg M",
-            "19": "Inventar-Ausbau L",
-            "2": "Helferbonus",
-            "3": "Team-Erholungsbonus",
-            "4": "Traumsplitter-Bonus",
-            "5": "Forschungspunkte-Bonus",
-            "6": "Hilfstempo S",
-            "7": "Hilfstempo M",
-            "8": "Beerenfund S",
-            "9": "Inventar-Ausbau S"
-        },
-        "Description": {
-            "1": "Erhöht die vom Team erhaltenen EP nach dem Schlaf um {bonus} %.",
-            "10": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
-            "11": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
-            "12": "Erhöht leicht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
-            "13": "Erhöht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
-            "14": "Erhöht leicht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
-            "15": "Erhöht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
-            "16": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
-            "17": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
-            "18": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
-            "19": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
-            "2": "Reduziert die Zeit, die Teammitglieder zum Aushelfen benötigen, um {bonus} %.",
-            "3": "Multipliziert die Energie, die das Team beim Schlafen regeneriert mit {bonus}.",
-            "4": "Erhöht die Anzahl der Traumsplitter, die du bei Schlafforschung erhältst um {bonus} %.",
-            "5": "Erhöht die Forschungspunkte, die du durch Schlafforschung erhältst um {bonus} %.",
-            "6": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
-            "7": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
-            "8": "Erhöht die Anzahl der Beeren, die dieses Pokémon findet, einmalig um {bonus}.",
-            "9": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}."
-        }
+    "Description": {
+      "1": "Erhöht Relaxos Stärke um '{#1'}",
+      "10": "Du erhältst '{#1'} zufällige Zutaten",
+      "11": "Der Topf enthält '{#1'} Zutaten mehr beim nächsten Mal Kochen.",
+      "12": "Beschleunigt die Hilfe von Pokémon vom Typ '{Element'} um '{?'} ",
+      "13": "Setzt ein zufälliges Haupttalent ein.",
+      "2": "Erhöht Relaxos Stärke um '{#1'}",
+      "3": "Du erhältst '{#1'} Traumsplitter.",
+      "4": "Füllt die Energie eines zufälligen anderen Pokémon um '{#1'} auf.",
+      "5": "Erhöht Relaxos Stärke um einen Wert von '{#1'} bis '{#2'}",
+      "6": "Du erhältst zwischen '{#1'} und '{#2'} Traumsplitter.",
+      "7": "Füllt die Energie des Pokémon um '{#1'} auf.",
+      "8": "Füllt die Energie aller Pokémon deines Teams um '{#1'} auf.",
+      "9": "Die Hilfe eines Pokémon wird auf der Stelle '{#1'} Mal durchgeführt."
     }
+  },
+  "MealType": {
+    "1": "Currys und Eintöpfe",
+    "2": "Salate",
+    "3": "Desserts und Getränke"
+  },
+  "Nature": {
+    "1": "Solo",
+    "10": "Mild",
+    "11": "Hitzig",
+    "12": "Ruhig",
+    "13": "Still",
+    "14": "Zart",
+    "15": "Sacht",
+    "16": "Forsch",
+    "17": "Scheu",
+    "18": "Hastig",
+    "19": "Froh",
+    "2": "Hart",
+    "20": "Naiv",
+    "21": "Zaghaft",
+    "22": "Robust",
+    "23": "Sanft",
+    "24": "Kauzig",
+    "25": "Ernst",
+    "3": "Frech",
+    "4": "Mutig",
+    "5": "Kühn",
+    "6": "Pfiffig",
+    "7": "Lasch",
+    "8": "Locker",
+    "9": "Mäßig"
+  },
+  "NatureEffect": {
+    "1": "Talent-Rate",
+    "2": "EP-Gewinn",
+    "3": "Energieaufladung",
+    "4": "Zutatenfund",
+    "5": "Helfertempo"
+  },
+  "PokemonType": {
+    "1": "Normal",
+    "10": "Flug",
+    "11": "Psycho",
+    "12": "Käfer",
+    "13": "Gestein",
+    "14": "Geist",
+    "15": "Drache",
+    "16": "Unlicht",
+    "17": "Stahl",
+    "18": "Fee",
+    "2": "Feuer",
+    "3": "Wasser",
+    "4": "Elektro",
+    "5": "Pflanze",
+    "6": "Eis",
+    "7": "Kampf",
+    "8": "Gift",
+    "9": "Boden"
+  },
+  "PokemonName": {
+    "1": "Bisasam",
+    "10": "Raupy",
+    "104": "Tragosso",
+    "105": "Knogga",
+    "11": "Safcon",
+    "115": "Kangama",
+    "12": "Smettbo",
+    "122": "Pantimos",
+    "127": "Pinsir",
+    "132": "Ditto",
+    "133": "Evoli",
+    "134": "Aquana",
+    "135": "Blitza",
+    "136": "Flamara",
+    "147": "Dratini",
+    "148": "Dragonir",
+    "149": "Dragoran",
+    "152": "Endivie",
+    "153": "Lorblatt",
+    "154": "Meganie",
+    "155": "Feurigel",
+    "156": "Igelavar",
+    "157": "Tornupto",
+    "158": "Karnimani",
+    "159": "Tyracroc",
+    "160": "Impergator",
+    "172": "Pichu",
+    "174": "Fluffeluff",
+    "175": "Togepi",
+    "176": "Togetic",
+    "179": "Voltilamm",
+    "180": "Waaty",
+    "181": "Ampharos",
+    "185": "Mogelbaum",
+    "19": "Rattfratz",
+    "196": "Psiana",
+    "197": "Nachtara",
+    "199": "Laschoking",
+    "2": "Bisaknosp",
+    "20": "Rattikarl",
+    "202": "Woingenau",
+    "214": "Skaraborn",
+    "228": "Hunduster",
+    "229": "Hundemon",
+    "23": "Rettan",
+    "24": "Arbok",
+    "246": "Larvitar",
+    "247": "Pupitar",
+    "248": "Despotar",
+    "25": "Pikachu",
+    "26": "Raichu",
+    "287": "Bummelz",
+    "288": "Muntier",
+    "289": "Letarking",
+    "3": "Bisaflor",
+    "302": "Zobiris",
+    "316": "Schluppuck",
+    "317": "Schlukwech",
+    "333": "Wablu",
+    "334": "Altaria",
+    "359": "Absol",
+    "360": "Isso",
+    "363": "Seemops",
+    "364": "Seejong",
+    "365": "Walraisa",
+    "39": "Pummeluff",
+    "4": "Glumanda",
+    "40": "Knuddeluff",
+    "438": "Mobai",
+    "439": "Pantimimi",
+    "447": "Riolu",
+    "448": "Lucario",
+    "453": "Glibunkel",
+    "454": "Toxiquak",
+    "462": "Magnezone",
+    "468": "Togekiss",
+    "470": "Folipurba",
+    "471": "Glaziola",
+    "5": "Glutexo",
+    "50": "Digda",
+    "51": "Digdri",
+    "52": "Mauzi",
+    "53": "Snobilikat",
+    "54": "Enton",
+    "55": "Entoron",
+    "56": "Menki",
+    "57": "Rasaff",
+    "58": "Fukano",
+    "59": "Arkani",
+    "6": "Glurak",
+    "69": "Knofensa",
+    "7": "Schiggy",
+    "70": "Ultrigaria",
+    "700": "Feelinara",
+    "71": "Sarzenia",
+    "74": "Kleinstein",
+    "75": "Georok",
+    "76": "Geowaz",
+    "79": "Flegmon",
+    "8": "Schillok",
+    "80": "Lahmus",
+    "81": "Magnetilo",
+    "82": "Magneton",
+    "84": "Dodu",
+    "85": "Dodri",
+    "9": "Turtok",
+    "92": "Nebulak",
+    "93": "Alpollo",
+    "94": "Gengar"
+  },
+  "RankTitle": {
+    "1": "Standard",
+    "2": "Super",
+    "3": "Hyper",
+    "4": "Meister"
+  },
+  "SleepFace": {
+    "1": {
+      "3": "Rankenpose",
+      "2": "Standhaftpose",
+      "1": "Sonnenbadpose"
+    },
+    "10": {
+      "3": "Fadenschusspose",
+      "2": "Kopfschaukelpose",
+      "1": "Komfortpose"
+    },
+    "104": {
+      "3": "Knochenkissen-pose",
+      "2": "Knochenkratzpose",
+      "1": "Kummerpose"
+    },
+    "105": {
+      "3": "Knochenkissen-pose",
+      "2": "Knochenkratzpose",
+      "1": "Schmuseknochen-pose"
+    },
+    "11": {
+      "3": "Härtnerpose",
+      "2": "Wackelpose",
+      "1": "Friedlichpose"
+    },
+    "115": {
+      "3": "Frühaufsteher-pose",
+      "2": "Synchronpose",
+      "1": "Familienbandepose"
+    },
+    "12": {
+      "3": "Streupose",
+      "2": "Schwebepose",
+      "1": "Schwebesitzpose"
+    },
+    "122": {
+      "3": "Barrierebettpose",
+      "2": "Kieselwurfpose",
+      "1": "Barrierepose"
+    },
+    "127": {
+      "3": "Verbuddelpose",
+      "2": "Aufrechtpose",
+      "1": "Furchtlospose"
+    },
+    "132": {
+      "7": "Schiggy-Pose",
+      "6": "Glumanda-Pose",
+      "5": "Bisasam-Pose",
+      "3": "Pikachu-Pose",
+      "2": "Ausgangsform-pose",
+      "12": "Glaziola-Pose",
+      "11": "Larvitar-Pose",
+      "10": "Dragoran-Pose",
+      "1": "Steinformpose"
+    },
+    "133": {
+      "3": "Fidelpose",
+      "2": "Hängeohrenpose",
+      "1": "Einkugelpose"
+    },
+    "134": {
+      "3": "Komfortpose",
+      "2": "Sitzpose",
+      "1": "Flossenwedelpose"
+    },
+    "135": {
+      "3": "Traumsprintpose",
+      "2": "Sitzpose",
+      "1": "Liegepose"
+    },
+    "136": {
+      "3": "Schweifumhüll-pose",
+      "2": "Kauerpose",
+      "1": "Schweifwedelpose"
+    },
+    "147": {
+      "3": "Entrollpose",
+      "2": "Windepose",
+      "1": "Einrollpose"
+    },
+    "148": {
+      "3": "Entrollpose",
+      "2": "Windepose",
+      "1": "Einrollpose"
+    },
+    "149": {
+      "3": "Bäuchleinpose",
+      "2": "Päuschenpose",
+      "1": "Einkugelpose"
+    },
+    "152": {
+      "3": "Bauchhochpose",
+      "2": "Hängeblattpose",
+      "1": "Blattdrehpose"
+    },
+    "153": {
+      "3": "Aromapose",
+      "2": "Knospenschüttel-pose",
+      "1": "Streckpose"
+    },
+    "154": {
+      "3": "Blumenmeerpose",
+      "2": "Kopfnickpose",
+      "1": "Sorglospose"
+    },
+    "155": {
+      "3": "Feuersprühpose",
+      "2": "Beugepose",
+      "1": "Komfortpose"
+    },
+    "156": {
+      "3": "Feuersprühpose",
+      "2": "Flachpose",
+      "1": "Armkissenpose"
+    },
+    "157": {
+      "3": "Feuersprühpose",
+      "2": "Putzpose",
+      "1": "Armkissenpose"
+    },
+    "158": {
+      "3": "Maulaufsperrpose",
+      "2": "Knabberpose",
+      "1": "Einaugenpose"
+    },
+    "159": {
+      "3": "Maulaufsperrpose",
+      "2": "Zahnbleckpose",
+      "1": "Einaugenpose"
+    },
+    "160": {
+      "3": "Maulaufsperrpose",
+      "2": "Bedroherpose",
+      "1": "Einaugenpose"
+    },
+    "172": {
+      "3": "Ladepose",
+      "2": "Päuschenpose",
+      "1": "Sorglospose"
+    },
+    "174": {
+      "3": "Gesangspose",
+      "2": "Döspose",
+      "1": "Sprungpose"
+    },
+    "175": {
+      "3": "Schalenpose",
+      "2": "Andersrumpose",
+      "1": "Wiegepose"
+    },
+    "176": {
+      "3": "Flugflatterpose",
+      "2": "Stehflatterpose",
+      "1": "Sitzflatterpose"
+    },
+    "179": {
+      "3": "Lichtschweifpose",
+      "2": "Scharrpose",
+      "1": "Flauschpose"
+    },
+    "180": {
+      "3": "Lichtschweifpose",
+      "2": "Flauschpose",
+      "1": "Komfortpose"
+    },
+    "181": {
+      "3": "Glühschweifpose",
+      "2": "Kopfnickpose",
+      "1": "Schweifkratzpose"
+    },
+    "185": {
+      "3": "Nichtstuerpose",
+      "2": "Trägbaumpose",
+      "1": "Täuschbaumpose"
+    },
+    "19": {
+      "3": "Nagepose",
+      "2": "Pendelpose",
+      "1": "Kopfkratzpose"
+    },
+    "196": {
+      "3": "Bauchhochpose",
+      "2": "Sitzpose",
+      "1": "Hellsehpose"
+    },
+    "197": {
+      "3": "Bauchhochpose",
+      "2": "Sitzpose",
+      "1": "Halbmondpose"
+    },
+    "199": {
+      "3": "Geistesblitzpose",
+      "2": "Weisheitspose",
+      "1": "Fläzpose"
+    },
+    "2": {
+      "3": "Rankenpose",
+      "2": "Standhaftpose",
+      "1": "Sonnenbadpose"
+    },
+    "20": {
+      "3": "Nagepose",
+      "2": "Aufrechtpose",
+      "1": "Zahnknirschpose"
+    },
+    "202": {
+      "3": "Markenzeichen-pose",
+      "2": "Geduldspose",
+      "1": "Schweifversteck-pose"
+    },
+    "214": {
+      "3": "Harznaschpose",
+      "2": "Aufrechtpose",
+      "1": "Hornschüttelpose"
+    },
+    "228": {
+      "3": "Bauchhochpose",
+      "2": "Streckpose",
+      "1": "Jaulerpose"
+    },
+    "229": {
+      "3": "Feueratempose",
+      "2": "Standhaftpose",
+      "1": "Liegepose"
+    },
+    "23": {
+      "3": "Entrollpose",
+      "2": "Sprungfederpose",
+      "1": "Einrollpose"
+    },
+    "24": {
+      "3": "Entrollpose",
+      "2": "Neigepose",
+      "1": "Einrollpose"
+    },
+    "246": {
+      "3": "Erdmampfpose",
+      "2": "Gesichtrubbelpose",
+      "1": "Streckpose"
+    },
+    "247": {
+      "3": "Gasausstoßpose",
+      "2": "Zitterpose",
+      "1": "Umstürzpose"
+    },
+    "248": {
+      "3": "Breitmachpose",
+      "2": "Imposanzpose",
+      "1": "Bauchpose"
+    },
+    "25": {
+      "3": "Ladepose",
+      "2": "Hängeohrenpose",
+      "1": "Einkugelpose"
+    },
+    "26": {
+      "3": "Erdungspose",
+      "2": "Päuschenpose",
+      "1": "Schweifwogepose"
+    },
+    "287": {
+      "3": "Häppchenpose",
+      "2": "Putzpose",
+      "1": "Tagediebpose"
+    },
+    "288": {
+      "3": "Tagediebpose",
+      "2": "Gymnastikpose",
+      "1": "Ungeduldspose"
+    },
+    "289": {
+      "3": "Häppchenpose",
+      "2": "Fläzpose",
+      "1": "Breitmachpose"
+    },
+    "3": {
+      "3": "Rankenpose",
+      "2": "Standhaftpose",
+      "1": "Sonnenbadpose"
+    },
+    "302": {
+      "3": "Edelsteinmampf-pose",
+      "2": "Zuckpose",
+      "1": "Breitmachpose"
+    },
+    "316": {
+      "3": "Maulaufsperrpose",
+      "2": "Einnickpose",
+      "1": "Ballonpose"
+    },
+    "317": {
+      "3": "Maulaufsperrpose",
+      "2": "Einnickpose",
+      "1": "Umfallpose"
+    },
+    "333": {
+      "3": "Wölkchenpose",
+      "2": "Flatterpose",
+      "1": "Ruhepose"
+    },
+    "334": {
+      "3": "Wölkchenpose",
+      "2": "Ruhepose",
+      "1": "Federnestpose"
+    },
+    "359": {
+      "3": "Bauchhochpose",
+      "2": "Gefahrenspürpose",
+      "1": "Kauerpose"
+    },
+    "360": {
+      "3": "Markenzeichen-pose",
+      "2": "Geduldspose",
+      "1": "Schweifwackel-pose"
+    },
+    "363": {
+      "3": "Applauspose",
+      "2": "Gähnpose",
+      "1": "Plumpspose"
+    },
+    "364": {
+      "3": "Andersrumpose",
+      "2": "Gähnpose",
+      "1": "Bodenklatschpose"
+    },
+    "365": {
+      "3": "Zahnfeststeck-pose",
+      "2": "Majestätspose",
+      "1": "Fläzpose"
+    },
+    "39": {
+      "3": "Gesangspose",
+      "2": "Döspose",
+      "1": "Päuschenpose"
+    },
+    "4": {
+      "3": "Bäuchleinpose",
+      "2": "Bauchrubbelpose",
+      "1": "Knisterpose"
+    },
+    "40": {
+      "3": "Aufbauschpose",
+      "2": "Erstauntpose",
+      "1": "Lächelpose"
+    },
+    "438": {
+      "3": "Tränaugenpose",
+      "2": "Aufrechtpose",
+      "1": "Plumpspose"
+    },
+    "439": {
+      "3": "Barrierebettpose",
+      "2": "Aufrechtpose",
+      "1": "Armstreckpose"
+    },
+    "447": {
+      "3": "Kniehochpose",
+      "2": "Trainingspose",
+      "1": "Knieklammerpose"
+    },
+    "448": {
+      "3": "Trainingspausen-pose",
+      "2": "Trainingspose",
+      "1": "Kniehochpose"
+    },
+    "453": {
+      "3": "Geradlinienpose",
+      "2": "Pausbackenpose",
+      "1": "Fläzpose"
+    },
+    "454": {
+      "3": "Giftbeutelpose",
+      "2": "Kehlblähpose",
+      "1": "Fläzpose"
+    },
+    "462": {
+      "3": "Kopfüberpose",
+      "2": "Wachsampose",
+      "1": "Schaukelpose"
+    },
+    "468": {
+      "3": "Akrobatikflug-pose",
+      "2": "Stehflatterpose",
+      "1": "Freiflugpose"
+    },
+    "470": {
+      "3": "Blattkuschelpose",
+      "2": "Standhaftpose",
+      "1": "Schweifwedelpose"
+    },
+    "471": {
+      "3": "Komfortpose",
+      "2": "Standhaftpose",
+      "1": "Armkissenpose"
+    },
+    "5": {
+      "3": "Fläzpose",
+      "2": "Päuschenpose",
+      "1": "Armkissenpose"
+    },
+    "50": {
+      "3": "Halbschauflerpose",
+      "2": "Übererdpose",
+      "1": "Untererdpose"
+    },
+    "51": {
+      "3": "Kuscheltriopose",
+      "2": "Übererdpose",
+      "1": "Untererdpose"
+    },
+    "52": {
+      "3": "Zahltagpose",
+      "2": "Päuschenpose",
+      "1": "Einkugelpose"
+    },
+    "53": {
+      "3": "Versteckpose",
+      "2": "Standhaftpose",
+      "1": "Eleganzpose"
+    },
+    "54": {
+      "3": "Trotzpose",
+      "2": "Gähnpose",
+      "1": "Kopfwehpose"
+    },
+    "55": {
+      "3": "Schwimmpose",
+      "2": "Hinterteilkratz-pose",
+      "1": "Armkissenpose"
+    },
+    "56": {
+      "3": "Sorglospose",
+      "2": "Aufrechtpose",
+      "1": "Wutpose"
+    },
+    "57": {
+      "3": "Sorglospose",
+      "2": "Fruststampfer-pose",
+      "1": "Wutpose"
+    },
+    "58": {
+      "3": "Bauchhochpose",
+      "2": "Sitzpose",
+      "1": "Streckpose"
+    },
+    "59": {
+      "3": "Bauchhochpose",
+      "2": "Sitzpose",
+      "1": "Liegepose"
+    },
+    "6": {
+      "3": "Bäuchleinpose",
+      "2": "Armkreuzpose",
+      "1": "Bauchpose"
+    },
+    "69": {
+      "3": "Einwurzelpose",
+      "2": "Säurepose",
+      "1": "Räkelpose"
+    },
+    "7": {
+      "3": "Andersrumpose",
+      "2": "Schutzlospose",
+      "1": "Rückzugspose"
+    },
+    "70": {
+      "3": "Saugpose",
+      "2": "Schwebepose",
+      "1": "Säurepose"
+    },
+    "700": {
+      "3": "Wirrwarrpose",
+      "2": "Standhaftpose",
+      "1": "Einkugelpose"
+    },
+    "71": {
+      "3": "Andersrumpose",
+      "2": "Rankenstützpose",
+      "1": "Schauderpose"
+    },
+    "74": {
+      "3": "Kuhlenpose",
+      "2": "Geduldspose",
+      "1": "Armkreuzpose"
+    },
+    "75": {
+      "3": "Rollpose",
+      "2": "Innigpose",
+      "1": "Faulenzpose"
+    },
+    "76": {
+      "3": "Rollpose",
+      "2": "Imposanzpose",
+      "1": "Robustpose"
+    },
+    "79": {
+      "3": "Einfältigpose",
+      "2": "Dämmerschlafpose",
+      "1": "Fix-und-Fertig-Pose"
+    },
+    "8": {
+      "3": "Flachpose",
+      "2": "Schutzlospose",
+      "1": "Rückzugspose"
+    },
+    "80": {
+      "3": "Schweifbisspose",
+      "2": "Sabberpose",
+      "1": "Kuschelduopose"
+    },
+    "81": {
+      "3": "Kopfüberpose",
+      "2": "Magnetflugpose",
+      "1": "Sinkflugpose"
+    },
+    "82": {
+      "3": "Abkoppelpose",
+      "2": "Herabschwebepose",
+      "1": "Koppelpose"
+    },
+    "84": {
+      "3": "Duopose",
+      "2": "Achtlospose",
+      "1": "Achtsampose"
+    },
+    "85": {
+      "3": "Triopose",
+      "2": "Achtlospose",
+      "1": "Achtsampose"
+    },
+    "9": {
+      "3": "Andersrumpose",
+      "2": "Schutzlospose",
+      "1": "Rückzugspose"
+    },
+    "92": {
+      "3": "Zunge-Raus-Pose",
+      "2": "Schwebegaspose",
+      "1": "Kicherpose"
+    },
+    "93": {
+      "3": "Zunge-Raus-Pose",
+      "2": "Schwebegaspose",
+      "1": "Pendelpose"
+    },
+    "94": {
+      "3": "Zunge-Raus-Pose",
+      "2": "Grinsepose",
+      "1": "Schabernackpose"
+    },
+    "onSnorlax": {
+      "Default": "Bauchkissenpose"
+    }
+  },
+  "SleepType": {
+    "0": "Tiefschlaf",
+    "1": "Leichtschlaf",
+    "4": "Halbschlaf",
+    "99": "Unbestimmt"
+  },
+  "Specialty": {
+    "1": "Beeren",
+    "2": "Zutaten",
+    "3": "Talente"
+  },
+  "SubSkill": {
+    "Name": {
+      "1": "Schlaf-EP-Bonus",
+      "10": "Inventar-Ausbau M",
+      "11": "Talent-Levelaufstieg S",
+      "12": "Zutatensucher S",
+      "13": "Zutatensucher M",
+      "14": "Talentauslöser S",
+      "15": "Talentauslöser M",
+      "16": "Energie-Erholung S",
+      "17": "Energie-Erholung M",
+      "18": "Talent-Levelaufstieg M",
+      "19": "Inventar-Ausbau L",
+      "2": "Helferbonus",
+      "3": "Team-Erholungsbonus",
+      "4": "Traumsplitter-Bonus",
+      "5": "Forschungspunkte-Bonus",
+      "6": "Hilfstempo S",
+      "7": "Hilfstempo M",
+      "8": "Beerenfund S",
+      "9": "Inventar-Ausbau S"
+    },
+    "Description": {
+      "1": "Erhöht die vom Team erhaltenen EP nach dem Schlaf um {bonus} %.",
+      "10": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
+      "11": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
+      "12": "Erhöht leicht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
+      "13": "Erhöht die Wahrscheinlichkeit, dass dieses Pokémon Zutaten findet.",
+      "14": "Erhöht leicht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
+      "15": "Erhöht die Wahrscheinlichkeit, dass das Haupttalent dieses Pokémon ausgelöst wird.",
+      "16": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
+      "17": "Erhöht die Energie, die dieses Pokémon beim Schlaf regeneriert, um {bonus} %.",
+      "18": "Verstärkt den Level des Haupttalents dieses Pokémon um {bonus}.",
+      "19": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}.",
+      "2": "Reduziert die Zeit, die Teammitglieder zum Aushelfen benötigen, um {bonus} %.",
+      "3": "Multipliziert die Energie, die das Team beim Schlafen regeneriert mit {bonus}.",
+      "4": "Erhöht die Anzahl der Traumsplitter, die du bei Schlafforschung erhältst um {bonus} %.",
+      "5": "Erhöht die Forschungspunkte, die du durch Schlafforschung erhältst um {bonus} %.",
+      "6": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
+      "7": "Reduziert die Zeit, die dieses Pokémon zum Aushelfen benötigt, um {bonus} %.",
+      "8": "Erhöht die Anzahl der Beeren, die dieses Pokémon findet, einmalig um {bonus}.",
+      "9": "Erhöht die maximale Anzahl Beeren und Zutaten, die dieses Pokémon tragen kann, um {bonus}."
+    }
+  }
 }
