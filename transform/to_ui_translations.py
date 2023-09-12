@@ -270,7 +270,7 @@ def main():
             for namespace, file_name in file_path_map.items()
         }
 
-        with open(f"transformed/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
+        with open(f"export/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
         print(f"Processed {locale}")

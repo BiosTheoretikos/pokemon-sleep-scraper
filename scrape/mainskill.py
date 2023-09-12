@@ -6,7 +6,7 @@ PAGE_URL = "https://www.serebii.net/pokemonsleep/skills.shtml"
 MAINSKILL_URL_PREFIX = "https://serebii.net/pokemonsleep/"
 
 
-with open("transformed/game-en.json", "r", encoding="utf-8") as f:
+with open("export/game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
 
 
