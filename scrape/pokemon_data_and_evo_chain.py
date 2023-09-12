@@ -81,15 +81,16 @@ def main():
         _index_children = index_row.find_all("td")
 
         pokemon_image = _index_children[0].find("a").find("img")["src"]
+        pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
         _pokemon_link_element = _index_children[1].find("a")
         _pokemon_link = _pokemon_link_element["href"]
         name = _pokemon_link_element.find("u").text
+
+        print(f"Adding pokemon #{pokemon_id} ({name})")
+
         type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
         specialty = MAP_SPECIALTY_TO_ID[_index_children[4].text]
-        pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
-
-        print(f"Adding pokemon #{pokemon_id} ({name})")
 
         _pokemon_soup = BeautifulSoup(
             send_requests([f"{POKEMON_URL_PREFIX}{_pokemon_link}"])[0].content,
