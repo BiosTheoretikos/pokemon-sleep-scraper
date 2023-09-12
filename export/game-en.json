@@ -237,6 +237,7 @@
         "11": "Metapod",
         "115": "Kangaskhan",
         "12": "Butterfree",
+        "122": "Mr. Mime",
         "127": "Pinsir",
         "132": "Ditto",
         "133": "Eevee",
@@ -298,6 +299,7 @@
         "4": "Charmander",
         "40": "Wigglytuff",
         "438": "Bonsly",
+        "439": "Mime Jr.",
         "447": "Riolu",
         "448": "Lucario",
         "453": "Croagunk",
@@ -380,6 +382,11 @@
             "2": "Floating Sleep",
             "1": "Air-Sitting Sleep"
         },
+        "122": {
+            "3": "Barrier-Bed Sleep",
+            "2": "Pebble-Plonk Sleep",
+            "1": "Barrier-Wall Sleep"
+        },
         "127": {
             "3": "Burrowing Sleep",
             "2": "Upright Sleep",
@@ -399,7 +406,7 @@
         "133": {
             "3": "Energetic Sleep",
             "2": "Droopy-Eared Sleep",
-            "1": "Roly-Poly Sleep"
+            "1": "Curled-Up Sleep"
         },
         "134": {
             "3": "Sprawled Sleep",
@@ -413,7 +420,7 @@
         },
         "136": {
             "3": "Tail-Wrapped Sleep",
-            "2": "Snug Sleep",
+            "2": "Tucked Sleep",
             "1": "Tail-Swinging Sleep"
         },
         "147": {
@@ -429,7 +436,7 @@
         "149": {
             "3": "Tummy-Up Sleep",
             "2": "Seated Sleep",
-            "1": "Roly-Poly Sleep"
+            "1": "Curled-Up Sleep"
         },
         "152": {
             "3": "Belly-Up Sleep",
@@ -483,7 +490,7 @@
         },
         "174": {
             "3": "Singing Sleep",
-            "2": "Dopey Sleep",
+            "2": "Spacey Sleep",
             "1": "Bouncy Sleep"
         },
         "175": {
@@ -512,13 +519,13 @@
             "1": "Tail-Scratching Sleep"
         },
         "185": {
-            "3": "Seriously-Slacking Sleep",
-            "2": "Psuedo-Slacking Sleep",
-            "1": "Psuedo-Wood Sleep"
+            "3": "Seriously Slacking Sleep",
+            "2": "Pseudo-Slacking Sleep",
+            "1": "Pseudo-Wood Sleep"
         },
         "19": {
-            "3": "Fang-Filing Sleep",
-            "2": "Head-Tilted Sleep",
+            "3": "Gnawing Sleep",
+            "2": "Slumping Sleep",
             "1": "Face-Scratching Sleep"
         },
         "196": {
@@ -542,7 +549,7 @@
             "1": "Sunbathing Sleep"
         },
         "20": {
-            "3": "Fang-Filing Sleep",
+            "3": "Gnawing Sleep",
             "2": "Upright Sleep",
             "1": "Teeth-Grinding Sleep"
         },
@@ -594,7 +601,7 @@
         "25": {
             "3": "Electrifying Sleep",
             "2": "Droopy-Eared Sleep",
-            "1": "Roly-Poly Sleep"
+            "1": "Curled-Up Sleep"
         },
         "26": {
             "3": "Grounded-Tail Sleep",
@@ -649,7 +656,7 @@
         "359": {
             "3": "Belly-Up Sleep",
             "2": "Danger-Sensing Sleep",
-            "1": "Snug Sleep"
+            "1": "Tucked Sleep"
         },
         "360": {
             "3": "Signature-Pose Sleep",
@@ -673,7 +680,7 @@
         },
         "39": {
             "3": "Singing Sleep",
-            "2": "Dopey Sleep",
+            "2": "Spacey Sleep",
             "1": "Seated Sleep"
         },
         "4": {
@@ -690,6 +697,11 @@
             "3": "Watery-Eyed Sleep",
             "2": "Upright Sleep",
             "1": "Flopped Sleep"
+        },
+        "439": {
+            "3": "Barrier-Bed Sleep",
+            "2": "Upright Sleep",
+            "1": "Outflung Sleep"
         },
         "447": {
             "3": "Knee-Up Sleep",
@@ -749,7 +761,7 @@
         "52": {
             "3": "Pay Day Sleep",
             "2": "Seated Sleep",
-            "1": "Roly-Poly Sleep"
+            "1": "Curled-Up Sleep"
         },
         "53": {
             "3": "Apologetic Sleep",
@@ -809,7 +821,7 @@
         "700": {
             "3": "Ribbon-Tangled Sleep",
             "2": "Sturdy Sleep",
-            "1": "Roly-Poly Sleep"
+            "1": "Curled-Up Sleep"
         },
         "71": {
             "3": "Overturned Sleep",
@@ -879,7 +891,7 @@
         "93": {
             "3": "Tongue-Out Sleep",
             "2": "Floaty-Gas Sleep",
-            "1": "Head-Tilted Sleep"
+            "1": "Slumping Sleep"
         },
         "94": {
             "3": "Tongue-Out Sleep",

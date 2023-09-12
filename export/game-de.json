@@ -237,6 +237,7 @@
         "11": "Safcon",
         "115": "Kangama",
         "12": "Smettbo",
+        "122": "Pantimos",
         "127": "Pinsir",
         "132": "Ditto",
         "133": "Evoli",
@@ -298,6 +299,7 @@
         "4": "Glumanda",
         "40": "Knuddeluff",
         "438": "Mobai",
+        "439": "Pantimimi",
         "447": "Riolu",
         "448": "Lucario",
         "453": "Glibunkel",
@@ -379,6 +381,11 @@
             "3": "Streupose",
             "2": "Schwebepose",
             "1": "Schwebesitzpose"
+        },
+        "122": {
+            "3": "Barrierebettpose",
+            "2": "Kieselwurfpose",
+            "1": "Barrierepose"
         },
         "127": {
             "3": "Verbuddelpose",
@@ -690,6 +697,11 @@
             "3": "Tränaugenpose",
             "2": "Aufrechtpose",
             "1": "Plumpspose"
+        },
+        "439": {
+            "3": "Barrierebettpose",
+            "2": "Aufrechtpose",
+            "1": "Armstreckpose"
         },
         "447": {
             "3": "Kniehochpose",

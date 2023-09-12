@@ -1,4 +1,28 @@
 {
+  "439": {
+    "next": [
+      {
+        "id": 122,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "122": {
+    "next": [],
+    "stage": 2,
+    "previous": 439
+  },
   "115": {
     "next": [],
     "stage": 1,
