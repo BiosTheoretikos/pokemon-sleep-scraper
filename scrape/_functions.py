@@ -22,4 +22,4 @@ def to_json(data, filename):
     Path("./data").mkdir(parents=True, exist_ok=True)
 
     with open(f"data/{filename}.json", "w+") as f_json:
-        json.dump(data, f_json, indent=4, cls=JsonEncoder)
+        json.dump(data, f_json, indent=2, cls=JsonEncoder)
