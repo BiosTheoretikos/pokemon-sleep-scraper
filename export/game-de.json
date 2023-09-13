@@ -203,7 +203,7 @@
     "9": "Mäßig"
   },
   "NatureEffect": {
-    "1": "Talent-Rate",
+    "1": "Haupttalent-Chance",
     "2": "EP-Gewinn",
     "3": "Energieaufladung",
     "4": "Zutatenfund",
@@ -927,7 +927,7 @@
       "18": "Talent-Levelaufstieg M",
       "19": "Inventar-Ausbau L",
       "2": "Helferbonus",
-      "3": "Team-Erholungsbonus",
+      "3": "Energieaufladebonus",
       "4": "Traumsplitter-Bonus",
       "5": "Forschungspunkte-Bonus",
       "6": "Hilfstempo S",

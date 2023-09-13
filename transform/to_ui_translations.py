@@ -108,14 +108,17 @@ FILE_DE = {
     "MainSkill": "MD_pokemon_main_skills_0.bytes.json",
     "MealType": "CookingGenre_7.bytes.json",
     "Nature": "MD_pokemon_nature_2.bytes.json",
-    "NatureEffect": "MasterDataModels_GROUP_5.bytes.json",
+    "NatureEffect": "MasterDataModels_GROUP.bytes.json",
     "PokemonType": "MD_pokemon_types_2.bytes.json",
     "PokemonName": "MD_pokemons_9.bytes.json",
     "RankTitle": "SnorlaxRank_Main_2.bytes.json",
     "SleepFace": "MD_sleeping_faces_5.bytes.json",
     "SleepType": "SleepType_1.bytes.json",
     "Specialty": "FormationTag_9.bytes.json",
-    "SubSkill": "MD_pokemon_rankup_bonus_0.bytes.json",
+    "SubSkill": {
+        "Name": "MD_pokemon_rankup_bonus_6.bytes.json",
+        "Description": "MD_pokemon_rankup_bonus_0.bytes.json",
+    },
 }
 
 FILE_OF_LOCALE = {
@@ -260,15 +263,29 @@ def load_string_map(namespace, file_path, locale, prefix):
 def main():
     for locale, file_path_map in FILE_OF_LOCALE.items():
         print(f"Processing {locale}...")
-        data = {
-            namespace: load_string_map(
+        data = {}
+        for namespace, possible_file_name in file_path_map.items():
+            if isinstance(possible_file_name, dict):
+                data_sub = {}
+
+                # Might want to refactor this to be recursive
+                for sub_namespace, file_name in possible_file_name.items():
+                    data_sub[sub_namespace] = load_string_map(
+                        namespace,
+                        rf"{DIRECTORY}\{file_name}",
+                        locale,
+                        PREFIXES[namespace]
+                    )[sub_namespace]
+
+                data[namespace] = data_sub
+                continue
+
+            data[namespace] = load_string_map(
                 namespace,
-                rf"{DIRECTORY}\{file_name}",
+                rf"{DIRECTORY}\{possible_file_name}",
                 locale,
                 PREFIXES[namespace]
             )
-            for namespace, file_name in file_path_map.items()
-        }
 
         with open(f"export/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
