@@ -188,7 +188,13 @@ def main():
                             _location_id = MAP_FIELD_TO_ID[_location_element.text]
 
                         if _idx_location % 2 == 0:
-                            title, number = _location_element.text.split(" - From ", 2)[1].split(" ")
+                            # Had issue with unknown rank, rendering "Greengrass Isle -"
+                            # https://www.serebii.net//pokemonsleep/pokemon/clefairy.shtml
+                            _location_rank_info = _location_element.text.split(" - From ", 2)
+                            if len(_location_rank_info) < 2:
+                                continue
+
+                            title, number = _location_rank_info[1].split(" ")
 
                             _locations.append({
                                 "id": _location_id,

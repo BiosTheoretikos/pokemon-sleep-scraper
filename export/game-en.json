@@ -96,7 +96,6 @@
     "3016": "“Huge Power” Soy Donuts",
     "4": "Soft Potato",
     "5": "Fancy Apple",
-    "5_update_test": "とくせんりんごテスト",
     "6": "Fiery Herb",
     "7": "Bean Sausage",
     "8": "Moomoo Milk",
@@ -162,7 +161,7 @@
       "13": "Uses one randomly chosen main skill.",
       "2": "Increases Snorlax’s Strength by '{#1'}",
       "3": "Obtain '{#1'} Dream Shards",
-      "4": "Restores '{#1'} Energy to another Pokémon chosen at random.",
+      "4": "Restores '{#1'} Energy to one random Pokémon on your team",
       "5": "Increases Snorlax’s Strength by anywhere from '{#1'} to '{#2'}",
       "6": "Obtain '{#1'} to '{#2'} Dream Shards.",
       "7": "Restores '{#1'} Energy to the user.",
@@ -257,6 +256,7 @@
     "159": "Croconaw",
     "160": "Feraligatr",
     "172": "Pichu",
+    "173": "Cleffa",
     "174": "Igglybuff",
     "175": "Togepi",
     "176": "Togetic",
@@ -290,7 +290,9 @@
     "317": "Swalot",
     "333": "Swablu",
     "334": "Altaria",
+    "35": "Clefairy",
     "359": "Absol",
+    "36": "Clefable",
     "360": "Wynaut",
     "363": "Spheal",
     "364": "Sealeo",
@@ -488,6 +490,11 @@
       "2": "Seated Sleep",
       "1": "Peaceful Sleep"
     },
+    "173": {
+      "3": "Overturned Sleep",
+      "2": "Nodding-Off Sleep",
+      "1": "Rocking Sleep"
+    },
     "174": {
       "3": "Singing Sleep",
       "2": "Spacey Sleep",
@@ -653,10 +660,20 @@
       "2": "Roosting Sleep",
       "1": "Feather-Nestled Sleep"
     },
+    "35": {
+      "3": "Metronome Sleep",
+      "2": "Nodding-Off Sleep",
+      "1": "Peaceful Sleep"
+    },
     "359": {
       "3": "Belly-Up Sleep",
       "2": "Danger-Sensing Sleep",
       "1": "Tucked Sleep"
+    },
+    "36": {
+      "3": "Metronome Sleep",
+      "2": "Nodding-Off Sleep",
+      "1": "Peaceful Sleep"
     },
     "360": {
       "3": "Signature-Pose Sleep",

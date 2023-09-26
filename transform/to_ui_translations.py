@@ -1,8 +1,8 @@
 import json
 
-DIRECTORY = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\TextAll"
+DIRECTORY = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-assets\texts"
 # Directory from BronzeMaster5000
-#DIRECTORY = r"C:\Users\Anwender\Documents\Pokemon Sleep Stuff\TextAll"
+# DIRECTORY = r"C:\Users\Anwender\Documents\Pokemon Sleep Stuff\TextAll"
 
 PREFIXES = {
     "Berry": "md_berries_name_",

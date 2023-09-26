@@ -1,4 +1,47 @@
 {
+  "173": {
+    "next": [
+      {
+        "id": 35,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "sleepTime",
+            "hours": 50
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "35": {
+    "next": [
+      {
+        "id": 36,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 27
+          }
+        ]
+      }
+    ],
+    "stage": 2,
+    "previous": 173
+  },
+  "36": {
+    "next": [],
+    "stage": 3,
+    "previous": 35
+  },
   "439": {
     "next": [
       {

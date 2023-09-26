@@ -96,7 +96,6 @@
     "3016": "Soja-Donuts „Kraftkoloss“",
     "4": "Kartoffel",
     "5": "Luxusapfel",
-    "5_update_test": "とくせんりんごテスト",
     "6": "Feuriges Kraut",
     "7": "Bohnenwurst",
     "8": "Kuhmuh-Milch",
@@ -162,7 +161,7 @@
       "13": "Setzt ein zufälliges Haupttalent ein.",
       "2": "Erhöht Relaxos Stärke um '{#1'}",
       "3": "Du erhältst '{#1'} Traumsplitter.",
-      "4": "Füllt die Energie eines zufälligen anderen Pokémon um '{#1'} auf.",
+      "4": "Füllt die Energie eines Pokémon deines Teams um '{#1'} auf.",
       "5": "Erhöht Relaxos Stärke um einen Wert von '{#1'} bis '{#2'}",
       "6": "Du erhältst zwischen '{#1'} und '{#2'} Traumsplitter.",
       "7": "Füllt die Energie des Pokémon um '{#1'} auf.",
@@ -257,6 +256,7 @@
     "159": "Tyracroc",
     "160": "Impergator",
     "172": "Pichu",
+    "173": "Pii",
     "174": "Fluffeluff",
     "175": "Togepi",
     "176": "Togetic",
@@ -290,7 +290,9 @@
     "317": "Schlukwech",
     "333": "Wablu",
     "334": "Altaria",
+    "35": "Piepi",
     "359": "Absol",
+    "36": "Pixi",
     "360": "Isso",
     "363": "Seemops",
     "364": "Seejong",
@@ -488,6 +490,11 @@
       "2": "Päuschenpose",
       "1": "Sorglospose"
     },
+    "173": {
+      "3": "Andersrumpose",
+      "2": "Wegnickpose",
+      "1": "Wiegepose"
+    },
     "174": {
       "3": "Gesangspose",
       "2": "Döspose",
@@ -653,10 +660,20 @@
       "2": "Ruhepose",
       "1": "Federnestpose"
     },
+    "35": {
+      "3": "Metronompose",
+      "2": "Wegnickpose",
+      "1": "Sorglospose"
+    },
     "359": {
       "3": "Bauchhochpose",
       "2": "Gefahrenspürpose",
       "1": "Kauerpose"
+    },
+    "36": {
+      "3": "Metronompose",
+      "2": "Wegnickpose",
+      "1": "Sorglospose"
     },
     "360": {
       "3": "Markenzeichen-pose",

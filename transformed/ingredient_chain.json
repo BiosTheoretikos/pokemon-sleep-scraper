@@ -1,5 +1,13 @@
 [
   {
+    "chainId": 173,
+    "ingredients": {
+      "1": [],
+      "30": [],
+      "60": []
+    }
+  },
+  {
     "chainId": 439,
     "ingredients": {
       "1": [
