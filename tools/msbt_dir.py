@@ -1,6 +1,6 @@
 import os
 
-file_dir = r"D:\Personal@HDD\Reverse Engineering\PKS\PKS-AR\TextAll"
+file_dir = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-assets\texts"
 
 
 def main():
