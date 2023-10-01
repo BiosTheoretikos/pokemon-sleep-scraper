@@ -2,7 +2,7 @@ import csv
 import json
 from typing import NamedTuple
 
-from utils.download import download_gsheet_csv
+import requests
 
 with open("export/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
@@ -24,6 +24,11 @@ default_split = 0.2
 
 with open("data/pokemon_data.json") as f:
     pokemon_data = json.load(f)
+
+
+def download_gsheet_csv(file_id, sheet_id):
+    r = requests.get(f"https://docs.google.com/spreadsheets/d/{file_id}/export?format=csv&id={file_id}&gid={sheet_id}")
+    return r.content.decode("utf-8")
 
 
 def is_info_header(row):
