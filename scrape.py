@@ -9,6 +9,7 @@ SCRIPTS_SCRAPER = [
     "scrape/meals.py",
     "scrape/pokemon_by_incense.py",
     "scrape/pokemon_data.py",
+    "scrape/pokemon_production.py",
     "scrape/snorlax_reward.py",
     "scrape/snorlax_ranking.py",
     "scrape/subskill.py",
