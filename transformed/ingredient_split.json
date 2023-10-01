@@ -1,5 +1,10 @@
 [
   {
+    "Pokemon": "Clefairy",
+    "ing%": 16.80682,
+    "skill% * skillValue": 31.606812
+  },
+  {
     "Pokemon": "Bulbasaur",
     "ing%": 25.6314964226,
     "skill% * skillValue": 16.7387488926
