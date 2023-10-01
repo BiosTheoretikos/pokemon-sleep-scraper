@@ -16,7 +16,7 @@ SUBSKILL_TO_ID = {
 
 
 # Confirmed in image assets `skill_sub_*.png`
-MAP_RARITY_TO_ID = {
+RARITY_TO_ID = {
     "Very Rare": 3,
     "Rare": 2,
     "Common": 1,
@@ -24,7 +24,7 @@ MAP_RARITY_TO_ID = {
 
 # Likely datamined
 # https://www.serebii.net/pokemonsleep/skills.shtml
-MAP_SUBSKILL_BONUS = {
+SUBSKILL_BONUS = {
     1: {
         "exp": 14,
     },
@@ -80,6 +80,8 @@ MAP_SUBSKILL_BONUS = {
     },
 }
 
+SUBSKILL_EXCLUSION = [16, 17]
+
 
 def main():
     subskill_data = []
@@ -99,15 +101,19 @@ def main():
         print(_subskill_name)
 
         subskill_id = SUBSKILL_TO_ID[_subskill_name]
+
+        if subskill_id in SUBSKILL_EXCLUSION:
+            continue
+
         _rarity_children = list(_rarity.children)
-        subskill_rarity = MAP_RARITY_TO_ID[_rarity_children[0].text] if _rarity_children else None
+        subskill_rarity = RARITY_TO_ID[_rarity_children[0].text] if _rarity_children else None
         subskill_next = SUBSKILL_TO_ID.get(_next.text, None)
 
         subskill_data.append({
             "id": subskill_id,
             "rarity": subskill_rarity,
             "next": subskill_next,
-            "bonus": MAP_SUBSKILL_BONUS[subskill_id],
+            "bonus": SUBSKILL_BONUS[subskill_id],
         })
 
     to_json(subskill_data, "subskill_data")
