@@ -116,7 +116,7 @@ FILE_DE = {
     "SleepType": "SleepType_1.bytes.json",
     "Specialty": "FormationTag_9.bytes.json",
     "SubSkill": {
-        "Name": "MD_pokemon_rankup_bonus_6.bytes.json",
+        "Name": "MD_pokemon_rankup_bonus_9.bytes.json",
         "Description": "MD_pokemon_rankup_bonus_0.bytes.json",
     },
 }
