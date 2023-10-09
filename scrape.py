@@ -1,6 +1,6 @@
 import subprocess
 import sys
-from datetime import datetime
+import datetime
 
 SCRIPTS_SCRAPER = [
     "scrape/berry.py",
@@ -30,7 +30,7 @@ SCRIPTS_UPDATE = [
 ]
 
 
-log_file_name = f"{datetime.utcnow().strftime('%Y%m%d-%H%M%S')}.log"
+log_file_name = f"{datetime.datetime.now(datetime.UTC).strftime('%Y%m%d-%H%M%S')}.log"
 
 
 def run_script(script_type, script_path):
