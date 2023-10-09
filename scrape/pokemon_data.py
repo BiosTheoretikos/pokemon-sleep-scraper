@@ -117,7 +117,6 @@ def get_pokemon_to_sleep_style_mapping():
 
 def main():
     pokemon_data = []
-    # pokemon_evo_chain: defaultdict[int, defaultdict[int, list]] = defaultdict(lambda: defaultdict(list))
 
     req = send_requests([INDEX_URL])[0]
     soup = BeautifulSoup(req.content, "html.parser")
@@ -149,24 +148,6 @@ def main():
         )
 
         _tabs = _pokemon_soup.find("main").find_all("table", class_="tab")
-
-        # _table_of_evolution_chain = _pokemon_soup.find("table", class_="evochain")
-        # _evo_chain_origin_id = -1
-        # _evo_chain_conditions = []
-        # for _evo_chain_row in _table_of_evolution_chain.find_all("tr"):
-        #     for _evo_chain_cell in _evo_chain_row.find_all("td"):
-        #         if _evo_chain_cell.next.name == "table":
-        #             continue
-        #
-        #         if "pkmn" in _evo_chain_cell.get("class", []):
-        #             _evo_pokemon_id = int(_evo_chain_cell.find("a").find("img")["src"].split("/")[4].split(".")[0])
-        #             if _evo_chain_origin_id == -1:
-        #                 _evo_chain_origin_id = _evo_pokemon_id
-        #             else:
-        #                 pokemon_evo_chain[_evo_chain_origin_id][_evo_pokemon_id] = list(set(_evo_chain_conditions))
-        #                 _evo_chain_conditions = []
-        #         else:
-        #             _evo_chain_conditions.append(_evo_chain_cell.text.replace("  ", " ").strip())
 
         _tab_of_stats = _tabs[5]
         stats = {}
@@ -326,8 +307,6 @@ def main():
         })
 
     to_json(pokemon_data, "pokemon_data")
-    # This file is not being used now - a copy of this is stored in `unprocessed`, therefore not storing it
-    # to_json(pokemon_evo_chain, "pokemon_evo_chain")
 
 
 if __name__ == "__main__":
