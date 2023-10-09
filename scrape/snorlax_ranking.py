@@ -1,5 +1,3 @@
-from bs4 import BeautifulSoup
-
 from _const import *
 from _functions import *
 
@@ -10,23 +8,12 @@ MAP_URL_PREFIX = "https://serebii.net/pokemonsleep/"
 def main():
     snorlax_rank_data = []
 
-    req = send_requests([PAGE_URL])[0]
-    soup = BeautifulSoup(req.content, "html.parser")
-
-    for idx, index_row in enumerate(soup.find("table", class_="dextable").find_all("tr")):
-        if idx < 1:
-            continue
-
-        _map_link = index_row.find("a")["href"]
-        _map_soup = BeautifulSoup(
-            send_requests([f"{MAP_URL_PREFIX}{_map_link}"])[0].content,
-            "html.parser"
-        )
-
+    for idx, _map_soup in enumerate(get_soups_of_maps(), start=1):
         map_id = idx
         map_snorlax_rank_data = []
+        map_name = _map_soup.find("h1").text
 
-        print(f"Checking map #{map_id} ({_map_link})")
+        print(f"Checking map #{map_id} ({map_name})")
 
         for _possible_rank_table in _map_soup.find_all("table", class_="dextable"):
             _first_table_cell = _possible_rank_table.find_all("td")[0].text
