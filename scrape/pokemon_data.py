@@ -1,7 +1,7 @@
 import warnings
 from collections import defaultdict
 
-from bs4 import Comment, NavigableString, Tag
+from bs4 import NavigableString, Tag
 
 from _const import *
 from _functions import *
@@ -166,21 +166,6 @@ def main():
         berry_id = MAP_BERRY[_berry_img["alt"]]
         berry_qty = int(_row_berry[3].text)
 
-        ingredients = {}
-        for idx_ingredient, _row_ingredient in enumerate(_rows_of_berry_ingredients[2:]):
-            _ingredient_img = _row_ingredient.find_all("td")[1 if idx_ingredient == 0 else 0].find("a").find("img")
-            _ingredient_name = _ingredient_img["alt"]
-            _ingredient_id = MAP_INGREDIENT_TO_ID[_ingredient_name]
-
-            if idx_ingredient == 0:
-                ingredients["fixed"] = _ingredient_id
-                continue
-
-            if "random" not in ingredients:
-                ingredients["random"] = CUSTOM_RANDOM_INGREDIENT.get(pokemon_id, set())
-
-            ingredients["random"].add(_ingredient_id)
-
         _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
         main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
 
@@ -278,18 +263,6 @@ def main():
                     sleeps.append(_sleep_2)
                     _sleep_2 = {}
 
-        if "fixed" not in ingredients and pokemon_id in CUSTOM_FIXED_INGREDIENT:
-            ingredients["fixed"] = CUSTOM_FIXED_INGREDIENT[pokemon_id]
-
-        if "random" not in ingredients and pokemon_id in CUSTOM_RANDOM_INGREDIENT:
-            ingredients["random"] = CUSTOM_RANDOM_INGREDIENT[pokemon_id]
-
-        if "random" in ingredients:
-            # Random should always contain fixed
-            ingredients["random"].add(ingredients["fixed"])
-        elif "fixed" in ingredients:
-            ingredients["random"] = {ingredients["fixed"]}
-
         pokemon_data.append({
             "id": pokemon_id,
             "name": pokemon_name,
@@ -301,7 +274,6 @@ def main():
                 "id": berry_id,
                 "quantity": berry_qty
             },
-            "ingredients": ingredients,
             "skill": main_skill,
             "sleepStyle": sleeps
         })

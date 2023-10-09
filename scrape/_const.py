@@ -107,20 +107,3 @@ MAP_SPECIALTY_TO_ID = {
     "Skills": 3,
     "": None,
 }
-
-CUSTOM_FIXED_INGREDIENT = {
-    287: 12,  # Discord @bagel_fox
-    288: 12  # Discord @bagel_fox
-}
-
-CUSTOM_RANDOM_INGREDIENT = {
-    54: {5},  # Discord @bagel_fox
-    55: {5},  # Discord @bagel_fox
-    155: {10},  # Discord @bagel_fox
-    156: {10},  # Discord @fs6tavu
-    157: {10},  # Discord @fs6tavu
-    287: {9, 5},  # Discord @bagel_fox (9) / @pop1224
-    288: {9},  # Discord @bagel_fox
-    333: {5},  # Discord @bagel_fox
-    359: {5},  # NGA via Discord @calpistori
-}
