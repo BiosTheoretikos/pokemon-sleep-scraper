@@ -1,6 +1,7 @@
 import warnings
+from collections import defaultdict
 
-from bs4 import BeautifulSoup, Comment, NavigableString, Tag
+from bs4 import Comment, NavigableString, Tag
 
 from _const import *
 from _functions import *
@@ -66,12 +67,63 @@ def transform_stats(stats):
     }
 
 
+def to_rank_object(rank_text):
+    title, number = rank_text.split(" ")
+
+    return {
+        "title": MAP_TITLE_TO_ID[title],
+        "number": int(number),
+    }
+
+
+def get_pokemon_to_sleep_style_mapping():
+    ret = defaultdict(lambda: defaultdict(list))
+
+    for _map_soup in get_soups_of_maps():
+        map_name = _map_soup.find("h1").text
+
+        for idx, _sleep_style_row in enumerate(_map_soup.find_all("table", class_="dextable")[-1].find_all("tr")):
+            if idx == 0:
+                continue
+
+            _rank, _, _styles = _sleep_style_row.find_all("td")
+
+            _rank_text = _rank.text
+            _styles_text = _styles.get_text(separator="\n", strip=True)
+
+            if not _styles_text:
+                continue
+
+            _styles_list = _styles_text.replace("\n-", " -").split("\n")
+
+            rank_obj = to_rank_object(_rank_text)
+
+            for _style in _styles_list:
+                if " - " not in _style:
+                    # Sleep style string could be malformed
+                    # Example:
+                    # G5 got "Ditto -" in https://www.serebii.net/pokemonsleep/locations/snowdroptundra.shtml
+                    continue
+
+                _pokemon_name, _style_name = _style.split(" - ", 2)
+
+                ret[_pokemon_name][_style_name].append({
+                    "id": MAP_FIELD_TO_ID[map_name],
+                    "rank": rank_obj
+                })
+
+    return ret
+
+
 def main():
     pokemon_data = []
     # pokemon_evo_chain: defaultdict[int, defaultdict[int, list]] = defaultdict(lambda: defaultdict(list))
 
     req = send_requests([INDEX_URL])[0]
     soup = BeautifulSoup(req.content, "html.parser")
+
+    print("Preparing pokemon to sleep style mapping")
+    sleep_style_info_from_map = get_pokemon_to_sleep_style_mapping()
 
     for idx, index_row in enumerate(soup.find("table", class_="dextable").find_all("tr")):
         if idx == 0:
@@ -83,9 +135,9 @@ def main():
         pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
         _pokemon_link_element = _index_children[1].find("a")
         _pokemon_link = _pokemon_link_element["href"]
-        name = _pokemon_link_element.find("u").text
+        pokemon_name = _pokemon_link_element.find("u").text
 
-        print(f"Adding pokemon #{pokemon_id} ({name})")
+        print(f"Adding pokemon #{pokemon_id} ({pokemon_name})")
 
         type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
@@ -153,26 +205,26 @@ def main():
 
         _table_sleeps = _pokemon_soup.find("table", class_="dextable")
         sleeps = []
+        _sleep_style_name_1 = None
+        _sleep_style_name_2 = None
         _sleep_1 = {}
         _sleep_2 = {}
-        for idx_sleep, _sleep_row in enumerate(_table_sleeps.find_all("tr")):
-            idx_ = idx_sleep % 4
-            if idx_ == 0:
+        for _idx_sleep_row, _sleep_row in enumerate(_table_sleeps.find_all("tr")):
+            _idx_sleep_row_of_section = _idx_sleep_row % 4
+            if _idx_sleep_row_of_section == 0:
+                for _idx_sleep_title, _sleep_title in enumerate(_sleep_row.find_all("td")[:2]):
+                    if _idx_sleep_title == 0:
+                        _sleep_style_name_1 = _sleep_title.text
+                        _sleep_1["style"] = get_sleep_style_id(pokemon_id, _sleep_style_name_1)
+                    elif _idx_sleep_title == 1:
+                        _sleep_style_name_2 = _sleep_title.text
+                        _sleep_2["style"] = get_sleep_style_id(pokemon_id, _sleep_style_name_2)
                 continue
 
-            if idx_ == 1:
-                for _idx_sleep_cell, _sleep_cell in enumerate(_sleep_row.find_all("td")[:2]):
-                    _sleep_cell_img = _sleep_cell.find("img") or BeautifulSoup(
-                        f"<{_sleep_cell(text=lambda text: isinstance(text, Comment))[0]}>", "html.parser"
-                    ).find("img")
-
-                    if _idx_sleep_cell == 0:
-                        _sleep_1["style"] = get_sleep_style_id(pokemon_id, _sleep_cell_img["alt"])
-                    elif _idx_sleep_cell == 1:
-                        _sleep_2["style"] = get_sleep_style_id(pokemon_id, _sleep_cell_img["alt"])
+            if _idx_sleep_row_of_section == 1:
                 continue
 
-            if idx_ == 2:
+            if _idx_sleep_row_of_section == 2:
                 for _idx_location_cell, _location_cell in enumerate(_sleep_row.find_all("td")[:2]):
                     _locations = []
                     _location_elements = _location_cell(
@@ -194,20 +246,23 @@ def main():
                             if len(_location_rank_info) < 2:
                                 continue
 
-                            title, number = _location_rank_info[1].split(" ")
-
                             _locations.append({
                                 "id": _location_id,
-                                "rank": {
-                                    "title": MAP_TITLE_TO_ID[title],
-                                    "number": int(number),
-                                }
+                                "rank": to_rank_object(_location_rank_info[1])
                             })
 
-                    if not _locations and idx_sleep < 4:
+                    if not _locations:
+                        lacking_sleep_style = _idx_sleep_row // 4 * 2 + 1
+
+                        if _idx_location_cell == 0:
+                            _locations = sleep_style_info_from_map[pokemon_name][_sleep_style_name_1]
+                        elif _idx_location_cell == 1:
+                            _locations = sleep_style_info_from_map[pokemon_name][_sleep_style_name_2]
+
                         warnings.warn(
-                            f"Pokemon #{pokemon_id} ({name}) does not have location of sleep style - "
-                            f"possibly available only through incense"
+                            f"Pokemon #{pokemon_id} ({pokemon_name}) does not have location of sleep style "
+                            f"#{lacking_sleep_style} or #{lacking_sleep_style + 1} - "
+                            "possibly available only through incense"
                         )
 
                     if _idx_location_cell == 0:
@@ -215,7 +270,7 @@ def main():
                     elif _idx_location_cell == 1:
                         _sleep_2["location"] = _locations
 
-            if idx_ == 3:
+            if _idx_sleep_row_of_section == 3:
                 def transform_reward(cell):
                     rewards = [
                         text.text for idx_2, text in
@@ -256,7 +311,7 @@ def main():
 
         pokemon_data.append({
             "id": pokemon_id,
-            "name": name,
+            "name": pokemon_name,
             "type": type_id,
             "specialty": specialty,
             "sleepType": sleep_type_id,
