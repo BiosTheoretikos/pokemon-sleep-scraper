@@ -1,402 +1,502 @@
 [
   {
     "lv": 1,
-    "toNext": 54
+    "toNext": 54,
+    "shardPerCandy": 14
   },
   {
     "lv": 2,
-    "toNext": 71
+    "toNext": 71,
+    "shardPerCandy": 18
   },
   {
     "lv": 3,
-    "toNext": 108
+    "toNext": 108,
+    "shardPerCandy": 22
   },
   {
     "lv": 4,
-    "toNext": 128
+    "toNext": 128,
+    "shardPerCandy": 27
   },
   {
     "lv": 5,
-    "toNext": 164
+    "toNext": 164,
+    "shardPerCandy": 30
   },
   {
     "lv": 6,
-    "toNext": 202
+    "toNext": 202,
+    "shardPerCandy": 34
   },
   {
     "lv": 7,
-    "toNext": 244
+    "toNext": 244,
+    "shardPerCandy": 39
   },
   {
     "lv": 8,
-    "toNext": 274
+    "toNext": 274,
+    "shardPerCandy": 44
   },
   {
     "lv": 9,
-    "toNext": 315
+    "toNext": 315,
+    "shardPerCandy": 48
   },
   {
     "lv": 10,
-    "toNext": 345
+    "toNext": 345,
+    "shardPerCandy": 50
   },
   {
     "lv": 11,
-    "toNext": 376
+    "toNext": 376,
+    "shardPerCandy": 52
   },
   {
     "lv": 12,
-    "toNext": 407
+    "toNext": 407,
+    "shardPerCandy": 53
   },
   {
     "lv": 13,
-    "toNext": 419
+    "toNext": 419,
+    "shardPerCandy": 56
   },
   {
     "lv": 14,
-    "toNext": 429
+    "toNext": 429,
+    "shardPerCandy": 59
   },
   {
     "lv": 15,
-    "toNext": 440
+    "toNext": 440,
+    "shardPerCandy": 62
   },
   {
     "lv": 16,
-    "toNext": 454
+    "toNext": 454,
+    "shardPerCandy": 66
   },
   {
     "lv": 17,
-    "toNext": 469
+    "toNext": 469,
+    "shardPerCandy": 68
   },
   {
     "lv": 18,
-    "toNext": 483
+    "toNext": 483,
+    "shardPerCandy": 71
   },
   {
     "lv": 19,
-    "toNext": 497
+    "toNext": 497,
+    "shardPerCandy": 74
   },
   {
     "lv": 20,
-    "toNext": 515
+    "toNext": 515,
+    "shardPerCandy": 78
   },
   {
     "lv": 21,
-    "toNext": 537
+    "toNext": 537,
+    "shardPerCandy": 81
   },
   {
     "lv": 22,
-    "toNext": 558
+    "toNext": 558,
+    "shardPerCandy": 85
   },
   {
     "lv": 23,
-    "toNext": 579
+    "toNext": 579,
+    "shardPerCandy": 88
   },
   {
     "lv": 24,
-    "toNext": 600
+    "toNext": 600,
+    "shardPerCandy": 92
   },
   {
     "lv": 25,
-    "toNext": 622
+    "toNext": 622,
+    "shardPerCandy": 95
   },
   {
     "lv": 26,
-    "toNext": 643
+    "toNext": 643,
+    "shardPerCandy": 100
   },
   {
     "lv": 27,
-    "toNext": 665
+    "toNext": 665,
+    "shardPerCandy": 105
   },
   {
     "lv": 28,
-    "toNext": 686
+    "toNext": 686,
+    "shardPerCandy": 111
   },
   {
     "lv": 29,
-    "toNext": 708
+    "toNext": 708,
+    "shardPerCandy": 117
   },
   {
     "lv": 30,
-    "toNext": 729
+    "toNext": 729,
+    "shardPerCandy": 122
   },
   {
     "lv": 31,
-    "toNext": 748
+    "toNext": 748,
+    "shardPerCandy": 126
   },
   {
     "lv": 32,
-    "toNext": 766
+    "toNext": 766,
+    "shardPerCandy": 130
   },
   {
     "lv": 33,
-    "toNext": 785
+    "toNext": 785,
+    "shardPerCandy": 136
   },
   {
     "lv": 34,
-    "toNext": 803
+    "toNext": 803,
+    "shardPerCandy": 143
   },
   {
     "lv": 35,
-    "toNext": 821
+    "toNext": 821,
+    "shardPerCandy": 151
   },
   {
     "lv": 36,
-    "toNext": 839
+    "toNext": 839,
+    "shardPerCandy": 160
   },
   {
     "lv": 37,
-    "toNext": 857
+    "toNext": 857,
+    "shardPerCandy": 167
   },
   {
     "lv": 38,
-    "toNext": 875
+    "toNext": 875,
+    "shardPerCandy": 174
   },
   {
     "lv": 39,
-    "toNext": 893
+    "toNext": 893,
+    "shardPerCandy": 184
   },
   {
     "lv": 40,
-    "toNext": 910
+    "toNext": 910,
+    "shardPerCandy": 192
   },
   {
     "lv": 41,
-    "toNext": 928
+    "toNext": 928,
+    "shardPerCandy": 201
   },
   {
     "lv": 42,
-    "toNext": 945
+    "toNext": 945,
+    "shardPerCandy": 211
   },
   {
     "lv": 43,
-    "toNext": 963
+    "toNext": 963,
+    "shardPerCandy": 221
   },
   {
     "lv": 44,
-    "toNext": 980
+    "toNext": 980,
+    "shardPerCandy": 227
   },
   {
     "lv": 45,
-    "toNext": 997
+    "toNext": 997,
+    "shardPerCandy": 236
   },
   {
     "lv": 46,
-    "toNext": 1015
+    "toNext": 1015,
+    "shardPerCandy": 250
   },
   {
     "lv": 47,
-    "toNext": 1032
+    "toNext": 1032,
+    "shardPerCandy": 264
   },
   {
     "lv": 48,
-    "toNext": 1049
+    "toNext": 1049,
+    "shardPerCandy": 279
   },
   {
     "lv": 49,
-    "toNext": 1066
+    "toNext": 1066,
+    "shardPerCandy": 295
   },
   {
     "lv": 50,
-    "toNext": 1084
+    "toNext": 1084,
+    "shardPerCandy": 309
   },
   {
     "lv": 51,
-    "toNext": 1102
+    "toNext": 1102,
+    "shardPerCandy": null
   },
   {
     "lv": 52,
-    "toNext": 1120
+    "toNext": 1120,
+    "shardPerCandy": null
   },
   {
     "lv": 53,
-    "toNext": 1138
+    "toNext": 1138,
+    "shardPerCandy": null
   },
   {
     "lv": 54,
-    "toNext": 1156
+    "toNext": 1156,
+    "shardPerCandy": null
   },
   {
     "lv": 55,
-    "toNext": 1174
+    "toNext": 1174,
+    "shardPerCandy": null
   },
   {
     "lv": 56,
-    "toNext": 1192
+    "toNext": 1192,
+    "shardPerCandy": null
   },
   {
     "lv": 57,
-    "toNext": 1210
+    "toNext": 1210,
+    "shardPerCandy": null
   },
   {
     "lv": 58,
-    "toNext": 1228
+    "toNext": 1228,
+    "shardPerCandy": null
   },
   {
     "lv": 59,
-    "toNext": 1246
+    "toNext": 1246,
+    "shardPerCandy": null
   },
   {
     "lv": 60,
-    "toNext": 1264
+    "toNext": 1264,
+    "shardPerCandy": null
   },
   {
     "lv": 61,
-    "toNext": 1282
+    "toNext": 1282,
+    "shardPerCandy": null
   },
   {
     "lv": 62,
-    "toNext": 1300
+    "toNext": 1300,
+    "shardPerCandy": null
   },
   {
     "lv": 63,
-    "toNext": 1318
+    "toNext": 1318,
+    "shardPerCandy": null
   },
   {
     "lv": 64,
-    "toNext": 1336
+    "toNext": 1336,
+    "shardPerCandy": null
   },
   {
     "lv": 65,
-    "toNext": 1354
+    "toNext": 1354,
+    "shardPerCandy": null
   },
   {
     "lv": 66,
-    "toNext": 1372
+    "toNext": 1372,
+    "shardPerCandy": null
   },
   {
     "lv": 67,
-    "toNext": 1390
+    "toNext": 1390,
+    "shardPerCandy": null
   },
   {
     "lv": 68,
-    "toNext": 1408
+    "toNext": 1408,
+    "shardPerCandy": null
   },
   {
     "lv": 69,
-    "toNext": 1426
+    "toNext": 1426,
+    "shardPerCandy": null
   },
   {
     "lv": 70,
-    "toNext": 1444
+    "toNext": 1444,
+    "shardPerCandy": null
   },
   {
     "lv": 71,
-    "toNext": 1462
+    "toNext": 1462,
+    "shardPerCandy": null
   },
   {
     "lv": 72,
-    "toNext": 1480
+    "toNext": 1480,
+    "shardPerCandy": null
   },
   {
     "lv": 73,
-    "toNext": 1498
+    "toNext": 1498,
+    "shardPerCandy": null
   },
   {
     "lv": 74,
-    "toNext": 1516
+    "toNext": 1516,
+    "shardPerCandy": null
   },
   {
     "lv": 75,
-    "toNext": 1534
+    "toNext": 1534,
+    "shardPerCandy": null
   },
   {
     "lv": 76,
-    "toNext": 1552
+    "toNext": 1552,
+    "shardPerCandy": null
   },
   {
     "lv": 77,
-    "toNext": 1570
+    "toNext": 1570,
+    "shardPerCandy": null
   },
   {
     "lv": 78,
-    "toNext": 1588
+    "toNext": 1588,
+    "shardPerCandy": null
   },
   {
     "lv": 79,
-    "toNext": 1606
+    "toNext": 1606,
+    "shardPerCandy": null
   },
   {
     "lv": 80,
-    "toNext": 1624
+    "toNext": 1624,
+    "shardPerCandy": null
   },
   {
     "lv": 81,
-    "toNext": 1642
+    "toNext": 1642,
+    "shardPerCandy": null
   },
   {
     "lv": 82,
-    "toNext": 1660
+    "toNext": 1660,
+    "shardPerCandy": null
   },
   {
     "lv": 83,
-    "toNext": 1678
+    "toNext": 1678,
+    "shardPerCandy": null
   },
   {
     "lv": 84,
-    "toNext": 1696
+    "toNext": 1696,
+    "shardPerCandy": null
   },
   {
     "lv": 85,
-    "toNext": 1714
+    "toNext": 1714,
+    "shardPerCandy": null
   },
   {
     "lv": 86,
-    "toNext": 1732
+    "toNext": 1732,
+    "shardPerCandy": null
   },
   {
     "lv": 87,
-    "toNext": 1750
+    "toNext": 1750,
+    "shardPerCandy": null
   },
   {
     "lv": 88,
-    "toNext": 1768
+    "toNext": 1768,
+    "shardPerCandy": null
   },
   {
     "lv": 89,
-    "toNext": 1786
+    "toNext": 1786,
+    "shardPerCandy": null
   },
   {
     "lv": 90,
-    "toNext": 1804
+    "toNext": 1804,
+    "shardPerCandy": null
   },
   {
     "lv": 91,
-    "toNext": 1822
+    "toNext": 1822,
+    "shardPerCandy": null
   },
   {
     "lv": 92,
-    "toNext": 1840
+    "toNext": 1840,
+    "shardPerCandy": null
   },
   {
     "lv": 93,
-    "toNext": 1858
+    "toNext": 1858,
+    "shardPerCandy": null
   },
   {
     "lv": 94,
-    "toNext": 1876
+    "toNext": 1876,
+    "shardPerCandy": null
   },
   {
     "lv": 95,
-    "toNext": 1894
+    "toNext": 1894,
+    "shardPerCandy": null
   },
   {
     "lv": 96,
-    "toNext": 1912
+    "toNext": 1912,
+    "shardPerCandy": null
   },
   {
     "lv": 97,
-    "toNext": 1930
+    "toNext": 1930,
+    "shardPerCandy": null
   },
   {
     "lv": 98,
-    "toNext": 1948
+    "toNext": 1948,
+    "shardPerCandy": null
   },
   {
     "lv": 99,
-    "toNext": 1966
+    "toNext": 1966,
+    "shardPerCandy": null
   },
   {
     "lv": 100,
-    "toNext": 1984
+    "toNext": 1984,
+    "shardPerCandy": null
   }
 ]
