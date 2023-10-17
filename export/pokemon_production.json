@@ -40,7 +40,7 @@
     "pokemonId": 4
   },
   {
-    "dataCount": 179,
+    "dataCount": 180,
     "ingredientSplit": 0.2267,
     "skillValue": 14.05,
     "confidence": {
@@ -70,7 +70,7 @@
     "pokemonId": 7
   },
   {
-    "dataCount": 237,
+    "dataCount": 239,
     "ingredientSplit": 0.2703,
     "skillValue": 17.59,
     "confidence": {
@@ -80,7 +80,7 @@
     "pokemonId": 8
   },
   {
-    "dataCount": 70,
+    "dataCount": 71,
     "ingredientSplit": 0.2742,
     "skillValue": 18.46,
     "confidence": {
@@ -110,7 +110,7 @@
     "pokemonId": 11
   },
   {
-    "dataCount": 150,
+    "dataCount": 153,
     "ingredientSplit": 0.1974,
     "skillValue": 12.31,
     "confidence": {
@@ -210,7 +210,7 @@
     "pokemonId": 39
   },
   {
-    "dataCount": 139,
+    "dataCount": 142,
     "ingredientSplit": 0.17489999999999997,
     "skillValue": 44.67,
     "confidence": {
@@ -250,7 +250,7 @@
     "pokemonId": 52
   },
   {
-    "dataCount": 8,
+    "dataCount": 9,
     "ingredientSplit": 0.16949999999999998,
     "skillValue": 38.67,
     "confidence": {
@@ -340,7 +340,7 @@
     "pokemonId": 70
   },
   {
-    "dataCount": 40,
+    "dataCount": 41,
     "ingredientSplit": 0.2328,
     "skillValue": 15.54,
     "confidence": {
@@ -540,7 +540,7 @@
     "pokemonId": 133
   },
   {
-    "dataCount": 51,
+    "dataCount": 55,
     "ingredientSplit": 0.2115,
     "skillValue": 53.63,
     "confidence": {
@@ -570,7 +570,7 @@
     "pokemonId": 136
   },
   {
-    "dataCount": 127,
+    "dataCount": 128,
     "ingredientSplit": 0.1686,
     "skillValue": 15.56,
     "confidence": {
@@ -650,7 +650,7 @@
     "pokemonId": 159
   },
   {
-    "dataCount": 19,
+    "dataCount": 20,
     "ingredientSplit": 0.2562,
     "skillValue": 21.94,
     "confidence": {
@@ -730,7 +730,7 @@
     "pokemonId": 180
   },
   {
-    "dataCount": 16,
+    "dataCount": 17,
     "ingredientSplit": 0.1292,
     "skillValue": 41.33,
     "confidence": {
@@ -770,7 +770,7 @@
     "pokemonId": 197
   },
   {
-    "dataCount": 22,
+    "dataCount": 25,
     "ingredientSplit": 0.1503,
     "skillValue": 59.86,
     "confidence": {
