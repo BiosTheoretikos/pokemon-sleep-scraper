@@ -1,5 +1,7 @@
 import json
 
+from _const import *
+
 DIRECTORY = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-assets\texts"
 # Directory from BronzeMaster5000
 # DIRECTORY = r"C:\Users\Anwender\Documents\Pokemon Sleep Stuff\TextAll"
@@ -236,6 +238,8 @@ def load_string_map_from_data(data, locale, prefix, namespace):
     for key, values in data["strings"].items():
         if not key.startswith(prefix):
             continue
+
+        key = STRING_KEY_REPLACEMENT_DICT.get(key, key)
 
         # Value goes first because `get_value()` depends on the original key
         value = get_value(key, values, namespace, locale)
