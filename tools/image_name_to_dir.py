@@ -2,7 +2,7 @@ import glob
 import shutil
 from pathlib import Path
 
-IMAGE_DIR = r"C:\Users\RaenonX\Downloads\PKS-SleepStyle"
+IMAGE_DIR = r"C:\Users\RaenonX\Downloads\A"
 
 IMAGE_DIR_EXPORT = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-ui\public\images\sleep"
 
@@ -31,34 +31,42 @@ def main():
 
         if file_name.endswith("rare.png"):
             shutil.copy2(file_path, rf"{dir_3}\{file_name_new}")
+            print(rf"{file_path} => {dir_3}\{file_name_new}")
             continue
 
         if file_name.endswith("rare_shiny.png"):
             shutil.copy2(file_path, rf"{dir_3_shiny}\{file_name_new}")
+            print(rf"{file_path} => {dir_3_shiny}\{file_name_new}")
             continue
 
         if file_name.endswith("normal_on_snorlax.png"):
             shutil.copy2(file_path, rf"{dir_4}\{file_name_new}")
+            print(rf"{file_path} => {dir_4}\{file_name_new}")
             continue
 
         if file_name.endswith("normal_on_snorlax_shiny.png"):
             shutil.copy2(file_path, rf"{dir_4_shiny}\{file_name_new}")
+            print(rf"{file_path} => {dir_4_shiny}\{file_name_new}")
             continue
 
         if file_name.endswith("rare_on_snorlax.png"):
             shutil.copy2(file_path, rf"{dir_4}\{file_name_new}")
+            print(rf"{file_path} => {dir_4}\{file_name_new}")
             continue
 
         if file_name.endswith("rare_on_snorlax_shiny.png"):
             shutil.copy2(file_path, rf"{dir_4_shiny}\{file_name_new}")
+            print(rf"{file_path} => {dir_4_shiny}\{file_name_new}")
             continue
 
         if file_name.endswith("sleep_8.png"):
             shutil.copy2(file_path, rf"{dir_4}\{file_name_new}")
+            print(rf"{file_path} => {dir_4}\{file_name_new}")
             continue
 
         if file_name.endswith("sleep_8_shiny.png"):
             shutil.copy2(file_path, rf"{dir_4_shiny}\{file_name_new}")
+            print(rf"{file_path} => {dir_4_shiny}\{file_name_new}")
             continue
 
         print(f"Unhandled file name: {file_name}")
