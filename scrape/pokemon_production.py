@@ -10,6 +10,8 @@ with open("export/game-en.json", "r", encoding="utf-8") as f_game:
 POKEMON_NAME_TO_ID = {
     name: int(pokemon_id)
     for pokemon_id, name in game_data["PokemonName"].items()
+    # ID > 1000 is special version
+    if pokemon_id.isnumeric() and int(pokemon_id) < 1000
 }
 
 CONFIDENCE_TO_ID = {
