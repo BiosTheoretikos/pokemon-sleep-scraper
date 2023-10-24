@@ -5,10 +5,10 @@ from pymongo import MongoClient
 
 from _const import *
 
-with open("data/snorlax_rank.json") as f:
+with open("data/scraped/snorlax_rank.json") as f:
     snorlax_rank = json.load(f)
 
-with open("data/snorlax_reward.json") as f:
+with open("data/scraped/snorlax_reward.json") as f:
     snorlax_reward = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)

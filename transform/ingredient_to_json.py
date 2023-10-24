@@ -13,7 +13,7 @@ POKEMON_NAME_TO_ID = {
     for pokemon_id, name in game_data["PokemonName"].items()
 }
 
-with open("transformed/evolution_chain.json", "r", encoding="utf-8") as f_evo:
+with open("data/manual/pokemon/evolution_chain.json", "r", encoding="utf-8") as f_evo:
     chain_data = json.load(f_evo)
 
 POKEMON_ID_TO_CHAIN_TAIL_ID = {
@@ -103,7 +103,7 @@ def main():
                 "60": sorted(lv_60, key=lambda item: item["id"]),
             }
 
-    with open(f"transformed/ingredient_chain.json", "w+", encoding="utf-8", newline="\n") as f:
+    with open(f"data/manual/pokemon/ingredient_chain.json", "w+", encoding="utf-8", newline="\n") as f:
         data = [
             {
                 "chainId": origin_id,
@@ -115,7 +115,7 @@ def main():
         print(len(data))
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    with open(f"transformed/ingredient_chain_of_pokemon.json", "w+", encoding="utf-8", newline="\n") as f:
+    with open(f"data/manual/pokemon/ingredient_chain_of_pokemon.json", "w+", encoding="utf-8", newline="\n") as f:
         json.dump(POKEMON_ID_TO_CHAIN_TAIL_ID, f, indent=2, ensure_ascii=False)
 
 

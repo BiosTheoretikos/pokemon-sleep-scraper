@@ -113,7 +113,7 @@ def main():
 
         evo_chain_dict[initial_id] = initial
 
-    with open(f"transformed/evolution_chain.json", "w+", encoding="utf-8", newline="\n") as f:
+    with open(f"data/manual/pokemon/evolution_chain.json", "w+", encoding="utf-8", newline="\n") as f:
         json.dump(evo_chain_dict, f, indent=2, ensure_ascii=False)
 
 

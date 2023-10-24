@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 from _const import *
 
-with open("data/berry_data.json") as f:
+with open("data/scraped/berry_data.json") as f:
     data = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)

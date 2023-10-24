@@ -6,15 +6,15 @@ from pymongo import MongoClient
 
 from _const import *
 
-with open("data/pokemon_data.json") as f:
+with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
-with open("transformed/ingredient_chain_of_pokemon.json") as f:
+with open("data/manual/pokemon/ingredient_chain_of_pokemon.json") as f:
     ingredient_chain_dict = json.load(f)
 
 ingredient_chain_dict = {int(pokemon_id): chain_id for pokemon_id, chain_id in ingredient_chain_dict.items()}
 
-with open("transformed/evolution_chain.json") as f:
+with open("data/manual/pokemon/evolution_chain.json") as f:
     evolution_chain_dict = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)

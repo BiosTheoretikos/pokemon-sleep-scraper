@@ -5,10 +5,10 @@ from pymongo import MongoClient
 
 from _const import *
 
-with open("transformed/pokemon_xp.json") as f:
+with open("data/manual/const/pokemon_xp.json") as f:
     data_xp = json.load(f)
 
-with open("transformed/pokemon_xp_multiplier.json") as f:
+with open("data/manual/pokemon/pokemon_xp_multiplier.json") as f:
     data_mult = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)

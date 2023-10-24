@@ -22,7 +22,7 @@ CONFIDENCE_TO_ID = {
 
 default_split = 0.2
 
-with open("data/pokemon_data.json") as f:
+with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
 
