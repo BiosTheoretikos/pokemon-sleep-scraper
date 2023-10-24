@@ -1,0 +1,312 @@
+{
+    "1": {
+        "2": [
+            "40 Bulbasaur Candy",
+            "Level 12"
+        ],
+        "3": [
+            "80 Bulbasaur Candy",
+            "Level 24"
+        ]
+    },
+    "4": {
+        "5": [
+            "40 Charmander Candy",
+            "Level 12"
+        ],
+        "6": [
+            "80 Charmander Candy",
+            "Level 27"
+        ]
+    },
+    "7": {
+        "8": [
+            "40 Squirtle Candy",
+            "Level 12"
+        ],
+        "9": [
+            "80 Squirtle Candy",
+            "Level 27"
+        ]
+    },
+    "10": {
+        "11": [
+            "Level 5",
+            "40 Caterpie Candy"
+        ],
+        "12": [
+            "80 Caterpie Candy",
+            "Level 8"
+        ]
+    },
+    "19": {
+        "20": [
+            "40 Rattata Candy",
+            "Level 15"
+        ]
+    },
+    "23": {
+        "24": [
+            "Level 17",
+            "40 Ekans Candy"
+        ]
+    },
+    "172": {
+        "25": [
+            "Sleep for 50 hours",
+            "20 Pikachu Candy"
+        ],
+        "26": [
+            "80 Pikachu Candy",
+            "Use the Thunder Stone"
+        ]
+    },
+    "174": {
+        "39": [
+            "Sleep for 50 hours",
+            "20 Jigglypuff Candy"
+        ],
+        "40": [
+            "Use the Moon Stone",
+            "80 Jigglypuff Candy"
+        ]
+    },
+    "50": {
+        "51": [
+            "40 Diglett Candy",
+            "Level 20"
+        ]
+    },
+    "52": {
+        "53": [
+            "Level 21",
+            "40 Meowth Candy"
+        ]
+    },
+    "54": {
+        "55": [
+            "Level",
+            "40 Psyduck Candy"
+        ]
+    },
+    "56": {
+        "57": [
+            "Level 21",
+            "40 Mankey Candy"
+        ]
+    },
+    "58": {
+        "59": [
+            "Use the Fire Stone",
+            "80 Growlithe Candy"
+        ]
+    },
+    "69": {
+        "70": [
+            "Level 16",
+            "40 Bellsprout Candy"
+        ],
+        "71": [
+            "80 Bellsprout Candy",
+            "Use the Leaf Stone"
+        ]
+    },
+    "74": {
+        "75": [
+            "40 Geodude Candy",
+            "Level 19"
+        ],
+        "76": [
+            "80 Geodude Candy",
+            "Use the Linking Cord"
+        ]
+    },
+    "79": {
+        "80": [
+            "Level 28",
+            "40 Slowpoke Candy"
+        ],
+        "199": [
+            "Level 28",
+            "Use the Linking Cord",
+            "80 Slowpoke Candy",
+            "40 Slowpoke Candy",
+            "Use the King's Rock"
+        ]
+    },
+    "81": {
+        "82": [
+            "40 Magnemite Candy",
+            "Level 23"
+        ],
+        "462": [
+            "80 Magnemite Candy",
+            "Use the Thunder Stone"
+        ]
+    },
+    "84": {
+        "85": [
+            "40 Doduo Candy",
+            "Level 23"
+        ]
+    },
+    "92": {
+        "93": [
+            "40 Gastly Candy",
+            "Level 19"
+        ],
+        "94": [
+            "80 Gastly Candy",
+            "Use the Linking Cord"
+        ]
+    },
+    "104": {
+        "105": [
+            "Level 21",
+            "40 Cubone Candy"
+        ]
+    },
+    "133": {
+        "134": [
+            "80 Eevee Candy",
+            "Use the Fire Stone",
+            "Use the Water Stone",
+            "Sleep for 150 hours",
+            "Use the Leaf Stone",
+            "Evolve between 6pm to 6am",
+            "Use the Ice Stone",
+            "Evolve between 6am to 6pm",
+            "Use the Thunder Stone"
+        ],
+        "135": [],
+        "136": [],
+        "196": [],
+        "197": [],
+        "470": [],
+        "471": [],
+        "700": []
+    },
+    "152": {
+        "153": [
+            "40 Chikorita Candy",
+            "Level 12"
+        ],
+        "154": [
+            "80 Chikorita Candy",
+            "Level 24"
+        ]
+    },
+    "155": {
+        "156": [
+            "40 Cyndaquil Candy",
+            "Level 11"
+        ],
+        "157": [
+            "80 Cyndaquil Candy",
+            "Level 27"
+        ]
+    },
+    "158": {
+        "159": [
+            "Level 14",
+            "40 Totodile Candy"
+        ],
+        "160": [
+            "Level 23",
+            "80 Totodile Candy"
+        ]
+    },
+    "175": {
+        "176": [
+            "Sleep for 50 hours",
+            "20 Togepi Candy"
+        ],
+        "468": [
+            "80 Togepi Candy",
+            "Use the Shiny Stone"
+        ]
+    },
+    "179": {
+        "180": [
+            "40 Mareep Candy",
+            "Level 11"
+        ],
+        "181": [
+            "Level 23",
+            "80 Mareep Candy"
+        ]
+    },
+    "438": {
+        "185": [
+            "20 Sudowoodo Candy",
+            "Level 12"
+        ]
+    },
+    "360": {
+        "202": [
+            "Level 11",
+            "20 Wobbuffet Candy"
+        ]
+    },
+    "228": {
+        "229": [
+            "Level 18",
+            "40 Houndour Candy"
+        ]
+    },
+    "246": {
+        "247": [
+            "Level 23",
+            "40 Larvitar Candy"
+        ],
+        "248": [
+            "Level 41",
+            "100 Larvitar Candy"
+        ]
+    },
+    "287": {
+        "288": [
+            "Level 14",
+            "40 Slakoth Candy"
+        ],
+        "289": [
+            "80 Slakoth Candy",
+            "Level 27"
+        ]
+    },
+    "316": {
+        "317": [
+            "40 Gulpin Candy",
+            "Level 20"
+        ]
+    },
+    "333": {
+        "334": [
+            "40 Swablu Candy",
+            "Level 26"
+        ]
+    },
+    "363": {
+        "364": [
+            "40 Spheal Candy",
+            "Level 24"
+        ],
+        "365": [
+            "",
+            "Level 33"
+        ]
+    },
+    "447": {
+        "448": [
+            "80 Lucario Candy",
+            "Sleep for 150 hours",
+            "Evolve between 6am to 6pm"
+        ]
+    },
+    "453": {
+        "454": [
+            "40 Croagunk Candy",
+            "Level 28"
+        ]
+    }
+}

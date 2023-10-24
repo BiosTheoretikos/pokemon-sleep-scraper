@@ -1,0 +1,470 @@
+[
+  {
+    "id": 1,
+    "effects": [
+      {
+        "type": "strength",
+        "level": 1,
+        "value": 400
+      },
+      {
+        "type": "strength",
+        "level": 2,
+        "value": 569
+      },
+      {
+        "type": "strength",
+        "level": 3,
+        "value": 785
+      },
+      {
+        "type": "strength",
+        "level": 4,
+        "value": 1083
+      },
+      {
+        "type": "strength",
+        "level": 5,
+        "value": 1496
+      },
+      {
+        "type": "strength",
+        "level": 6,
+        "value": 2066
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "effects": [
+      {
+        "type": "strength",
+        "level": 1,
+        "value": 880
+      },
+      {
+        "type": "strength",
+        "level": 2,
+        "value": 1251
+      },
+      {
+        "type": "strength",
+        "level": 3,
+        "value": 1726
+      },
+      {
+        "type": "strength",
+        "level": 4,
+        "value": 2383
+      },
+      {
+        "type": "strength",
+        "level": 5,
+        "value": 3290
+      },
+      {
+        "type": "strength",
+        "level": 6,
+        "value": 4546
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "effects": [
+      {
+        "type": "shards",
+        "level": 1,
+        "value": 88
+      },
+      {
+        "type": "shards",
+        "level": 2,
+        "value": 125
+      },
+      {
+        "type": "shards",
+        "level": 3,
+        "value": 173
+      },
+      {
+        "type": "shards",
+        "level": 4,
+        "value": 274
+      },
+      {
+        "type": "shards",
+        "level": 5,
+        "value": 395
+      },
+      {
+        "type": "shards",
+        "level": 6,
+        "value": 568
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "effects": [
+      {
+        "type": "stamina",
+        "level": 1,
+        "target": "random",
+        "value": 14
+      },
+      {
+        "type": "stamina",
+        "level": 2,
+        "target": "random",
+        "value": 17
+      },
+      {
+        "type": "stamina",
+        "level": 3,
+        "target": "random",
+        "value": 22
+      },
+      {
+        "type": "stamina",
+        "level": 4,
+        "target": "random",
+        "value": 28
+      },
+      {
+        "type": "stamina",
+        "level": 5,
+        "target": "random",
+        "value": 38
+      },
+      {
+        "type": "stamina",
+        "level": 6,
+        "target": "random",
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "effects": [
+      {
+        "type": "strength",
+        "level": 1,
+        "range": {
+          "from": 200,
+          "to": 800
+        }
+      },
+      {
+        "type": "strength",
+        "level": 2,
+        "range": {
+          "from": 285,
+          "to": 1138
+        }
+      },
+      {
+        "type": "strength",
+        "level": 3,
+        "range": {
+          "from": 393,
+          "to": 1570
+        }
+      },
+      {
+        "type": "strength",
+        "level": 4,
+        "range": {
+          "from": 542,
+          "to": 2166
+        }
+      },
+      {
+        "type": "strength",
+        "level": 5,
+        "range": {
+          "from": 748,
+          "to": 2992
+        }
+      },
+      {
+        "type": "strength",
+        "level": 6,
+        "range": {
+          "from": 1033,
+          "to": 4132
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "effects": [
+      {
+        "type": "shards",
+        "level": 1,
+        "range": {
+          "from": 44,
+          "to": 176
+        }
+      },
+      {
+        "type": "shards",
+        "level": 2,
+        "range": {
+          "from": 63,
+          "to": 250
+        }
+      },
+      {
+        "type": "shards",
+        "level": 3,
+        "range": {
+          "from": 87,
+          "to": 346
+        }
+      },
+      {
+        "type": "shards",
+        "level": 4,
+        "range": {
+          "from": 137,
+          "to": 548
+        }
+      },
+      {
+        "type": "shards",
+        "level": 5,
+        "range": {
+          "from": 198,
+          "to": 790
+        }
+      },
+      {
+        "type": "shards",
+        "level": 6,
+        "range": {
+          "from": 284,
+          "to": 1136
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "effects": [
+      {
+        "type": "stamina",
+        "level": 1,
+        "target": "self",
+        "value": 12
+      },
+      {
+        "type": "stamina",
+        "level": 2,
+        "target": "self",
+        "value": 16
+      },
+      {
+        "type": "stamina",
+        "level": 3,
+        "target": "self",
+        "value": 21
+      },
+      {
+        "type": "stamina",
+        "level": 4,
+        "target": "self",
+        "value": 26
+      },
+      {
+        "type": "stamina",
+        "level": 5,
+        "target": "self",
+        "value": 33
+      },
+      {
+        "type": "stamina",
+        "level": 6,
+        "target": "self",
+        "value": 43
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "effects": [
+      {
+        "type": "stamina",
+        "level": 1,
+        "target": "team",
+        "value": 5
+      },
+      {
+        "type": "stamina",
+        "level": 2,
+        "target": "team",
+        "value": 7
+      },
+      {
+        "type": "stamina",
+        "level": 3,
+        "target": "team",
+        "value": 9
+      },
+      {
+        "type": "stamina",
+        "level": 4,
+        "target": "team",
+        "value": 11
+      },
+      {
+        "type": "stamina",
+        "level": 5,
+        "target": "team",
+        "value": 15
+      },
+      {
+        "type": "stamina",
+        "level": 6,
+        "target": "team",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "effects": [
+      {
+        "type": "help",
+        "level": 1,
+        "count": 4
+      },
+      {
+        "type": "help",
+        "level": 2,
+        "count": 5
+      },
+      {
+        "type": "help",
+        "level": 3,
+        "count": 6
+      },
+      {
+        "type": "help",
+        "level": 4,
+        "count": 7
+      },
+      {
+        "type": "help",
+        "level": 5,
+        "count": 8
+      },
+      {
+        "type": "help",
+        "level": 6,
+        "count": 9
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "effects": [
+      {
+        "type": "cooking",
+        "level": 1,
+        "ingredients": 6
+      },
+      {
+        "type": "cooking",
+        "level": 2,
+        "ingredients": 8
+      },
+      {
+        "type": "cooking",
+        "level": 3,
+        "ingredients": 11
+      },
+      {
+        "type": "cooking",
+        "level": 4,
+        "ingredients": 14
+      },
+      {
+        "type": "cooking",
+        "level": 5,
+        "ingredients": 17
+      },
+      {
+        "type": "cooking",
+        "level": 6,
+        "ingredients": 21
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "effects": [
+      {
+        "type": "cooking",
+        "level": 1,
+        "capacity": 7
+      },
+      {
+        "type": "cooking",
+        "level": 2,
+        "capacity": 10
+      },
+      {
+        "type": "cooking",
+        "level": 3,
+        "capacity": 12
+      },
+      {
+        "type": "cooking",
+        "level": 4,
+        "capacity": 17
+      },
+      {
+        "type": "cooking",
+        "level": 5,
+        "capacity": 22
+      },
+      {
+        "type": "cooking",
+        "level": 6,
+        "capacity": 27
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "effects": [
+      {
+        "type": "random",
+        "level": 1
+      },
+      {
+        "type": "random",
+        "level": 2
+      },
+      {
+        "type": "random",
+        "level": 3
+      },
+      {
+        "type": "random",
+        "level": 4
+      },
+      {
+        "type": "random",
+        "level": 5
+      },
+      {
+        "type": "random",
+        "level": 6
+      }
+    ]
+  }
+]

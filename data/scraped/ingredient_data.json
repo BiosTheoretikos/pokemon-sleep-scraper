@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "price": 7,
+    "energy": 185
+  },
+  {
+    "id": 2,
+    "price": 7,
+    "energy": 167
+  },
+  {
+    "id": 3,
+    "price": 5,
+    "energy": 115
+  },
+  {
+    "id": 4,
+    "price": 5,
+    "energy": 124
+  },
+  {
+    "id": 5,
+    "price": 4,
+    "energy": 90
+  },
+  {
+    "id": 6,
+    "price": 5,
+    "energy": 130
+  },
+  {
+    "id": 7,
+    "price": 4,
+    "energy": 103
+  },
+  {
+    "id": 8,
+    "price": 4,
+    "energy": 98
+  },
+  {
+    "id": 9,
+    "price": 4,
+    "energy": 101
+  },
+  {
+    "id": 10,
+    "price": 5,
+    "energy": 121
+  },
+  {
+    "id": 11,
+    "price": 4,
+    "energy": 109
+  },
+  {
+    "id": 12,
+    "price": 4,
+    "energy": 110
+  },
+  {
+    "id": 13,
+    "price": 6,
+    "energy": 151
+  },
+  {
+    "id": 14,
+    "price": 14,
+    "energy": 342
+  },
+  {
+    "id": 15,
+    "price": 4,
+    "energy": 100
+  }
+]
