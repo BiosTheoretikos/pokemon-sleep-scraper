@@ -291,6 +291,8 @@
     "333": "Wablu",
     "334": "Altaria",
     "35": "Piepi",
+    "353": "Shuppet",
+    "354": "Banette",
     "359": "Absol",
     "36": "Pixi",
     "360": "Isso",
@@ -338,6 +340,8 @@
     "84": "Dodu",
     "85": "Dodri",
     "9": "Turtok",
+    "9001": "Pikachu",
+    "9001_full": "Pikachu (Halloween)",
     "92": "Nebulak",
     "93": "Alpollo",
     "94": "Gengar"
@@ -664,6 +668,16 @@
       "3": "Metronompose",
       "2": "Wegnickpose",
       "1": "Sorglospose"
+    },
+    "353": {
+      "3": "Kopfüberpose",
+      "2": "Schwebenickpose",
+      "1": "Schwebeplumpspose"
+    },
+    "354": {
+      "3": "Großlachpose",
+      "2": "Armschwingpose",
+      "1": "Nackendrehpose"
     },
     "359": {
       "3": "Bauchhochpose",

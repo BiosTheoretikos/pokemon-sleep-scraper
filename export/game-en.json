@@ -291,6 +291,8 @@
     "333": "Swablu",
     "334": "Altaria",
     "35": "Clefairy",
+    "353": "Shuppet",
+    "354": "Banette",
     "359": "Absol",
     "36": "Clefable",
     "360": "Wynaut",
@@ -338,6 +340,8 @@
     "84": "Doduo",
     "85": "Dodrio",
     "9": "Blastoise",
+    "9001": "Pikachu",
+    "9001_full": "Pikachu (Halloween)",
     "92": "Gastly",
     "93": "Haunter",
     "94": "Gengar"
@@ -664,6 +668,16 @@
       "3": "Metronome Sleep",
       "2": "Nodding-Off Sleep",
       "1": "Peaceful Sleep"
+    },
+    "353": {
+      "3": "Upside-Down Sleep",
+      "2": "Floaty Nodding Sleep",
+      "1": "Floaty Flopped Sleep"
+    },
+    "354": {
+      "3": "Big-Laugh Sleep",
+      "2": "Arm-Swinging Sleep",
+      "1": "Neck-Twisting Sleep"
     },
     "359": {
       "3": "Belly-Up Sleep",

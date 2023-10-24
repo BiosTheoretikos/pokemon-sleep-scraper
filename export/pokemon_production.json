@@ -930,6 +930,26 @@
     "pokemonId": 334
   },
   {
+    "dataCount": 0,
+    "ingredientSplit": 0.2,
+    "skillValue": 0,
+    "confidence": {
+      "ingredient": -2,
+      "skill": -2
+    },
+    "pokemonId": 353
+  },
+  {
+    "dataCount": 0,
+    "ingredientSplit": 0.2,
+    "skillValue": 0,
+    "confidence": {
+      "ingredient": -2,
+      "skill": -2
+    },
+    "pokemonId": 354
+  },
+  {
     "dataCount": 76,
     "ingredientSplit": 0.1776,
     "skillValue": 15.2,
