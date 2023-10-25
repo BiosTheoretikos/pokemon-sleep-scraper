@@ -1,5 +1,3 @@
-from bs4 import BeautifulSoup
-
 from _functions import *
 
 with open("export/game-en.json", "r", encoding="utf-8") as f:
