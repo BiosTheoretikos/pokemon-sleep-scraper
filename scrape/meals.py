@@ -62,25 +62,10 @@ def main():
                     "quantity": _ingredient_quantity
                 })
 
-            levels = []
-            for _idx_stats, _stats_row in enumerate(_dish_stats_table.find_all("tr")):
-                if _idx_stats == 0:
-                    continue
-
-                _stats_data = _stats_row.find_all("td")
-                _stats_exp = int(_stats_data[1].text.replace(",", ""))
-                _stats_energy = int(_stats_data[2].text)
-                levels.append({
-                    "lv": _idx_stats,
-                    "exp": _stats_exp,
-                    "energy": _stats_energy
-                })
-
             meal_data.append({
                 "id": int(dish_id),
                 "type": _meal_idx,
                 "ingredients": ingredients,
-                "levels": levels,
             })
 
     to_json(meal_data, "meal_data")
