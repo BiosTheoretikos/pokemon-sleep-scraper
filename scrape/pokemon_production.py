@@ -1,5 +1,6 @@
 import csv
 import json
+from collections import defaultdict
 from typing import NamedTuple
 
 import requests
@@ -7,11 +8,39 @@ import requests
 with open("export/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
 
+with open("data/scraped/pokemon_data.json", "r", encoding="utf-8") as f_pokemon:
+    pokemon_data = json.load(f_pokemon)
+
 POKEMON_NAME_TO_ID = {
     name: int(pokemon_id)
     for pokemon_id, name in game_data["PokemonName"].items()
     # ID > 1000 is special version
     if pokemon_id.isnumeric() and int(pokemon_id) < 1000
+}
+
+POKEMON_ID_TO_MAIN_SKILL_ID = {
+    data["id"]: data["skill"]
+    for data in pokemon_data
+}
+
+MAIN_SKILL_ID_TO_POKEMON_IDS = defaultdict(list)
+for pokemon_data_single in pokemon_data:
+    MAIN_SKILL_ID_TO_POKEMON_IDS[pokemon_data_single["skill"]].append(pokemon_data_single["id"])
+
+POKEMON_ID_TO_HELPING_FREQ = {
+    data["id"]: data["stats"]["frequency"]
+    for data in pokemon_data
+}
+
+POKEMON_SKILL_TRIGGER_BASE_PCT = {
+    133: 4.86,  # Eevee
+    287: 2.15,  # Slakoth
+    363: 1.83,  # Spheal
+    74: 4.51,  # Geodude
+    19: 2.80,  # Ratatta
+    25: 1.65,  # Pikachu
+    172: 1.94,  # Pichu
+    54: 9.48,   # Psyduck
 }
 
 CONFIDENCE_TO_ID = {
@@ -105,6 +134,24 @@ def get_rp_model_data():
     return data_by_pokemon
 
 
+def get_main_skill_trigger_pct_dict(data):
+    ret = {}
+    stv_dict = {
+        entry["pokemonId"]: entry["skillValue"] * (86400 / POKEMON_ID_TO_HELPING_FREQ[entry["pokemonId"]])
+        for entry in data
+    }
+    for pokemon_id_of_base, skill_pct in POKEMON_SKILL_TRIGGER_BASE_PCT.items():
+        main_skill_id = POKEMON_ID_TO_MAIN_SKILL_ID[pokemon_id_of_base]
+
+        print(f"Checking main skill ID #{main_skill_id} from Pokemon #{pokemon_id_of_base} ({skill_pct:.2f}%)")
+        base_stv = stv_dict[pokemon_id_of_base]
+
+        for pokemon_id in MAIN_SKILL_ID_TO_POKEMON_IDS[main_skill_id]:
+            ret[pokemon_id] = stv_dict[pokemon_id] / base_stv * skill_pct
+
+    return ret
+
+
 def main():
     rp_model_data = get_rp_model_data()
 
@@ -123,6 +170,12 @@ def main():
                 "pokemonId": pokemon_id,
             }
         )
+
+    skill_pct_dict = get_main_skill_trigger_pct_dict(data)
+    data = [
+        entry | {"skillPercent": skill_pct_dict.get(entry["pokemonId"])}
+        for entry in data
+    ]
 
     with open(f"export/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
         json.dump(data, f_export, indent=2, ensure_ascii=False)
