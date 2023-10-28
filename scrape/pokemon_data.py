@@ -25,6 +25,9 @@ with open("data/manual/pokemon/sleep_strings.json", "r", encoding="utf-8") as f:
 
         MAP_OF_TO_SLEEP_STYLE_ID[_pokemon_id][value] = _style_type
 
+with open("data/manual/pokemon/branch.json") as f:
+    pokemon_branches = json.load(f)
+
 
 def get_sleep_style_id(poke, name):
     if name == "Atop-Belly Sleep":
@@ -160,7 +163,7 @@ def main():
         _pokemon_link = _pokemon_link_element["href"]
         pokemon_name = _pokemon_link_element.find("u").text
 
-        print(f"Adding pokemon #{pokemon_id} ({pokemon_name})")
+        print(f"Adding Pokemon #{pokemon_id} ({pokemon_name})")
 
         type_id = MAP_POKEMON_TYPE[_index_children[2].text]
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
@@ -283,6 +286,25 @@ def main():
             "skill": main_skill,
             "sleepStyle": sleeps
         })
+
+        for branch_idx, pokemon_id_branch in enumerate(pokemon_branches.get(str(pokemon_id), []), start=1):
+            print(f"Found branch data of #{pokemon_id} ({pokemon_name}) - #{pokemon_id_branch}")
+            stats, berry_id, berry_qty, main_skill = get_pokemon_data(_tabs, 4 + branch_idx * 4)
+
+            pokemon_data.append({
+                "id": pokemon_id_branch,
+                "name": pokemon_name,
+                "type": type_id,
+                "specialty": specialty,
+                "sleepType": sleep_type_id,
+                "stats": stats,
+                "berry": {
+                    "id": berry_id,
+                    "quantity": berry_qty
+                },
+                "skill": main_skill,
+                "sleepStyle": sleeps
+            })
 
     to_json(pokemon_data, "pokemon_data")
 

@@ -187,6 +187,17 @@
     "skillPercent": 2.1466965639528
   },
   {
+    "dataCount": 0,
+    "ingredientSplit": 0.2,
+    "skillValue": 0,
+    "confidence": {
+      "ingredient": -2,
+      "skill": -2
+    },
+    "pokemonId": 9001,
+    "skillPercent": null
+  },
+  {
     "dataCount": 148,
     "ingredientSplit": 0.22390000000000002,
     "skillValue": 12.76,

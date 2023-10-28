@@ -21,6 +21,7 @@ SCRIPTS_UPDATE = [
     "controller/put_map_data.py",
     "controller/put_mainskill_data.py",
     "controller/put_meal_data.py",
+    "controller/put_pokemon_branch.py",
     "controller/put_pokemon_data.py",
     "controller/put_pokemon_xp_data.py",
     "controller/put_pokemon_production.py",

@@ -1935,6 +1935,118 @@
     ]
   },
   {
+    "id": 9001,
+    "name": "Pikachu",
+    "type": 4,
+    "specialty": 1,
+    "sleepType": 1,
+    "stats": {
+      "frequency": 2600,
+      "maxCarry": 18,
+      "friendshipPoints": 7,
+      "recruit": {
+        "exp": 7,
+        "shards": 20
+      }
+    },
+    "berry": {
+      "id": 4,
+      "quantity": 2
+    },
+    "skill": 5,
+    "sleepStyle": [
+      {
+        "style": 1,
+        "location": [
+          {
+            "id": 1,
+            "rank": {
+              "title": 1,
+              "number": 3
+            }
+          },
+          {
+            "id": 2,
+            "rank": {
+              "title": 1,
+              "number": 1
+            }
+          }
+        ],
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "location": [
+          {
+            "id": 1,
+            "rank": {
+              "title": 2,
+              "number": 2
+            }
+          },
+          {
+            "id": 2,
+            "rank": {
+              "title": 1,
+              "number": 4
+            }
+          }
+        ],
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "location": [
+          {
+            "id": 2,
+            "rank": {
+              "title": 2,
+              "number": 5
+            }
+          }
+        ],
+        "rewards": {
+          "exp": 320,
+          "shards": 958,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "location": [
+          {
+            "id": 1,
+            "rank": {
+              "title": 2,
+              "number": 3
+            }
+          },
+          {
+            "id": 2,
+            "rank": {
+              "title": 2,
+              "number": 1
+            }
+          }
+        ],
+        "rewards": {
+          "exp": 502,
+          "shards": 1505,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
     "id": 26,
     "name": "Raichu",
     "type": 4,
