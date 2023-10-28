@@ -1,14 +1,10 @@
-from bs4 import BeautifulSoup
-
 from _functions import *
 
 PAGE_URL = "https://www.serebii.net/pokemonsleep/skills.shtml"
 MAINSKILL_URL_PREFIX = "https://serebii.net/pokemonsleep/"
 
-
-with open("export/game-en.json", "r", encoding="utf-8") as f:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
-
 
 MAINSKILL_TO_ID = {
     name: int(mainskill_id)
@@ -81,7 +77,6 @@ MAINSKILL_EFFECT_CONVERTER = {
     11: to_cooking_effect("capacity"),
     13: to_metronome_effect,
 }
-
 
 MAINSKILL_TYPE = {
     1: "strength",

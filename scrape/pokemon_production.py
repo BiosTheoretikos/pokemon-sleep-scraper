@@ -4,7 +4,7 @@ from typing import NamedTuple
 
 import requests
 
-with open("export/game-en.json", "r", encoding="utf-8") as f_game:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
 
 with open("data/scraped/pokemon_data.json", "r", encoding="utf-8") as f_pokemon:
@@ -174,7 +174,7 @@ def main():
         for entry in data
     ]
 
-    with open(f"export/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
+    with open(f"data/transformed/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
         json.dump(data, f_export, indent=2, ensure_ascii=False)
 
 

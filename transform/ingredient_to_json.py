@@ -5,7 +5,7 @@ from _const import *
 
 DATA_FILE_PATH = "unprocessed/ingredients.csv"
 
-with open("export/game-en.json", "r", encoding="utf-8") as f_game:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
 
 POKEMON_NAME_TO_ID = {

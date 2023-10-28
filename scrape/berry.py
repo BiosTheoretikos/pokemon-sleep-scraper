@@ -1,6 +1,6 @@
 from _functions import *
 
-with open("export/game-en.json", "r", encoding="utf-8") as f:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
 
 ITEM_TO_ID = {

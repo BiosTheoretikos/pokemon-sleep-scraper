@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 from _const import *
 
-with open("export/pokemon_production.json") as f:
+with open("data/transformed/pokemon_production.json") as f:
     production_data = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)

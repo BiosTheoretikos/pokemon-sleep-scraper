@@ -7,7 +7,7 @@ DATA_FILE_PATH = "unprocessed/pokemon_evo_chain.json"
 with open(DATA_FILE_PATH, "r", encoding="utf-8") as f_game:
     evo_chain_data = json.load(f_game)
 
-with open("export/game-en.json", "r", encoding="utf-8") as f_game:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
 
 ITEM_NAME_TO_ID = {

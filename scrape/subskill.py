@@ -1,19 +1,14 @@
-from bs4 import BeautifulSoup
-
 from _functions import *
 
 PAGE_URL = "https://www.serebii.net/pokemonsleep/skills.shtml"
 
-
-with open("export/game-en.json", "r", encoding="utf-8") as f:
+with open("data/transformed/game-en.json", "r", encoding="utf-8") as f:
     game_data = json.load(f)
-
 
 SUBSKILL_TO_ID = {
     name: int(subskill_id)
     for subskill_id, name in game_data["SubSkill"]["Name"].items()
 }
-
 
 # Confirmed in image assets `skill_sub_*.png`
 RARITY_TO_ID = {
