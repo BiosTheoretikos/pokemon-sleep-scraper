@@ -115,6 +115,30 @@ def get_pokemon_to_sleep_style_mapping():
     return ret
 
 
+def get_pokemon_data(tabs, start_idx):
+    _tab_of_stats = tabs[start_idx + 1]
+    stats = {}
+    for idx_stats, _stats_row in enumerate(_tab_of_stats.find_all("tr")):
+        if idx_stats == 0:
+            continue
+
+        stat_key = _stats_row.find("td", class_="fooblack").text
+        stat_value = _stats_row.find("td", class_="fooinfo").text
+        stats[stat_key] = stat_value if ":" in stat_value else int(stat_value)
+    stats = transform_stats(stats)
+
+    _rows_of_berry_ingredients = tabs[start_idx + 2].find_all("tr")
+    _row_berry = _rows_of_berry_ingredients[1].find_all("td")
+    _berry_img = _row_berry[1].find("a").find("img")
+    berry_id = MAP_BERRY[_berry_img["alt"]]
+    berry_qty = int(_row_berry[3].text)
+
+    _main_skill_name, _main_skill_description = tabs[start_idx + 3].find_all("tr")[1].find_all("td")[:2]
+    main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
+
+    return stats, berry_id, berry_qty, main_skill
+
+
 def main():
     pokemon_data = []
 
@@ -149,25 +173,7 @@ def main():
 
         _tabs = _pokemon_soup.find("main").find_all("table", class_="tab")
 
-        _tab_of_stats = _tabs[5]
-        stats = {}
-        for idx_stats, _stats_row in enumerate(_tab_of_stats.find_all("tr")):
-            if idx_stats == 0:
-                continue
-
-            stat_key = _stats_row.find("td", class_="fooblack").text
-            stat_value = _stats_row.find("td", class_="fooinfo").text
-            stats[stat_key] = stat_value if ":" in stat_value else int(stat_value)
-        stats = transform_stats(stats)
-
-        _rows_of_berry_ingredients = _tabs[6].find_all("tr")
-        _row_berry = _rows_of_berry_ingredients[1].find_all("td")
-        _berry_img = _row_berry[1].find("a").find("img")
-        berry_id = MAP_BERRY[_berry_img["alt"]]
-        berry_qty = int(_row_berry[3].text)
-
-        _main_skill_name, _main_skill_description = _tabs[7].find_all("tr")[1].find_all("td")[:2]
-        main_skill = get_main_skill_id(_main_skill_name.text, _main_skill_description.text)
+        stats, berry_id, berry_qty, main_skill = get_pokemon_data(_tabs, 4)
 
         _table_sleeps = _pokemon_soup.find("table", class_="dextable")
         sleeps = []
