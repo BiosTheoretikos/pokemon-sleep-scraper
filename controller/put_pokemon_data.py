@@ -9,10 +9,18 @@ from _const import *
 with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
-with open("data/manual/pokemon/ingredient_chain_of_pokemon.json") as f:
-    ingredient_chain_dict = json.load(f)
+with open("data/manual/pokemon/ingredient_chain.json") as f:
+    ingredient_chain_list = json.load(f)
 
-ingredient_chain_dict = {int(pokemon_id): chain_id for pokemon_id, chain_id in ingredient_chain_dict.items()}
+ingredient_chain_list = {int(entry["chainId"]) for entry in ingredient_chain_list}
+
+with open("data/manual/pokemon/ingredient_chain_of_pokemon.json") as f:
+    ingredient_chain_of_pokemon_dict = json.load(f)
+
+ingredient_chain_of_pokemon_dict = {
+    int(pokemon_id): chain_id for pokemon_id, chain_id
+    in ingredient_chain_of_pokemon_dict.items()
+}
 
 with open("data/manual/pokemon/evolution_chain.json") as f:
     evolution_chain_dict = json.load(f)
@@ -46,7 +54,14 @@ def main():
     for pokemon in pokemon_data:
         pokemon_id = pokemon["id"]
 
-        pokemon["ingredientChain"] = ingredient_chain_dict[pokemon_id]
+        ingredient_chain_id = ingredient_chain_of_pokemon_dict[pokemon_id]
+
+        if ingredient_chain_id not in ingredient_chain_list:
+            raise RuntimeError(
+                f"Ingredient Chain ID #{ingredient_chain_id} of Pokemon #{pokemon_id} does not have data"
+            )
+
+        pokemon["ingredientChain"] = ingredient_chain_id
         pokemon["evolution"] = evolution_chain_dict[str(pokemon_id)]
 
         data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
