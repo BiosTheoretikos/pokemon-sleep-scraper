@@ -1,6 +1,5 @@
 import csv
 import json
-from collections import defaultdict
 from typing import NamedTuple
 
 import requests
@@ -23,24 +22,20 @@ POKEMON_ID_TO_MAIN_SKILL_ID = {
     for data in pokemon_data
 }
 
-MAIN_SKILL_ID_TO_POKEMON_IDS = defaultdict(list)
-for pokemon_data_single in pokemon_data:
-    MAIN_SKILL_ID_TO_POKEMON_IDS[pokemon_data_single["skill"]].append(pokemon_data_single["id"])
-
-POKEMON_ID_TO_HELPING_FREQ = {
-    data["id"]: data["stats"]["frequency"]
-    for data in pokemon_data
-}
-
-POKEMON_SKILL_TRIGGER_BASE_PCT = {
-    133: 4.86,  # Eevee
-    287: 2.15,  # Slakoth
-    363: 1.83,  # Spheal
-    74: 4.51,  # Geodude
-    19: 2.80,  # Ratatta
-    25: 1.65,  # Pikachu
-    172: 1.94,  # Pichu
-    54: 9.48,   # Psyduck
+SKILL_VALUE_IN_RP = {
+    1: 389.43557,  # Charge Strength S (#)
+    2: 0,  # Charge Strength M
+    3: 0,  # Dream Shard Magnet S (#)
+    4: 0,  # Energizing Cheer S
+    5: 525,  # Charge Strength S (#1 ~ #2)
+    6: 0,  # Dream Shard Magnet S (#1 ~ #2)
+    7: 434.9,  # Charge Energy S
+    8: 0,  # Energy for Everyone S
+    9: 0,  # Extra Helpful S
+    10: 905,  # Ingredient Magnet S
+    11: 0,  # Cooking Power-Up S
+    12: 0,  # Type Boost S
+    13: 0,  # Metronome
 }
 
 CONFIDENCE_TO_ID = {
@@ -136,18 +131,20 @@ def get_rp_model_data():
 
 def get_main_skill_trigger_pct_dict(data):
     ret = {}
-    stv_dict = {
-        entry["pokemonId"]: entry["skillValue"] * (86400 / POKEMON_ID_TO_HELPING_FREQ[entry["pokemonId"]])
-        for entry in data
-    }
-    for pokemon_id_of_base, skill_pct in POKEMON_SKILL_TRIGGER_BASE_PCT.items():
-        main_skill_id = POKEMON_ID_TO_MAIN_SKILL_ID[pokemon_id_of_base]
 
-        print(f"Checking main skill ID #{main_skill_id} from Pokemon #{pokemon_id_of_base} ({skill_pct:.2f}%)")
-        base_stv = stv_dict[pokemon_id_of_base]
+    for entry in data:
+        pokemon_id = entry["pokemonId"]
+        main_skill_id = POKEMON_ID_TO_MAIN_SKILL_ID[pokemon_id]
 
-        for pokemon_id in MAIN_SKILL_ID_TO_POKEMON_IDS[main_skill_id]:
-            ret[pokemon_id] = stv_dict[pokemon_id] / base_stv * skill_pct
+        skill_value = entry["skillValue"]
+        if not skill_value:
+            continue
+
+        skill_value_in_rp = SKILL_VALUE_IN_RP[main_skill_id]
+        if not skill_value_in_rp:
+            continue
+
+        ret[pokemon_id] = skill_value / skill_value_in_rp * 100
 
     return ret
 
