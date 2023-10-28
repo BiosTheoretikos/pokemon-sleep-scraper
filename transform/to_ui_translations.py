@@ -167,6 +167,11 @@ UNICODE_REPLACE = {
     "\u000e\u0002\u0003\u0004촁": "{bonus}",
 }
 
+VALUE_OVERWRITE_NAMESPACE = {
+    # These namespaces allow value overwriting, if duplicated values are found for the same key
+    "PokemonName"
+}
+
 
 def values_to_string(locale, values):
     string = "\u0000".join(values).replace("\n", " " if locale in ("en", "kr", "de") else "")
@@ -212,6 +217,9 @@ def fix_key(key, namespace, prefix):
     if namespace == "SleepFace":
         key = key.split("-")[0]
 
+    if namespace == "PokemonName":
+        key = key.replace("_full", "")
+
     return key
 
 
@@ -249,8 +257,11 @@ def load_string_map_from_data(data, locale, prefix, namespace):
         if isinstance(original_value, dict) and isinstance(value, dict):
             value |= original_value
         elif original_value:
-            print(f"Key {key} has value to return ({original_value}), skipped overwriting ({value})")
-            continue
+            if namespace not in VALUE_OVERWRITE_NAMESPACE:
+                print(f"Key {key} has value to return ({original_value}), skipped overwriting ({value})")
+                continue
+
+            print(f"> Overwriting value '{original_value}' -> '{value}' (allowed in namespace '{namespace}')")
 
         data_ret[key] = value
 
