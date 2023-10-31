@@ -1,13 +1,27 @@
 {
   "353": {
-    "next": [],
+    "next": [
+      {
+        "id": 354,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 28
+          },
+          {
+            "type": "level",
+            "level": 40
+          }
+        ]
+      }
+    ],
     "stage": 1,
     "previous": null
   },
   "354": {
     "next": [],
-    "stage": 1,
-    "previous": null
+    "stage": 2,
+    "previous": 353
   },
   "9001": {
     "next": [],
