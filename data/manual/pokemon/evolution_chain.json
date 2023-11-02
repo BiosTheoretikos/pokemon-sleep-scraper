@@ -6,11 +6,11 @@
         "conditions": [
           {
             "type": "candy",
-            "count": 28
+            "count": 40
           },
           {
             "type": "level",
-            "level": 40
+            "level": 28
           }
         ]
       }
