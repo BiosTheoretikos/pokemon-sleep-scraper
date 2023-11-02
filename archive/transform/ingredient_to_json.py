@@ -3,7 +3,7 @@ import json
 
 from _const import *
 
-DATA_FILE_PATH = "unprocessed/ingredients.csv"
+DATA_FILE_PATH = "data_raw/ingredients.csv"
 
 with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
@@ -40,7 +40,6 @@ for chain in chain_data:
 
 # Force override for slowbro
 POKEMON_ID_TO_CHAIN_TAIL_ID[79] = 80
-
 
 INGREDIENT_NAME_TO_ID = {
     "leek": 1,

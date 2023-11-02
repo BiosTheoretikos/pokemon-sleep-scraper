@@ -2,7 +2,7 @@ import json
 
 from _const import *
 
-DATA_FILE_PATH = "unprocessed/pokemon_evo_chain.json"
+DATA_FILE_PATH = "data_raw/pokemon_evo_chain.json"
 
 with open(DATA_FILE_PATH, "r", encoding="utf-8") as f_game:
     evo_chain_data = json.load(f_game)
