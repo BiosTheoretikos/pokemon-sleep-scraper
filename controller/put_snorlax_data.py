@@ -3,7 +3,7 @@ import json
 import pymongo
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 with open("data/scraped/snorlax_rank.json") as f:
     snorlax_rank = json.load(f)

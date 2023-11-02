@@ -2,7 +2,7 @@ import json
 
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 with open("data/manual/pokemon/branch.json") as f:
     branch_dict = json.load(f)

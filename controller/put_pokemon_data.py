@@ -4,7 +4,7 @@ from collections import defaultdict
 import pymongo
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)

@@ -1,7 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 data = [
     {

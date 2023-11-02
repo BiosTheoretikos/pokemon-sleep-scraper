@@ -3,7 +3,7 @@ import json
 import pymongo
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 with open("data/manual/const/pokemon_xp.json") as f:
     data_xp = json.load(f)

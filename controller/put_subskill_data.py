@@ -3,7 +3,7 @@ import json
 import pymongo
 from pymongo import MongoClient
 
-from _const import *
+from controller.public import CONNECTION_STRING
 
 with open("data/scraped/subskill_data.json") as f:
     data = json.load(f)
