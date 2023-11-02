@@ -4,6 +4,8 @@ from typing import NamedTuple
 
 import requests
 
+from calc.rp_model import get_rp_fit_result_df
+
 with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
 
@@ -13,8 +15,6 @@ with open("data/scraped/pokemon_data.json", "r", encoding="utf-8") as f_pokemon:
 POKEMON_NAME_TO_ID = {
     name: int(pokemon_id)
     for pokemon_id, name in game_data["PokemonName"].items()
-    # ID > 1000 is special version
-    if pokemon_id.isnumeric() and int(pokemon_id) < 1000
 }
 
 POKEMON_ID_TO_MAIN_SKILL_ID = {
@@ -46,7 +46,17 @@ CONFIDENCE_TO_ID = {
     "Very poor": -2,
 }
 
-default_split = 0.2
+DEFAULT_SPLIT = 0.2
+
+DEFAULT_PRODUCTION_DATA = {
+    "dataCount": 0,
+    "ingredientSplit": DEFAULT_SPLIT,
+    "skillValue": 0,
+    "confidence": {
+        "ingredient": CONFIDENCE_TO_ID["Very poor"],
+        "skill": CONFIDENCE_TO_ID["Very poor"],
+    }
+}
 
 with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
@@ -71,15 +81,7 @@ def is_incomplete_info_row(row):
 
 def get_production_data(row=None):
     if not row or is_incomplete_info_row(row):
-        return {
-            "dataCount": 0,
-            "ingredientSplit": default_split,
-            "skillValue": 0,
-            "confidence": {
-                "ingredient": CONFIDENCE_TO_ID["Very poor"],
-                "skill": CONFIDENCE_TO_ID["Very poor"],
-            }
-        }
+        return DEFAULT_PRODUCTION_DATA
 
     return {
         "dataCount": int(row.data_count),
@@ -89,6 +91,13 @@ def get_production_data(row=None):
             "ingredient": CONFIDENCE_TO_ID[row.ingredient_split_confidence],
             "skill": CONFIDENCE_TO_ID[row.skill_value_confidence],
         }
+    }
+
+
+def overwrite_production_data(original, ingredient_split, skill_value):
+    return original | {
+        "ingredientSplit": ingredient_split,
+        "skillValue": skill_value,
     }
 
 
@@ -125,6 +134,19 @@ def get_rp_model_data():
         row = RpModelInfoRow(*row[:6])
 
         data_by_pokemon[POKEMON_NAME_TO_ID[row.pokemon_name]] = get_production_data(row)
+
+    # Inject locally ran model result
+    df = get_rp_fit_result_df()
+    for _, row in df.iterrows():
+        pokemon_id = row["pokemonId"]
+
+        data = data_by_pokemon.get(pokemon_id, DEFAULT_PRODUCTION_DATA)
+
+        data_by_pokemon[pokemon_id] = overwrite_production_data(
+            data,
+            row["ingredientSplit"],
+            row["skillValue"],
+        )
 
     return data_by_pokemon
 

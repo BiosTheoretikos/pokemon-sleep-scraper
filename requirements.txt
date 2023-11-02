@@ -1,9 +1,9 @@
 beautifulsoup4
 grequests
 pymongo[srv]
-jupyter
 requests
 numpy
 pandas
-seaborn
 scipy
+xxhash
+tabulate
