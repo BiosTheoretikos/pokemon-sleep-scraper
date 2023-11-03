@@ -58,8 +58,17 @@ DEFAULT_PRODUCTION_DATA = {
     }
 }
 
+DIGIT_PRECISION = 8
+
 with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
+
+
+def round_value(value):
+    if value is None:
+        return None
+
+    return round(value, DIGIT_PRECISION)
 
 
 def download_gsheet_csv(file_id, sheet_id):
@@ -85,8 +94,8 @@ def get_production_data(row=None):
 
     return {
         "dataCount": int(row.data_count),
-        "ingredientSplit": float(row.ingredient_split.replace("%", "")) / 100,
-        "skillValue": float(row.skill_value),
+        "ingredientSplit": round_value(float(row.ingredient_split.replace("%", "")) / 100),
+        "skillValue": round_value(float(row.skill_value)),
         "confidence": {
             "ingredient": CONFIDENCE_TO_ID[row.ingredient_split_confidence],
             "skill": CONFIDENCE_TO_ID[row.skill_value_confidence],
@@ -96,8 +105,8 @@ def get_production_data(row=None):
 
 def overwrite_production_data(original, ingredient_split, skill_value):
     return original | {
-        "ingredientSplit": ingredient_split,
-        "skillValue": skill_value,
+        "ingredientSplit": round_value(ingredient_split),
+        "skillValue": round_value(skill_value),
     }
 
 
@@ -192,7 +201,7 @@ def main():
 
     skill_pct_dict = get_main_skill_trigger_pct_dict(data)
     data = [
-        entry | {"skillPercent": skill_pct_dict.get(entry["pokemonId"])}
+        entry | {"skillPercent": round_value(skill_pct_dict.get(entry["pokemonId"]))}
         for entry in data
     ]
 
