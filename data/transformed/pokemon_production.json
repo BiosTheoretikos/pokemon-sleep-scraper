@@ -1,217 +1,217 @@
 [
   {
     "dataCount": 171,
-    "ingredientSplit": 0.25627677866890264,
-    "skillValue": 16.704994034573538,
+    "ingredientSplit": 0.25627677782261105,
+    "skillValue": 16.704994034346157,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 1,
-    "skillPercent": 1.8458556944280151
+    "skillPercent": 1.8458556944028905
   },
   {
-    "dataCount": 65,
-    "ingredientSplit": 0.25432020064800537,
-    "skillValue": 16.71316283161394,
+    "dataCount": 79,
+    "ingredientSplit": 0.25432019962790514,
+    "skillValue": 16.713162831667727,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 2,
-    "skillPercent": 1.8467583239352419
+    "skillPercent": 1.8467583239411853
   },
   {
-    "dataCount": 24,
-    "ingredientSplit": 0.2654789440411835,
-    "skillValue": 18.475350584507005,
+    "dataCount": 30,
+    "ingredientSplit": 0.2654789427233169,
+    "skillValue": 18.47535057362209,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 3,
-    "skillPercent": 2.0414752027079563
+    "skillPercent": 2.0414752015052033
   },
   {
     "dataCount": 187,
-    "ingredientSplit": 0.20038039309668293,
-    "skillValue": 9.674395300741049,
+    "ingredientSplit": 0.20038039244062225,
+    "skillValue": 9.674395300152336,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 4,
-    "skillPercent": 1.0689939558829888
+    "skillPercent": 1.0689939558179378
   },
   {
     "dataCount": 186,
-    "ingredientSplit": 0.2266665956454812,
-    "skillValue": 14.04686348650848,
+    "ingredientSplit": 0.226666594778774,
+    "skillValue": 14.04686347060195,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 5,
-    "skillPercent": 1.5521396117688928
+    "skillPercent": 1.5521396100112652
   },
   {
-    "dataCount": 53,
-    "ingredientSplit": 0.2233658665716832,
-    "skillValue": 14.123219596488944,
+    "dataCount": 64,
+    "ingredientSplit": 0.22336586536719588,
+    "skillValue": 14.123219591128327,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 6,
-    "skillPercent": 1.5605767509932535
+    "skillPercent": 1.5605767504009203
   },
   {
     "dataCount": 212,
-    "ingredientSplit": 0.27013128376960116,
-    "skillValue": 17.598364135204818,
+    "ingredientSplit": 0.27013128291073685,
+    "skillValue": 17.598364127715303,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 7,
-    "skillPercent": 1.9445706226745658
+    "skillPercent": 1.9445706218469947
   },
   {
     "dataCount": 249,
-    "ingredientSplit": 0.2703253171639565,
-    "skillValue": 17.588504555065942,
+    "ingredientSplit": 0.2703253160939873,
+    "skillValue": 17.588504543019067,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 8,
-    "skillPercent": 1.943481166305629
+    "skillPercent": 1.9434811649744823
   },
   {
     "dataCount": 76,
-    "ingredientSplit": 0.2742761567893189,
-    "skillValue": 18.45730575431695,
+    "ingredientSplit": 0.274276155329686,
+    "skillValue": 18.457305742917214,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 9,
-    "skillPercent": 2.0394812988195525
+    "skillPercent": 2.039481297559913
   },
   {
     "dataCount": 119,
-    "ingredientSplit": 0.17912666992719462,
-    "skillValue": 6.996502084247842,
+    "ingredientSplit": 0.17912666966318788,
+    "skillValue": 6.99650204648694,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 10,
-    "skillPercent": 0.7730941529555626
+    "skillPercent": 0.7730941487830872
   },
   {
-    "dataCount": 84,
-    "ingredientSplit": 0.20752060450808352,
-    "skillValue": 15.806876114502087,
+    "dataCount": 88,
+    "ingredientSplit": 0.20752060359235758,
+    "skillValue": 15.806876098922329,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 11,
-    "skillPercent": 1.7466161452488496
+    "skillPercent": 1.746616143527329
   },
   {
     "dataCount": 157,
-    "ingredientSplit": 0.19711414590447443,
-    "skillValue": 12.307535033478963,
+    "ingredientSplit": 0.19711414515979364,
+    "skillValue": 12.307535011081699,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 12,
-    "skillPercent": 1.3599486224838633
+    "skillPercent": 1.3599486200090276
   },
   {
     "dataCount": 101,
-    "ingredientSplit": 0.2364499185392681,
-    "skillValue": 11.950946762551283,
+    "ingredientSplit": 0.23644991803664483,
+    "skillValue": 11.950946717101491,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 19,
-    "skillPercent": 2.7479758019202767
+    "skillPercent": 2.747975791469646
   },
   {
     "dataCount": 60,
-    "ingredientSplit": 0.23632998872575303,
-    "skillValue": 11.9532494410307,
+    "ingredientSplit": 0.23632998817884152,
+    "skillValue": 11.953249384107437,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 20,
-    "skillPercent": 2.748505275012808
+    "skillPercent": 2.748505261923991
   },
   {
     "dataCount": 70,
-    "ingredientSplit": 0.23434546219409824,
-    "skillValue": 13.147257574117148,
+    "ingredientSplit": 0.23434546206160217,
+    "skillValue": 13.147257507500429,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 23,
-    "skillPercent": 3.0230530177321566
+    "skillPercent": 3.023053002414447
   },
   {
     "dataCount": 34,
-    "ingredientSplit": 0.263170051174135,
-    "skillValue": 22.74414269410691,
+    "ingredientSplit": 0.2631700512604554,
+    "skillValue": 22.74414261597788,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 24,
-    "skillPercent": 5.229740789631389
+    "skillPercent": 5.229740771666562
   },
   {
     "dataCount": 283,
-    "ingredientSplit": 0.2067475263027441,
-    "skillValue": 8.361888706189,
+    "ingredientSplit": 0.2067475258478606,
+    "skillValue": 8.36188866584386,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 25,
-    "skillPercent": 2.1471815494894315
+    "skillPercent": 2.1471815391295306
   },
   {
     "dataCount": 0,
-    "ingredientSplit": 0.21865040332973756,
-    "skillValue": 11.179339240982321,
+    "ingredientSplit": 0.21865040277714434,
+    "skillValue": 11.179339198043609,
     "confidence": {
       "ingredient": -2,
       "skill": -2
     },
     "pokemonId": 9001,
-    "skillPercent": 2.129397950663299
+    "skillPercent": 2.129397942484497
   },
   {
     "dataCount": 159,
-    "ingredientSplit": 0.2242905929961829,
-    "skillValue": 12.76543652975446,
+    "ingredientSplit": 0.22429059240589383,
+    "skillValue": 12.765436482596785,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 26,
-    "skillPercent": 3.277932863131753
+    "skillPercent": 3.277932851022516
   },
   {
-    "dataCount": 36,
-    "ingredientSplit": 0.168278372238789,
-    "skillValue": 31.6181060282599,
+    "dataCount": 48,
+    "ingredientSplit": 0.16827837217027497,
+    "skillValue": 31.618105986332335,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -220,9 +220,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 17,
-    "ingredientSplit": 0.16777362432162038,
-    "skillValue": 31.63313276354895,
+    "dataCount": 24,
+    "ingredientSplit": 0.16777362439464488,
+    "skillValue": 31.63313271655136,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -232,8 +232,8 @@
   },
   {
     "dataCount": 118,
-    "ingredientSplit": 0.18259029761783538,
-    "skillValue": 48.07632010139013,
+    "ingredientSplit": 0.18259029741564647,
+    "skillValue": 48.07632005933719,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -243,8 +243,8 @@
   },
   {
     "dataCount": 159,
-    "ingredientSplit": 0.17357917429183392,
-    "skillValue": 44.7276169919497,
+    "ingredientSplit": 0.17357917341370535,
+    "skillValue": 44.72761696757345,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -254,30 +254,30 @@
   },
   {
     "dataCount": 124,
-    "ingredientSplit": 0.19153106524919591,
-    "skillValue": 8.381434075781728,
+    "ingredientSplit": 0.19153106443379414,
+    "skillValue": 8.38143410994618,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 50,
-    "skillPercent": 2.1522004463489885
+    "skillPercent": 2.1522004551218012
   },
   {
     "dataCount": 49,
-    "ingredientSplit": 0.1894603158788898,
-    "skillValue": 7.9949881195275605,
+    "ingredientSplit": 0.18946031488546614,
+    "skillValue": 7.994988133409555,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 51,
-    "skillPercent": 2.0529681250039795
+    "skillPercent": 2.052968128568624
   },
   {
-    "dataCount": 49,
-    "ingredientSplit": 0.16318358738094857,
-    "skillValue": 36.89725513498223,
+    "dataCount": 53,
+    "ingredientSplit": 0.16318359105210692,
+    "skillValue": 36.89725483187513,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -287,8 +287,8 @@
   },
   {
     "dataCount": 9,
-    "ingredientSplit": 0.16848101342518434,
-    "skillValue": 38.693349703982655,
+    "ingredientSplit": 0.16848101458538375,
+    "skillValue": 38.693349593187826,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -298,52 +298,52 @@
   },
   {
     "dataCount": 85,
-    "ingredientSplit": 0.1358431330162176,
-    "skillValue": 50.3704800337879,
+    "ingredientSplit": 0.13584313280477017,
+    "skillValue": 50.37048000138774,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 54,
-    "skillPercent": 9.594377149292933
+    "skillPercent": 9.594377143121473
   },
   {
     "dataCount": 18,
-    "ingredientSplit": 0.13378227177804058,
-    "skillValue": 50.04395271216675,
+    "ingredientSplit": 0.1337822721788469,
+    "skillValue": 50.04395259222552,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 55,
-    "skillPercent": 9.532181468984142
+    "skillPercent": 9.532181446138194
   },
   {
     "dataCount": 68,
-    "ingredientSplit": 0.19660103528324785,
-    "skillValue": 8.76895421583562,
+    "ingredientSplit": 0.19660103513318095,
+    "skillValue": 8.768954166923974,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 56,
-    "skillPercent": 1.670276993492499
+    "skillPercent": 1.670276984175995
   },
   {
     "dataCount": 35,
-    "ingredientSplit": 0.19966842665993512,
-    "skillValue": 9.56432929703581,
+    "ingredientSplit": 0.19966842693815726,
+    "skillValue": 9.56432921750631,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 57,
-    "skillPercent": 1.8217770089592018
+    "skillPercent": 1.8217769938107258
   },
   {
     "dataCount": 124,
-    "ingredientSplit": 0.13766115930707684,
-    "skillValue": 43.98251654298525,
+    "ingredientSplit": 0.13766115905927298,
+    "skillValue": 43.982516518005426,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -353,8 +353,8 @@
   },
   {
     "dataCount": 46,
-    "ingredientSplit": 0.13580274931705139,
-    "skillValue": 43.08299039274185,
+    "ingredientSplit": 0.1358027486913293,
+    "skillValue": 43.08299037837487,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -363,75 +363,75 @@
     "skillPercent": null
   },
   {
-    "dataCount": 85,
-    "ingredientSplit": 0.23180483682717132,
-    "skillValue": 15.685310849617462,
+    "dataCount": 98,
+    "ingredientSplit": 0.23180483542671493,
+    "skillValue": 15.685310974718552,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 69,
-    "skillPercent": 3.6066477005328723
+    "skillPercent": 3.6066477292983565
   },
   {
-    "dataCount": 60,
-    "ingredientSplit": 0.2346949237735844,
-    "skillValue": 15.924394740351813,
+    "dataCount": 66,
+    "ingredientSplit": 0.23469492276953344,
+    "skillValue": 15.924394757084487,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 70,
-    "skillPercent": 3.6616221522997963
+    "skillPercent": 3.661622156147273
   },
   {
-    "dataCount": 43,
-    "ingredientSplit": 0.2327548354024703,
-    "skillValue": 15.539662811278399,
+    "dataCount": 57,
+    "ingredientSplit": 0.23275483411502834,
+    "skillValue": 15.539662834250416,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 71,
-    "skillPercent": 3.5731576940166474
+    "skillPercent": 3.5731576992987852
   },
   {
     "dataCount": 65,
-    "ingredientSplit": 0.2804278426597073,
-    "skillValue": 20.74586931355907,
+    "ingredientSplit": 0.28042784161125484,
+    "skillValue": 20.74586933092339,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 74,
-    "skillPercent": 3.951594154963632
+    "skillPercent": 3.951594158271122
   },
   {
     "dataCount": 50,
-    "ingredientSplit": 0.271014198441355,
-    "skillValue": 19.231918157702044,
+    "ingredientSplit": 0.2710141976108069,
+    "skillValue": 19.231918120575646,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 75,
-    "skillPercent": 3.6632225062289607
+    "skillPercent": 3.6632224991572655
   },
   {
     "dataCount": 22,
-    "ingredientSplit": 0.2797676001828159,
-    "skillValue": 20.730702801412416,
+    "ingredientSplit": 0.27976759885140384,
+    "skillValue": 20.730702794851524,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 76,
-    "skillPercent": 3.9487052955071267
+    "skillPercent": 3.9487052942574334
   },
   {
     "dataCount": 117,
-    "ingredientSplit": 0.1503484495399802,
-    "skillValue": 58.96289628395501,
+    "ingredientSplit": 0.1503484487967531,
+    "skillValue": 58.962896295606754,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -441,8 +441,8 @@
   },
   {
     "dataCount": 39,
-    "ingredientSplit": 0.1505669887961701,
-    "skillValue": 59.83164002966531,
+    "ingredientSplit": 0.15056698854429412,
+    "skillValue": 59.831639985412636,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -452,8 +452,8 @@
   },
   {
     "dataCount": 74,
-    "ingredientSplit": 0.18175131656409105,
-    "skillValue": 56.28250539408623,
+    "ingredientSplit": 0.18175132060304364,
+    "skillValue": 56.28250497871177,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -463,8 +463,8 @@
   },
   {
     "dataCount": 23,
-    "ingredientSplit": 0.1822984119363245,
-    "skillValue": 55.33847624793118,
+    "ingredientSplit": 0.18229841556252196,
+    "skillValue": 55.338475853933836,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -474,151 +474,151 @@
   },
   {
     "dataCount": 101,
-    "ingredientSplit": 0.18317062063565923,
-    "skillValue": 7.986008343919617,
+    "ingredientSplit": 0.1831706203816259,
+    "skillValue": 7.986008299632604,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 84,
-    "skillPercent": 1.836286121848613
+    "skillPercent": 1.8362861116653493
   },
   {
     "dataCount": 65,
-    "ingredientSplit": 0.18369584568364106,
-    "skillValue": 7.965379490511548,
+    "ingredientSplit": 0.18369584549826112,
+    "skillValue": 7.965379437280932,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 85,
-    "skillPercent": 1.831542766270763
+    "skillPercent": 1.831542754031026
   },
   {
     "dataCount": 175,
-    "ingredientSplit": 0.14383849251396338,
-    "skillValue": 5.936295333202216,
+    "ingredientSplit": 0.14383849184959624,
+    "skillValue": 5.936295377908695,
     "confidence": {
       "ingredient": 2,
       "skill": 1
     },
     "pokemonId": 92,
-    "skillPercent": 1.1307229206099458
+    "skillPercent": 1.1307229291254657
   },
   {
     "dataCount": 63,
-    "ingredientSplit": 0.15682635770183134,
-    "skillValue": 8.748782393495217,
+    "ingredientSplit": 0.1568263569925068,
+    "skillValue": 8.74878241836107,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 93,
-    "skillPercent": 1.6664347416181367
+    "skillPercent": 1.6664347463544897
   },
   {
     "dataCount": 73,
-    "ingredientSplit": 0.16086546481901437,
-    "skillValue": 9.559995982565518,
+    "ingredientSplit": 0.16086546400927518,
+    "skillValue": 9.559995991363765,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 94,
-    "skillPercent": 1.8209516157267651
+    "skillPercent": 1.820951617402622
   },
   {
     "dataCount": 60,
-    "ingredientSplit": 0.22165859612206948,
-    "skillValue": 17.5785944688653,
+    "ingredientSplit": 0.22165859608314223,
+    "skillValue": 17.5785944001466,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 104,
-    "skillPercent": 4.041985391783238
+    "skillPercent": 4.041985375982203
   },
   {
     "dataCount": 29,
-    "ingredientSplit": 0.22477199822770327,
-    "skillValue": 17.95342954737682,
+    "ingredientSplit": 0.22477199778708648,
+    "skillValue": 17.953429486832537,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 105,
-    "skillPercent": 4.1281741888656756
+    "skillPercent": 4.128174174944248
   },
   {
     "dataCount": 29,
-    "ingredientSplit": 0.22147108911437252,
-    "skillValue": 14.924569080521556,
+    "ingredientSplit": 0.2214710882360481,
+    "skillValue": 14.924569086722208,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 115,
-    "skillPercent": 1.6491236553062492
+    "skillPercent": 1.6491236559914042
   },
   {
     "dataCount": 8,
-    "ingredientSplit": 0.21570442309673535,
-    "skillValue": 15.522361338961334,
+    "ingredientSplit": 0.21570441934479923,
+    "skillValue": 15.522362003539865,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 122,
-    "skillPercent": 3.9858612142083825
+    "skillPercent": 3.9858613848601108
   },
   {
     "dataCount": 24,
-    "ingredientSplit": 0.2054288032102133,
-    "skillValue": 12.3977778684976,
+    "ingredientSplit": 0.20542880247326417,
+    "skillValue": 12.397777862044448,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 127,
-    "skillPercent": 3.1835247788222323
+    "skillPercent": 3.18352477716518
   },
   {
     "dataCount": 86,
-    "ingredientSplit": 0.20053866598410944,
-    "skillValue": 14.375854250329462,
+    "ingredientSplit": 0.20053866488685138,
+    "skillValue": 14.375854316711626,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 132,
-    "skillPercent": 2.738257952443707
+    "skillPercent": 2.738257965087929
   },
   {
-    "dataCount": 278,
-    "ingredientSplit": 0.1918969043773153,
-    "skillValue": 48.35835900326156,
+    "dataCount": 281,
+    "ingredientSplit": 0.19189690381177266,
+    "skillValue": 48.35835898788577,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 133,
-    "skillPercent": 5.343465083233322
+    "skillPercent": 5.343465081534339
   },
   {
-    "dataCount": 66,
-    "ingredientSplit": 0.21133884045583257,
-    "skillValue": 53.6366748585894,
+    "dataCount": 72,
+    "ingredientSplit": 0.21133883995725633,
+    "skillValue": 53.63667483462571,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 134,
-    "skillPercent": 5.926704404264022
+    "skillPercent": 5.9267044016161
   },
   {
-    "dataCount": 13,
-    "ingredientSplit": 0.15024593906371478,
-    "skillValue": 34.327315283510465,
+    "dataCount": 15,
+    "ingredientSplit": 0.15024593828840807,
+    "skillValue": 34.32731527674761,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -627,9 +627,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 20,
-    "ingredientSplit": 0.18688729743460364,
-    "skillValue": 45.67060650076132,
+    "dataCount": 27,
+    "ingredientSplit": 0.18688729834574802,
+    "skillValue": 45.67060618264594,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -639,118 +639,118 @@
   },
   {
     "dataCount": 128,
-    "ingredientSplit": 0.16862551074386736,
-    "skillValue": 15.559129165970315,
+    "ingredientSplit": 0.16862551051402053,
+    "skillValue": 15.55912911438345,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 152,
-    "skillPercent": 2.9636436506610124
+    "skillPercent": 2.963643640834943
   },
   {
-    "dataCount": 31,
-    "ingredientSplit": 0.16829777995831233,
-    "skillValue": 15.134898915899027,
+    "dataCount": 35,
+    "ingredientSplit": 0.16829777976196714,
+    "skillValue": 15.134898866332444,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 153,
-    "skillPercent": 2.882837888742672
+    "skillPercent": 2.8828378793014178
   },
   {
-    "dataCount": 9,
-    "ingredientSplit": 0.17456549136560515,
-    "skillValue": 18.369718204031322,
+    "dataCount": 12,
+    "ingredientSplit": 0.17456549039990588,
+    "skillValue": 18.369718152492073,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 154,
-    "skillPercent": 3.4989939436250137
+    "skillPercent": 3.4989939338080136
   },
   {
     "dataCount": 92,
-    "ingredientSplit": 0.18553745543882613,
-    "skillValue": 8.366330127996576,
+    "ingredientSplit": 0.18553745495337406,
+    "skillValue": 8.366330094707688,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 155,
-    "skillPercent": 1.593586691046967
+    "skillPercent": 1.5935866847062263
   },
   {
     "dataCount": 44,
-    "ingredientSplit": 0.21096714221116314,
-    "skillValue": 16.35964464094895,
+    "ingredientSplit": 0.21096714248421605,
+    "skillValue": 16.359644593555,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 156,
-    "skillPercent": 3.1161227887521807
+    "skillPercent": 3.116122779724762
   },
   {
     "dataCount": 9,
-    "ingredientSplit": 0.2017720475694841,
-    "skillValue": 15.66397410790974,
+    "ingredientSplit": 0.20177204682841232,
+    "skillValue": 15.663974056779539,
     "confidence": {
       "ingredient": 0,
       "skill": 1
     },
     "pokemonId": 157,
-    "skillPercent": 2.9836141157923315
+    "skillPercent": 2.9836141060532455
   },
   {
     "dataCount": 166,
-    "ingredientSplit": 0.2522447707768807,
-    "skillValue": 20.749896787132677,
+    "ingredientSplit": 0.2522447704449111,
+    "skillValue": 20.749896725357377,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 158,
-    "skillPercent": 3.9523612927871765
+    "skillPercent": 3.952361281020453
   },
   {
     "dataCount": 82,
-    "ingredientSplit": 0.25272330352222655,
-    "skillValue": 20.752521895662085,
+    "ingredientSplit": 0.2527233034086801,
+    "skillValue": 20.752521842920856,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 159,
-    "skillPercent": 3.9528613134594446
+    "skillPercent": 3.9528613034134965
   },
   {
     "dataCount": 27,
-    "ingredientSplit": 0.25580485767828637,
-    "skillValue": 21.934516642721448,
+    "ingredientSplit": 0.2558048566290211,
+    "skillValue": 21.93451656301048,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 160,
-    "skillPercent": 4.178003170042181
+    "skillPercent": 4.178003154859139
   },
   {
     "dataCount": 187,
-    "ingredientSplit": 0.20988557059669563,
-    "skillValue": 9.149540712737624,
+    "ingredientSplit": 0.20988557045082645,
+    "skillValue": 9.149540665834904,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 172,
-    "skillPercent": 2.349436316959343
+    "skillPercent": 2.3494363049155744
   },
   {
-    "dataCount": 82,
-    "ingredientSplit": 0.16271548541867734,
-    "skillValue": 29.924055440505843,
+    "dataCount": 107,
+    "ingredientSplit": 0.16271548507129088,
+    "skillValue": 29.924055408382696,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -760,8 +760,8 @@
   },
   {
     "dataCount": 160,
-    "ingredientSplit": 0.16981534335706544,
-    "skillValue": 42.524913431077465,
+    "ingredientSplit": 0.16981534316466673,
+    "skillValue": 42.52491339725308,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -771,8 +771,8 @@
   },
   {
     "dataCount": 59,
-    "ingredientSplit": 0.15087418482249965,
-    "skillValue": 43.058821584593055,
+    "ingredientSplit": 0.15087418474053552,
+    "skillValue": 43.058821543630216,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -782,8 +782,8 @@
   },
   {
     "dataCount": 55,
-    "ingredientSplit": 0.16326677146233334,
-    "skillValue": 49.20900080854826,
+    "ingredientSplit": 0.16326677124693043,
+    "skillValue": 49.20900076165497,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -793,8 +793,8 @@
   },
   {
     "dataCount": 85,
-    "ingredientSplit": 0.12739058986915539,
-    "skillValue": 41.38175877497213,
+    "ingredientSplit": 0.12739058944097612,
+    "skillValue": 41.38175877379264,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -804,8 +804,8 @@
   },
   {
     "dataCount": 67,
-    "ingredientSplit": 0.12724448653920767,
-    "skillValue": 40.42073727617546,
+    "ingredientSplit": 0.1272444861083585,
+    "skillValue": 40.420737268476984,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -815,8 +815,8 @@
   },
   {
     "dataCount": 17,
-    "ingredientSplit": 0.12910799451595953,
-    "skillValue": 41.33451948980283,
+    "ingredientSplit": 0.12910799376463644,
+    "skillValue": 41.33451948546347,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -826,8 +826,8 @@
   },
   {
     "dataCount": 94,
-    "ingredientSplit": 0.1967884390047007,
-    "skillValue": 57.16198175092916,
+    "ingredientSplit": 0.19678843824697684,
+    "skillValue": 57.16198173664931,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -836,9 +836,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 34,
-    "ingredientSplit": 0.16316522820130125,
-    "skillValue": 38.70568699613498,
+    "dataCount": 43,
+    "ingredientSplit": 0.16316522734005004,
+    "skillValue": 38.70568698983897,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -847,20 +847,20 @@
     "skillPercent": null
   },
   {
-    "dataCount": 10,
-    "ingredientSplit": 0.21947930681402433,
-    "skillValue": 56.257944610996304,
+    "dataCount": 17,
+    "ingredientSplit": 0.21947930778715583,
+    "skillValue": 56.25794454908279,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 197,
-    "skillPercent": 12.93583458519115
+    "skillPercent": 12.935834570954885
   },
   {
     "dataCount": 29,
-    "ingredientSplit": 0.15051945168096673,
-    "skillValue": 59.83821579527334,
+    "ingredientSplit": 0.15051945107166864,
+    "skillValue": 59.83821575220008,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -869,9 +869,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 48,
-    "ingredientSplit": 0.21043888411278247,
-    "skillValue": 51.02776044212625,
+    "dataCount": 50,
+    "ingredientSplit": 0.21043888417006293,
+    "skillValue": 51.02776038556719,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -881,107 +881,107 @@
   },
   {
     "dataCount": 20,
-    "ingredientSplit": 0.1578595777873459,
-    "skillValue": 39.5630757951084,
+    "ingredientSplit": 0.15785957710104542,
+    "skillValue": 39.563075792179816,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 214,
-    "skillPercent": 4.37161058509485
+    "skillPercent": 4.3716105847712505
   },
   {
     "dataCount": 79,
-    "ingredientSplit": 0.20075101691296057,
-    "skillValue": 17.55180298055614,
+    "ingredientSplit": 0.20075101652632843,
+    "skillValue": 17.551802930651853,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 228,
-    "skillPercent": 4.506985065734017
+    "skillPercent": 4.506985052919499
   },
   {
     "dataCount": 18,
-    "ingredientSplit": 0.202359577615975,
-    "skillValue": 18.363731045439955,
+    "ingredientSplit": 0.20235957679893884,
+    "skillValue": 18.363730985341416,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 229,
-    "skillPercent": 4.715473485239151
+    "skillPercent": 4.715473469806936
   },
   {
     "dataCount": 118,
-    "ingredientSplit": 0.23719324554464713,
-    "skillValue": 16.404244159657697,
+    "ingredientSplit": 0.23719324471537698,
+    "skillValue": 16.40424416752167,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 246,
-    "skillPercent": 3.7719577281346743
+    "skillPercent": 3.7719577299429
   },
   {
     "dataCount": 17,
-    "ingredientSplit": 0.246982602636798,
-    "skillValue": 17.884710298290837,
+    "ingredientSplit": 0.2469826010669349,
+    "skillValue": 17.884710348465944,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 247,
-    "skillPercent": 4.112373027889363
+    "skillPercent": 4.112373039426522
   },
   {
     "dataCount": 5,
-    "ingredientSplit": 0.2655837036840296,
-    "skillValue": 20.832593712771956,
+    "ingredientSplit": 0.26558370198333053,
+    "skillValue": 20.83259377340657,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 248,
-    "skillPercent": 4.7902031990738
+    "skillPercent": 4.790203213015996
   },
   {
     "dataCount": 37,
-    "ingredientSplit": 0.21405088092833938,
-    "skillValue": 16.735565569204883,
+    "ingredientSplit": 0.21405088051259977,
+    "skillValue": 16.73556552624,
     "confidence": {
       "ingredient": 1,
       "skill": 2
     },
     "pokemonId": 287,
-    "skillPercent": 1.849233764553026
+    "skillPercent": 1.8492337598055246
   },
   {
     "dataCount": 17,
-    "ingredientSplit": 0.20332873754213052,
-    "skillValue": 13.194336083205965,
+    "ingredientSplit": 0.20332873683131011,
+    "skillValue": 13.194336056305167,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 288,
-    "skillPercent": 1.4579376887520403
+    "skillPercent": 1.4579376857795765
   },
   {
     "dataCount": 20,
-    "ingredientSplit": 0.33748380010531925,
-    "skillValue": 58.94185599999467,
+    "ingredientSplit": 0.33748379867409867,
+    "skillValue": 58.94185594145697,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 289,
-    "skillPercent": 6.5129122651927815
+    "skillPercent": 6.512912258724528
   },
   {
     "dataCount": 14,
-    "ingredientSplit": 0.16936762774807046,
-    "skillValue": 51.99046958670905,
+    "ingredientSplit": 0.16936762760424345,
+    "skillValue": 51.99046952860972,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -991,8 +991,8 @@
   },
   {
     "dataCount": 51,
-    "ingredientSplit": 0.21385137239983612,
-    "skillValue": 55.38478001753631,
+    "ingredientSplit": 0.21385137082559758,
+    "skillValue": 55.38478006374003,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1002,8 +1002,8 @@
   },
   {
     "dataCount": 14,
-    "ingredientSplit": 0.2088822804581929,
-    "skillValue": 53.66632421316926,
+    "ingredientSplit": 0.2088822783676429,
+    "skillValue": 53.666324283851345,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1013,63 +1013,63 @@
   },
   {
     "dataCount": 128,
-    "ingredientSplit": 0.17649706875981155,
-    "skillValue": 12.787818555288474,
+    "ingredientSplit": 0.17649706858049652,
+    "skillValue": 12.787818510001241,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 333,
-    "skillPercent": 2.9404043585395434
+    "skillPercent": 2.940404348126292
   },
   {
     "dataCount": 14,
-    "ingredientSplit": 0.25628209477630276,
-    "skillValue": 24.32317147010424,
+    "ingredientSplit": 0.2562820936463302,
+    "skillValue": 24.323171396632777,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 334,
-    "skillPercent": 5.592819376892214
+    "skillPercent": 5.592819359998339
   },
   {
     "dataCount": 0,
-    "ingredientSplit": 0.17125262721954748,
-    "skillValue": 10.316865457844926,
+    "ingredientSplit": 0.17125263421743292,
+    "skillValue": 10.31686500960134,
     "confidence": {
       "ingredient": -2,
       "skill": -2
     },
     "pokemonId": 353,
-    "skillPercent": 1.9651172300657005
+    "skillPercent": 1.9651171446859697
   },
   {
     "dataCount": 0,
-    "ingredientSplit": 0.17906251421909217,
-    "skillValue": 13.137096088205688,
+    "ingredientSplit": 0.17909405476886475,
+    "skillValue": 13.135293800754475,
     "confidence": {
       "ingredient": -2,
       "skill": -2
     },
     "pokemonId": 354,
-    "skillPercent": 2.5023040168010833
+    "skillPercent": 2.5019607239532333
   },
   {
     "dataCount": 76,
-    "ingredientSplit": 0.17757753854035432,
-    "skillValue": 15.20229785233079,
+    "ingredientSplit": 0.17757753762824363,
+    "skillValue": 15.202297909722745,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 359,
-    "skillPercent": 3.9036747085867867
+    "skillPercent": 3.903674723324001
   },
   {
-    "dataCount": 41,
-    "ingredientSplit": 0.2104480650240397,
-    "skillValue": 52.03823177725891,
+    "dataCount": 42,
+    "ingredientSplit": 0.21044945682570784,
+    "skillValue": 52.038147171936195,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1079,41 +1079,41 @@
   },
   {
     "dataCount": 155,
-    "ingredientSplit": 0.22383327025638033,
-    "skillValue": 20.189916390327735,
+    "ingredientSplit": 0.22383327046302556,
+    "skillValue": 20.189916305696105,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 363,
-    "skillPercent": 2.2309299878815176
+    "skillPercent": 2.2309299785299563
   },
   {
     "dataCount": 18,
-    "ingredientSplit": 0.220601316383017,
-    "skillValue": 18.435207290259626,
+    "ingredientSplit": 0.2206013155570749,
+    "skillValue": 18.435207171855488,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 364,
-    "skillPercent": 2.037039479586699
+    "skillPercent": 2.037039466503369
   },
   {
     "dataCount": 19,
-    "ingredientSplit": 0.2233320546388418,
-    "skillValue": 19.318366740162734,
+    "ingredientSplit": 0.2233320529401863,
+    "skillValue": 19.318366698795128,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 365,
-    "skillPercent": 2.1346261591340037
+    "skillPercent": 2.134626154562998
   },
   {
     "dataCount": 63,
-    "ingredientSplit": 0.1891151094549903,
-    "skillValue": 53.621811354840624,
+    "ingredientSplit": 0.18911513218611198,
+    "skillValue": 53.621809572313246,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1123,19 +1123,19 @@
   },
   {
     "dataCount": 32,
-    "ingredientSplit": 0.20048088006573084,
-    "skillValue": 12.788760357400783,
+    "ingredientSplit": 0.20048087911954926,
+    "skillValue": 12.788760420030199,
     "confidence": {
       "ingredient": 2,
       "skill": 1
     },
     "pokemonId": 439,
-    "skillPercent": 3.2839219995751243
+    "skillPercent": 3.2839220156572235
   },
   {
     "dataCount": 57,
-    "ingredientSplit": 0.12570227362738914,
-    "skillValue": 33.425828240504345,
+    "ingredientSplit": 0.1257022734543838,
+    "skillValue": 33.42582821434547,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -1145,8 +1145,8 @@
   },
   {
     "dataCount": 7,
-    "ingredientSplit": 0.1500343654062215,
-    "skillValue": 44.87862928618651,
+    "ingredientSplit": 0.15003436409129234,
+    "skillValue": 44.878629353563575,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1155,31 +1155,31 @@
     "skillPercent": null
   },
   {
-    "dataCount": 71,
-    "ingredientSplit": 0.22718889427114075,
-    "skillValue": 16.79137177081121,
+    "dataCount": 74,
+    "ingredientSplit": 0.22718889313599536,
+    "skillValue": 16.791371862233934,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 453,
-    "skillPercent": 4.311720105795989
+    "skillPercent": 4.311720129271688
   },
   {
-    "dataCount": 36,
-    "ingredientSplit": 0.2285791767406185,
-    "skillValue": 17.138690246833615,
+    "dataCount": 42,
+    "ingredientSplit": 0.22857917587651733,
+    "skillValue": 17.138690243780974,
     "confidence": {
       "ingredient": 2,
       "skill": 2
     },
     "pokemonId": 454,
-    "skillPercent": 4.400905198986733
+    "skillPercent": 4.400905198202869
   },
   {
     "dataCount": 18,
-    "ingredientSplit": 0.18036819032196438,
-    "skillValue": 54.426028487349996,
+    "ingredientSplit": 0.1803681908027737,
+    "skillValue": 54.426028140608196,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1189,8 +1189,8 @@
   },
   {
     "dataCount": 29,
-    "ingredientSplit": 0.15826683704470348,
-    "skillValue": 46.56265398202018,
+    "ingredientSplit": 0.15826683619484094,
+    "skillValue": 46.56265395185343,
     "confidence": {
       "ingredient": 2,
       "skill": 2
@@ -1200,8 +1200,8 @@
   },
   {
     "dataCount": 20,
-    "ingredientSplit": 0.20571141453495675,
-    "skillValue": 51.90270331701588,
+    "ingredientSplit": 0.20571141542257745,
+    "skillValue": 51.90270321658766,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1210,9 +1210,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 37,
-    "ingredientSplit": 0.21763995622676813,
-    "skillValue": 55.42890409204557,
+    "dataCount": 52,
+    "ingredientSplit": 0.2176399558108161,
+    "skillValue": 55.4289037624941,
     "confidence": {
       "ingredient": 1,
       "skill": 2
@@ -1221,9 +1221,9 @@
     "skillPercent": null
   },
   {
-    "dataCount": 54,
-    "ingredientSplit": 0.17939122595071075,
-    "skillValue": 44.71297279561887,
+    "dataCount": 73,
+    "ingredientSplit": 0.17939122504034066,
+    "skillValue": 44.71297277182807,
     "confidence": {
       "ingredient": 1,
       "skill": 2
