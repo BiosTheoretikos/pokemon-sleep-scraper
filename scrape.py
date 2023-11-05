@@ -1,6 +1,6 @@
+import datetime
 import subprocess
 import sys
-import datetime
 
 SCRIPTS_SCRAPER = [
     "scrape/berry.py",
@@ -29,7 +29,6 @@ SCRIPTS_UPDATE = [
     "controller/put_subskill_data.py",
     "controller/put_ingredient_chain_data.py",
 ]
-
 
 log_file_name = f"{datetime.datetime.now(datetime.UTC).strftime('%Y%m%d-%H%M%S')}.log"
 
