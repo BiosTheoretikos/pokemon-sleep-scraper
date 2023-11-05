@@ -3,3 +3,4 @@ data/*.json
 venv/
 .mongo
 *.log
+__pycache__
