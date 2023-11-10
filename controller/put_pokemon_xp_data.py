@@ -8,7 +8,7 @@ from controller.public import CONNECTION_STRING
 with open("data/manual/const/pokemon_xp.json") as f:
     data_xp = json.load(f)
 
-with open("data/manual/pokemon/pokemon_xp_multiplier.json") as f:
+with open("data/manual/pokemon/xp_multiplier.json") as f:
     data_mult = json.load(f)
 
 client = MongoClient(CONNECTION_STRING)
