@@ -29,6 +29,10 @@ with open("data/manual/pokemon/branch.json") as f:
     pokemon_branches = json.load(f)
 
 
+with open("data/manual/pokemon/sleepstyle_whitelist.json") as f:
+    pokemon_sleepstyle_whitelist = json.load(f)
+
+
 def get_sleep_style_id(poke, name):
     if name == "Atop-Belly Sleep":
         return "onSnorlax"
@@ -291,6 +295,25 @@ def main():
             print(f"Found branch data of #{pokemon_id} ({pokemon_name}) - #{pokemon_id_branch}")
             stats, berry_id, berry_qty, main_skill = get_pokemon_data(_tabs, 4 + branch_idx * 4)
 
+            sleeps_of_branch = []
+
+            sleepstyle_whitelist_of_pokemon = pokemon_sleepstyle_whitelist.get(str(pokemon_id_branch))
+            if sleepstyle_whitelist_of_pokemon:
+                for sleep in sleeps:
+                    if sleepstyle_whitelisted_locations := sleepstyle_whitelist_of_pokemon.get(str(sleep["style"])):
+                        sleeps_of_branch.append(
+                            sleep |
+                            {
+                                "location": [
+                                    location for location in sleep["location"]
+                                    if location["id"] in sleepstyle_whitelisted_locations
+                                ]
+                            }
+                        )
+
+            if not sleeps_of_branch:
+                sleeps_of_branch = [sleep for sleep in sleeps]
+
             pokemon_data.append({
                 "id": pokemon_id_branch,
                 "name": pokemon_name,
@@ -303,7 +326,7 @@ def main():
                     "quantity": berry_qty
                 },
                 "skill": main_skill,
-                "sleepStyle": sleeps
+                "sleepStyle": sleeps_of_branch
             })
 
     to_json(pokemon_data, "pokemon_data")
