@@ -271,6 +271,7 @@
     "2": "Ivysaur",
     "20": "Raticate",
     "202": "Wobbuffet",
+    "208": "Steelix",
     "214": "Heracross",
     "228": "Houndour",
     "229": "Houndoom",
@@ -343,7 +344,8 @@
     "9001": "Pikachu (Halloween)",
     "92": "Gastly",
     "93": "Haunter",
-    "94": "Gengar"
+    "94": "Gengar",
+    "95": "Onix"
   },
   "RankTitle": {
     "1": "Basic",
@@ -567,6 +569,11 @@
       "3": "Signature-Pose Sleep",
       "2": "Biding Sleep",
       "1": "Tail-Hiding Sleep"
+    },
+    "208": {
+      "3": "Tunneling Sleep",
+      "2": "Lurching Sleep",
+      "1": "Spiral Sleep"
     },
     "214": {
       "3": "Sap-Licking Sleep",
@@ -927,6 +934,11 @@
       "3": "Tongue-Out Sleep",
       "2": "Smirking Sleep",
       "1": "Mischievous Sleep"
+    },
+    "95": {
+      "3": "Tunneling Sleep",
+      "2": "Lurching Sleep",
+      "1": "Spiral Sleep"
     },
     "onSnorlax": {
       "Default": "Atop-Belly Sleep"

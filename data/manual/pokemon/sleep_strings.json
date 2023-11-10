@@ -131,6 +131,9 @@
   "202-1": "Tail-Hiding Sleep",
   "202-2": "Biding Sleep",
   "202-3": "Signature-Pose Sleep",
+  "208-1": "Spiral Sleep",
+  "208-2": "Lurching Sleep",
+  "208-3": "Tunneling Sleep",
   "214-1": "Horn-Shaking Sleep",
   "214-2": "Upright Sleep",
   "214-3": "Sap-Licking Sleep",
@@ -346,5 +349,9 @@
   "93-3": "Tongue-Out Sleep",
   "94-1": "Mischievous Sleep",
   "94-2": "Smirking Sleep",
-  "94-3": "Tongue-Out Sleep"
+  "94-3": "Tongue-Out Sleep",
+  "95-1": "Spiral Sleep",
+  "95-2": "Lurching Sleep",
+  "95-3": "Tunneling Sleep",
+  "onSnorlax": "Atop-Belly Sleep"
 }

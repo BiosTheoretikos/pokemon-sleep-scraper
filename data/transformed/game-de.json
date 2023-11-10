@@ -271,6 +271,7 @@
     "2": "Bisaknosp",
     "20": "Rattikarl",
     "202": "Woingenau",
+    "208": "Stahlos",
     "214": "Skaraborn",
     "228": "Hunduster",
     "229": "Hundemon",
@@ -343,7 +344,8 @@
     "9001": "Pikachu (Halloween)",
     "92": "Nebulak",
     "93": "Alpollo",
-    "94": "Gengar"
+    "94": "Gengar",
+    "95": "Onix"
   },
   "RankTitle": {
     "1": "Standard",
@@ -567,6 +569,11 @@
       "3": "Markenzeichen-pose",
       "2": "Geduldspose",
       "1": "Schweifversteck-pose"
+    },
+    "208": {
+      "3": "Tunnelpose",
+      "2": "Taumelpose",
+      "1": "Spiralpose"
     },
     "214": {
       "3": "Harznaschpose",
@@ -927,6 +934,11 @@
       "3": "Zunge-Raus-Pose",
       "2": "Grinsepose",
       "1": "Schabernackpose"
+    },
+    "95": {
+      "3": "Tunnelpose",
+      "2": "Taumelpose",
+      "1": "Spiralpose"
     },
     "onSnorlax": {
       "Default": "Bauchkissenpose"

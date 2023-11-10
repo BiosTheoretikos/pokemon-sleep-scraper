@@ -1,4 +1,32 @@
 {
+  "95": {
+    "next": [
+      {
+        "id": 208,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 29
+          },
+          {
+            "type": "item",
+            "item": 21
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "208": {
+    "next": [],
+    "stage": 2,
+    "previous": 95
+  },
   "353": {
     "next": [
       {
