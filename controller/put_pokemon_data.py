@@ -52,6 +52,7 @@ def main():
 
     col_info.delete_many({})
     col_sleep_style.delete_many({})
+    col_sleep_style_no_map.delete_many({})
 
     data_info = []
     data_sleep_style = []
