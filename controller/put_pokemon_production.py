@@ -10,6 +10,7 @@ with open("data/transformed/pokemon_production.json") as f:
 client = MongoClient(CONNECTION_STRING)
 db_pokemon = client.get_database("pokemon")
 col = db_pokemon.get_collection("producing")
+col_meta = db_pokemon.get_collection("producing/meta")
 
 
 def index():
@@ -20,7 +21,10 @@ def main():
     index()
 
     col.delete_many({})
-    col.insert_many(production_data)
+    col.insert_many(production_data["data"])
+
+    col_meta.delete_many({})
+    col_meta.insert_one({"lastUpdated": production_data["lastUpdated"]})
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 import csv
 import json
+import time
 from typing import NamedTuple
 
 import requests
@@ -23,16 +24,16 @@ POKEMON_ID_TO_MAIN_SKILL_ID = {
 }
 
 SKILL_VALUE_IN_RP = {
-    1: 389.43557,  # Charge Strength S (#)
-    2: 0,  # Charge Strength M
+    1: 400,  # Charge Strength S (#)
+    2: 880,  # Charge Strength M
     3: 0,  # Dream Shard Magnet S (#)
     4: 0,  # Energizing Cheer S
-    5: 525,  # Charge Strength S (#1 ~ #2)
+    5: 0,  # Charge Strength S (#1 ~ #2)
     6: 0,  # Dream Shard Magnet S (#1 ~ #2)
-    7: 434.9,  # Charge Energy S
+    7: 0,  # Charge Energy S
     8: 0,  # Energy for Everyone S
     9: 0,  # Extra Helpful S
-    10: 905,  # Ingredient Magnet S
+    10: 800,  # Ingredient Magnet S
     11: 0,  # Cooking Power-Up S
     12: 0,  # Type Boost S
     13: 0,  # Metronome
@@ -206,7 +207,15 @@ def main():
     ]
 
     with open(f"data/transformed/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
-        json.dump(data, f_export, indent=2, ensure_ascii=False)
+        json.dump(
+            {
+                "data": data,
+                "lastUpdated": time.time(),
+            },
+            f_export,
+            indent=2,
+            ensure_ascii=False
+        )
 
 
 if __name__ == "__main__":
