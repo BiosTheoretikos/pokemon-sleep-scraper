@@ -2,9 +2,7 @@ import json
 
 from _const import *
 
-DIRECTORY = r"C:\Users\RaenonX\Documents\Projects\PokemonSleep\pokemon-sleep-assets\texts"
-# Directory from BronzeMaster5000
-# DIRECTORY = r"C:\Users\Anwender\Documents\Pokemon Sleep Stuff\TextAll"
+DIRECTORY = r"data/assets/texts"
 
 PREFIXES = {
     "Berry": "md_berries_name_",
