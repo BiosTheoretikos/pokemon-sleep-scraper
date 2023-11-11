@@ -103,6 +103,9 @@ def get_rp_fit_result_df():
     pokedex_to_pickle()
 
     data = get_pokemon_data()
+
+    print(f"RP Model obtained {len(data)} Pokemon data entry")
+
     x0, unpack_info = pack(make_initial_guess())
 
     opt = get_model_opt(data, x0, unpack_info)
