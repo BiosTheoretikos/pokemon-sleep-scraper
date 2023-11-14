@@ -23,7 +23,7 @@ SKILL_VALUE_IN_RP = {
     7: 0,  # Charge Energy S
     8: 0,  # Energy for Everyone S
     9: 0,  # Extra Helpful S
-    10: 800,  # Ingredient Magnet S
+    10: 820.5,  # Ingredient Magnet S
     11: 0,  # Cooking Power-Up S
     12: 0,  # Type Boost S
     13: 0,  # Metronome
