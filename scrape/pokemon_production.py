@@ -39,23 +39,15 @@ SKILL_VALUE_IN_RP = {
     13: 0,  # Metronome
 }
 
-CONFIDENCE_TO_ID = {
-    "Very good": 2,
-    "Good": 1,
-    "Decent": 0,
-    "Poor": -1,
-    "Very poor": -2,
-}
-
 DEFAULT_SPLIT = 0.2
 
 DEFAULT_PRODUCTION_DATA = {
     "dataCount": 0,
     "ingredientSplit": DEFAULT_SPLIT,
     "skillValue": 0,
-    "confidence": {
-        "ingredient": CONFIDENCE_TO_ID["Very poor"],
-        "skill": CONFIDENCE_TO_ID["Very poor"],
+    "error": {
+        "ingredient": None,
+        "skill": None,
     }
 }
 
@@ -97,9 +89,9 @@ def get_production_data(row=None):
         "dataCount": int(row.data_count),
         "ingredientSplit": round_value(float(row.ingredient_split.replace("%", "")) / 100),
         "skillValue": round_value(float(row.skill_value)),
-        "confidence": {
-            "ingredient": CONFIDENCE_TO_ID[row.ingredient_split_confidence],
-            "skill": CONFIDENCE_TO_ID[row.skill_value_confidence],
+        "error": {
+            "ingredient": 1,
+            "skill": 2,
         }
     }
 
