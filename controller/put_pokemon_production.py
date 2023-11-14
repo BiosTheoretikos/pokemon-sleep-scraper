@@ -24,7 +24,10 @@ def main():
     col.insert_many(production_data["data"])
 
     col_meta.delete_many({})
-    col_meta.insert_one({"lastUpdated": production_data["lastUpdated"]})
+    col_meta.insert_one({
+        "dataCount": sum(data["dataCount"] for data in production_data["data"]),
+        "lastUpdated": production_data["lastUpdated"]
+    })
 
 
 if __name__ == "__main__":
