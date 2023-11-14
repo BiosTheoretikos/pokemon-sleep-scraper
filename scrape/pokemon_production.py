@@ -5,7 +5,7 @@ from typing import NamedTuple
 
 import requests
 
-from calc.rp_model import get_rp_fit_result_df
+from calc.entry import get_rp_model_df
 
 with open("data/transformed/game-en.json", "r", encoding="utf-8") as f_game:
     game_data = json.load(f_game)
@@ -57,102 +57,6 @@ with open("data/scraped/pokemon_data.json") as f:
     pokemon_data = json.load(f)
 
 
-def round_value(value):
-    if value is None:
-        return None
-
-    return round(value, DIGIT_PRECISION)
-
-
-def download_gsheet_csv(file_id, sheet_id):
-    r = requests.get(f"https://docs.google.com/spreadsheets/d/{file_id}/export?format=csv&id={file_id}&gid={sheet_id}")
-    return r.content.decode("utf-8")
-
-
-def is_info_header(row):
-    return tuple(row[:6]) == ("Pokemon", "Ingr%", "Confidence", "skill% * skill value", "Confidence", "# of entries")
-
-
-def is_empty_row(row):
-    return all(not data for data in row)
-
-
-def is_incomplete_info_row(row):
-    return any(not data for data in row[:6])
-
-
-def get_production_data(row=None):
-    if not row or is_incomplete_info_row(row):
-        return DEFAULT_PRODUCTION_DATA
-
-    return {
-        "dataCount": int(row.data_count),
-        "ingredientSplit": round_value(float(row.ingredient_split.replace("%", "")) / 100),
-        "skillValue": round_value(float(row.skill_value)),
-        "error": {
-            "ingredient": 1,
-            "skill": 2,
-        }
-    }
-
-
-def overwrite_production_data(original, ingredient_split, skill_value):
-    return original | {
-        "ingredientSplit": round_value(ingredient_split),
-        "skillValue": round_value(skill_value),
-    }
-
-
-class RpModelInfoRow(NamedTuple):
-    pokemon_name: str
-    ingredient_split: str
-    ingredient_split_confidence: str
-    skill_value: str
-    skill_value_confidence: str
-    data_count: str
-
-
-def get_rp_model_data():
-    data_by_pokemon = {}
-
-    file_id = "1kBrPl0pdAO8gjOf_NrTgAPseFtqQA27fdfEbMBBeAhs"
-    sheet_id = "1673887151"
-
-    csv_content = download_gsheet_csv(file_id, sheet_id)
-    sheet_reader = csv.reader(csv_content.splitlines(), delimiter=",")
-
-    found_info_header = False
-    for row in sheet_reader:
-        if not found_info_header:
-            if not is_info_header(row):
-                continue
-
-            found_info_header = True
-            continue
-
-        if is_empty_row(row):
-            break
-
-        row = RpModelInfoRow(*row[:6])
-
-        data_by_pokemon[POKEMON_NAME_TO_ID[row.pokemon_name]] = get_production_data(row)
-
-    # Inject locally ran model result
-    df = get_rp_fit_result_df()
-    for _, row in df.iterrows():
-        pokemon_id = row["pokemonId"]
-
-        data = data_by_pokemon.get(pokemon_id, DEFAULT_PRODUCTION_DATA)
-
-        data_by_pokemon[pokemon_id] = overwrite_production_data(
-            data,
-            row["ingredientSplit"],
-            row["skillValue"],
-        )
-
-    return data_by_pokemon
-
-
 def get_main_skill_trigger_pct_dict(data):
     ret = {}
 
@@ -174,7 +78,7 @@ def get_main_skill_trigger_pct_dict(data):
 
 
 def main():
-    rp_model_data = get_rp_model_data()
+    rp_model_data = get_rp_model_df()
 
     data = []
 
