@@ -5306,13 +5306,6 @@
         "style": 1,
         "location": [
           {
-            "id": 1,
-            "rank": {
-              "title": 4,
-              "number": 4
-            }
-          },
-          {
             "id": 3,
             "rank": {
               "title": 3,
@@ -5329,13 +5322,6 @@
       {
         "style": 2,
         "location": [
-          {
-            "id": 1,
-            "rank": {
-              "title": 4,
-              "number": 8
-            }
-          },
           {
             "id": 3,
             "rank": {
@@ -5370,13 +5356,6 @@
       {
         "style": "onSnorlax",
         "location": [
-          {
-            "id": 1,
-            "rank": {
-              "title": 4,
-              "number": 9
-            }
-          },
           {
             "id": 3,
             "rank": {
@@ -6682,7 +6661,15 @@
     "sleepStyle": [
       {
         "style": 1,
-        "location": [],
+        "location": [
+          {
+            "id": 3,
+            "rank": {
+              "title": 4,
+              "number": 1
+            }
+          }
+        ],
         "rewards": {
           "exp": 443,
           "shards": 1147,
@@ -12276,7 +12263,15 @@
     "sleepStyle": [
       {
         "style": 1,
-        "location": [],
+        "location": [
+          {
+            "id": 1,
+            "rank": {
+              "title": 4,
+              "number": 5
+            }
+          }
+        ],
         "rewards": {
           "exp": 443,
           "shards": 1147,
