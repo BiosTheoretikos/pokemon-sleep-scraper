@@ -50,7 +50,7 @@ FILE_ZH = {
     "Berry": "MD_berries_2.bytes.json",
     "Field": "MD_fields_2.bytes.json",
     "Food": "MD_cooking_foods_2.bytes.json",
-    "Item": "MD_item_name_data_5.bytes.json",
+    "Item": "MD_item_name_data_9.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_5.bytes.json",
     "MealType": "CookingGenre_12.bytes.json",
     "Nature": "MD_pokemon_nature_7.bytes.json",
@@ -68,7 +68,7 @@ FILE_JP = {
     "Berry": "MD_berries_14.bytes.json",
     "Field": "MD_fields_5.bytes.json",
     "Food": "MD_cooking_foods_4.bytes.json",
-    "Item": "MD_item_name_data_3.bytes.json",
+    "Item": "MD_item_name_data_6.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_11.bytes.json",
     "MealType": "CookingGenre_15.bytes.json",
     "Nature": "MD_pokemon_nature_1.bytes.json",
@@ -85,8 +85,8 @@ FILE_JP = {
 FILE_KR = {
     "Berry": "MD_berries_6.bytes.json",
     "Field": "MD_fields_1.bytes.json",
-    "Food": "MD_cooking_foods_6.bytes.json",
-    "Item": "MD_item_name_data_10.bytes.json",
+    "Food": "MD_cooking_foods_10.bytes.json",
+    "Item": "MD_item_name_data_16.bytes.json",
     "MainSkill": "MD_pokemon_main_skills_9.bytes.json",
     "MealType": "CookingGenre_2.bytes.json",
     "Nature": "MD_pokemon_nature_13.bytes.json",
@@ -300,7 +300,7 @@ def main():
                 PREFIXES[namespace]
             )
 
-        with open(f"data/transformed/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
+        with open(f"data/transformed/game-{locale}.json", "w+", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
         print(f"Processed {locale}")
