@@ -300,7 +300,7 @@ def main():
                 PREFIXES[namespace]
             )
 
-        with open(f"data/transformed/game-{locale}.json", "w+", encoding="utf-8") as f:
+        with open(f"data/transformed/game-{locale}.json", "w+", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
         print(f"Processed {locale}")
