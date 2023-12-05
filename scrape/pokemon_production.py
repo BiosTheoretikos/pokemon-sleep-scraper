@@ -14,17 +14,19 @@ POKEMON_ID_TO_MAIN_SKILL_ID = {
 }
 
 SKILL_VALUE_IN_RP = {
-    1: 400,  # Charge Strength S (#)
-    2: 880,  # Charge Strength M
+    # Source of 2 Charge Strength S:
+    # https://cdn.discordapp.com/attachments/1181411222470537297/1181510665324728370/image.png
+    1: 628.98,  # Charge Strength S (#)
+    2: 0,  # Charge Strength M
     3: 0,  # Dream Shard Magnet S (#)
     4: 0,  # Energizing Cheer S
-    5: 0,  # Charge Strength S (#1 ~ #2)
+    5: 694.46,  # Charge Strength S (#1 ~ #2)
     6: 0,  # Dream Shard Magnet S (#1 ~ #2)
     7: 0,  # Charge Energy S
     8: 0,  # Energy for Everyone S
     9: 0,  # Extra Helpful S
-    10: 820.5,  # Ingredient Magnet S
-    11: 959,  # Cooking Power-Up S
+    10: 0,  # Ingredient Magnet S
+    11: 0,  # Cooking Power-Up S
     12: 0,  # Type Boost S
     13: 0,  # Metronome
 }
