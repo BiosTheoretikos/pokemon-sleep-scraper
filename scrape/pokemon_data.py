@@ -8,7 +8,7 @@ from _functions import *
 
 INDEX_URL = "https://www.serebii.net/pokemonsleep/pokemon.shtml"
 
-POKEMON_URL_PREFIX = "https://www.serebii.net/"
+POKEMON_URL_PREFIX = "https://www.serebii.net"
 
 with open("data/manual/pokemon/sleep_strings.json", "r", encoding="utf-8") as f:
     MAP_OF_TO_SLEEP_STYLE_ID = {}
@@ -27,7 +27,6 @@ with open("data/manual/pokemon/sleep_strings.json", "r", encoding="utf-8") as f:
 
 with open("data/manual/pokemon/branch.json") as f:
     pokemon_branches = json.load(f)
-
 
 with open("data/manual/pokemon/sleepstyle_whitelist.json") as f:
     pokemon_sleepstyle_whitelist = json.load(f)
@@ -163,20 +162,25 @@ def main():
 
         pokemon_image = _index_children[0].find("a").find("img")["src"]
         pokemon_id = int(pokemon_image.split("/")[4].split(".")[0])
-        _pokemon_link_element = _index_children[1].find("a")
-        _pokemon_link = _pokemon_link_element["href"]
-        pokemon_name = _pokemon_link_element.find("u").text
+        _pokemon_ref_element = _index_children[1].find("a")
+        _pokemon_ref = _pokemon_ref_element["href"]
+        pokemon_name = _pokemon_ref_element.find("u").text
+        _pokemon_link = f"{POKEMON_URL_PREFIX}{_pokemon_ref}"
 
-        print(f"Adding Pokemon #{pokemon_id} ({pokemon_name})")
+        print(f"Adding Pokemon #{pokemon_id} ({pokemon_name}) - {_pokemon_link}")
 
-        type_id = MAP_POKEMON_TYPE[_index_children[2].text]
+        _pokemon_type_text = _index_children[2].text
+        if not _pokemon_type_text:
+            warnings.warn(
+                f"Pokemon #{pokemon_id} ({pokemon_name}) does not have type in text, the page is likely incomplete"
+            )
+            continue
+        type_id = MAP_POKEMON_TYPE[_pokemon_type_text]
+
         sleep_type_id = MAP_SLEEP_TYPE_TO_ID[_index_children[3].text]
         specialty = MAP_SPECIALTY_TO_ID[_index_children[4].text]
 
-        _pokemon_soup = BeautifulSoup(
-            send_requests([f"{POKEMON_URL_PREFIX}{_pokemon_link}"])[0].content,
-            "html.parser"
-        )
+        _pokemon_soup = BeautifulSoup(send_requests([_pokemon_link])[0].content, "html.parser")
 
         _tabs = _pokemon_soup.find("main").find_all("table", class_="tab")
 
@@ -237,12 +241,6 @@ def main():
                             _locations = sleep_style_info_from_map[pokemon_name][_sleep_style_name_1]
                         elif _idx_location_cell == 1:
                             _locations = sleep_style_info_from_map[pokemon_name][_sleep_style_name_2]
-
-                        warnings.warn(
-                            f"Pokemon #{pokemon_id} ({pokemon_name}) does not have location of sleep style "
-                            f"#{lacking_sleep_style} or #{lacking_sleep_style + 1} - "
-                            "possibly available only through incense"
-                        )
 
                     if _idx_location_cell == 0:
                         _sleep_1["location"] = _locations
