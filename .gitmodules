@@ -1,6 +1,7 @@
 [submodule "data/assets"]
 	path = data/assets
 	url = https://github.com/RaenonX-PokemonSleep/pokemon-sleep-assets
+	branch = main
 [submodule "calc/rp_model"]
 	path = calc/rp_model
 	url = https://github.com/jeancroy/RP-fit
