@@ -22,6 +22,11 @@ ingredient_chain_of_pokemon_dict = {
     in ingredient_chain_of_pokemon_dict.items()
 }
 
+with open("data/manual/pokemon/xp_type.json") as f:
+    xp_type = json.load(f)
+
+xp_type_dict = {int(entry["pokemon"]): entry["expType"] for entry in xp_type}
+
 with open("data/manual/pokemon/evolution_chain.json") as f:
     evolution_chain_dict = json.load(f)
 
@@ -71,7 +76,11 @@ def main():
         pokemon["ingredientChain"] = ingredient_chain_id
         pokemon["evolution"] = evolution_chain_dict[str(pokemon_id)]
 
-        data_info.append({k: v for k, v in pokemon.items() if k not in ["sleepStyle", "name"]})
+        data_info.append({
+            k: v for k, v
+            in pokemon.items()
+            if k not in ["sleepStyle", "name"]
+        } | {"expType": xp_type_dict.get(pokemon_id, 1)})
 
         pokemon_sleep_style_at_location = defaultdict(list)
         pokemon_sleep_style_unreleased = not any(
