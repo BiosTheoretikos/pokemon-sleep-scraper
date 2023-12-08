@@ -7,6 +7,7 @@ from scrape_db.utils.log import init_logging
 
 def scrape():
     init_logging()
+
     export_berry()
     export_ingredient()
     export_subskill()

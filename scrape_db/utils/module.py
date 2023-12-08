@@ -7,6 +7,7 @@ from typing import ContextManager
 @contextmanager
 def start_export_module(name: str) -> ContextManager[None]:
     _start = time.perf_counter()
+    logging.info("---------------------------------------------------------------------------")
     logging.info(">>> Starting export module: %s", name)
     yield
     logging.info(
