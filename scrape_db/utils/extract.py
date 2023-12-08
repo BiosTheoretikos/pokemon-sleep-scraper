@@ -1,5 +1,7 @@
 from typing import Callable
 
+from pandas import DataFrame
+
 
 def get_string_key_id_extractor(prefix: str) -> Callable[[str], int]:
     def extractor(key: str) -> int:
@@ -15,3 +17,13 @@ def get_string_key_id_extractor(prefix: str) -> Callable[[str], int]:
             ) from error
 
     return extractor
+
+
+def get_ids_from_df_column_name(df: DataFrame, key_prefix: str) -> list[int]:
+    extract_id = get_string_key_id_extractor(key_prefix)
+
+    return [
+        extract_id(col_name)
+        for col_name in df.columns
+        if col_name.startswith(key_prefix)
+    ]
