@@ -20,6 +20,7 @@ def export_xp_value():
             data_entries.append({
                 "type": type_id,
                 "data": pd.DataFrame({
+                    "lv": xp_series.index + 1,
                     "totalGained": xp_series,
                     "toNext": (xp_series.shift(-1) - xp_series).replace(np.nan, None),
                 }).to_dict("records")

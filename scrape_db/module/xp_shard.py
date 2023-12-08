@@ -9,7 +9,12 @@ def export_xp_shard():
         df_shard = pd.read_sql("SELECT * FROM coin_per_candy_table", connection)
 
         data = [{
-            "data": df_shard["need_coin_per_candy"].to_list(),
+            # Dict key has to cast to `str` for MongoDB
+            "data": {
+                str(lv): shard
+                for lv, shard
+                in df_shard.set_index("rank")["need_coin_per_candy"].to_dict().items()
+            },
         }]
 
         with export_to_mongo("pokemon", "xp/shard", data):

@@ -3,202 +3,252 @@
     "type": 1,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 54.0
       },
       {
+        "lv": 2,
         "totalGained": 54,
         "toNext": 71.0
       },
       {
+        "lv": 3,
         "totalGained": 125,
         "toNext": 108.0
       },
       {
+        "lv": 4,
         "totalGained": 233,
         "toNext": 128.0
       },
       {
+        "lv": 5,
         "totalGained": 361,
         "toNext": 164.0
       },
       {
+        "lv": 6,
         "totalGained": 525,
         "toNext": 202.0
       },
       {
+        "lv": 7,
         "totalGained": 727,
         "toNext": 244.0
       },
       {
+        "lv": 8,
         "totalGained": 971,
         "toNext": 274.0
       },
       {
+        "lv": 9,
         "totalGained": 1245,
         "toNext": 315.0
       },
       {
+        "lv": 10,
         "totalGained": 1560,
         "toNext": 345.0
       },
       {
+        "lv": 11,
         "totalGained": 1905,
         "toNext": 376.0
       },
       {
+        "lv": 12,
         "totalGained": 2281,
         "toNext": 407.0
       },
       {
+        "lv": 13,
         "totalGained": 2688,
         "toNext": 419.0
       },
       {
+        "lv": 14,
         "totalGained": 3107,
         "toNext": 429.0
       },
       {
+        "lv": 15,
         "totalGained": 3536,
         "toNext": 440.0
       },
       {
+        "lv": 16,
         "totalGained": 3976,
         "toNext": 454.0
       },
       {
+        "lv": 17,
         "totalGained": 4430,
         "toNext": 469.0
       },
       {
+        "lv": 18,
         "totalGained": 4899,
         "toNext": 483.0
       },
       {
+        "lv": 19,
         "totalGained": 5382,
         "toNext": 497.0
       },
       {
+        "lv": 20,
         "totalGained": 5879,
         "toNext": 515.0
       },
       {
+        "lv": 21,
         "totalGained": 6394,
         "toNext": 537.0
       },
       {
+        "lv": 22,
         "totalGained": 6931,
         "toNext": 558.0
       },
       {
+        "lv": 23,
         "totalGained": 7489,
         "toNext": 579.0
       },
       {
+        "lv": 24,
         "totalGained": 8068,
         "toNext": 600.0
       },
       {
+        "lv": 25,
         "totalGained": 8668,
         "toNext": 622.0
       },
       {
+        "lv": 26,
         "totalGained": 9290,
         "toNext": 643.0
       },
       {
+        "lv": 27,
         "totalGained": 9933,
         "toNext": 665.0
       },
       {
+        "lv": 28,
         "totalGained": 10598,
         "toNext": 686.0
       },
       {
+        "lv": 29,
         "totalGained": 11284,
         "toNext": 708.0
       },
       {
+        "lv": 30,
         "totalGained": 11992,
         "toNext": 729.0
       },
       {
+        "lv": 31,
         "totalGained": 12721,
         "toNext": 748.0
       },
       {
+        "lv": 32,
         "totalGained": 13469,
         "toNext": 766.0
       },
       {
+        "lv": 33,
         "totalGained": 14235,
         "toNext": 785.0
       },
       {
+        "lv": 34,
         "totalGained": 15020,
         "toNext": 803.0
       },
       {
+        "lv": 35,
         "totalGained": 15823,
         "toNext": 821.0
       },
       {
+        "lv": 36,
         "totalGained": 16644,
         "toNext": 839.0
       },
       {
+        "lv": 37,
         "totalGained": 17483,
         "toNext": 857.0
       },
       {
+        "lv": 38,
         "totalGained": 18340,
         "toNext": 875.0
       },
       {
+        "lv": 39,
         "totalGained": 19215,
         "toNext": 893.0
       },
       {
+        "lv": 40,
         "totalGained": 20108,
         "toNext": 910.0
       },
       {
+        "lv": 41,
         "totalGained": 21018,
         "toNext": 928.0
       },
       {
+        "lv": 42,
         "totalGained": 21946,
         "toNext": 945.0
       },
       {
+        "lv": 43,
         "totalGained": 22891,
         "toNext": 963.0
       },
       {
+        "lv": 44,
         "totalGained": 23854,
         "toNext": 980.0
       },
       {
+        "lv": 45,
         "totalGained": 24834,
         "toNext": 997.0
       },
       {
+        "lv": 46,
         "totalGained": 25831,
         "toNext": 1015.0
       },
       {
+        "lv": 47,
         "totalGained": 26846,
         "toNext": 1032.0
       },
       {
+        "lv": 48,
         "totalGained": 27878,
         "toNext": 1049.0
       },
       {
+        "lv": 49,
         "totalGained": 28927,
         "toNext": 1066.0
       },
       {
+        "lv": 50,
         "totalGained": 29993,
         "toNext": null
       }
@@ -208,202 +258,252 @@
     "type": 2,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 81.0
       },
       {
+        "lv": 2,
         "totalGained": 81,
         "toNext": 107.0
       },
       {
+        "lv": 3,
         "totalGained": 188,
         "toNext": 162.0
       },
       {
+        "lv": 4,
         "totalGained": 350,
         "toNext": 192.0
       },
       {
+        "lv": 5,
         "totalGained": 542,
         "toNext": 246.0
       },
       {
+        "lv": 6,
         "totalGained": 788,
         "toNext": 303.0
       },
       {
+        "lv": 7,
         "totalGained": 1091,
         "toNext": 366.0
       },
       {
+        "lv": 8,
         "totalGained": 1457,
         "toNext": 411.0
       },
       {
+        "lv": 9,
         "totalGained": 1868,
         "toNext": 472.0
       },
       {
+        "lv": 10,
         "totalGained": 2340,
         "toNext": 518.0
       },
       {
+        "lv": 11,
         "totalGained": 2858,
         "toNext": 564.0
       },
       {
+        "lv": 12,
         "totalGained": 3422,
         "toNext": 610.0
       },
       {
+        "lv": 13,
         "totalGained": 4032,
         "toNext": 629.0
       },
       {
+        "lv": 14,
         "totalGained": 4661,
         "toNext": 643.0
       },
       {
+        "lv": 15,
         "totalGained": 5304,
         "toNext": 660.0
       },
       {
+        "lv": 16,
         "totalGained": 5964,
         "toNext": 681.0
       },
       {
+        "lv": 17,
         "totalGained": 6645,
         "toNext": 704.0
       },
       {
+        "lv": 18,
         "totalGained": 7349,
         "toNext": 724.0
       },
       {
+        "lv": 19,
         "totalGained": 8073,
         "toNext": 746.0
       },
       {
+        "lv": 20,
         "totalGained": 8819,
         "toNext": 772.0
       },
       {
+        "lv": 21,
         "totalGained": 9591,
         "toNext": 806.0
       },
       {
+        "lv": 22,
         "totalGained": 10397,
         "toNext": 837.0
       },
       {
+        "lv": 23,
         "totalGained": 11234,
         "toNext": 868.0
       },
       {
+        "lv": 24,
         "totalGained": 12102,
         "toNext": 900.0
       },
       {
+        "lv": 25,
         "totalGained": 13002,
         "toNext": 933.0
       },
       {
+        "lv": 26,
         "totalGained": 13935,
         "toNext": 965.0
       },
       {
+        "lv": 27,
         "totalGained": 14900,
         "toNext": 997.0
       },
       {
+        "lv": 28,
         "totalGained": 15897,
         "toNext": 1029.0
       },
       {
+        "lv": 29,
         "totalGained": 16926,
         "toNext": 1062.0
       },
       {
+        "lv": 30,
         "totalGained": 17988,
         "toNext": 1094.0
       },
       {
+        "lv": 31,
         "totalGained": 19082,
         "toNext": 1122.0
       },
       {
+        "lv": 32,
         "totalGained": 20204,
         "toNext": 1149.0
       },
       {
+        "lv": 33,
         "totalGained": 21353,
         "toNext": 1177.0
       },
       {
+        "lv": 34,
         "totalGained": 22530,
         "toNext": 1205.0
       },
       {
+        "lv": 35,
         "totalGained": 23735,
         "toNext": 1231.0
       },
       {
+        "lv": 36,
         "totalGained": 24966,
         "toNext": 1259.0
       },
       {
+        "lv": 37,
         "totalGained": 26225,
         "toNext": 1285.0
       },
       {
+        "lv": 38,
         "totalGained": 27510,
         "toNext": 1313.0
       },
       {
+        "lv": 39,
         "totalGained": 28823,
         "toNext": 1339.0
       },
       {
+        "lv": 40,
         "totalGained": 30162,
         "toNext": 1365.0
       },
       {
+        "lv": 41,
         "totalGained": 31527,
         "toNext": 1392.0
       },
       {
+        "lv": 42,
         "totalGained": 32919,
         "toNext": 1418.0
       },
       {
+        "lv": 43,
         "totalGained": 34337,
         "toNext": 1444.0
       },
       {
+        "lv": 44,
         "totalGained": 35781,
         "toNext": 1470.0
       },
       {
+        "lv": 45,
         "totalGained": 37251,
         "toNext": 1496.0
       },
       {
+        "lv": 46,
         "totalGained": 38747,
         "toNext": 1522.0
       },
       {
+        "lv": 47,
         "totalGained": 40269,
         "toNext": 1548.0
       },
       {
+        "lv": 48,
         "totalGained": 41817,
         "toNext": 1574.0
       },
       {
+        "lv": 49,
         "totalGained": 43391,
         "toNext": 1599.0
       },
       {
+        "lv": 50,
         "totalGained": 44990,
         "toNext": null
       }
@@ -413,202 +513,252 @@
     "type": 3,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 97.0
       },
       {
+        "lv": 2,
         "totalGained": 97,
         "toNext": 128.0
       },
       {
+        "lv": 3,
         "totalGained": 225,
         "toNext": 194.0
       },
       {
+        "lv": 4,
         "totalGained": 419,
         "toNext": 231.0
       },
       {
+        "lv": 5,
         "totalGained": 650,
         "toNext": 295.0
       },
       {
+        "lv": 6,
         "totalGained": 945,
         "toNext": 364.0
       },
       {
+        "lv": 7,
         "totalGained": 1309,
         "toNext": 439.0
       },
       {
+        "lv": 8,
         "totalGained": 1748,
         "toNext": 493.0
       },
       {
+        "lv": 9,
         "totalGained": 2241,
         "toNext": 567.0
       },
       {
+        "lv": 10,
         "totalGained": 2808,
         "toNext": 621.0
       },
       {
+        "lv": 11,
         "totalGained": 3429,
         "toNext": 677.0
       },
       {
+        "lv": 12,
         "totalGained": 4106,
         "toNext": 732.0
       },
       {
+        "lv": 13,
         "totalGained": 4838,
         "toNext": 755.0
       },
       {
+        "lv": 14,
         "totalGained": 5593,
         "toNext": 772.0
       },
       {
+        "lv": 15,
         "totalGained": 6365,
         "toNext": 792.0
       },
       {
+        "lv": 16,
         "totalGained": 7157,
         "toNext": 817.0
       },
       {
+        "lv": 17,
         "totalGained": 7974,
         "toNext": 844.0
       },
       {
+        "lv": 18,
         "totalGained": 8818,
         "toNext": 870.0
       },
       {
+        "lv": 19,
         "totalGained": 9688,
         "toNext": 894.0
       },
       {
+        "lv": 20,
         "totalGained": 10582,
         "toNext": 927.0
       },
       {
+        "lv": 21,
         "totalGained": 11509,
         "toNext": 967.0
       },
       {
+        "lv": 22,
         "totalGained": 12476,
         "toNext": 1004.0
       },
       {
+        "lv": 23,
         "totalGained": 13480,
         "toNext": 1042.0
       },
       {
+        "lv": 24,
         "totalGained": 14522,
         "toNext": 1080.0
       },
       {
+        "lv": 25,
         "totalGained": 15602,
         "toNext": 1120.0
       },
       {
+        "lv": 26,
         "totalGained": 16722,
         "toNext": 1157.0
       },
       {
+        "lv": 27,
         "totalGained": 17879,
         "toNext": 1197.0
       },
       {
+        "lv": 28,
         "totalGained": 19076,
         "toNext": 1235.0
       },
       {
+        "lv": 29,
         "totalGained": 20311,
         "toNext": 1275.0
       },
       {
+        "lv": 30,
         "totalGained": 21586,
         "toNext": 1312.0
       },
       {
+        "lv": 31,
         "totalGained": 22898,
         "toNext": 1346.0
       },
       {
+        "lv": 32,
         "totalGained": 24244,
         "toNext": 1379.0
       },
       {
+        "lv": 33,
         "totalGained": 25623,
         "toNext": 1413.0
       },
       {
+        "lv": 34,
         "totalGained": 27036,
         "toNext": 1445.0
       },
       {
+        "lv": 35,
         "totalGained": 28481,
         "toNext": 1478.0
       },
       {
+        "lv": 36,
         "totalGained": 29959,
         "toNext": 1510.0
       },
       {
+        "lv": 37,
         "totalGained": 31469,
         "toNext": 1543.0
       },
       {
+        "lv": 38,
         "totalGained": 33012,
         "toNext": 1575.0
       },
       {
+        "lv": 39,
         "totalGained": 34587,
         "toNext": 1607.0
       },
       {
+        "lv": 40,
         "totalGained": 36194,
         "toNext": 1638.0
       },
       {
+        "lv": 41,
         "totalGained": 37832,
         "toNext": 1671.0
       },
       {
+        "lv": 42,
         "totalGained": 39503,
         "toNext": 1701.0
       },
       {
+        "lv": 43,
         "totalGained": 41204,
         "toNext": 1733.0
       },
       {
+        "lv": 44,
         "totalGained": 42937,
         "toNext": 1764.0
       },
       {
+        "lv": 45,
         "totalGained": 44701,
         "toNext": 1795.0
       },
       {
+        "lv": 46,
         "totalGained": 46496,
         "toNext": 1827.0
       },
       {
+        "lv": 47,
         "totalGained": 48323,
         "toNext": 1857.0
       },
       {
+        "lv": 48,
         "totalGained": 50180,
         "toNext": 1889.0
       },
       {
+        "lv": 49,
         "totalGained": 52069,
         "toNext": 1918.0
       },
       {
+        "lv": 50,
         "totalGained": 53987,
         "toNext": null
       }
@@ -618,202 +768,252 @@
     "type": 4,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 107.0
       },
       {
+        "lv": 2,
         "totalGained": 107,
         "toNext": 141.0
       },
       {
+        "lv": 3,
         "totalGained": 248,
         "toNext": 213.0
       },
       {
+        "lv": 4,
         "totalGained": 461,
         "toNext": 254.0
       },
       {
+        "lv": 5,
         "totalGained": 715,
         "toNext": 325.0
       },
       {
+        "lv": 6,
         "totalGained": 1040,
         "toNext": 400.0
       },
       {
+        "lv": 7,
         "totalGained": 1440,
         "toNext": 483.0
       },
       {
+        "lv": 8,
         "totalGained": 1923,
         "toNext": 542.0
       },
       {
+        "lv": 9,
         "totalGained": 2465,
         "toNext": 624.0
       },
       {
+        "lv": 10,
         "totalGained": 3089,
         "toNext": 683.0
       },
       {
+        "lv": 11,
         "totalGained": 3772,
         "toNext": 745.0
       },
       {
+        "lv": 12,
         "totalGained": 4517,
         "toNext": 805.0
       },
       {
+        "lv": 13,
         "totalGained": 5322,
         "toNext": 830.0
       },
       {
+        "lv": 14,
         "totalGained": 6152,
         "toNext": 850.0
       },
       {
+        "lv": 15,
         "totalGained": 7002,
         "toNext": 871.0
       },
       {
+        "lv": 16,
         "totalGained": 7873,
         "toNext": 898.0
       },
       {
+        "lv": 17,
         "totalGained": 8771,
         "toNext": 929.0
       },
       {
+        "lv": 18,
         "totalGained": 9700,
         "toNext": 957.0
       },
       {
+        "lv": 19,
         "totalGained": 10657,
         "toNext": 983.0
       },
       {
+        "lv": 20,
         "totalGained": 11640,
         "toNext": 1020.0
       },
       {
+        "lv": 21,
         "totalGained": 12660,
         "toNext": 1064.0
       },
       {
+        "lv": 22,
         "totalGained": 13724,
         "toNext": 1104.0
       },
       {
+        "lv": 23,
         "totalGained": 14828,
         "toNext": 1146.0
       },
       {
+        "lv": 24,
         "totalGained": 15974,
         "toNext": 1188.0
       },
       {
+        "lv": 25,
         "totalGained": 17162,
         "toNext": 1232.0
       },
       {
+        "lv": 26,
         "totalGained": 18394,
         "toNext": 1273.0
       },
       {
+        "lv": 27,
         "totalGained": 19667,
         "toNext": 1317.0
       },
       {
+        "lv": 28,
         "totalGained": 20984,
         "toNext": 1358.0
       },
       {
+        "lv": 29,
         "totalGained": 22342,
         "toNext": 1403.0
       },
       {
+        "lv": 30,
         "totalGained": 23745,
         "toNext": 1443.0
       },
       {
+        "lv": 31,
         "totalGained": 25188,
         "toNext": 1480.0
       },
       {
+        "lv": 32,
         "totalGained": 26668,
         "toNext": 1517.0
       },
       {
+        "lv": 33,
         "totalGained": 28185,
         "toNext": 1555.0
       },
       {
+        "lv": 34,
         "totalGained": 29740,
         "toNext": 1589.0
       },
       {
+        "lv": 35,
         "totalGained": 31329,
         "toNext": 1626.0
       },
       {
+        "lv": 36,
         "totalGained": 32955,
         "toNext": 1661.0
       },
       {
+        "lv": 37,
         "totalGained": 34616,
         "toNext": 1697.0
       },
       {
+        "lv": 38,
         "totalGained": 36313,
         "toNext": 1733.0
       },
       {
+        "lv": 39,
         "totalGained": 38046,
         "toNext": 1767.0
       },
       {
+        "lv": 40,
         "totalGained": 39813,
         "toNext": 1802.0
       },
       {
+        "lv": 41,
         "totalGained": 41615,
         "toNext": 1838.0
       },
       {
+        "lv": 42,
         "totalGained": 43453,
         "toNext": 1871.0
       },
       {
+        "lv": 43,
         "totalGained": 45324,
         "toNext": 1907.0
       },
       {
+        "lv": 44,
         "totalGained": 47231,
         "toNext": 1940.0
       },
       {
+        "lv": 45,
         "totalGained": 49171,
         "toNext": 1975.0
       },
       {
+        "lv": 46,
         "totalGained": 51146,
         "toNext": 2009.0
       },
       {
+        "lv": 47,
         "totalGained": 53155,
         "toNext": 2043.0
       },
       {
+        "lv": 48,
         "totalGained": 55198,
         "toNext": 2078.0
       },
       {
+        "lv": 49,
         "totalGained": 57276,
         "toNext": 2110.0
       },
       {
+        "lv": 50,
         "totalGained": 59386,
         "toNext": null
       }
@@ -823,202 +1023,252 @@
     "type": 5,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 118.0
       },
       {
+        "lv": 2,
         "totalGained": 118,
         "toNext": 155.0
       },
       {
+        "lv": 3,
         "totalGained": 273,
         "toNext": 234.0
       },
       {
+        "lv": 4,
         "totalGained": 507,
         "toNext": 280.0
       },
       {
+        "lv": 5,
         "totalGained": 787,
         "toNext": 357.0
       },
       {
+        "lv": 6,
         "totalGained": 1144,
         "toNext": 440.0
       },
       {
+        "lv": 7,
         "totalGained": 1584,
         "toNext": 531.0
       },
       {
+        "lv": 8,
         "totalGained": 2115,
         "toNext": 597.0
       },
       {
+        "lv": 9,
         "totalGained": 2712,
         "toNext": 686.0
       },
       {
+        "lv": 10,
         "totalGained": 3398,
         "toNext": 751.0
       },
       {
+        "lv": 11,
         "totalGained": 4149,
         "toNext": 820.0
       },
       {
+        "lv": 12,
         "totalGained": 4969,
         "toNext": 885.0
       },
       {
+        "lv": 13,
         "totalGained": 5854,
         "toNext": 913.0
       },
       {
+        "lv": 14,
         "totalGained": 6767,
         "toNext": 935.0
       },
       {
+        "lv": 15,
         "totalGained": 7702,
         "toNext": 958.0
       },
       {
+        "lv": 16,
         "totalGained": 8660,
         "toNext": 988.0
       },
       {
+        "lv": 17,
         "totalGained": 9648,
         "toNext": 1022.0
       },
       {
+        "lv": 18,
         "totalGained": 10670,
         "toNext": 1053.0
       },
       {
+        "lv": 19,
         "totalGained": 11723,
         "toNext": 1081.0
       },
       {
+        "lv": 20,
         "totalGained": 12804,
         "toNext": 1122.0
       },
       {
+        "lv": 21,
         "totalGained": 13926,
         "toNext": 1170.0
       },
       {
+        "lv": 22,
         "totalGained": 15096,
         "toNext": 1215.0
       },
       {
+        "lv": 23,
         "totalGained": 16311,
         "toNext": 1260.0
       },
       {
+        "lv": 24,
         "totalGained": 17571,
         "toNext": 1307.0
       },
       {
+        "lv": 25,
         "totalGained": 18878,
         "toNext": 1355.0
       },
       {
+        "lv": 26,
         "totalGained": 20233,
         "toNext": 1401.0
       },
       {
+        "lv": 27,
         "totalGained": 21634,
         "toNext": 1448.0
       },
       {
+        "lv": 28,
         "totalGained": 23082,
         "toNext": 1494.0
       },
       {
+        "lv": 29,
         "totalGained": 24576,
         "toNext": 1544.0
       },
       {
+        "lv": 30,
         "totalGained": 26120,
         "toNext": 1587.0
       },
       {
+        "lv": 31,
         "totalGained": 27707,
         "toNext": 1628.0
       },
       {
+        "lv": 32,
         "totalGained": 29335,
         "toNext": 1669.0
       },
       {
+        "lv": 33,
         "totalGained": 31004,
         "toNext": 1710.0
       },
       {
+        "lv": 34,
         "totalGained": 32714,
         "toNext": 1748.0
       },
       {
+        "lv": 35,
         "totalGained": 34462,
         "toNext": 1789.0
       },
       {
+        "lv": 36,
         "totalGained": 36251,
         "toNext": 1827.0
       },
       {
+        "lv": 37,
         "totalGained": 38078,
         "toNext": 1866.0
       },
       {
+        "lv": 38,
         "totalGained": 39944,
         "toNext": 1907.0
       },
       {
+        "lv": 39,
         "totalGained": 41851,
         "toNext": 1943.0
       },
       {
+        "lv": 40,
         "totalGained": 43794,
         "toNext": 1983.0
       },
       {
+        "lv": 41,
         "totalGained": 45777,
         "toNext": 2021.0
       },
       {
+        "lv": 42,
         "totalGained": 47798,
         "toNext": 2058.0
       },
       {
+        "lv": 43,
         "totalGained": 49856,
         "toNext": 2098.0
       },
       {
+        "lv": 44,
         "totalGained": 51954,
         "toNext": 2134.0
       },
       {
+        "lv": 45,
         "totalGained": 54088,
         "toNext": 2173.0
       },
       {
+        "lv": 46,
         "totalGained": 56261,
         "toNext": 2210.0
       },
       {
+        "lv": 47,
         "totalGained": 58471,
         "toNext": 2247.0
       },
       {
+        "lv": 48,
         "totalGained": 60718,
         "toNext": 2286.0
       },
       {
+        "lv": 49,
         "totalGained": 63004,
         "toNext": 2321.0
       },
       {
+        "lv": 50,
         "totalGained": 65325,
         "toNext": null
       }
@@ -1028,202 +1278,252 @@
     "type": 6,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 130.0
       },
       {
+        "lv": 2,
         "totalGained": 130,
         "toNext": 170.0
       },
       {
+        "lv": 3,
         "totalGained": 300,
         "toNext": 258.0
       },
       {
+        "lv": 4,
         "totalGained": 558,
         "toNext": 308.0
       },
       {
+        "lv": 5,
         "totalGained": 866,
         "toNext": 392.0
       },
       {
+        "lv": 6,
         "totalGained": 1258,
         "toNext": 484.0
       },
       {
+        "lv": 7,
         "totalGained": 1742,
         "toNext": 585.0
       },
       {
+        "lv": 8,
         "totalGained": 2327,
         "toNext": 656.0
       },
       {
+        "lv": 9,
         "totalGained": 2983,
         "toNext": 755.0
       },
       {
+        "lv": 10,
         "totalGained": 3738,
         "toNext": 826.0
       },
       {
+        "lv": 11,
         "totalGained": 4564,
         "toNext": 902.0
       },
       {
+        "lv": 12,
         "totalGained": 5466,
         "toNext": 973.0
       },
       {
+        "lv": 13,
         "totalGained": 6439,
         "toNext": 1005.0
       },
       {
+        "lv": 14,
         "totalGained": 7444,
         "toNext": 1028.0
       },
       {
+        "lv": 15,
         "totalGained": 8472,
         "toNext": 1054.0
       },
       {
+        "lv": 16,
         "totalGained": 9526,
         "toNext": 1087.0
       },
       {
+        "lv": 17,
         "totalGained": 10613,
         "toNext": 1124.0
       },
       {
+        "lv": 18,
         "totalGained": 11737,
         "toNext": 1158.0
       },
       {
+        "lv": 19,
         "totalGained": 12895,
         "toNext": 1189.0
       },
       {
+        "lv": 20,
         "totalGained": 14084,
         "toNext": 1235.0
       },
       {
+        "lv": 21,
         "totalGained": 15319,
         "toNext": 1287.0
       },
       {
+        "lv": 22,
         "totalGained": 16606,
         "toNext": 1336.0
       },
       {
+        "lv": 23,
         "totalGained": 17942,
         "toNext": 1386.0
       },
       {
+        "lv": 24,
         "totalGained": 19328,
         "toNext": 1438.0
       },
       {
+        "lv": 25,
         "totalGained": 20766,
         "toNext": 1490.0
       },
       {
+        "lv": 26,
         "totalGained": 22256,
         "toNext": 1541.0
       },
       {
+        "lv": 27,
         "totalGained": 23797,
         "toNext": 1593.0
       },
       {
+        "lv": 28,
         "totalGained": 25390,
         "toNext": 1644.0
       },
       {
+        "lv": 29,
         "totalGained": 27034,
         "toNext": 1698.0
       },
       {
+        "lv": 30,
         "totalGained": 28732,
         "toNext": 1746.0
       },
       {
+        "lv": 31,
         "totalGained": 30478,
         "toNext": 1791.0
       },
       {
+        "lv": 32,
         "totalGained": 32269,
         "toNext": 1835.0
       },
       {
+        "lv": 33,
         "totalGained": 34104,
         "toNext": 1881.0
       },
       {
+        "lv": 34,
         "totalGained": 35985,
         "toNext": 1923.0
       },
       {
+        "lv": 35,
         "totalGained": 37908,
         "toNext": 1968.0
       },
       {
+        "lv": 36,
         "totalGained": 39876,
         "toNext": 2010.0
       },
       {
+        "lv": 37,
         "totalGained": 41886,
         "toNext": 2052.0
       },
       {
+        "lv": 38,
         "totalGained": 43938,
         "toNext": 2098.0
       },
       {
+        "lv": 39,
         "totalGained": 46036,
         "toNext": 2137.0
       },
       {
+        "lv": 40,
         "totalGained": 48173,
         "toNext": 2182.0
       },
       {
+        "lv": 41,
         "totalGained": 50355,
         "toNext": 2223.0
       },
       {
+        "lv": 42,
         "totalGained": 52578,
         "toNext": 2264.0
       },
       {
+        "lv": 43,
         "totalGained": 54842,
         "toNext": 2307.0
       },
       {
+        "lv": 44,
         "totalGained": 57149,
         "toNext": 2348.0
       },
       {
+        "lv": 45,
         "totalGained": 59497,
         "toNext": 2390.0
       },
       {
+        "lv": 46,
         "totalGained": 61887,
         "toNext": 2431.0
       },
       {
+        "lv": 47,
         "totalGained": 64318,
         "toNext": 2472.0
       },
       {
+        "lv": 48,
         "totalGained": 66790,
         "toNext": 2514.0
       },
       {
+        "lv": 49,
         "totalGained": 69304,
         "toNext": 2554.0
       },
       {
+        "lv": 50,
         "totalGained": 71858,
         "toNext": null
       }
@@ -1233,202 +1533,252 @@
     "type": 7,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 143.0
       },
       {
+        "lv": 2,
         "totalGained": 143,
         "toNext": 187.0
       },
       {
+        "lv": 3,
         "totalGained": 330,
         "toNext": 284.0
       },
       {
+        "lv": 4,
         "totalGained": 614,
         "toNext": 339.0
       },
       {
+        "lv": 5,
         "totalGained": 953,
         "toNext": 431.0
       },
       {
+        "lv": 6,
         "totalGained": 1384,
         "toNext": 532.0
       },
       {
+        "lv": 7,
         "totalGained": 1916,
         "toNext": 644.0
       },
       {
+        "lv": 8,
         "totalGained": 2560,
         "toNext": 721.0
       },
       {
+        "lv": 9,
         "totalGained": 3281,
         "toNext": 831.0
       },
       {
+        "lv": 10,
         "totalGained": 4112,
         "toNext": 908.0
       },
       {
+        "lv": 11,
         "totalGained": 5020,
         "toNext": 993.0
       },
       {
+        "lv": 12,
         "totalGained": 6013,
         "toNext": 1070.0
       },
       {
+        "lv": 13,
         "totalGained": 7083,
         "toNext": 1105.0
       },
       {
+        "lv": 14,
         "totalGained": 8188,
         "toNext": 1131.0
       },
       {
+        "lv": 15,
         "totalGained": 9319,
         "toNext": 1160.0
       },
       {
+        "lv": 16,
         "totalGained": 10479,
         "toNext": 1195.0
       },
       {
+        "lv": 17,
         "totalGained": 11674,
         "toNext": 1237.0
       },
       {
+        "lv": 18,
         "totalGained": 12911,
         "toNext": 1274.0
       },
       {
+        "lv": 19,
         "totalGained": 14185,
         "toNext": 1307.0
       },
       {
+        "lv": 20,
         "totalGained": 15492,
         "toNext": 1359.0
       },
       {
+        "lv": 21,
         "totalGained": 16851,
         "toNext": 1416.0
       },
       {
+        "lv": 22,
         "totalGained": 18267,
         "toNext": 1469.0
       },
       {
+        "lv": 23,
         "totalGained": 19736,
         "toNext": 1525.0
       },
       {
+        "lv": 24,
         "totalGained": 21261,
         "toNext": 1582.0
       },
       {
+        "lv": 25,
         "totalGained": 22843,
         "toNext": 1639.0
       },
       {
+        "lv": 26,
         "totalGained": 24482,
         "toNext": 1695.0
       },
       {
+        "lv": 27,
         "totalGained": 26177,
         "toNext": 1752.0
       },
       {
+        "lv": 28,
         "totalGained": 27929,
         "toNext": 1808.0
       },
       {
+        "lv": 29,
         "totalGained": 29737,
         "toNext": 1868.0
       },
       {
+        "lv": 30,
         "totalGained": 31605,
         "toNext": 1921.0
       },
       {
+        "lv": 31,
         "totalGained": 33526,
         "toNext": 1970.0
       },
       {
+        "lv": 32,
         "totalGained": 35496,
         "toNext": 2018.0
       },
       {
+        "lv": 33,
         "totalGained": 37514,
         "toNext": 2070.0
       },
       {
+        "lv": 34,
         "totalGained": 39584,
         "toNext": 2115.0
       },
       {
+        "lv": 35,
         "totalGained": 41699,
         "toNext": 2165.0
       },
       {
+        "lv": 36,
         "totalGained": 43864,
         "toNext": 2211.0
       },
       {
+        "lv": 37,
         "totalGained": 46075,
         "toNext": 2257.0
       },
       {
+        "lv": 38,
         "totalGained": 48332,
         "toNext": 2308.0
       },
       {
+        "lv": 39,
         "totalGained": 50640,
         "toNext": 2350.0
       },
       {
+        "lv": 40,
         "totalGained": 52990,
         "toNext": 2401.0
       },
       {
+        "lv": 41,
         "totalGained": 55391,
         "toNext": 2445.0
       },
       {
+        "lv": 42,
         "totalGained": 57836,
         "toNext": 2490.0
       },
       {
+        "lv": 43,
         "totalGained": 60326,
         "toNext": 2538.0
       },
       {
+        "lv": 44,
         "totalGained": 62864,
         "toNext": 2583.0
       },
       {
+        "lv": 45,
         "totalGained": 65447,
         "toNext": 2629.0
       },
       {
+        "lv": 46,
         "totalGained": 68076,
         "toNext": 2674.0
       },
       {
+        "lv": 47,
         "totalGained": 70750,
         "toNext": 2719.0
       },
       {
+        "lv": 48,
         "totalGained": 73469,
         "toNext": 2765.0
       },
       {
+        "lv": 49,
         "totalGained": 76234,
         "toNext": 2810.0
       },
       {
+        "lv": 50,
         "totalGained": 79044,
         "toNext": null
       }
@@ -1438,202 +1788,252 @@
     "type": 8,
     "data": [
       {
+        "lv": 1,
         "totalGained": 0,
         "toNext": 157.0
       },
       {
+        "lv": 2,
         "totalGained": 157,
         "toNext": 206.0
       },
       {
+        "lv": 3,
         "totalGained": 363,
         "toNext": 312.0
       },
       {
+        "lv": 4,
         "totalGained": 675,
         "toNext": 373.0
       },
       {
+        "lv": 5,
         "totalGained": 1048,
         "toNext": 474.0
       },
       {
+        "lv": 6,
         "totalGained": 1522,
         "toNext": 586.0
       },
       {
+        "lv": 7,
         "totalGained": 2108,
         "toNext": 708.0
       },
       {
+        "lv": 8,
         "totalGained": 2816,
         "toNext": 793.0
       },
       {
+        "lv": 9,
         "totalGained": 3609,
         "toNext": 914.0
       },
       {
+        "lv": 10,
         "totalGained": 4523,
         "toNext": 999.0
       },
       {
+        "lv": 11,
         "totalGained": 5522,
         "toNext": 1092.0
       },
       {
+        "lv": 12,
         "totalGained": 6614,
         "toNext": 1177.0
       },
       {
+        "lv": 13,
         "totalGained": 7791,
         "toNext": 1216.0
       },
       {
+        "lv": 14,
         "totalGained": 9007,
         "toNext": 1244.0
       },
       {
+        "lv": 15,
         "totalGained": 10251,
         "toNext": 1276.0
       },
       {
+        "lv": 16,
         "totalGained": 11527,
         "toNext": 1314.0
       },
       {
+        "lv": 17,
         "totalGained": 12841,
         "toNext": 1361.0
       },
       {
+        "lv": 18,
         "totalGained": 14202,
         "toNext": 1402.0
       },
       {
+        "lv": 19,
         "totalGained": 15604,
         "toNext": 1437.0
       },
       {
+        "lv": 20,
         "totalGained": 17041,
         "toNext": 1495.0
       },
       {
+        "lv": 21,
         "totalGained": 18536,
         "toNext": 1558.0
       },
       {
+        "lv": 22,
         "totalGained": 20094,
         "toNext": 1616.0
       },
       {
+        "lv": 23,
         "totalGained": 21710,
         "toNext": 1677.0
       },
       {
+        "lv": 24,
         "totalGained": 23387,
         "toNext": 1740.0
       },
       {
+        "lv": 25,
         "totalGained": 25127,
         "toNext": 1803.0
       },
       {
+        "lv": 26,
         "totalGained": 26930,
         "toNext": 1865.0
       },
       {
+        "lv": 27,
         "totalGained": 28795,
         "toNext": 1927.0
       },
       {
+        "lv": 28,
         "totalGained": 30722,
         "toNext": 1989.0
       },
       {
+        "lv": 29,
         "totalGained": 32711,
         "toNext": 2055.0
       },
       {
+        "lv": 30,
         "totalGained": 34766,
         "toNext": 2113.0
       },
       {
+        "lv": 31,
         "totalGained": 36879,
         "toNext": 2167.0
       },
       {
+        "lv": 32,
         "totalGained": 39046,
         "toNext": 2219.0
       },
       {
+        "lv": 33,
         "totalGained": 41265,
         "toNext": 2277.0
       },
       {
+        "lv": 34,
         "totalGained": 43542,
         "toNext": 2327.0
       },
       {
+        "lv": 35,
         "totalGained": 45869,
         "toNext": 2381.0
       },
       {
+        "lv": 36,
         "totalGained": 48250,
         "toNext": 2433.0
       },
       {
+        "lv": 37,
         "totalGained": 50683,
         "toNext": 2482.0
       },
       {
+        "lv": 38,
         "totalGained": 53165,
         "toNext": 2539.0
       },
       {
+        "lv": 39,
         "totalGained": 55704,
         "toNext": 2585.0
       },
       {
+        "lv": 40,
         "totalGained": 58289,
         "toNext": 2641.0
       },
       {
+        "lv": 41,
         "totalGained": 60930,
         "toNext": 2690.0
       },
       {
+        "lv": 42,
         "totalGained": 63620,
         "toNext": 2739.0
       },
       {
+        "lv": 43,
         "totalGained": 66359,
         "toNext": 2791.0
       },
       {
+        "lv": 44,
         "totalGained": 69150,
         "toNext": 2842.0
       },
       {
+        "lv": 45,
         "totalGained": 71992,
         "toNext": 2892.0
       },
       {
+        "lv": 46,
         "totalGained": 74884,
         "toNext": 2941.0
       },
       {
+        "lv": 47,
         "totalGained": 77825,
         "toNext": 2991.0
       },
       {
+        "lv": 48,
         "totalGained": 80816,
         "toNext": 3041.0
       },
       {
+        "lv": 49,
         "totalGained": 83857,
         "toNext": 3091.0
       },
       {
+        "lv": 50,
         "totalGained": 86948,
         "toNext": null
       }

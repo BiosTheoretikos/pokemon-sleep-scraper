@@ -36,5 +36,5 @@ def export_to_mongo(
     yield collection
 
     take_export_snapshot(f"{db_name}.{collection_name.replace('/', '-')}", data)
-    # collection.delete_many({})
-    # collection.insert_many(data)
+    collection.delete_many({})
+    collection.insert_many(data)
