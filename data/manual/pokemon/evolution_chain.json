@@ -1,158 +1,4 @@
 {
-  "95": {
-    "next": [
-      {
-        "id": 208,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 80
-          },
-          {
-            "type": "item",
-            "item": 29
-          },
-          {
-            "type": "item",
-            "item": 21
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
-  },
-  "208": {
-    "next": [],
-    "stage": 2,
-    "previous": 95
-  },
-  "353": {
-    "next": [
-      {
-        "id": 354,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 40
-          },
-          {
-            "type": "level",
-            "level": 28
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
-  },
-  "354": {
-    "next": [],
-    "stage": 2,
-    "previous": 353
-  },
-  "9001": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "173": {
-    "next": [
-      {
-        "id": 35,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 20
-          },
-          {
-            "type": "sleepTime",
-            "hours": 50
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
-  },
-  "35": {
-    "next": [
-      {
-        "id": 36,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 80
-          },
-          {
-            "type": "item",
-            "item": 27
-          }
-        ]
-      }
-    ],
-    "stage": 2,
-    "previous": 173
-  },
-  "36": {
-    "next": [],
-    "stage": 3,
-    "previous": 35
-  },
-  "439": {
-    "next": [
-      {
-        "id": 122,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 40
-          },
-          {
-            "type": "level",
-            "level": 12
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
-  },
-  "122": {
-    "next": [],
-    "stage": 2,
-    "previous": 439
-  },
-  "115": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "132": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "214": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "359": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "302": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
-  "127": {
-    "next": [],
-    "stage": 1,
-    "previous": null
-  },
   "1": {
     "next": [
       {
@@ -288,12 +134,12 @@
         "id": 11,
         "conditions": [
           {
-            "type": "level",
-            "level": 5
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 5
           }
         ]
       }
@@ -355,12 +201,12 @@
         "id": 24,
         "conditions": [
           {
-            "type": "level",
-            "level": 17
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 17
           }
         ]
       }
@@ -372,25 +218,6 @@
     "next": [],
     "stage": 2,
     "previous": 23
-  },
-  "172": {
-    "next": [
-      {
-        "id": 25,
-        "conditions": [
-          {
-            "type": "sleepTime",
-            "hours": 50
-          },
-          {
-            "type": "candy",
-            "count": 20
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
   },
   "25": {
     "next": [
@@ -416,24 +243,29 @@
     "stage": 3,
     "previous": 25
   },
-  "174": {
+  "35": {
     "next": [
       {
-        "id": 39,
+        "id": 36,
         "conditions": [
           {
-            "type": "sleepTime",
-            "hours": 50
+            "type": "candy",
+            "count": 80
           },
           {
-            "type": "candy",
-            "count": 20
+            "type": "item",
+            "item": 27
           }
         ]
       }
     ],
-    "stage": 1,
-    "previous": null
+    "stage": 2,
+    "previous": 173
+  },
+  "36": {
+    "next": [],
+    "stage": 3,
+    "previous": 35
   },
   "39": {
     "next": [
@@ -441,12 +273,12 @@
         "id": 40,
         "conditions": [
           {
-            "type": "item",
-            "item": 27
-          },
-          {
             "type": "candy",
             "count": 80
+          },
+          {
+            "type": "item",
+            "item": 27
           }
         ]
       }
@@ -489,12 +321,12 @@
         "id": 53,
         "conditions": [
           {
-            "type": "level",
-            "level": 21
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 21
           }
         ]
       }
@@ -513,12 +345,12 @@
         "id": 55,
         "conditions": [
           {
-            "type": "level",
-            "level": 25
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 25
           }
         ]
       }
@@ -537,12 +369,12 @@
         "id": 57,
         "conditions": [
           {
-            "type": "level",
-            "level": 21
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 21
           }
         ]
       }
@@ -561,12 +393,12 @@
         "id": 59,
         "conditions": [
           {
-            "type": "item",
-            "item": 22
-          },
-          {
             "type": "candy",
             "count": 80
+          },
+          {
+            "type": "item",
+            "item": 22
           }
         ]
       }
@@ -585,12 +417,12 @@
         "id": 70,
         "conditions": [
           {
-            "type": "level",
-            "level": 16
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 16
           }
         ]
       }
@@ -665,28 +497,18 @@
     "stage": 3,
     "previous": 75
   },
-  "80": {
-    "next": [],
-    "stage": 2,
-    "previous": 79
-  },
-  "199": {
-    "next": [],
-    "stage": 2,
-    "previous": 79
-  },
   "79": {
     "next": [
       {
         "id": 80,
         "conditions": [
           {
-            "type": "level",
-            "level": 28
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 28
           }
         ]
       },
@@ -694,12 +516,12 @@
         "id": 199,
         "conditions": [
           {
-            "type": "item",
-            "item": 21
-          },
-          {
             "type": "candy",
             "count": 80
+          },
+          {
+            "type": "item",
+            "item": 21
           },
           {
             "type": "item",
@@ -710,6 +532,11 @@
     ],
     "stage": 1,
     "previous": null
+  },
+  "80": {
+    "next": [],
+    "stage": 2,
+    "previous": 79
   },
   "81": {
     "next": [
@@ -748,11 +575,6 @@
     ],
     "stage": 2,
     "previous": 81
-  },
-  "462": {
-    "next": [],
-    "stage": 3,
-    "previous": 82
   },
   "84": {
     "next": [
@@ -821,18 +643,41 @@
     "stage": 3,
     "previous": 93
   },
+  "95": {
+    "next": [
+      {
+        "id": 208,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 29
+          },
+          {
+            "type": "item",
+            "item": 21
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
   "104": {
     "next": [
       {
         "id": 105,
         "conditions": [
           {
-            "type": "level",
-            "level": 21
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 21
           }
         ]
       }
@@ -844,6 +689,146 @@
     "next": [],
     "stage": 2,
     "previous": 104
+  },
+  "115": {
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  "122": {
+    "next": [],
+    "stage": 2,
+    "previous": 439
+  },
+  "127": {
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  "132": {
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  "133": {
+    "next": [
+      {
+        "id": 134,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 23
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 24
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 22
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "timing",
+            "startHour": 6,
+            "endHour": 18
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          },
+          {
+            "type": "timing",
+            "startHour": 18,
+            "endHour": 6
+          }
+        ]
+      },
+      {
+        "id": 470,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 25
+          }
+        ]
+      },
+      {
+        "id": 471,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "item",
+            "item": 26
+          }
+        ]
+      },
+      {
+        "id": 700,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 80
+          },
+          {
+            "type": "sleepTime",
+            "hours": 150
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
   },
   "134": {
     "next": [],
@@ -859,151 +844,6 @@
     "next": [],
     "stage": 2,
     "previous": 133
-  },
-  "196": {
-    "next": [],
-    "stage": 2,
-    "previous": 133
-  },
-  "197": {
-    "next": [],
-    "stage": 2,
-    "previous": 133
-  },
-  "470": {
-    "next": [],
-    "stage": 2,
-    "previous": 133
-  },
-  "471": {
-    "next": [],
-    "stage": 2,
-    "previous": 133
-  },
-  "700": {
-    "next": [],
-    "stage": 2,
-    "previous": 133
-  },
-  "133": {
-    "next": [
-      {
-        "id": 134,
-        "conditions": [
-          {
-            "type": "item",
-            "item": 23
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 135,
-        "conditions": [
-          {
-            "type": "item",
-            "item": 24
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 136,
-        "conditions": [
-          {
-            "type": "item",
-            "item": 22
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 196,
-        "conditions": [
-          {
-            "type": "timing",
-            "startHour": 6,
-            "endHour": 18
-          },
-          {
-            "type": "sleepTime",
-            "hours": 150
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 197,
-        "conditions": [
-          {
-            "type": "timing",
-            "startHour": 18,
-            "endHour": 6
-          },
-          {
-            "type": "sleepTime",
-            "hours": 150
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 470,
-        "conditions": [
-          {
-            "type": "item",
-            "item": 25
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 471,
-        "conditions": [
-          {
-            "type": "item",
-            "item": 26
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      },
-      {
-        "id": 700,
-        "conditions": [
-          {
-            "type": "sleepTime",
-            "hours": 150
-          },
-          {
-            "type": "candy",
-            "count": 80
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
   },
   "152": {
     "next": [
@@ -1097,12 +937,12 @@
         "id": 159,
         "conditions": [
           {
-            "type": "level",
-            "level": 14
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 14
           }
         ]
       }
@@ -1116,12 +956,12 @@
         "id": 160,
         "conditions": [
           {
-            "type": "level",
-            "level": 23
-          },
-          {
             "type": "candy",
             "count": 80
+          },
+          {
+            "type": "level",
+            "level": 23
           }
         ]
       }
@@ -1134,18 +974,75 @@
     "stage": 3,
     "previous": 159
   },
+  "172": {
+    "next": [
+      {
+        "id": 25,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "sleepTime",
+            "hours": 50
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "173": {
+    "next": [
+      {
+        "id": 35,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "sleepTime",
+            "hours": 50
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "174": {
+    "next": [
+      {
+        "id": 39,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "sleepTime",
+            "hours": 50
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
   "175": {
     "next": [
       {
         "id": 176,
         "conditions": [
           {
-            "type": "sleepTime",
-            "hours": 50
-          },
-          {
             "type": "candy",
             "count": 20
+          },
+          {
+            "type": "sleepTime",
+            "hours": 50
           }
         ]
       }
@@ -1172,11 +1069,6 @@
     "stage": 2,
     "previous": 175
   },
-  "468": {
-    "next": [],
-    "stage": 3,
-    "previous": 176
-  },
   "179": {
     "next": [
       {
@@ -1202,12 +1094,12 @@
         "id": 181,
         "conditions": [
           {
-            "type": "level",
-            "level": 23
-          },
-          {
             "type": "candy",
             "count": 80
+          },
+          {
+            "type": "level",
+            "level": 23
           }
         ]
       }
@@ -1220,53 +1112,40 @@
     "stage": 3,
     "previous": 180
   },
-  "438": {
-    "next": [
-      {
-        "id": 185,
-        "conditions": [
-          {
-            "type": "candy",
-            "count": 20
-          },
-          {
-            "type": "level",
-            "level": 12
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
-  },
   "185": {
     "next": [],
     "stage": 2,
     "previous": 438
   },
-  "360": {
-    "next": [
-      {
-        "id": 202,
-        "conditions": [
-          {
-            "type": "level",
-            "level": 11
-          },
-          {
-            "type": "candy",
-            "count": 20
-          }
-        ]
-      }
-    ],
-    "stage": 1,
-    "previous": null
+  "196": {
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  "197": {
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  "199": {
+    "next": [],
+    "stage": 2,
+    "previous": 79
   },
   "202": {
     "next": [],
     "stage": 2,
     "previous": 360
+  },
+  "208": {
+    "next": [],
+    "stage": 2,
+    "previous": 95
+  },
+  "214": {
+    "next": [],
+    "stage": 1,
+    "previous": null
   },
   "228": {
     "next": [
@@ -1274,12 +1153,12 @@
         "id": 229,
         "conditions": [
           {
-            "type": "level",
-            "level": 18
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 18
           }
         ]
       }
@@ -1298,12 +1177,12 @@
         "id": 247,
         "conditions": [
           {
-            "type": "level",
-            "level": 23
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 23
           }
         ]
       }
@@ -1317,12 +1196,12 @@
         "id": 248,
         "conditions": [
           {
-            "type": "level",
-            "level": 41
-          },
-          {
             "type": "candy",
             "count": 100
+          },
+          {
+            "type": "level",
+            "level": 41
           }
         ]
       }
@@ -1341,12 +1220,12 @@
         "id": 288,
         "conditions": [
           {
-            "type": "level",
-            "level": 14
-          },
-          {
             "type": "candy",
             "count": 40
+          },
+          {
+            "type": "level",
+            "level": 14
           }
         ]
       }
@@ -1377,6 +1256,11 @@
     "next": [],
     "stage": 3,
     "previous": 288
+  },
+  "302": {
+    "next": [],
+    "stage": 1,
+    "previous": null
   },
   "316": {
     "next": [
@@ -1426,6 +1310,54 @@
     "stage": 2,
     "previous": 333
   },
+  "353": {
+    "next": [
+      {
+        "id": 354,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 28
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "354": {
+    "next": [],
+    "stage": 2,
+    "previous": 353
+  },
+  "359": {
+    "next": [],
+    "stage": 1,
+    "previous": null
+  },
+  "360": {
+    "next": [
+      {
+        "id": 202,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "level",
+            "level": 11
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
   "363": {
     "next": [
       {
@@ -1468,6 +1400,44 @@
     "next": [],
     "stage": 3,
     "previous": 364
+  },
+  "438": {
+    "next": [
+      {
+        "id": 185,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 20
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
+  },
+  "439": {
+    "next": [
+      {
+        "id": 122,
+        "conditions": [
+          {
+            "type": "candy",
+            "count": 40
+          },
+          {
+            "type": "level",
+            "level": 12
+          }
+        ]
+      }
+    ],
+    "stage": 1,
+    "previous": null
   },
   "447": {
     "next": [
@@ -1521,5 +1491,35 @@
     "next": [],
     "stage": 2,
     "previous": 453
+  },
+  "462": {
+    "next": [],
+    "stage": 3,
+    "previous": 82
+  },
+  "468": {
+    "next": [],
+    "stage": 3,
+    "previous": 176
+  },
+  "470": {
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  "471": {
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  "700": {
+    "next": [],
+    "stage": 2,
+    "previous": 133
+  },
+  "9001": {
+    "next": [],
+    "stage": 1,
+    "previous": null
   }
 }
