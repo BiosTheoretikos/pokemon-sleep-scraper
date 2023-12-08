@@ -1,6 +1,7 @@
 from pandas import DataFrame, Series
 
 from scrape_db.module.item.evolution import get_evolution_item_df
+from scrape_db.module.pokemon.const import POKEMON_ID_COLUMN
 from scrape_db.utils.module import start_export_module
 
 _CONDITION_PERIOD_OF_TIME_MAP = {
@@ -79,7 +80,7 @@ def get_pokemon_evolution_chain(
     evo_chain = {}
     with start_export_module("Pokemon (Evolution Chain)"):
         # Using `image_id` as it follows Pokedex ID, referencable for translations, and unique across costumes
-        pokemon_id_map = df_pokemon[["id", "image_id"]].set_index("id").to_dict()["image_id"]
+        pokemon_id_map = df_pokemon[["id", POKEMON_ID_COLUMN]].set_index("id").to_dict()[POKEMON_ID_COLUMN]
         pokedex_ids = set(pokemon_id_map.values())
 
         # Check for ID uniqueness
