@@ -64,6 +64,7 @@ def main():
             {
                 "data": rp_model_data.to_dict("records"),
                 "lastUpdated": time.time(),
+                "dataCount": int(rp_model_data["dataCount"].sum()),
             },
             f_export,
             indent=2,
