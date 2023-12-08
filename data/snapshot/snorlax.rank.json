@@ -1,0 +1,1502 @@
+[
+  {
+    "mapId": 1,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 3118
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 7171
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 11693
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 17149
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 23385
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 31492
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 41314
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 53006
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 65634
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 79197
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 93540
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 109130
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 125032
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 156121
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 187832
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 220177
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 253169
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 286821
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 321146
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 356158
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 391870
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 428296
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 465451
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 532707
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 601308
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 742056
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 885619
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1029700
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1199506
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1486800
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 1795052
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2165541
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 2604280
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 3245795
+      }
+    ]
+  },
+  {
+    "mapId": 2,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 4822
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 11090
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 18082
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 26520
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 36164
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 48700
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 63889
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 81971
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 101499
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 122474
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 144654
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 168763
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 195283
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 224455
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 256544
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 291842
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 330670
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 373381
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 420363
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 472043
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 528891
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 591424
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 660210
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 735875
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 819107
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 910662
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 1018462
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1184155
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1379432
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1709820
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 2064310
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2490372
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 2994922
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 3732664
+      }
+    ]
+  },
+  {
+    "mapId": 3,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 6885
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 15835
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 25817
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 37865
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 51635
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 69534
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 91221
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 117038
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 144921
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 174869
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 206538
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 240961
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 278826
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 320478
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 366295
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 416694
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 472133
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 533116
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 600197
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 673986
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 755154
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 844439
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 942653
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1050688
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 1169527
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 1300250
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 1444045
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1602220
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1776213
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1967605
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 2333568
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2815203
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 3385564
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 4219534
+      }
+    ]
+  },
+  {
+    "mapId": 4,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 10486
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 24118
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 39323
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 57673
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 78645
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 105909
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 138940
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 178262
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 220730
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 266344
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 314580
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 367010
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 424683
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 488123
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 557907
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 634669
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 719107
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 811989
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 914159
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1026546
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1150172
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 1286161
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 1435749
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1600296
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 1781298
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 1980400
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 2199412
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 2440325
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 2705329
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 2996833
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 3317487
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 3670206
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4058197
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 4706403
+      }
+    ]
+  },
+  {
+    "mapId": 5,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 14702
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 33814
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 55131
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 80859
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 110262
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 148486
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 194796
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 249927
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 309469
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 373421
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 441048
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 514556
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 593210
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 677370
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 767421
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 863776
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 966876
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 1077193
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 1195232
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1321534
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1456677
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 1601280
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 1756005
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1921561
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 2098706
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 2288251
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 2491064
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 2708074
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 2940275
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 3188730
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 3454577
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 3739033
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4166848
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 5193272
+      }
+    ]
+  },
+  {
+    "mapId": 6,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 21202
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 48764
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 79506
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 116609
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 159012
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 214136
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 280921
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 360427
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 446294
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 538521
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 636048
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 742056
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 853364
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 970237
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 1092954
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 1221807
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 1357103
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 1499164
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 1648328
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1804950
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1969403
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 2142079
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 2323389
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 2513765
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 2713660
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 2923550
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 3143935
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 3375339
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 3618313
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 3873436
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 4141315
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 4422588
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4717925
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 5680141
+      }
+    ]
+  }
+]
