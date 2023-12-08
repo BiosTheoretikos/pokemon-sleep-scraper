@@ -1,0 +1,432 @@
+[
+  {
+    "pokemonId": 1,
+    "style": 3,
+    "rewards": {
+      "exp": 468,
+      "shards": 988,
+      "candy": 7
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 2,
+    "style": 3,
+    "rewards": {
+      "exp": 1043,
+      "shards": 2205,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 3,
+    "style": 3,
+    "rewards": {
+      "exp": 3214,
+      "shards": 5786,
+      "candy": 12
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 11,
+    "style": 3,
+    "rewards": {
+      "exp": 693,
+      "shards": 748,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 26,
+    "style": 3,
+    "rewards": {
+      "exp": 2018,
+      "shards": 5227,
+      "candy": 12
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 52,
+    "style": 3,
+    "rewards": {
+      "exp": 392,
+      "shards": 828,
+      "candy": 7
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 53,
+    "style": 3,
+    "rewards": {
+      "exp": 1043,
+      "shards": 2205,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 59,
+    "style": 1,
+    "rewards": {
+      "exp": 666,
+      "shards": 1199,
+      "candy": 7
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 59,
+    "style": 2,
+    "rewards": {
+      "exp": 1425,
+      "shards": 2565,
+      "candy": 9
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 59,
+    "style": 3,
+    "rewards": {
+      "exp": 3516,
+      "shards": 6330,
+      "candy": 11
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 59,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 4862,
+      "shards": 8751,
+      "candy": 12
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 71,
+    "style": 3,
+    "rewards": {
+      "exp": 2461,
+      "shards": 4430,
+      "candy": 12
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 84,
+    "style": 3,
+    "rewards": {
+      "exp": 252,
+      "shards": 757,
+      "candy": 7
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 85,
+    "style": 3,
+    "rewards": {
+      "exp": 650,
+      "shards": 1683,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 132,
+    "style": 10,
+    "rewards": {
+      "exp": 2325,
+      "shards": 4185,
+      "candy": 11
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 132,
+    "style": 11,
+    "rewards": {
+      "exp": 2325,
+      "shards": 4185,
+      "candy": 11
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 136,
+    "style": 2,
+    "rewards": {
+      "exp": 996,
+      "shards": 2581,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 136,
+    "style": 3,
+    "rewards": {
+      "exp": 2479,
+      "shards": 6422,
+      "candy": 11
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 136,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 3406,
+      "shards": 8822,
+      "candy": 12
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 153,
+    "style": 1,
+    "rewards": {
+      "exp": 116,
+      "shards": 245,
+      "candy": 5
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 153,
+    "style": 2,
+    "rewards": {
+      "exp": 318,
+      "shards": 673,
+      "candy": 7
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 153,
+    "style": 3,
+    "rewards": {
+      "exp": 1043,
+      "shards": 2205,
+      "candy": 9
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 153,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 1504,
+      "shards": 3178,
+      "candy": 10
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 154,
+    "style": 1,
+    "rewards": {
+      "exp": 574,
+      "shards": 1033,
+      "candy": 8
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 154,
+    "style": 2,
+    "rewards": {
+      "exp": 1289,
+      "shards": 2321,
+      "candy": 10
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 154,
+    "style": 3,
+    "rewards": {
+      "exp": 3214,
+      "shards": 5786,
+      "candy": 12
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 154,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 4379,
+      "shards": 7882,
+      "candy": 13
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 156,
+    "style": 1,
+    "rewards": {
+      "exp": 116,
+      "shards": 245,
+      "candy": 5
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 156,
+    "style": 2,
+    "rewards": {
+      "exp": 318,
+      "shards": 673,
+      "candy": 7
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 156,
+    "style": 3,
+    "rewards": {
+      "exp": 1043,
+      "shards": 2205,
+      "candy": 9
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 156,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 1504,
+      "shards": 3178,
+      "candy": 10
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 157,
+    "style": 1,
+    "rewards": {
+      "exp": 528,
+      "shards": 1116,
+      "candy": 8
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 157,
+    "style": 2,
+    "rewards": {
+      "exp": 1186,
+      "shards": 2506,
+      "candy": 10
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 157,
+    "style": 3,
+    "rewards": {
+      "exp": 2957,
+      "shards": 6248,
+      "candy": 12
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 157,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 4029,
+      "shards": 8513,
+      "candy": 13
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 172,
+    "style": 3,
+    "rewards": {
+      "exp": 252,
+      "shards": 757,
+      "candy": 7
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 229,
+    "style": 1,
+    "rewards": {
+      "exp": 144,
+      "shards": 303,
+      "candy": 5
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 229,
+    "style": 2,
+    "rewards": {
+      "exp": 375,
+      "shards": 792,
+      "candy": 7
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 229,
+    "style": 3,
+    "rewards": {
+      "exp": 1204,
+      "shards": 2544,
+      "candy": 9
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 229,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 1662,
+      "shards": 3512,
+      "candy": 10
+    },
+    "unreleased": true
+  },
+  {
+    "pokemonId": 470,
+    "style": 2,
+    "rewards": {
+      "exp": 996,
+      "shards": 2581,
+      "candy": 9
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 470,
+    "style": 3,
+    "rewards": {
+      "exp": 2479,
+      "shards": 6422,
+      "candy": 11
+    },
+    "unreleased": false
+  },
+  {
+    "pokemonId": 470,
+    "style": "onSnorlax",
+    "rewards": {
+      "exp": 3406,
+      "shards": 8822,
+      "candy": 12
+    },
+    "unreleased": false
+  }
+]

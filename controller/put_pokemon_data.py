@@ -112,8 +112,16 @@ def main():
                 "styles": sleep_styles
             })
 
+    with open(f"data/scraped/snapshot/pokemon_info.json", "w+", encoding="utf-8", newline="\n") as f:
+        json.dump(data_info, f, indent=2, ensure_ascii=False)
     col_info.insert_many(data_info)
+
+    with open(f"data/scraped/snapshot/sleep_style.json", "w+", encoding="utf-8", newline="\n") as f:
+        json.dump(data_sleep_style, f, indent=2, ensure_ascii=False)
     col_sleep_style.insert_many(data_sleep_style)
+
+    with open(f"data/scraped/snapshot/sleep_style_no_map.json", "w+", encoding="utf-8", newline="\n") as f:
+        json.dump(data_sleep_style_no_map, f, indent=2, ensure_ascii=False)
     col_sleep_style_no_map.insert_many(data_sleep_style_no_map)
 
 

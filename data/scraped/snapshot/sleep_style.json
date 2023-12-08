@@ -1,0 +1,10586 @@
+[
+  {
+    "pokemonId": 1,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 2,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 3,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 574,
+          "shards": 1033,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 1289,
+          "shards": 2321,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 4379,
+          "shards": 7882,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 4,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 16,
+          "shards": 42,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 104,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 629,
+          "shards": 1629,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 4,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 16,
+          "shards": 42,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 104,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 417,
+          "shards": 1080,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 629,
+          "shards": 1629,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 5,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 5,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 1043,
+          "shards": 2205,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 6,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 528,
+          "shards": 1116,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 1186,
+          "shards": 2506,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 4029,
+          "shards": 8513,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 6,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 528,
+          "shards": 1116,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 1186,
+          "shards": 2506,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 2957,
+          "shards": 6248,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 4029,
+          "shards": 8513,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 7,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 7,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 468,
+          "shards": 988,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 8,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 8,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1043,
+          "shards": 2205,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 9,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 528,
+          "shards": 1116,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 1186,
+          "shards": 2506,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 4029,
+          "shards": 8513,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 9,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 528,
+          "shards": 1116,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1186,
+          "shards": 2506,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 2957,
+          "shards": 6248,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 4029,
+          "shards": 8513,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 10,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 10,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 421,
+          "shards": 454,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 11,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 29,
+          "shards": 31,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 176,
+          "shards": 191,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1019,
+          "shards": 1100,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 12,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 397,
+          "shards": 715,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 933,
+          "shards": 1679,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 2461,
+          "shards": 4430,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 3354,
+          "shards": 6038,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 19,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 19,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 252,
+          "shards": 757,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 19,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 252,
+          "shards": 757,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 19,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 252,
+          "shards": 757,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 20,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 60,
+          "shards": 155,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 481,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 970,
+          "shards": 2512,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 20,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 60,
+          "shards": 155,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 481,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 650,
+          "shards": 1683,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 970,
+          "shards": 2512,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 20,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 60,
+          "shards": 155,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 481,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 650,
+          "shards": 1683,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 970,
+          "shards": 2512,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 20,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 60,
+          "shards": 155,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 481,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 650,
+          "shards": 1683,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 970,
+          "shards": 2512,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 23,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 23,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 276,
+          "shards": 714,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 23,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 276,
+          "shards": 714,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 24,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 284,
+          "shards": 735,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1340,
+          "shards": 3472,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 24,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 284,
+          "shards": 735,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 930,
+          "shards": 2409,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1340,
+          "shards": 3472,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 24,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 284,
+          "shards": 735,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 930,
+          "shards": 2409,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1340,
+          "shards": 3472,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 25,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 502,
+          "shards": 1505,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 25,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 320,
+          "shards": 958,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 502,
+          "shards": 1505,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 9001,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 6
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 26,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 326,
+          "shards": 844,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "rewards": {
+          "exp": 765,
+          "shards": 1981,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 2750,
+          "shards": 7125,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 35,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 49,
+          "shards": 53,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 218,
+          "shards": 236,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1182,
+          "shards": 1277,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 35,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 49,
+          "shards": 53,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 218,
+          "shards": 236,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 811,
+          "shards": 876,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1182,
+          "shards": 1277,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 35,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 49,
+          "shards": 53,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 218,
+          "shards": 236,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 811,
+          "shards": 876,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1182,
+          "shards": 1277,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 35,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 49,
+          "shards": 53,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 218,
+          "shards": 236,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 811,
+          "shards": 876,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1182,
+          "shards": 1277,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 36,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 677,
+          "shards": 847,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 1521,
+          "shards": 1903,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "rewards": {
+          "exp": 5168,
+          "shards": 6464,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 36,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 677,
+          "shards": 847,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1521,
+          "shards": 1903,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 3793,
+          "shards": 4744,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 5168,
+          "shards": 6464,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 36,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 677,
+          "shards": 847,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1521,
+          "shards": 1903,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 3793,
+          "shards": 4744,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 5168,
+          "shards": 6464,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 36,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 677,
+          "shards": 847,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1521,
+          "shards": 1903,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "rewards": {
+          "exp": 3793,
+          "shards": 4744,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 5168,
+          "shards": 6464,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 39,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 24,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 153,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 900,
+          "shards": 972,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 39,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 24,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 153,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 582,
+          "shards": 629,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 900,
+          "shards": 972,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 39,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 24,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 153,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 582,
+          "shards": 629,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 900,
+          "shards": 972,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 39,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 24,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 153,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 582,
+          "shards": 629,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 900,
+          "shards": 972,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 40,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 253,
+          "shards": 273,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 659,
+          "shards": 712,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 2719,
+          "shards": 2937,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 40,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 253,
+          "shards": 273,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 659,
+          "shards": 712,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 1952,
+          "shards": 2108,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 2719,
+          "shards": 2937,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 40,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 253,
+          "shards": 273,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 659,
+          "shards": 712,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "rewards": {
+          "exp": 1952,
+          "shards": 2108,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 2719,
+          "shards": 2937,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 50,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 50,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 252,
+          "shards": 757,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 50,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 252,
+          "shards": 757,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 51,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 284,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 260,
+          "shards": 778,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 51,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 284,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 260,
+          "shards": 778,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 851,
+          "shards": 2552,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 52,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 53,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 54,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 71,
+          "shards": 127,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 517,
+          "shards": 930,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 54,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 71,
+          "shards": 127,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 337,
+          "shards": 605,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 517,
+          "shards": 930,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 54,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 71,
+          "shards": 127,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 337,
+          "shards": 605,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 517,
+          "shards": 930,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 55,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1134,
+          "shards": 2042,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 56,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 76,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 504,
+          "shards": 1305,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 56,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 76,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 324,
+          "shards": 840,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 504,
+          "shards": 1305,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 56,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 76,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 324,
+          "shards": 840,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 504,
+          "shards": 1305,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 57,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 57,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1043,
+          "shards": 2205,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 57,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 245,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 318,
+          "shards": 673,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1043,
+          "shards": 2205,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1504,
+          "shards": 3178,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 58,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 669,
+          "shards": 1204,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 58,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 426,
+          "shards": 767,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 669,
+          "shards": 1204,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 58,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 103,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 426,
+          "shards": 767,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 669,
+          "shards": 1204,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 69,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 82,
+          "shards": 147,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 564,
+          "shards": 1015,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 69,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 82,
+          "shards": 147,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 366,
+          "shards": 659,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 564,
+          "shards": 1015,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 69,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 82,
+          "shards": 147,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 366,
+          "shards": 659,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 564,
+          "shards": 1015,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 70,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 73,
+          "shards": 131,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 226,
+          "shards": 408,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1183,
+          "shards": 2129,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 70,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 73,
+          "shards": 131,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 226,
+          "shards": 408,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 792,
+          "shards": 1426,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1183,
+          "shards": 2129,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 71,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 397,
+          "shards": 715,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 933,
+          "shards": 1679,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 3354,
+          "shards": 6038,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 74,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 74,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 276,
+          "shards": 714,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 74,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 19,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 58,
+          "shards": 149,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 276,
+          "shards": 714,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 424,
+          "shards": 1098,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 75,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 67,
+          "shards": 141,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 208,
+          "shards": 440,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1088,
+          "shards": 2299,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 75,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 67,
+          "shards": 141,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 208,
+          "shards": 440,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 729,
+          "shards": 1540,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1088,
+          "shards": 2299,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 76,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 574,
+          "shards": 1033,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1289,
+          "shards": 2321,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 3214,
+          "shards": 5786,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 4379,
+          "shards": 7882,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 79,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 79,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 494,
+          "shards": 534,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 79,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 494,
+          "shards": 534,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 80,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 136,
+          "shards": 209,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 374,
+          "shards": 573,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1765,
+          "shards": 2707,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 80,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 136,
+          "shards": 209,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 374,
+          "shards": 573,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1225,
+          "shards": 1878,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1765,
+          "shards": 2707,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 80,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 136,
+          "shards": 209,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 374,
+          "shards": 573,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1225,
+          "shards": 1878,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1765,
+          "shards": 2707,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 81,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 61,
+          "shards": 183,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 275,
+          "shards": 824,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 82,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 284,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 260,
+          "shards": 778,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 851,
+          "shards": 2552,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 84,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 85,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 60,
+          "shards": 155,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 481,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 970,
+          "shards": 2512,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 92,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 70,
+          "shards": 209,
+          "candy": 5
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 92,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 70,
+          "shards": 209,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 297,
+          "shards": 890,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 92,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 70,
+          "shards": 209,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 297,
+          "shards": 890,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 93,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 62,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 184,
+          "shards": 552,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 93,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 62,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 184,
+          "shards": 552,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 639,
+          "shards": 1918,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 93,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 62,
+          "shards": 186,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 184,
+          "shards": 552,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 639,
+          "shards": 1918,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 94,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 431,
+          "shards": 1291,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 967,
+          "shards": 2901,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 2411,
+          "shards": 7232,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 3284,
+          "shards": 9853,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 95,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 250,
+          "shards": 749,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 606,
+          "shards": 1820,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1678,
+          "shards": 5034,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 104,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 104,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 396,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 104,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 396,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 105,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 271,
+          "shards": 572,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1335,
+          "shards": 2822,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 105,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 271,
+          "shards": 572,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 922,
+          "shards": 1948,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1335,
+          "shards": 2822,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 105,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 197,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 271,
+          "shards": 572,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 922,
+          "shards": 1948,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1335,
+          "shards": 2822,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 115,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 416,
+          "shards": 449,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1011,
+          "shards": 1092,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 3742,
+          "shards": 4041,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 115,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 416,
+          "shards": 449,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1011,
+          "shards": 1092,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 2797,
+          "shards": 3020,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 3742,
+          "shards": 4041,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 122,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 284,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 260,
+          "shards": 778,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 851,
+          "shards": 2552,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1226,
+          "shards": 3678,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 127,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 235,
+          "shards": 608,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1472,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2239,
+          "shards": 5799,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 127,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 235,
+          "shards": 608,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1472,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1608,
+          "shards": 4166,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 2239,
+          "shards": 5799,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 132,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 219,
+          "shards": 394,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1023,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 1628,
+          "shards": 2931,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      },
+      {
+        "style": 5,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 132,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 219,
+          "shards": 394,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1023,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1628,
+          "shards": 2931,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      },
+      {
+        "style": 6,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 132,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 219,
+          "shards": 394,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1023,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      },
+      {
+        "style": 7,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 132,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 219,
+          "shards": 394,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 568,
+          "shards": 1023,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      },
+      {
+        "style": 8,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 2325,
+          "shards": 4185,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 133,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 133,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 508,
+          "shards": 915,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 133,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 508,
+          "shards": 915,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 133,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 508,
+          "shards": 915,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 134,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 675,
+          "shards": 729,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1519,
+          "shards": 1641,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 3779,
+          "shards": 4082,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 5192,
+          "shards": 5607,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 135,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "rewards": {
+          "exp": 996,
+          "shards": 2581,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "rewards": {
+          "exp": 2479,
+          "shards": 6422,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 3406,
+          "shards": 8822,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 136,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 152,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 152,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 468,
+          "shards": 988,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 155,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 16,
+          "shards": 42,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 104,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 629,
+          "shards": 1629,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 155,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 16,
+          "shards": 42,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 104,
+          "shards": 268,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 417,
+          "shards": 1080,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 629,
+          "shards": 1629,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 158,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 158,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 20,
+          "shards": 36,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 127,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 508,
+          "shards": 915,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 767,
+          "shards": 1380,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 159,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1134,
+          "shards": 2042,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 160,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 574,
+          "shards": 1033,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1289,
+          "shards": 2321,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 3214,
+          "shards": 5786,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 4379,
+          "shards": 7882,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 172,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 53,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 388,
+          "shards": 1163,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 173,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 25,
+          "shards": 27,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 171,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 959,
+          "shards": 1035,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 173,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 25,
+          "shards": 27,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 171,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 635,
+          "shards": 686,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 959,
+          "shards": 1035,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 173,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 25,
+          "shards": 27,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 171,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 635,
+          "shards": 686,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 959,
+          "shards": 1035,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 173,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 25,
+          "shards": 27,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 171,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 635,
+          "shards": 686,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 959,
+          "shards": 1035,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 174,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 174,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 421,
+          "shards": 454,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 174,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 421,
+          "shards": 454,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 175,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 175,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 468,
+          "shards": 988,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 175,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 18,
+          "shards": 39,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 246,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 468,
+          "shards": 988,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 1491,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 176,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 76,
+          "shards": 161,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 226,
+          "shards": 477,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1157,
+          "shards": 2446,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 176,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 76,
+          "shards": 161,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 226,
+          "shards": 477,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 784,
+          "shards": 1657,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1157,
+          "shards": 2446,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 179,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 13,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 83,
+          "shards": 104,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 610,
+          "shards": 763,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 179,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 13,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 83,
+          "shards": 104,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 397,
+          "shards": 496,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 610,
+          "shards": 763,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 180,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 79,
+          "shards": 121,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 244,
+          "shards": 375,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1277,
+          "shards": 1958,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 180,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 79,
+          "shards": 121,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 244,
+          "shards": 375,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 856,
+          "shards": 1312,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1277,
+          "shards": 1958,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 181,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 397,
+          "shards": 715,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 933,
+          "shards": 1679,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 2461,
+          "shards": 4430,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 3354,
+          "shards": 6038,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 185,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 41,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 254,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 815,
+          "shards": 1467,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 185,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 23,
+          "shards": 41,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 141,
+          "shards": 254,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 554,
+          "shards": 997,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 815,
+          "shards": 1467,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 196,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 996,
+          "shards": 2581,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 2479,
+          "shards": 6422,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 3406,
+          "shards": 8822,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 197,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 583,
+          "shards": 894,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 1312,
+          "shards": 2012,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 3265,
+          "shards": 5007,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 4486,
+          "shards": 6878,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 199,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 719,
+          "shards": 1103,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1539,
+          "shards": 2360,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 3797,
+          "shards": 5823,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 5251,
+          "shards": 8051,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 202,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 29,
+          "shards": 31,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 176,
+          "shards": 191,
+          "candy": 6
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1019,
+          "shards": 1100,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 202,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 29,
+          "shards": 31,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 176,
+          "shards": 191,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 693,
+          "shards": 748,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1019,
+          "shards": 1100,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 202,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 29,
+          "shards": 31,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 176,
+          "shards": 191,
+          "candy": 6
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 693,
+          "shards": 748,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1019,
+          "shards": 1100,
+          "candy": 9
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 208,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1170,
+          "shards": 2473,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 2291,
+          "shards": 4840,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 5463,
+          "shards": 11543,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 214,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 286,
+          "shards": 515,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 693,
+          "shards": 1248,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2731,
+          "shards": 4915,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 214,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 286,
+          "shards": 515,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 693,
+          "shards": 1248,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1961,
+          "shards": 3530,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 2731,
+          "shards": 4915,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 228,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 228,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 392,
+          "shards": 828,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 246,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 30,
+          "shards": 54,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 157,
+          "shards": 282,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 879,
+          "shards": 1582,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 246,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 30,
+          "shards": 54,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 157,
+          "shards": 282,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 603,
+          "shards": 1085,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 879,
+          "shards": 1582,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 247,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 156,
+          "shards": 281,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 408,
+          "shards": 734,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1308,
+          "shards": 2355,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1806,
+          "shards": 3252,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 248,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1432,
+          "shards": 2578,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 2812,
+          "shards": 5062,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "rewards": {
+          "exp": 6660,
+          "shards": 11987,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 8825,
+          "shards": 15886,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 287,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 287,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 494,
+          "shards": 534,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 288,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 122,
+          "shards": 187,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 531,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1664,
+          "shards": 2551,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 288,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 122,
+          "shards": 187,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 531,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1152,
+          "shards": 1765,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1664,
+          "shards": 2551,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 289,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 1108,
+          "shards": 1196,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 2292,
+          "shards": 2475,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 7331,
+          "shards": 7917,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 289,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1108,
+          "shards": 1196,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 2292,
+          "shards": 2475,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "rewards": {
+          "exp": 5478,
+          "shards": 5916,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 7331,
+          "shards": 7917,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 302,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 180,
+          "shards": 465,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 466,
+          "shards": 1207,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1335,
+          "shards": 3459,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1906,
+          "shards": 4938,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 316,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 102,
+          "shards": 110,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 761,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 316,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 102,
+          "shards": 110,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 458,
+          "shards": 494,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 761,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 316,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 102,
+          "shards": 110,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 458,
+          "shards": 494,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 761,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 316,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 102,
+          "shards": 110,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 458,
+          "shards": 494,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 705,
+          "shards": 761,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 317,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 170,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 433,
+          "shards": 467,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2043,
+          "shards": 2207,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 317,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 170,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 433,
+          "shards": 467,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1418,
+          "shards": 1531,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2043,
+          "shards": 2207,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 317,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 170,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 433,
+          "shards": 467,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1418,
+          "shards": 1531,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2043,
+          "shards": 2207,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 333,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 75,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 519,
+          "shards": 1097,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 333,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 75,
+          "shards": 158,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 337,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 519,
+          "shards": 1097,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 334,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 170,
+          "shards": 306,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 445,
+          "shards": 801,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1389,
+          "shards": 2500,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1901,
+          "shards": 3422,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 353,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 86,
+          "shards": 180,
+          "candy": 5
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 353,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 86,
+          "shards": 180,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 364,
+          "shards": 769,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 354,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 393,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 485,
+          "shards": 1026,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 2001,
+          "shards": 4230,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 354,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 186,
+          "shards": 393,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 485,
+          "shards": 1026,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 1437,
+          "shards": 3036,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2001,
+          "shards": 4230,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 359,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 263,
+          "shards": 556,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 638,
+          "shards": 1347,
+          "candy": 8
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2512,
+          "shards": 5308,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 359,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 263,
+          "shards": 556,
+          "candy": 6
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 638,
+          "shards": 1347,
+          "candy": 8
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1804,
+          "shards": 3813,
+          "candy": 10
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 2512,
+          "shards": 5308,
+          "candy": 11
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 360,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 360,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 421,
+          "shards": 454,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 360,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 88,
+          "shards": 95,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 421,
+          "shards": 454,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 646,
+          "shards": 698,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 363,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 363,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 494,
+          "shards": 534,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 363,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 11,
+          "shards": 12,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 116,
+          "shards": 125,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 494,
+          "shards": 534,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 769,
+          "shards": 830,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 364,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 158,
+          "shards": 170,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 433,
+          "shards": 467,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1418,
+          "shards": 1531,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 2043,
+          "shards": 2207,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 365,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 468,
+          "shards": 586,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 1101,
+          "shards": 1377,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 2904,
+          "shards": 3633,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 3958,
+          "shards": 4951,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 438,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 71,
+          "shards": 127,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 517,
+          "shards": 930,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 438,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 71,
+          "shards": 127,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 337,
+          "shards": 605,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 517,
+          "shards": 930,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 439,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 320,
+          "shards": 958,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 502,
+          "shards": 1505,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 447,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 447,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 392,
+          "shards": 828,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 447,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 8,
+          "shards": 17,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 95,
+          "shards": 201,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 392,
+          "shards": 828,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1300,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 448,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 996,
+          "shards": 2581,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 2479,
+          "shards": 6422,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 3406,
+          "shards": 8822,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 453,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 453,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 396,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 453,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 396,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 453,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 9,
+          "shards": 16,
+          "candy": 3
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 93,
+          "shards": 167,
+          "candy": 5
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 396,
+          "shards": 712,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 615,
+          "shards": 1106,
+          "candy": 8
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 454,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 454,
+    "mapId": 2,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1134,
+          "shards": 2042,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 454,
+    "mapId": 3,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1134,
+          "shards": 2042,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 454,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 126,
+          "shards": 227,
+          "candy": 5
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "rewards": {
+          "exp": 346,
+          "shards": 623,
+          "candy": 7
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1134,
+          "shards": 2042,
+          "candy": 9
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 1634,
+          "shards": 2942,
+          "candy": 10
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 462,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 546,
+          "shards": 1415,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 1168,
+          "shards": 3026,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "rewards": {
+          "exp": 2883,
+          "shards": 7469,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 468,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "rewards": {
+          "exp": 722,
+          "shards": 1300,
+          "candy": 8
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 1500,
+          "shards": 2699,
+          "candy": 10
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "rewards": {
+          "exp": 3744,
+          "shards": 6739,
+          "candy": 12
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "rewards": {
+          "exp": 5119,
+          "shards": 9214,
+          "candy": 13
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 470,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 471,
+    "mapId": 4,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 443,
+          "shards": 1147,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "rewards": {
+          "exp": 996,
+          "shards": 2581,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "rewards": {
+          "exp": 2479,
+          "shards": 6422,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "rewards": {
+          "exp": 3406,
+          "shards": 8822,
+          "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 700,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 583,
+          "shards": 894,
+          "candy": 7
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "rewards": {
+          "exp": 1312,
+          "shards": 2012,
+          "candy": 9
+        }
+      },
+      {
+        "style": 3,
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "rewards": {
+          "exp": 3265,
+          "shards": 5007,
+          "candy": 11
+        }
+      },
+      {
+        "style": "onSnorlax",
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "rewards": {
+          "exp": 4486,
+          "shards": 6878,
+          "candy": 12
+        }
+      }
+    ]
+  }
+]
