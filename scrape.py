@@ -5,11 +5,8 @@ import sys
 SCRIPTS_SCRAPER = [
     "scrape/mainskill.py",
     "scrape/meals.py",
-    "scrape/pokemon_by_incense.py",
     "scrape/pokemon_data.py",
     "scrape/pokemon_production.py",
-    "scrape/snorlax_reward.py",
-    "scrape/snorlax_ranking.py",
 ]
 
 SCRIPTS_UPDATE = [
@@ -18,7 +15,6 @@ SCRIPTS_UPDATE = [
     "controller/put_meal_data.py",
     "controller/put_pokemon_data.py",
     "controller/put_pokemon_production.py",
-    "controller/put_snorlax_data.py",
     "controller/put_ingredient_chain_data.py",
 ]
 
