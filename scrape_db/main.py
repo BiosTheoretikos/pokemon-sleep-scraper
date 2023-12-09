@@ -10,7 +10,7 @@ from scrape_db.module.xp_value import export_xp_value
 from scrape_db.utils.log import init_logging
 
 
-def scrape():
+def scrape_db():
     init_logging()
 
     export_pokemon_info()
