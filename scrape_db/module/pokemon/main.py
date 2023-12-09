@@ -55,7 +55,8 @@ def export_pokemon_info():
                 "ingredientChain": ingredient_chain[pokemon_id],
                 "skill": main_skill_id_map[row_stats["main_skill_id"]],
                 "evolution": evo_chain[pokemon_id],
-                "expType": row["exp_table_type"]
+                "expType": row["exp_table_type"],
+                "eventType": row["event_type_name"]
             })
 
         with export_to_mongo("pokemon", "info", sorted(data_entries, key=lambda item: item["id"])) as col:

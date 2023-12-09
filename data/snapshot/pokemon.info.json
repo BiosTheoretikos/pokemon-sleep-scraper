@@ -17,8 +17,8 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 3,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -38,7 +38,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 2,
@@ -58,8 +59,8 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 3,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -79,7 +80,8 @@
       "stage": 2,
       "previous": 1
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 3,
@@ -99,14 +101,15 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 3,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 2
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 4,
@@ -126,8 +129,8 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 6,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -147,7 +150,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 5,
@@ -167,8 +171,8 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 6,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -188,7 +192,8 @@
       "stage": 2,
       "previous": 4
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 6,
@@ -208,14 +213,15 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 6,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 5
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 7,
@@ -235,8 +241,8 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 9,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -256,7 +262,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 8,
@@ -276,8 +283,8 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 9,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -297,7 +304,8 @@
       "stage": 2,
       "previous": 7
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 9,
@@ -317,14 +325,15 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 9,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 8
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 10,
@@ -344,8 +353,8 @@
       "id": 12,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 12,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -365,7 +374,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 11,
@@ -385,8 +395,8 @@
       "id": 12,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 12,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -406,7 +416,8 @@
       "stage": 2,
       "previous": 10
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 12,
@@ -426,14 +437,15 @@
       "id": 12,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 12,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 11
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 19,
@@ -453,8 +465,8 @@
       "id": 1,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 20,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -474,7 +486,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 20,
@@ -494,14 +507,15 @@
       "id": 1,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 20,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 19
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 23,
@@ -521,8 +535,8 @@
       "id": 8,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 24,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -542,7 +556,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 24,
@@ -562,14 +577,15 @@
       "id": 8,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 24,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 23
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 25,
@@ -589,8 +605,8 @@
       "id": 4,
       "quantity": 2
     },
-    "skill": 1,
     "ingredientChain": 26,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -602,7 +618,8 @@
             },
             {
               "type": "item",
-              "item": 24
+              "item": 24,
+              "count": 1
             }
           ]
         }
@@ -610,7 +627,8 @@
       "stage": 2,
       "previous": 172
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 26,
@@ -630,14 +648,15 @@
       "id": 4,
       "quantity": 2
     },
-    "skill": 1,
     "ingredientChain": 26,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 25
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 35,
@@ -657,8 +676,8 @@
       "id": 18,
       "quantity": 2
     },
-    "skill": 13,
     "ingredientChain": 173,
+    "skill": 13,
     "evolution": {
       "next": [
         {
@@ -670,7 +689,8 @@
             },
             {
               "type": "item",
-              "item": 27
+              "item": 27,
+              "count": 1
             }
           ]
         }
@@ -678,7 +698,8 @@
       "stage": 2,
       "previous": 173
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 36,
@@ -698,14 +719,15 @@
       "id": 18,
       "quantity": 2
     },
-    "skill": 13,
     "ingredientChain": 173,
+    "skill": 13,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 35
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 39,
@@ -725,8 +747,8 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 8,
     "ingredientChain": 40,
+    "skill": 8,
     "evolution": {
       "next": [
         {
@@ -738,7 +760,8 @@
             },
             {
               "type": "item",
-              "item": 27
+              "item": 27,
+              "count": 1
             }
           ]
         }
@@ -746,7 +769,8 @@
       "stage": 2,
       "previous": 174
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 40,
@@ -766,14 +790,15 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 8,
     "ingredientChain": 40,
+    "skill": 8,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 39
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 50,
@@ -793,8 +818,8 @@
       "id": 9,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 51,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -814,7 +839,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 51,
@@ -834,14 +860,15 @@
       "id": 9,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 51,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 50
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 52,
@@ -861,8 +888,8 @@
       "id": 1,
       "quantity": 1
     },
-    "skill": 3,
     "ingredientChain": 53,
+    "skill": 3,
     "evolution": {
       "next": [
         {
@@ -882,7 +909,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 53,
@@ -902,14 +930,15 @@
       "id": 1,
       "quantity": 1
     },
-    "skill": 3,
     "ingredientChain": 53,
+    "skill": 3,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 52
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 54,
@@ -929,8 +958,8 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 55,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -950,7 +979,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 55,
@@ -970,14 +1000,15 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 55,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 54
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 56,
@@ -997,8 +1028,8 @@
       "id": 7,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 57,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -1018,7 +1049,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 57,
@@ -1038,14 +1070,15 @@
       "id": 7,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 57,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 56
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 58,
@@ -1065,8 +1098,8 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 9,
     "ingredientChain": 59,
+    "skill": 9,
     "evolution": {
       "next": [
         {
@@ -1078,7 +1111,8 @@
             },
             {
               "type": "item",
-              "item": 22
+              "item": 22,
+              "count": 1
             }
           ]
         }
@@ -1086,7 +1120,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 59,
@@ -1106,14 +1141,15 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 9,
     "ingredientChain": 59,
+    "skill": 9,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 58
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 69,
@@ -1133,8 +1169,8 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 71,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -1154,7 +1190,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 70,
@@ -1174,8 +1211,8 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 71,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -1187,7 +1224,8 @@
             },
             {
               "type": "item",
-              "item": 25
+              "item": 25,
+              "count": 1
             }
           ]
         }
@@ -1195,7 +1233,8 @@
       "stage": 2,
       "previous": 69
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 71,
@@ -1215,14 +1254,15 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 71,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 70
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 74,
@@ -1242,8 +1282,8 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 76,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -1263,7 +1303,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 75,
@@ -1283,8 +1324,8 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 76,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -1296,7 +1337,8 @@
             },
             {
               "type": "item",
-              "item": 21
+              "item": 21,
+              "count": 1
             }
           ]
         }
@@ -1304,7 +1346,8 @@
       "stage": 2,
       "previous": 74
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 76,
@@ -1324,14 +1367,15 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 76,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 75
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 79,
@@ -1351,8 +1395,8 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 80,
+    "skill": 4,
     "evolution": {
       "next": [
         {
@@ -1377,11 +1421,13 @@
             },
             {
               "type": "item",
-              "item": 31
+              "item": 31,
+              "count": 1
             },
             {
               "type": "item",
-              "item": 21
+              "item": 21,
+              "count": 1
             }
           ]
         }
@@ -1389,7 +1435,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 80,
@@ -1409,14 +1456,15 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 80,
+    "skill": 4,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 79
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 81,
@@ -1436,8 +1484,8 @@
       "id": 17,
       "quantity": 1
     },
-    "skill": 11,
     "ingredientChain": 462,
+    "skill": 11,
     "evolution": {
       "next": [
         {
@@ -1457,7 +1505,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 82,
@@ -1477,8 +1526,8 @@
       "id": 17,
       "quantity": 1
     },
-    "skill": 11,
     "ingredientChain": 462,
+    "skill": 11,
     "evolution": {
       "next": [
         {
@@ -1490,7 +1539,8 @@
             },
             {
               "type": "item",
-              "item": 24
+              "item": 24,
+              "count": 1
             }
           ]
         }
@@ -1498,7 +1548,8 @@
       "stage": 2,
       "previous": 81
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 84,
@@ -1518,8 +1569,8 @@
       "id": 10,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 85,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -1539,7 +1590,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 85,
@@ -1559,14 +1611,15 @@
       "id": 10,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 85,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 84
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 92,
@@ -1586,8 +1639,8 @@
       "id": 14,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 94,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -1607,7 +1660,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 93,
@@ -1627,8 +1681,8 @@
       "id": 14,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 94,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -1640,7 +1694,8 @@
             },
             {
               "type": "item",
-              "item": 21
+              "item": 21,
+              "count": 1
             }
           ]
         }
@@ -1648,7 +1703,8 @@
       "stage": 2,
       "previous": 92
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 94,
@@ -1668,14 +1724,15 @@
       "id": 14,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 94,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 93
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 95,
@@ -1695,8 +1752,8 @@
       "id": 13,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 95,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -1708,11 +1765,13 @@
             },
             {
               "type": "item",
-              "item": 29
+              "item": 29,
+              "count": 1
             },
             {
               "type": "item",
-              "item": 21
+              "item": 21,
+              "count": 1
             }
           ]
         }
@@ -1720,7 +1779,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 104,
@@ -1740,8 +1800,8 @@
       "id": 9,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 105,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -1761,7 +1821,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 105,
@@ -1781,14 +1842,15 @@
       "id": 9,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 105,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 104
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 115,
@@ -1808,14 +1870,15 @@
       "id": 1,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 115,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 122,
@@ -1835,14 +1898,15 @@
       "id": 11,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 439,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 439
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 127,
@@ -1862,14 +1926,15 @@
       "id": 12,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 127,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 132,
@@ -1889,14 +1954,15 @@
       "id": 1,
       "quantity": 1
     },
-    "skill": 5,
     "ingredientChain": 132,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 133,
@@ -1916,8 +1982,8 @@
       "id": 1,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 133,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -1929,7 +1995,8 @@
             },
             {
               "type": "item",
-              "item": 23
+              "item": 23,
+              "count": 1
             }
           ]
         },
@@ -1942,7 +2009,8 @@
             },
             {
               "type": "item",
-              "item": 24
+              "item": 24,
+              "count": 1
             }
           ]
         },
@@ -1955,7 +2023,8 @@
             },
             {
               "type": "item",
-              "item": 22
+              "item": 22,
+              "count": 1
             }
           ]
         },
@@ -2004,7 +2073,8 @@
             },
             {
               "type": "item",
-              "item": 25
+              "item": 25,
+              "count": 1
             }
           ]
         },
@@ -2017,7 +2087,8 @@
             },
             {
               "type": "item",
-              "item": 26
+              "item": 26,
+              "count": 1
             }
           ]
         },
@@ -2038,7 +2109,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 134,
@@ -2058,14 +2130,15 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 134,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 135,
@@ -2085,14 +2158,15 @@
       "id": 4,
       "quantity": 1
     },
-    "skill": 9,
     "ingredientChain": 135,
+    "skill": 9,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 136,
@@ -2112,14 +2186,15 @@
       "id": 2,
       "quantity": 1
     },
-    "skill": 11,
     "ingredientChain": 136,
+    "skill": 11,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 152,
@@ -2139,8 +2214,8 @@
       "id": 5,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 154,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2160,7 +2235,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 153,
@@ -2180,8 +2256,8 @@
       "id": 5,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 154,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2201,7 +2277,8 @@
       "stage": 2,
       "previous": 152
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 154,
@@ -2221,14 +2298,15 @@
       "id": 5,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 154,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 153
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 155,
@@ -2248,8 +2326,8 @@
       "id": 2,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 157,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2269,7 +2347,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 156,
@@ -2289,8 +2368,8 @@
       "id": 2,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 157,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2310,7 +2389,8 @@
       "stage": 2,
       "previous": 155
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 157,
@@ -2330,14 +2410,15 @@
       "id": 2,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 157,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 156
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 158,
@@ -2357,8 +2438,8 @@
       "id": 3,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 160,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2378,7 +2459,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 159,
@@ -2398,8 +2480,8 @@
       "id": 3,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 160,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -2419,7 +2501,8 @@
       "stage": 2,
       "previous": 158
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 160,
@@ -2439,14 +2522,15 @@
       "id": 3,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 160,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 159
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 172,
@@ -2466,8 +2550,8 @@
       "id": 4,
       "quantity": 2
     },
-    "skill": 1,
     "ingredientChain": 26,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -2487,7 +2571,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 173,
@@ -2507,8 +2592,8 @@
       "id": 18,
       "quantity": 2
     },
-    "skill": 13,
     "ingredientChain": 173,
+    "skill": 13,
     "evolution": {
       "next": [
         {
@@ -2528,7 +2613,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 174,
@@ -2548,8 +2634,8 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 8,
     "ingredientChain": 40,
+    "skill": 8,
     "evolution": {
       "next": [
         {
@@ -2569,7 +2655,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 175,
@@ -2589,8 +2676,8 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 13,
     "ingredientChain": 468,
+    "skill": 13,
     "evolution": {
       "next": [
         {
@@ -2610,7 +2697,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 176,
@@ -2630,8 +2718,8 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 13,
     "ingredientChain": 468,
+    "skill": 13,
     "evolution": {
       "next": [
         {
@@ -2643,7 +2731,8 @@
             },
             {
               "type": "item",
-              "item": 28
+              "item": 28,
+              "count": 1
             }
           ]
         }
@@ -2651,7 +2740,8 @@
       "stage": 2,
       "previous": 175
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 179,
@@ -2671,8 +2761,8 @@
       "id": 4,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 181,
+    "skill": 2,
     "evolution": {
       "next": [
         {
@@ -2692,7 +2782,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 180,
@@ -2712,8 +2803,8 @@
       "id": 4,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 181,
+    "skill": 2,
     "evolution": {
       "next": [
         {
@@ -2733,7 +2824,8 @@
       "stage": 2,
       "previous": 179
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 181,
@@ -2753,14 +2845,15 @@
       "id": 4,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 181,
+    "skill": 2,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 180
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 185,
@@ -2780,14 +2873,15 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 185,
+    "skill": 2,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 438
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 196,
@@ -2807,14 +2901,15 @@
       "id": 11,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 196,
+    "skill": 2,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 197,
@@ -2834,14 +2929,15 @@
       "id": 16,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 197,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 199,
@@ -2861,14 +2957,15 @@
       "id": 3,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 199,
+    "skill": 4,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 79
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 202,
@@ -2888,14 +2985,15 @@
       "id": 11,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 202,
+    "skill": 4,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 360
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 208,
@@ -2915,14 +3013,15 @@
       "id": 17,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 95,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 95
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 214,
@@ -2942,14 +3041,15 @@
       "id": 12,
       "quantity": 1
     },
-    "skill": 10,
     "ingredientChain": 214,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 228,
@@ -2969,8 +3069,8 @@
       "id": 16,
       "quantity": 2
     },
-    "skill": 1,
     "ingredientChain": 229,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -2990,7 +3090,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 229,
@@ -3010,14 +3111,15 @@
       "id": 16,
       "quantity": 2
     },
-    "skill": 1,
     "ingredientChain": 229,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 228
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 246,
@@ -3037,8 +3139,8 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 248,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -3058,7 +3160,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 2
+    "expType": 2,
+    "eventType": 1
   },
   {
     "id": 247,
@@ -3078,8 +3181,8 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 248,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -3099,7 +3202,8 @@
       "stage": 2,
       "previous": 246
     },
-    "expType": 2
+    "expType": 2,
+    "eventType": 1
   },
   {
     "id": 248,
@@ -3119,14 +3223,15 @@
       "id": 16,
       "quantity": 1
     },
-    "skill": 7,
     "ingredientChain": 248,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 247
     },
-    "expType": 2
+    "expType": 2,
+    "eventType": 1
   },
   {
     "id": 287,
@@ -3146,8 +3251,8 @@
       "id": 1,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 289,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -3167,7 +3272,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 288,
@@ -3187,8 +3293,8 @@
       "id": 1,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 289,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -3208,7 +3314,8 @@
       "stage": 2,
       "previous": 287
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 289,
@@ -3228,14 +3335,15 @@
       "id": 1,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 289,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 288
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 302,
@@ -3255,14 +3363,15 @@
       "id": 16,
       "quantity": 1
     },
-    "skill": 6,
     "ingredientChain": 302,
+    "skill": 6,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 316,
@@ -3282,8 +3391,8 @@
       "id": 8,
       "quantity": 1
     },
-    "skill": 6,
     "ingredientChain": 317,
+    "skill": 6,
     "evolution": {
       "next": [
         {
@@ -3303,7 +3412,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 317,
@@ -3323,14 +3433,15 @@
       "id": 8,
       "quantity": 1
     },
-    "skill": 6,
     "ingredientChain": 317,
+    "skill": 6,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 316
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 333,
@@ -3350,8 +3461,8 @@
       "id": 10,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 334,
+    "skill": 7,
     "evolution": {
       "next": [
         {
@@ -3371,7 +3482,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 334,
@@ -3391,14 +3503,15 @@
       "id": 15,
       "quantity": 2
     },
-    "skill": 7,
     "ingredientChain": 334,
+    "skill": 7,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 333
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 353,
@@ -3418,8 +3531,8 @@
       "id": 14,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 353,
+    "skill": 5,
     "evolution": {
       "next": [
         {
@@ -3439,7 +3552,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 354,
@@ -3459,14 +3573,15 @@
       "id": 14,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 353,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 353
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 359,
@@ -3486,14 +3601,15 @@
       "id": 16,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 359,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 360,
@@ -3513,8 +3629,8 @@
       "id": 11,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 202,
+    "skill": 4,
     "evolution": {
       "next": [
         {
@@ -3534,7 +3650,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 363,
@@ -3554,8 +3671,8 @@
       "id": 6,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 365,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -3575,7 +3692,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 364,
@@ -3595,8 +3713,8 @@
       "id": 6,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 365,
+    "skill": 10,
     "evolution": {
       "next": [
         {
@@ -3616,7 +3734,8 @@
       "stage": 2,
       "previous": 363
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 365,
@@ -3636,14 +3755,15 @@
       "id": 6,
       "quantity": 2
     },
-    "skill": 10,
     "ingredientChain": 365,
+    "skill": 10,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 364
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 438,
@@ -3663,8 +3783,8 @@
       "id": 13,
       "quantity": 1
     },
-    "skill": 2,
     "ingredientChain": 185,
+    "skill": 2,
     "evolution": {
       "next": [
         {
@@ -3684,7 +3804,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 439,
@@ -3704,8 +3825,8 @@
       "id": 11,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 439,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -3725,7 +3846,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 447,
@@ -3745,8 +3867,8 @@
       "id": 7,
       "quantity": 1
     },
-    "skill": 3,
     "ingredientChain": 448,
+    "skill": 3,
     "evolution": {
       "next": [
         {
@@ -3771,7 +3893,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 448,
@@ -3791,14 +3914,15 @@
       "id": 7,
       "quantity": 1
     },
-    "skill": 3,
     "ingredientChain": 448,
+    "skill": 3,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 447
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 453,
@@ -3818,8 +3942,8 @@
       "id": 8,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 454,
+    "skill": 1,
     "evolution": {
       "next": [
         {
@@ -3839,7 +3963,8 @@
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 454,
@@ -3859,14 +3984,15 @@
       "id": 8,
       "quantity": 1
     },
-    "skill": 1,
     "ingredientChain": 454,
+    "skill": 1,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 453
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 462,
@@ -3886,14 +4012,15 @@
       "id": 17,
       "quantity": 1
     },
-    "skill": 11,
     "ingredientChain": 462,
+    "skill": 11,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 82
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 468,
@@ -3913,14 +4040,15 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 13,
     "ingredientChain": 468,
+    "skill": 13,
     "evolution": {
       "next": [],
       "stage": 3,
       "previous": 176
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 470,
@@ -3940,14 +4068,15 @@
       "id": 5,
       "quantity": 1
     },
-    "skill": 4,
     "ingredientChain": 470,
+    "skill": 4,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 471,
@@ -3967,14 +4096,15 @@
       "id": 6,
       "quantity": 1
     },
-    "skill": 11,
     "ingredientChain": 471,
+    "skill": 11,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 700,
@@ -3994,14 +4124,15 @@
       "id": 18,
       "quantity": 1
     },
-    "skill": 8,
     "ingredientChain": 700,
+    "skill": 8,
     "evolution": {
       "next": [],
       "stage": 2,
       "previous": 133
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 1
   },
   {
     "id": 9001,
@@ -4021,13 +4152,14 @@
       "id": 4,
       "quantity": 2
     },
-    "skill": 5,
     "ingredientChain": 26,
+    "skill": 5,
     "evolution": {
       "next": [],
       "stage": 1,
       "previous": null
     },
-    "expType": 1
+    "expType": 1,
+    "eventType": 201
   }
 ]
