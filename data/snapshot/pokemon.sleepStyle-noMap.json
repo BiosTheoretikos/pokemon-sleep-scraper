@@ -141,7 +141,7 @@
   },
   {
     "pokemonId": 132,
-    "style": 10,
+    "style": 11,
     "rewards": {
       "exp": 2325,
       "shards": 4185,
@@ -151,7 +151,7 @@
   },
   {
     "pokemonId": 132,
-    "style": 11,
+    "style": 10,
     "rewards": {
       "exp": 2325,
       "shards": 4185,

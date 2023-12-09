@@ -1698,36 +1698,6 @@
     ]
   },
   {
-    "pokemonId": 9001,
-    "mapId": 1,
-    "styles": [
-      {
-        "style": 1,
-        "rank": {
-          "title": 1,
-          "number": 3
-        },
-        "rewards": {
-          "exp": 7,
-          "shards": 20,
-          "candy": 4
-        }
-      },
-      {
-        "style": 2,
-        "rank": {
-          "title": 2,
-          "number": 2
-        },
-        "rewards": {
-          "exp": 77,
-          "shards": 232,
-          "candy": 6
-        }
-      }
-    ]
-  },
-  {
     "pokemonId": 26,
     "mapId": 1,
     "styles": [
@@ -5422,7 +5392,7 @@
         }
       },
       {
-        "style": "onSnorlax",
+        "style": 5,
         "rank": {
           "title": 3,
           "number": 5
@@ -5434,7 +5404,7 @@
         }
       },
       {
-        "style": 5,
+        "style": "onSnorlax",
         "rank": {
           "title": 3,
           "number": 5
@@ -5488,7 +5458,7 @@
         }
       },
       {
-        "style": "onSnorlax",
+        "style": 6,
         "rank": {
           "title": 3,
           "number": 2
@@ -5500,7 +5470,7 @@
         }
       },
       {
-        "style": 6,
+        "style": "onSnorlax",
         "rank": {
           "title": 3,
           "number": 2
@@ -5542,7 +5512,7 @@
         }
       },
       {
-        "style": "onSnorlax",
+        "style": 7,
         "rank": {
           "title": 3,
           "number": 1
@@ -5554,7 +5524,7 @@
         }
       },
       {
-        "style": 7,
+        "style": "onSnorlax",
         "rank": {
           "title": 3,
           "number": 1
@@ -5596,7 +5566,7 @@
         }
       },
       {
-        "style": "onSnorlax",
+        "style": 8,
         "rank": {
           "title": 2,
           "number": 5
@@ -5608,7 +5578,7 @@
         }
       },
       {
-        "style": 8,
+        "style": "onSnorlax",
         "rank": {
           "title": 2,
           "number": 5
@@ -10579,6 +10549,36 @@
           "exp": 4486,
           "shards": 6878,
           "candy": 12
+        }
+      }
+    ]
+  },
+  {
+    "pokemonId": 9001,
+    "mapId": 1,
+    "styles": [
+      {
+        "style": 1,
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "rewards": {
+          "exp": 7,
+          "shards": 20,
+          "candy": 4
+        }
+      },
+      {
+        "style": 2,
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "rewards": {
+          "exp": 77,
+          "shards": 232,
+          "candy": 6
         }
       }
     ]
