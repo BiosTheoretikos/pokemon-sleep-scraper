@@ -1,0 +1,43 @@
+[
+  {
+    "mapId": 1,
+    "berry": null,
+    "unlock": null
+  },
+  {
+    "mapId": 2,
+    "berry": [
+      3,
+      10,
+      18
+    ],
+    "unlock": {
+      "type": "sleepStyle",
+      "count": 20
+    }
+  },
+  {
+    "mapId": 3,
+    "berry": [
+      2,
+      9,
+      13
+    ],
+    "unlock": {
+      "type": "sleepStyle",
+      "count": 70
+    }
+  },
+  {
+    "mapId": 4,
+    "berry": [
+      1,
+      6,
+      16
+    ],
+    "unlock": {
+      "type": "sleepStyle",
+      "count": 150
+    }
+  }
+]
