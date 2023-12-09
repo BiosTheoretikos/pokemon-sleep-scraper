@@ -1,8 +1,8 @@
 import pandas as pd
 
-from scrape_db.utils.db.mongo import export_to_mongo
-from scrape_db.utils.db.sqlite import open_sql_connection
-from scrape_db.utils.module import start_export_module
+from scrape.utils.db.mongo import export_to_mongo
+from scrape.utils.db.sqlite import open_sql_connection
+from scrape.utils.module import start_export_module
 
 
 def export_xp_shard():

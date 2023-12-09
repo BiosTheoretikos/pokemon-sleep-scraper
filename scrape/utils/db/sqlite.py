@@ -4,7 +4,7 @@ from contextlib import contextmanager
 from sqlite3 import Connection
 from typing import ContextManager
 
-from scrape_db.utils.env import Environment
+from scrape.utils.env import Environment
 
 
 @contextmanager

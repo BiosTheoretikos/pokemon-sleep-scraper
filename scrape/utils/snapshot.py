@@ -5,7 +5,7 @@ from typing import Any, Iterable, Mapping
 
 import numpy as np
 
-from scrape_db.utils.env import Environment
+from scrape.utils.env import Environment
 
 
 class JsonEncoder(json.JSONEncoder):

@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 import pymongo
 
-from scrape_db.utils.db.mongo import export_to_mongo
-from scrape_db.utils.db.sqlite import open_sql_connection
-from scrape_db.utils.extract import get_ids_from_df_column_name
-from scrape_db.utils.module import start_export_module
+from scrape.utils.db.mongo import export_to_mongo
+from scrape.utils.db.sqlite import open_sql_connection
+from scrape.utils.extract import get_ids_from_df_column_name
+from scrape.utils.module import start_export_module
 
 _COL_PREFIX_TYPE = "need_exp_type_"
 

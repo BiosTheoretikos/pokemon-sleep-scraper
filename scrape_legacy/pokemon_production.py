@@ -59,7 +59,7 @@ def main():
         "error"
     ]]
 
-    with open(f"data/transformed/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
+    with open(f"data/static/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
         json.dump(
             {
                 "data": rp_model_data.to_dict("records"),

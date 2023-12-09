@@ -3,10 +3,10 @@ import subprocess
 import sys
 
 SCRIPTS_SCRAPER = [
-    "scrape/mainskill.py",
-    "scrape/meals.py",
-    "scrape/pokemon_data.py",
-    "scrape/pokemon_production.py",
+    "scrape_legacy/mainskill.py",
+    "scrape_legacy/meals.py",
+    "scrape_legacy/pokemon_data.py",
+    "scrape_legacy/pokemon_production.py",
 ]
 
 SCRIPTS_UPDATE = [

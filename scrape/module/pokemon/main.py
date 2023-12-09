@@ -1,13 +1,13 @@
 import pandas as pd
 import pymongo
 
-from scrape_db.module.pokemon.const import POKEMON_ID_COLUMN
-from scrape_db.module.pokemon.evolution import get_pokemon_evolution_chain
-from scrape_db.module.pokemon.utils import get_main_skill_id_map, get_pokemon_id_map
-from scrape_db.utils.db.mongo import export_to_mongo
-from scrape_db.utils.db.sqlite import open_sql_connection
-from scrape_db.utils.module import start_export_module
-from scrape_db.utils.static import load_static_data
+from scrape.module.pokemon.const import POKEMON_ID_COLUMN
+from scrape.module.pokemon.evolution import get_pokemon_evolution_chain
+from scrape.module.pokemon.utils import get_main_skill_id_map, get_pokemon_id_map
+from scrape.utils.db.mongo import export_to_mongo
+from scrape.utils.db.sqlite import open_sql_connection
+from scrape.utils.module import start_export_module
+from scrape.utils.static import load_static_data
 
 
 def export_pokemon_info():

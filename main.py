@@ -1,8 +1,8 @@
-from scrape_db.main import scrape_db
+from scrape.main import scrape
 
 
 def main():
-    scrape_db()
+    scrape()
 
 
 if __name__ == "__main__":

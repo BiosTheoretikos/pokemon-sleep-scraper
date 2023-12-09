@@ -1,8 +1,8 @@
 from pandas import DataFrame, Series
 
-from scrape_db.module.item.evolution import get_evolution_item_df
-from scrape_db.module.pokemon.utils import get_pokemon_id_map
-from scrape_db.utils.module import start_export_module
+from scrape.module.item.evolution import get_evolution_item_df
+from scrape.module.pokemon.utils import get_pokemon_id_map
+from scrape.utils.module import start_export_module
 
 _CONDITION_PERIOD_OF_TIME_MAP = {
     "1,2,3": {

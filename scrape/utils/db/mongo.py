@@ -7,8 +7,8 @@ from bson.codec_options import CodecOptions, TypeCodec, TypeRegistry
 from pymongo import MongoClient
 from pymongo.collection import Collection
 
-from scrape_db.utils.env import Environment
-from scrape_db.utils.snapshot import take_export_snapshot
+from scrape.utils.env import Environment
+from scrape.utils.snapshot import take_export_snapshot
 
 _mongo = MongoClient(Environment.mongo_connection)
 

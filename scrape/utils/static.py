@@ -2,7 +2,7 @@ import json
 import logging
 import os
 
-from scrape_db.utils.env import Environment
+from scrape.utils.env import Environment
 
 
 def load_static_data(file_name: str):

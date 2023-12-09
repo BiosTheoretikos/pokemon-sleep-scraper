@@ -1,7 +1,7 @@
 from pandas import DataFrame
 
-from scrape_db.module.pokemon.const import POKEMON_ID_COLUMN
-from scrape_db.utils.extract import get_string_key_id_extractor
+from scrape.module.pokemon.const import POKEMON_ID_COLUMN
+from scrape.utils.extract import get_string_key_id_extractor
 
 
 def get_pokemon_id_map(df_pokemon: DataFrame) -> dict:
