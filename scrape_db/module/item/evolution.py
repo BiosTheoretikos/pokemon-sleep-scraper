@@ -2,7 +2,7 @@ import pandas as pd
 from pandas import DataFrame
 
 from scrape_db.enum.item_type import ItemType
-from scrape_db.utils.db import open_sql_connection
+from scrape_db.utils.db.sqlite import open_sql_connection
 
 
 def get_evolution_item_df() -> DataFrame:

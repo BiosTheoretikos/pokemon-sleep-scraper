@@ -4,7 +4,8 @@ import pandas as pd
 import pymongo
 from pandas import Series
 
-from scrape_db.utils.db import export_to_mongo, open_sql_connection
+from scrape_db.utils.db.mongo import export_to_mongo
+from scrape_db.utils.db.sqlite import open_sql_connection
 from scrape_db.utils.extract import get_string_key_id_extractor
 from scrape_db.utils.module import start_export_module
 
