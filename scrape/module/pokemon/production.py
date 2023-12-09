@@ -1,17 +1,15 @@
-import json
 import time
 
 import numpy as np
+import pandas as pd
+import pymongo
+from pandas import DataFrame
 
 from calc.entry import get_rp_model_df
-
-with open("data/scraped/pokemon_data.json", "r", encoding="utf-8") as f_pokemon:
-    pokemon_data = json.load(f_pokemon)
-
-POKEMON_ID_TO_MAIN_SKILL_ID = {
-    data["id"]: data["skill"]
-    for data in pokemon_data
-}
+from scrape.module.pokemon.pickup_stats import get_df_pickup_stats
+from scrape.utils.db.mongo import export_to_mongo
+from scrape.utils.db.sqlite import open_sql_connection
+from scrape.utils.module import start_export_module
 
 SKILL_VALUE_IN_RP = {
     # Source of 2 Charge Strength S:
@@ -34,12 +32,12 @@ SKILL_VALUE_IN_RP = {
 DIGIT_PRECISION = 8
 
 
-def main():
+def get_rp_model_data(pokemon_to_main_skill_id: dict[int, int]) -> DataFrame:
     rp_model_data = get_rp_model_df()
 
     # Calculate skill trigger rate, if the value is available
     rp_model_skill_values = rp_model_data["pokemonId"] \
-        .map(POKEMON_ID_TO_MAIN_SKILL_ID) \
+        .map(pokemon_to_main_skill_id) \
         .map(SKILL_VALUE_IN_RP)
     rp_model_data["skillPercent"] = (rp_model_data["skillValue"] / rp_model_skill_values * 100) \
         .round(decimals=DIGIT_PRECISION) \
@@ -59,18 +57,26 @@ def main():
         "error"
     ]]
 
-    with open(f"data/static/pokemon_production.json", "w+", encoding="utf-8", newline="\n") as f_export:
-        json.dump(
-            {
-                "data": rp_model_data.to_dict("records"),
-                "lastUpdated": time.time(),
-                "dataCount": int(rp_model_data["dataCount"].sum()),
-            },
-            f_export,
-            indent=2,
-            ensure_ascii=False
-        )
+    return rp_model_data
 
 
-if __name__ == "__main__":
-    main()
+def export_pokemon_production():
+    with start_export_module("Pokemon Production"), open_sql_connection() as connection:
+        pokemon_to_mainskill_id = get_df_pickup_stats(
+            pd.read_sql("SELECT * FROM pokemons", connection),
+            connection,
+        )["main_skill_id"].to_dict()
+
+        rp_model_data = get_rp_model_data(pokemon_to_mainskill_id)
+        with export_to_mongo("pokemon", "producing", rp_model_data.to_dict("records")) as col:
+            col.create_index(
+                [("pokemonId", pymongo.ASCENDING)],
+                unique=True
+            )
+
+        production_meta = [{
+            "dataCount": int(rp_model_data["dataCount"].sum()),
+            "lastUpdated": time.time()
+        }]
+        with export_to_mongo("pokemon", "producing/meta", production_meta):
+            pass
