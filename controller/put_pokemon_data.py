@@ -32,15 +32,11 @@ with open("data/manual/pokemon/evolution_chain.json") as f:
 
 client = MongoClient(CONNECTION_STRING)
 db_pokemon = client.get_database("pokemon")
-col_info = db_pokemon.get_collection("info")
 col_sleep_style = db_pokemon.get_collection("sleepStyle")
 col_sleep_style_no_map = db_pokemon.get_collection("sleepStyle/noMap")
 
 
 def index():
-    col_info.create_index("id", unique=True)
-    col_info.create_index("ingredients.fixed")
-    col_info.create_index("ingredients.random")
     col_sleep_style.create_index("mapId")
     col_sleep_style.create_index(
         [("pokemonId", pymongo.ASCENDING), ("mapId", pymongo.ASCENDING)],
@@ -55,7 +51,6 @@ def index():
 def main():
     index()
 
-    col_info.delete_many({})
     col_sleep_style.delete_many({})
     col_sleep_style_no_map.delete_many({})
 
@@ -111,10 +106,6 @@ def main():
                 "mapId": location_id,
                 "styles": sleep_styles
             })
-
-    with open(f"data/scraped/snapshot/pokemon_info.json", "w+", encoding="utf-8", newline="\n") as f:
-        json.dump(data_info, f, indent=2, ensure_ascii=False)
-    col_info.insert_many(data_info)
 
     with open(f"data/scraped/snapshot/sleep_style.json", "w+", encoding="utf-8", newline="\n") as f:
         json.dump(data_sleep_style, f, indent=2, ensure_ascii=False)
