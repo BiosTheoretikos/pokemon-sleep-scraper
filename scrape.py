@@ -3,12 +3,10 @@ import subprocess
 import sys
 
 SCRIPTS_SCRAPER = [
-    "scrape_legacy/meals.py",
     "scrape_legacy/pokemon_data.py",
 ]
 
 SCRIPTS_UPDATE = [
-    "controller/put_meal_data.py",
     "controller/put_pokemon_data.py",
 ]
 
