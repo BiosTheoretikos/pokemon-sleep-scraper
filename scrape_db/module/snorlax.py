@@ -8,9 +8,11 @@ from scrape_db.utils.module import start_export_module
 
 _COL_PREFIX_STRENGTH_REQ = "need_energy_field_"
 
+_COL_PREFIX_REWARD_SHARDS = "reward_coin_field_"
 
-def export_snorlax_rank():
-    with start_export_module("Snorlax Rank"), open_sql_connection() as connection:
+
+def export_snorlax():
+    with start_export_module("Snorlax"), open_sql_connection() as connection:
         df = pd.read_sql("SELECT * FROM snorlax_rank", connection)
 
         map_ids = get_ids_from_df_column_name(df, _COL_PREFIX_STRENGTH_REQ)
@@ -25,7 +27,8 @@ def export_snorlax_rank():
             for map_id in map_ids:
                 data_entries[map_id].append({
                     "rank": rank,
-                    "energy": row[f"{_COL_PREFIX_STRENGTH_REQ}{map_id}"]
+                    "energy": row[f"{_COL_PREFIX_STRENGTH_REQ}{map_id}"],
+                    "rewardShard": row[f"{_COL_PREFIX_REWARD_SHARDS}{map_id}"],
                 })
 
         data = [
@@ -33,7 +36,7 @@ def export_snorlax_rank():
             for map_id, entry in data_entries.items()
         ]
 
-        with export_to_mongo("snorlax", "rank", data) as col:
+        with export_to_mongo("map", "snorlax", data) as col:
             col.create_index(
                 [("mapId", pymongo.ASCENDING)],
                 unique=True

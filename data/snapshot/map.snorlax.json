@@ -1,0 +1,1712 @@
+[
+  {
+    "mapId": 1,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 3118,
+        "rewardShard": 35
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 7171,
+        "rewardShard": 45
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 11693,
+        "rewardShard": 50
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 17149,
+        "rewardShard": 61
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 23385,
+        "rewardShard": 69
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 31492,
+        "rewardShard": 90
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 41314,
+        "rewardShard": 109
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 53006,
+        "rewardShard": 130
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 65634,
+        "rewardShard": 140
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 79197,
+        "rewardShard": 151
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 93540,
+        "rewardShard": 159
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 109130,
+        "rewardShard": 173
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 125032,
+        "rewardShard": 177
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 156121,
+        "rewardShard": 345
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 187832,
+        "rewardShard": 352
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 220177,
+        "rewardShard": 359
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 253169,
+        "rewardShard": 367
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 286821,
+        "rewardShard": 374
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 321146,
+        "rewardShard": 381
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 356158,
+        "rewardShard": 389
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 391870,
+        "rewardShard": 397
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 428296,
+        "rewardShard": 405
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 465451,
+        "rewardShard": 413
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 532707,
+        "rewardShard": 747
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 601308,
+        "rewardShard": 762
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 742056,
+        "rewardShard": 1564
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 885619,
+        "rewardShard": 1595
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1029700,
+        "rewardShard": 1601
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1199506,
+        "rewardShard": 1887
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1486800,
+        "rewardShard": 3192
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 1795052,
+        "rewardShard": 3425
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2165541,
+        "rewardShard": 4117
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 2604280,
+        "rewardShard": 4875
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 3245795,
+        "rewardShard": 7128
+      }
+    ]
+  },
+  {
+    "mapId": 2,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 4822,
+        "rewardShard": 54
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 11090,
+        "rewardShard": 70
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 18082,
+        "rewardShard": 78
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 26520,
+        "rewardShard": 94
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 36164,
+        "rewardShard": 107
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 48700,
+        "rewardShard": 139
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 63889,
+        "rewardShard": 169
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 81971,
+        "rewardShard": 201
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 101499,
+        "rewardShard": 217
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 122474,
+        "rewardShard": 233
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 144654,
+        "rewardShard": 246
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 168763,
+        "rewardShard": 268
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 195283,
+        "rewardShard": 295
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 224455,
+        "rewardShard": 324
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 256544,
+        "rewardShard": 357
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 291842,
+        "rewardShard": 392
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 330670,
+        "rewardShard": 431
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 373381,
+        "rewardShard": 475
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 420363,
+        "rewardShard": 522
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 472043,
+        "rewardShard": 574
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 528891,
+        "rewardShard": 632
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 591424,
+        "rewardShard": 695
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 660210,
+        "rewardShard": 764
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 735875,
+        "rewardShard": 841
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 819107,
+        "rewardShard": 925
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 910662,
+        "rewardShard": 1017
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 1018462,
+        "rewardShard": 1198
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1184155,
+        "rewardShard": 1841
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1379432,
+        "rewardShard": 2170
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1709820,
+        "rewardShard": 3671
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 2064310,
+        "rewardShard": 3939
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2490372,
+        "rewardShard": 4734
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 2994922,
+        "rewardShard": 5606
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 3732664,
+        "rewardShard": 8197
+      }
+    ]
+  },
+  {
+    "mapId": 3,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 6885,
+        "rewardShard": 77
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 15835,
+        "rewardShard": 99
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 25817,
+        "rewardShard": 111
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 37865,
+        "rewardShard": 134
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 51635,
+        "rewardShard": 153
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 69534,
+        "rewardShard": 199
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 91221,
+        "rewardShard": 241
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 117038,
+        "rewardShard": 287
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 144921,
+        "rewardShard": 310
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 174869,
+        "rewardShard": 333
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 206538,
+        "rewardShard": 352
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 240961,
+        "rewardShard": 382
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 278826,
+        "rewardShard": 421
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 320478,
+        "rewardShard": 463
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 366295,
+        "rewardShard": 509
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 416694,
+        "rewardShard": 560
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 472133,
+        "rewardShard": 616
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 533116,
+        "rewardShard": 678
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 600197,
+        "rewardShard": 745
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 673986,
+        "rewardShard": 820
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 755154,
+        "rewardShard": 902
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 844439,
+        "rewardShard": 992
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 942653,
+        "rewardShard": 1091
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1050688,
+        "rewardShard": 1200
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 1169527,
+        "rewardShard": 1320
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 1300250,
+        "rewardShard": 1452
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 1444045,
+        "rewardShard": 1598
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 1602220,
+        "rewardShard": 1758
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 1776213,
+        "rewardShard": 1933
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 1967605,
+        "rewardShard": 2127
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 2333568,
+        "rewardShard": 4066
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 2815203,
+        "rewardShard": 5352
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 3385564,
+        "rewardShard": 6337
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 4219534,
+        "rewardShard": 9266
+      }
+    ]
+  },
+  {
+    "mapId": 4,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 10486,
+        "rewardShard": 117
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 24118,
+        "rewardShard": 151
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 39323,
+        "rewardShard": 169
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 57673,
+        "rewardShard": 204
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 78645,
+        "rewardShard": 233
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 105909,
+        "rewardShard": 303
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 138940,
+        "rewardShard": 367
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 178262,
+        "rewardShard": 437
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 220730,
+        "rewardShard": 472
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 266344,
+        "rewardShard": 507
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 314580,
+        "rewardShard": 536
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 367010,
+        "rewardShard": 583
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 424683,
+        "rewardShard": 641
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 488123,
+        "rewardShard": 705
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 557907,
+        "rewardShard": 775
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 634669,
+        "rewardShard": 853
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 719107,
+        "rewardShard": 938
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 811989,
+        "rewardShard": 1032
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 914159,
+        "rewardShard": 1135
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1026546,
+        "rewardShard": 1249
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1150172,
+        "rewardShard": 1374
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 1286161,
+        "rewardShard": 1511
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 1435749,
+        "rewardShard": 1662
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1600296,
+        "rewardShard": 1828
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 1781298,
+        "rewardShard": 2011
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 1980400,
+        "rewardShard": 2212
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 2199412,
+        "rewardShard": 2433
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 2440325,
+        "rewardShard": 2677
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 2705329,
+        "rewardShard": 2944
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 2996833,
+        "rewardShard": 3239
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 3317487,
+        "rewardShard": 3563
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 3670206,
+        "rewardShard": 3919
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4058197,
+        "rewardShard": 4311
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 4706403,
+        "rewardShard": 7202
+      }
+    ]
+  },
+  {
+    "mapId": 5,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 14702,
+        "rewardShard": 163
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 33814,
+        "rewardShard": 212
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 55131,
+        "rewardShard": 237
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 80859,
+        "rewardShard": 286
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 110262,
+        "rewardShard": 327
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 148486,
+        "rewardShard": 425
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 194796,
+        "rewardShard": 515
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 249927,
+        "rewardShard": 613
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 309469,
+        "rewardShard": 662
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 373421,
+        "rewardShard": 711
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 441048,
+        "rewardShard": 751
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 514556,
+        "rewardShard": 817
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 593210,
+        "rewardShard": 874
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 677370,
+        "rewardShard": 935
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 767421,
+        "rewardShard": 1001
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 863776,
+        "rewardShard": 1071
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 966876,
+        "rewardShard": 1146
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 1077193,
+        "rewardShard": 1226
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 1195232,
+        "rewardShard": 1312
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1321534,
+        "rewardShard": 1403
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1456677,
+        "rewardShard": 1502
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 1601280,
+        "rewardShard": 1607
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 1756005,
+        "rewardShard": 1719
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 1921561,
+        "rewardShard": 1840
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 2098706,
+        "rewardShard": 1968
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 2288251,
+        "rewardShard": 2106
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 2491064,
+        "rewardShard": 2253
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 2708074,
+        "rewardShard": 2411
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 2940275,
+        "rewardShard": 2580
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 3188730,
+        "rewardShard": 2761
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 3454577,
+        "rewardShard": 2954
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 3739033,
+        "rewardShard": 3161
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4166848,
+        "rewardShard": 4754
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 5193272,
+        "rewardShard": 11405
+      }
+    ]
+  },
+  {
+    "mapId": 6,
+    "data": [
+      {
+        "rank": {
+          "title": 1,
+          "number": 1
+        },
+        "energy": 0,
+        "rewardShard": 0
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 2
+        },
+        "energy": 21202,
+        "rewardShard": 236
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 3
+        },
+        "energy": 48764,
+        "rewardShard": 306
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 4
+        },
+        "energy": 79506,
+        "rewardShard": 342
+      },
+      {
+        "rank": {
+          "title": 1,
+          "number": 5
+        },
+        "energy": 116609,
+        "rewardShard": 412
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 1
+        },
+        "energy": 159012,
+        "rewardShard": 471
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 2
+        },
+        "energy": 214136,
+        "rewardShard": 612
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 3
+        },
+        "energy": 280921,
+        "rewardShard": 742
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 4
+        },
+        "energy": 360427,
+        "rewardShard": 883
+      },
+      {
+        "rank": {
+          "title": 2,
+          "number": 5
+        },
+        "energy": 446294,
+        "rewardShard": 954
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 1
+        },
+        "energy": 538521,
+        "rewardShard": 1025
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 2
+        },
+        "energy": 636048,
+        "rewardShard": 1084
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 3
+        },
+        "energy": 742056,
+        "rewardShard": 1178
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 4
+        },
+        "energy": 853364,
+        "rewardShard": 1237
+      },
+      {
+        "rank": {
+          "title": 3,
+          "number": 5
+        },
+        "energy": 970237,
+        "rewardShard": 1299
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 1
+        },
+        "energy": 1092954,
+        "rewardShard": 1364
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 2
+        },
+        "energy": 1221807,
+        "rewardShard": 1432
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 3
+        },
+        "energy": 1357103,
+        "rewardShard": 1503
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 4
+        },
+        "energy": 1499164,
+        "rewardShard": 1578
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 5
+        },
+        "energy": 1648328,
+        "rewardShard": 1657
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 6
+        },
+        "energy": 1804950,
+        "rewardShard": 1740
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 7
+        },
+        "energy": 1969403,
+        "rewardShard": 1827
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 8
+        },
+        "energy": 2142079,
+        "rewardShard": 1919
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 9
+        },
+        "energy": 2323389,
+        "rewardShard": 2015
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 10
+        },
+        "energy": 2513765,
+        "rewardShard": 2115
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 11
+        },
+        "energy": 2713660,
+        "rewardShard": 2221
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 12
+        },
+        "energy": 2923550,
+        "rewardShard": 2332
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 13
+        },
+        "energy": 3143935,
+        "rewardShard": 2449
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 14
+        },
+        "energy": 3375339,
+        "rewardShard": 2571
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 15
+        },
+        "energy": 3618313,
+        "rewardShard": 2700
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 16
+        },
+        "energy": 3873436,
+        "rewardShard": 2835
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 17
+        },
+        "energy": 4141315,
+        "rewardShard": 2976
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 18
+        },
+        "energy": 4422588,
+        "rewardShard": 3125
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 19
+        },
+        "energy": 4717925,
+        "rewardShard": 3282
+      },
+      {
+        "rank": {
+          "title": 4,
+          "number": 20
+        },
+        "energy": 5680141,
+        "rewardShard": 10691
+      }
+    ]
+  }
+]
