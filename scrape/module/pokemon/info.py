@@ -3,7 +3,7 @@ import pymongo
 
 from scrape.module.pokemon.const import POKEMON_ID_COLUMN
 from scrape.module.pokemon.evolution import get_pokemon_evolution_chain
-from scrape.module.pokemon.utils import get_main_skill_id_map, get_pokemon_id_map
+from scrape.module.pokemon.pickup_stats import get_df_pickup_stats
 from scrape.utils.db.mongo import export_to_mongo
 from scrape.utils.db.sqlite import open_sql_connection
 from scrape.utils.module import start_export_module
@@ -15,11 +15,7 @@ def export_pokemon_info():
         df_pokemon = pd.read_sql("SELECT * FROM pokemons", connection)
         df_evo = pd.read_sql("SELECT * FROM pokemon_evolutions", connection)
 
-        df_pickup = pd.read_sql("SELECT * FROM pokemon_pickup_status", connection)
-        df_pickup["pokemon_id"] = df_pickup["pokemon_id"].map(get_pokemon_id_map(df_pokemon))
-        df_pickup.set_index("pokemon_id", inplace=True)
-
-        main_skill_id_map = get_main_skill_id_map(pd.read_sql("SELECT * FROM pokemon_main_skills", connection))
+        df_pickup = get_df_pickup_stats(df_pokemon, connection)
 
         evo_chain = get_pokemon_evolution_chain(df_pokemon, df_evo)
 
@@ -53,7 +49,7 @@ def export_pokemon_info():
                     "quantity": row_stats["normal_berry_num"],
                 },
                 "ingredientChain": ingredient_chain[pokemon_id],
-                "skill": main_skill_id_map[row_stats["main_skill_id"]],
+                "skill": row_stats["main_skill_id"],
                 "evolution": evo_chain[pokemon_id],
                 "expType": row["exp_table_type"],
                 "eventType": row["event_type_name"]
