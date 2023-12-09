@@ -34,13 +34,6 @@ def get_conditions_from_row(
 ) -> list[dict]:
     conditions = []
 
-    level = row["rank"]
-    if level:
-        conditions.append({
-            "type": "level",
-            "level": level,
-        })
-
     candy = row["need_candy"]
     if candy:
         conditions.append({
@@ -48,27 +41,34 @@ def get_conditions_from_row(
             "count": candy,
         })
 
-    sleep_time = row["total_sleep_min"]
-    if sleep_time:
-        conditions.append({
-            "type": "sleepTime",
-            "hours": sleep_time / 60
-        })
-
-    timing = row["period_of_time"]
-    if timing:
-        conditions.append({"type": "timing"} | _CONDITION_PERIOD_OF_TIME_MAP[str(timing)])
-
     item_ids = row["evolution_item_id"]
     if item_ids:
         for evo_item_id, evo_item_count in zip(str(item_ids).split(","), str(row["evolution_item_num"]).split(",")):
             conditions.append({
                 "type": "item",
                 "item": next(iter(df_evo_item[df_evo_item["item_id"] == int(evo_item_id)]["id"].values)),
-                "count": int(evo_item_count)
+                "count": int(evo_item_count),
             })
 
-    return conditions
+    level = row["rank"]
+    if level:
+        conditions.append({
+            "type": "level",
+            "level": level,
+        })
+
+    sleep_time = row["total_sleep_min"]
+    if sleep_time:
+        conditions.append({
+            "type": "sleepTime",
+            "hours": sleep_time / 60,
+        })
+
+    timing = row["period_of_time"]
+    if timing:
+        conditions.append({"type": "timing"} | _CONDITION_PERIOD_OF_TIME_MAP[str(timing)])
+
+    return sorted(conditions, key=lambda condition: condition["type"])
 
 
 def get_pokemon_evolution_chain(
