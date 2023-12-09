@@ -1,4 +1,5 @@
 from collections import defaultdict
+from itertools import product
 from sqlite3 import Connection
 from typing import Iterable
 
@@ -11,6 +12,8 @@ from scrape.module.utils.rank import to_rank_object
 from scrape.utils.db.mongo import export_to_mongo
 from scrape.utils.db.sqlite import open_sql_connection
 from scrape.utils.module import start_export_module
+
+EventSleepStyleDict = defaultdict[int, defaultdict[int, list[int]]]
 
 
 def get_style_id(pokemon_id: int, style_id: int) -> str | int:
@@ -43,6 +46,57 @@ def get_snorlax_rank_dict(connection: Connection) -> dict[int, dict[str, int]]:
     df.set_index("id", inplace=True)
 
     return df["rank_object"].to_dict()
+
+
+def get_event_sleep_style_dict(connection: Connection) -> EventSleepStyleDict:
+    df = pd.read_sql("SELECT * FROM fields_event_pokemons", connection)
+
+    ret = defaultdict(lambda: defaultdict(list))
+    for _, row in df.iterrows():
+        event_ids = [int(event_id) for event_id in row["event_ids"].split(",")]
+
+        for sleep_style_id_str, field_id_str in product(
+                row["sleeping_face_ids"].split(","),
+                str(row["field_ids"]).split(","),
+        ):
+            ret[int(sleep_style_id_str)][int(field_id_str)] = event_ids
+
+    return ret
+
+
+def get_sleep_styles_in_maps_by_pokemon(
+    df_sleepstyle_data: DataFrame,
+    df_sleepstyle_unlock: DataFrame,
+    snorlax_rank_dict: dict[int, dict[str, int]],
+    event_sleep_style_dict: EventSleepStyleDict,
+) -> defaultdict[int, list]:
+    ret = defaultdict(list)
+    for _, row in df_sleepstyle_data.iterrows():
+        pokemon_id = row["pokemon_id"]
+        style_id = row["library_sub_id"]
+        sleepstyle_id = row["id"]
+        rarity = row["rarity"]
+
+        ret[pokemon_id].append({
+            "style": get_style_id(pokemon_id, style_id),
+            "rarity": rarity,
+            "location": [
+                {
+                    "id": row_unlock["map_id"],
+                    "rank": snorlax_rank_dict[row_unlock["snorlax_rank_id"]],
+                    "events": event_sleep_style_dict[sleepstyle_id][row_unlock["map_id"]]
+                }
+                for _, row_unlock in
+                df_sleepstyle_unlock[df_sleepstyle_unlock["sleepstyle_id"] == sleepstyle_id].iterrows()
+            ],
+            "rewards": {
+                "exp": row["research_p"],
+                "shards": row["coin"],
+                "candy": row["research_candy_num"]
+            },
+        })
+
+    return ret
 
 
 def get_df_sleepstyle_data(connection: Connection, pokemon_id_map: dict[int, int]) -> DataFrame:
@@ -85,40 +139,21 @@ def export_sleepstyle():
         pokemon_id_map = get_pokemon_id_map(pd.read_sql("SELECT * FROM pokemons", connection))
         snorlax_rank_dict = get_snorlax_rank_dict(connection)
 
-        df_sleepstyle_data = get_df_sleepstyle_data(connection, pokemon_id_map)
-        df_sleepstyle_unlock = get_df_sleepstyle_unlock(
-            connection,
-            snorlax_rank_dict.keys(),
-            sleepstyle_group_id_to_map_id,
+        sleep_styles_in_maps_by_pokemon = get_sleep_styles_in_maps_by_pokemon(
+            get_df_sleepstyle_data(connection, pokemon_id_map),
+            get_df_sleepstyle_unlock(
+                connection,
+                snorlax_rank_dict.keys(),
+                sleepstyle_group_id_to_map_id,
+            ),
+            snorlax_rank_dict,
+            get_event_sleep_style_dict(connection),
         )
-
-        data_sleep_styles_dict = defaultdict(list)
-        for _, row in df_sleepstyle_data.iterrows():
-            sleepstyle_id = row["id"]
-            pokemon_id = row["pokemon_id"]
-            style_id = row["library_sub_id"]
-
-            data_sleep_styles_dict[pokemon_id].append({
-                "style": get_style_id(pokemon_id, style_id),
-                "location": [
-                    {
-                        "id": row_unlock["map_id"],
-                        "rank": snorlax_rank_dict[row_unlock["snorlax_rank_id"]]
-                    }
-                    for _, row_unlock in
-                    df_sleepstyle_unlock[df_sleepstyle_unlock["sleepstyle_id"] == sleepstyle_id].iterrows()
-                ],
-                "rewards": {
-                    "exp": row["research_p"],
-                    "shards": row["coin"],
-                    "candy": row["research_candy_num"]
-                },
-            })
 
         data_sleep_styles_list = []
         data_sleep_styles_no_map = []
 
-        for pokemon_id, sleep_styles in data_sleep_styles_dict.items():
+        for pokemon_id, sleep_styles in sleep_styles_in_maps_by_pokemon.items():
             sleep_styles_in_locations = defaultdict(list)
             sleep_styles_is_unreleased = not any(sleep_style["location"] for sleep_style in sleep_styles)
             for sleep_style in sleep_styles:
@@ -137,7 +172,8 @@ def export_sleepstyle():
                     sleep_styles_in_locations[sleep_style_location["id"]].append({
                         "style": sleep_style["style"],
                         "rank": sleep_style_location["rank"],
-                        "rewards": sleep_style["rewards"]
+                        "rewards": sleep_style["rewards"],
+                        "events": sleep_style_location["events"],
                     })
 
             data_sleep_styles_list.extend(
