@@ -1,6 +1,7 @@
 import pandas as pd
 import pymongo
 
+from scrape.module.utils.rank import to_rank_object
 from scrape.utils.db.mongo import export_to_mongo
 from scrape.utils.db.sqlite import open_sql_connection
 from scrape.utils.extract import get_ids_from_df_column_name
@@ -23,10 +24,7 @@ def export_snorlax():
 
         data_entries = {map_id: [] for map_id in map_ids}
         for _, row in df_snorlax.iterrows():
-            rank = {
-                "title": row["main_rank"],
-                "number": row["sub_rank"],
-            }
+            rank = to_rank_object(row)
 
             for map_id in map_ids:
                 data_entries[map_id].append({
