@@ -1,5 +1,3 @@
-beautifulsoup4
-grequests
 pymongo[srv]
 requests
 numpy
