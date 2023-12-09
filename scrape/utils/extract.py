@@ -1,4 +1,4 @@
-from typing import Callable
+from typing import Callable, Optional
 
 from pandas import DataFrame
 
@@ -19,11 +19,16 @@ def get_string_key_id_extractor(prefix: str) -> Callable[[str], int]:
     return extractor
 
 
-def get_ids_from_df_column_name(df: DataFrame, key_prefix: str) -> list[int]:
+def get_ids_from_df_column_name(
+    df: DataFrame,
+    key_prefix: str,
+    *,
+    exclude_suffix: Optional[str] = None
+) -> list[int]:
     extract_id = get_string_key_id_extractor(key_prefix)
 
     return [
         extract_id(col_name)
         for col_name in df.columns
-        if col_name.startswith(key_prefix)
+        if col_name.startswith(key_prefix) and (not exclude_suffix or not col_name.endswith(exclude_suffix))
     ]
