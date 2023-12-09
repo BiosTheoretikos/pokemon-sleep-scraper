@@ -13,12 +13,16 @@ _COL_PREFIX_REWARD_SHARDS = "reward_coin_field_"
 
 def export_snorlax():
     with start_export_module("Snorlax"), open_sql_connection() as connection:
-        df = pd.read_sql("SELECT * FROM snorlax_rank", connection)
+        df_snorlax = pd.read_sql("SELECT * FROM snorlax_rank", connection)
+        df_map = pd.read_sql("SELECT * FROM fields", connection)
 
-        map_ids = get_ids_from_df_column_name(df, _COL_PREFIX_STRENGTH_REQ)
+        map_ids = [
+            map_id for map_id in get_ids_from_df_column_name(df_snorlax, _COL_PREFIX_STRENGTH_REQ)
+            if map_id in df_map["id"].values
+        ]
 
         data_entries = {map_id: [] for map_id in map_ids}
-        for _, row in df.iterrows():
+        for _, row in df_snorlax.iterrows():
             rank = {
                 "title": row["main_rank"],
                 "number": row["sub_rank"],
