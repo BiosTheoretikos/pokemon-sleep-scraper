@@ -9,6 +9,9 @@ class Environment:
     export_snapshot_dir = os.path.abspath(
         os.environ.get("PKS_DB_EXPORT_SNAPSHOT_DIR", "./data/snapshot")
     )
+    static_data_dir = os.path.abspath(
+        os.environ.get("PKS_STATIC_DATA_DIR", "./data/static")
+    )
     mongo_connection = os.environ.get("PKS_MONGODB_URI", "mongodb://localhost:23015")
 
 
