@@ -12,7 +12,6 @@ SCRIPTS_UPDATE = [
     "controller/put_mainskill_data.py",
     "controller/put_meal_data.py",
     "controller/put_pokemon_data.py",
-    "controller/put_ingredient_chain_data.py",
 ]
 
 log_file_name = f"{datetime.datetime.now(datetime.UTC).strftime('%Y%m%d-%H%M%S')}.log"
