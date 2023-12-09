@@ -1,5 +1,6 @@
 from scrape.module.berry import export_berry
 from scrape.module.ingredient import export_ingredient
+from scrape.module.mainskill import export_main_skill
 from scrape.module.map import export_map_meta
 from scrape.module.pokemon.main import export_pokemon
 from scrape.module.snorlax import export_snorlax
@@ -17,6 +18,7 @@ def scrape():
     export_berry()
     export_ingredient()
 
+    export_main_skill()
     export_subskill()
 
     export_map_meta()

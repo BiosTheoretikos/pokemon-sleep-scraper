@@ -111,37 +111,37 @@
         "type": "stamina",
         "level": 1,
         "target": "random",
-        "value": 14
+        "value": 14.0
       },
       {
         "type": "stamina",
         "level": 2,
         "target": "random",
-        "value": 17
+        "value": 17.1
       },
       {
         "type": "stamina",
         "level": 3,
         "target": "random",
-        "value": 22
+        "value": 22.5
       },
       {
         "type": "stamina",
         "level": 4,
         "target": "random",
-        "value": 28
+        "value": 28.8
       },
       {
         "type": "stamina",
         "level": 5,
         "target": "random",
-        "value": 38
+        "value": 38.2
       },
       {
         "type": "stamina",
         "level": 6,
         "target": "random",
-        "value": 50
+        "value": 50.6
       }
     ]
   },
@@ -258,37 +258,37 @@
         "type": "stamina",
         "level": 1,
         "target": "self",
-        "value": 12
+        "value": 12.0
       },
       {
         "type": "stamina",
         "level": 2,
         "target": "self",
-        "value": 16
+        "value": 16.2
       },
       {
         "type": "stamina",
         "level": 3,
         "target": "self",
-        "value": 21
+        "value": 21.2
       },
       {
         "type": "stamina",
         "level": 4,
         "target": "self",
-        "value": 26
+        "value": 26.6
       },
       {
         "type": "stamina",
         "level": 5,
         "target": "self",
-        "value": 33
+        "value": 33.6
       },
       {
         "type": "stamina",
         "level": 6,
         "target": "self",
-        "value": 43
+        "value": 43.4
       }
     ]
   },
@@ -299,37 +299,37 @@
         "type": "stamina",
         "level": 1,
         "target": "team",
-        "value": 5
+        "value": 5.0
       },
       {
         "type": "stamina",
         "level": 2,
         "target": "team",
-        "value": 7
+        "value": 7.0
       },
       {
         "type": "stamina",
         "level": 3,
         "target": "team",
-        "value": 9
+        "value": 9.0
       },
       {
         "type": "stamina",
         "level": 4,
         "target": "team",
-        "value": 11
+        "value": 11.4
       },
       {
         "type": "stamina",
         "level": 5,
         "target": "team",
-        "value": 15
+        "value": 15.0
       },
       {
         "type": "stamina",
         "level": 6,
         "target": "team",
-        "value": 18
+        "value": 18.1
       }
     ]
   },
